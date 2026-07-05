@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>EMR Mock Tester</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <main class="card">
+    <header>
+      <h1>EMR Mock Tester</h1>
+      <p id="progress" class="progress"></p>
+      <p id="score" class="score"></p>
+    </header>
+
+    <section id="quiz">
+      <p id="question" class="question"></p>
+      <div id="choices" class="choices"></div>
+      <p id="explanation" class="explanation" hidden></p>
+    </section>
+
+    <p id="error" class="error" hidden></p>
+
+    <nav class="nav">
+      <button id="prev-btn" type="button">&larr; Previous</button>
+      <button id="next-btn" type="button">Next &rarr;</button>
+    </nav>
+  </main>
+
+  <script src="app.js"></script>
+</body>
+</html>

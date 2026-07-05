@@ -1,0 +1,129 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+  background: #f2f4f7;
+  color: #1f2937;
+  min-height: 100vh;
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+  padding: 2rem 1rem;
+}
+
+.card {
+  background: #fff;
+  border-radius: 12px;
+  box-shadow: 0 2px 12px rgba(0, 0, 0, 0.08);
+  max-width: 640px;
+  width: 100%;
+  padding: 2rem;
+}
+
+header {
+  margin-bottom: 1.5rem;
+}
+
+h1 {
+  font-size: 1.4rem;
+  margin-bottom: 0.5rem;
+}
+
+.progress,
+.score {
+  font-size: 0.9rem;
+  color: #6b7280;
+}
+
+.question {
+  font-size: 1.15rem;
+  font-weight: 600;
+  margin-bottom: 1rem;
+  line-height: 1.5;
+}
+
+.choices {
+  display: flex;
+  flex-direction: column;
+  gap: 0.6rem;
+}
+
+.choice {
+  width: 100%;
+  text-align: left;
+  font-size: 1rem;
+  line-height: 1.4;
+  padding: 0.8rem 1rem;
+  border: 2px solid #d1d5db;
+  border-radius: 8px;
+  background: #fff;
+  cursor: pointer;
+  transition: background 0.15s, border-color 0.15s;
+}
+
+.choice:hover:not(:disabled) {
+  background: #f3f4f6;
+  border-color: #9ca3af;
+}
+
+.choice:disabled {
+  cursor: default;
+  color: inherit;
+  opacity: 1;
+}
+
+.choice.correct {
+  background: #dcfce7;
+  border-color: #16a34a;
+}
+
+.choice.incorrect {
+  background: #fee2e2;
+  border-color: #dc2626;
+}
+
+.explanation {
+  margin-top: 1rem;
+  padding: 0.8rem 1rem;
+  background: #eff6ff;
+  border-left: 4px solid #3b82f6;
+  border-radius: 4px;
+  font-size: 0.95rem;
+  line-height: 1.5;
+}
+
+.error {
+  padding: 1rem;
+  background: #fee2e2;
+  border-radius: 8px;
+  line-height: 1.5;
+}
+
+.nav {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 1.5rem;
+}
+
+.nav button {
+  font-size: 1rem;
+  padding: 0.6rem 1.2rem;
+  border: none;
+  border-radius: 8px;
+  background: #1f2937;
+  color: #fff;
+  cursor: pointer;
+}
+
+.nav button:hover:not(:disabled) {
+  background: #374151;
+}
+
+.nav button:disabled {
+  background: #d1d5db;
+  cursor: default;
+}

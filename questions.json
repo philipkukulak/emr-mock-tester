@@ -1,0 +1,35 @@
+[
+  {
+    "question": "During the primary assessment of an unresponsive patient, what should you check first?",
+    "choices": [
+      "Pupil response",
+      "Airway",
+      "Blood pressure",
+      "Capillary refill"
+    ],
+    "answer": 1,
+    "explanation": "The primary assessment follows ABC: Airway, Breathing, Circulation. An open airway is the immediate priority in an unresponsive patient."
+  },
+  {
+    "question": "What is the correct compression-to-ventilation ratio for single-rescuer adult CPR?",
+    "choices": [
+      "15:2",
+      "30:1",
+      "30:2",
+      "5:1"
+    ],
+    "answer": 2,
+    "explanation": "Adult CPR uses 30 compressions to 2 ventilations for a single rescuer."
+  },
+  {
+    "question": "A patient with cool, pale, clammy skin and a rapid, weak pulse is most likely experiencing what?",
+    "choices": [
+      "Heat stroke",
+      "Shock",
+      "Hyperglycemia",
+      "Stroke"
+    ],
+    "answer": 1,
+    "explanation": "Cool, pale, moist skin with a rapid weak pulse are classic signs of shock (hypoperfusion)."
+  }
+]
