@@ -30,13 +30,77 @@ header {
 
 h1 {
   font-size: 1.4rem;
-  margin-bottom: 0.5rem;
+  margin-bottom: 0.25rem;
+}
+
+.subtitle {
+  font-size: 0.85rem;
+  color: #6b7280;
+  margin-bottom: 1rem;
+}
+
+.controls {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 0.5rem;
+  margin-bottom: 1rem;
+}
+
+.controls label {
+  font-size: 0.9rem;
+  font-weight: 600;
+}
+
+.controls select {
+  flex: 1;
+  min-width: 12rem;
+  font-size: 0.95rem;
+  padding: 0.5rem 0.6rem;
+  border: 2px solid #d1d5db;
+  border-radius: 8px;
+  background: #fff;
+  cursor: pointer;
+}
+
+.controls #restart-btn {
+  font-size: 0.9rem;
+  padding: 0.5rem 0.8rem;
+  border: 2px solid #d1d5db;
+  border-radius: 8px;
+  background: #fff;
+  color: #1f2937;
+  cursor: pointer;
+}
+
+.controls #restart-btn:hover {
+  background: #f3f4f6;
+  border-color: #9ca3af;
 }
 
 .progress,
 .score {
   font-size: 0.9rem;
   color: #6b7280;
+}
+
+.score {
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
+  gap: 1rem;
+}
+
+.score-pct {
+  font-weight: 600;
+  color: #1f2937;
+}
+
+.chapter-label {
+  font-size: 0.8rem;
+  color: #3b82f6;
+  font-weight: 600;
+  margin-top: 0.15rem;
 }
 
 .question {

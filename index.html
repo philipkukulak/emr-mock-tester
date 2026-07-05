@@ -10,7 +10,16 @@
   <main class="card">
     <header>
       <h1>EMR Mock Tester</h1>
+      <p class="subtitle">Emergency Care for Professional Responders &mdash; study quiz</p>
+
+      <div class="controls">
+        <label for="chapter-select">Chapter:</label>
+        <select id="chapter-select"></select>
+        <button id="restart-btn" type="button" title="Reshuffle and start over">&#8635; Restart</button>
+      </div>
+
       <p id="progress" class="progress"></p>
+      <p id="chapter-label" class="chapter-label"></p>
       <p id="score" class="score"></p>
     </header>
 

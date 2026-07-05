@@ -3,3 +3,8 @@
 __pycache__/
 .DS_Store
 main.py
+
+# Copyrighted source material — do NOT publish
+emr-textbook.pdf
+emr-workbook.pdf
+*.pdf
