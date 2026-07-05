@@ -2,6 +2,7 @@
 
 const els = {
   chapterSelect: document.getElementById("chapter-select"),
+  summaryBtn: document.getElementById("summary-btn"),
   restartBtn: document.getElementById("restart-btn"),
   progress: document.getElementById("progress"),
   chapterLabel: document.getElementById("chapter-label"),
@@ -10,18 +11,36 @@ const els = {
   question: document.getElementById("question"),
   choices: document.getElementById("choices"),
   explanation: document.getElementById("explanation"),
+  results: document.getElementById("results"),
+  resultsHeading: document.getElementById("results-heading"),
+  resultsScore: document.getElementById("results-score"),
+  resultsReview: document.getElementById("results-review"),
+  reviewBtn: document.getElementById("review-btn"),
+  restartChapterBtn: document.getElementById("restart-chapter-btn"),
   error: document.getElementById("error"),
   prevBtn: document.getElementById("prev-btn"),
   nextBtn: document.getElementById("next-btn"),
+  finishBtn: document.getElementById("finish-btn"),
 };
 
-// All questions loaded from questions.json (unfiltered).
+const STORAGE_KEY = "emr-mock-tester-answers-v1";
+
+// All questions loaded from questions.json (unfiltered). Each is tagged with a
+// stable _key derived from its content so answers can be tracked by identity
+// (not by position in a shuffled array).
 let allQuestions = [];
-// The active quiz: questions currently being shown (filtered + shuffled).
+// The active quiz: the question objects currently being shown, in display order.
 let questions = [];
 let current = 0;
-// answers[i] = index the user picked for question i, or null if unanswered.
-let answers = [];
+
+// The single source of truth for the user's answers: question _key -> the index
+// of the choice they picked. Keyed by identity so it survives chapter switches,
+// reshuffles, and page reloads (persisted to localStorage).
+let answersByKey = new Map();
+
+// Remembers the shuffled display order per chapter selection so switching away
+// and back keeps both the order and the answers. Cleared by Restart.
+const orderCache = new Map(); // selection value -> array of _key
 
 function shuffle(arr) {
   for (let i = arr.length - 1; i > 0; i--) {
@@ -31,16 +50,63 @@ function shuffle(arr) {
   return arr;
 }
 
+function persist() {
+  try {
+    localStorage.setItem(
+      STORAGE_KEY,
+      JSON.stringify(Object.fromEntries(answersByKey))
+    );
+  } catch (_e) {
+    // Storage may be unavailable (private mode, file://, etc.) — ignore.
+  }
+}
+
+// Restore saved answers, keeping only those whose question still exists and
+// whose stored choice index is still valid for that question.
+function loadPersisted() {
+  answersByKey = new Map();
+  let saved;
+  try {
+    saved = JSON.parse(localStorage.getItem(STORAGE_KEY) || "{}");
+  } catch (_e) {
+    saved = {};
+  }
+  const byKey = new Map(allQuestions.map((q) => [q._key, q]));
+  for (const [key, picked] of Object.entries(saved)) {
+    const q = byKey.get(key);
+    if (q && Number.isInteger(picked) && picked >= 0 && picked < q.choices.length) {
+      answersByKey.set(key, picked);
+    }
+  }
+}
+
+function poolFor(value) {
+  return value === "all"
+    ? allQuestions
+    : allQuestions.filter((q) => String(q.chapter ?? 0) === value);
+}
+
+function getPicked(q) {
+  return answersByKey.has(q._key) ? answersByKey.get(q._key) : null;
+}
+
+// A selection is "complete" when every question in it has been answered.
+function isSelectionComplete(value) {
+  const pool = poolFor(value);
+  return pool.length > 0 && pool.every((q) => answersByKey.has(q._key));
+}
+
 function showError(message) {
   els.quiz.hidden = true;
+  els.results.hidden = true;
   els.prevBtn.hidden = true;
   els.nextBtn.hidden = true;
+  els.finishBtn.hidden = true;
+  els.summaryBtn.hidden = true;
   els.error.hidden = false;
   els.error.textContent = message;
 }
 
-// Build the chapter dropdown from the questions that were loaded. A question
-// without a "chapter" field still works; it's grouped under "Uncategorized".
 function populateChapterMenu() {
   const chapters = new Map(); // chapter number -> { title, count }
   for (const q of allQuestions) {
@@ -58,7 +124,7 @@ function populateChapterMenu() {
 
   const allOpt = document.createElement("option");
   allOpt.value = "all";
-  allOpt.textContent = `All chapters (${allQuestions.length} questions)`;
+  allOpt.dataset.label = `All chapters (${allQuestions.length} questions)`;
   els.chapterSelect.appendChild(allOpt);
 
   for (const key of [...chapters.keys()].sort((a, b) => a - b)) {
@@ -66,22 +132,52 @@ function populateChapterMenu() {
     const opt = document.createElement("option");
     opt.value = String(key);
     const label = key ? `Ch ${key}: ${title}` : title;
-    opt.textContent = `${label} (${count})`;
+    opt.dataset.label = `${label} (${count})`;
     els.chapterSelect.appendChild(opt);
+  }
+  refreshChapterMenuMarks();
+}
+
+// Prefix a checkmark to any chapter the user has fully completed.
+function refreshChapterMenuMarks() {
+  for (const opt of els.chapterSelect.options) {
+    const done = isSelectionComplete(opt.value);
+    opt.textContent = (done ? "✓ " : "") + opt.dataset.label;
   }
 }
 
-// Rebuild the active quiz based on the selected chapter, then reshuffle.
-function startQuiz() {
-  const selected = els.chapterSelect.value;
-  const pool =
-    selected === "all"
-      ? allQuestions
-      : allQuestions.filter((q) => String(q.chapter ?? 0) === selected);
+function setView(view) {
+  const showResults = view === "results";
+  els.quiz.hidden = showResults;
+  els.results.hidden = !showResults;
+  els.progress.hidden = showResults;
+  els.chapterLabel.hidden = showResults;
+  els.score.hidden = showResults;
+  els.prevBtn.hidden = showResults;
+  els.nextBtn.hidden = showResults;
+  els.finishBtn.hidden = showResults;
+  if (showResults) els.summaryBtn.hidden = true;
+}
 
-  questions = shuffle([...pool]);
-  answers = new Array(questions.length).fill(null);
+// Build the active quiz for the current selection. Reuses the cached shuffled
+// order unless reshuffle is requested (so returning to a chapter is stable).
+function buildQuiz(reshuffle) {
+  const sel = els.chapterSelect.value;
+  const pool = poolFor(sel);
+
+  let ordered;
+  if (!reshuffle && orderCache.has(sel)) {
+    const byKey = new Map(pool.map((q) => [q._key, q]));
+    ordered = orderCache.get(sel).map((k) => byKey.get(k)).filter(Boolean);
+    if (ordered.length !== pool.length) ordered = shuffle([...pool]);
+  } else {
+    ordered = shuffle([...pool]);
+  }
+  orderCache.set(sel, ordered.map((q) => q._key));
+
+  questions = ordered;
   current = 0;
+  setView("quiz");
   render();
 }
 
@@ -89,17 +185,20 @@ function render() {
   if (questions.length === 0) {
     els.progress.textContent = "";
     els.chapterLabel.textContent = "";
-    els.score.textContent = "";
+    els.score.replaceChildren();
     els.question.textContent = "No questions in this chapter yet.";
     els.choices.replaceChildren();
     els.explanation.hidden = true;
     els.prevBtn.disabled = true;
+    els.nextBtn.hidden = false;
     els.nextBtn.disabled = true;
+    els.finishBtn.hidden = true;
+    els.summaryBtn.hidden = true;
     return;
   }
 
   const q = questions[current];
-  const picked = answers[current];
+  const picked = getPicked(q);
   const answered = picked !== null;
 
   els.progress.textContent = `Question ${current + 1} of ${questions.length}`;
@@ -107,10 +206,15 @@ function render() {
     ? `Chapter ${q.chapter}: ${q.chapterTitle || ""}`.trim()
     : "";
 
-  const numAnswered = answers.filter((a) => a !== null).length;
-  const numCorrect = answers.filter(
-    (a, i) => a !== null && a === questions[i].answer
-  ).length;
+  let numAnswered = 0;
+  let numCorrect = 0;
+  for (const item of questions) {
+    const p = getPicked(item);
+    if (p !== null) {
+      numAnswered++;
+      if (p === item.answer) numCorrect++;
+    }
+  }
   els.score.replaceChildren();
   if (numAnswered > 0) {
     const tally = document.createElement("span");
@@ -135,7 +239,9 @@ function render() {
       else if (i === picked) btn.classList.add("incorrect");
     } else {
       btn.addEventListener("click", () => {
-        answers[current] = i;
+        answersByKey.set(q._key, i);
+        persist();
+        refreshChapterMenuMarks();
         render();
       });
     }
@@ -146,8 +252,100 @@ function render() {
   els.explanation.hidden = !showExplanation;
   els.explanation.textContent = showExplanation ? q.explanation : "";
 
+  const isLast = current === questions.length - 1;
   els.prevBtn.disabled = current === 0;
-  els.nextBtn.disabled = current === questions.length - 1;
+  els.nextBtn.hidden = isLast;
+  els.nextBtn.disabled = false;
+  els.finishBtn.hidden = !isLast;
+  els.summaryBtn.hidden = !isSelectionComplete(els.chapterSelect.value);
+}
+
+function showResults() {
+  const total = questions.length;
+  let numAnswered = 0;
+  let numCorrect = 0;
+  const missed = [];
+  for (const q of questions) {
+    const picked = getPicked(q);
+    if (picked !== null) {
+      numAnswered++;
+      if (picked === q.answer) numCorrect++;
+    }
+    if (picked === null || picked !== q.answer) missed.push({ q, picked });
+  }
+
+  const selected = els.chapterSelect.value;
+  els.resultsHeading.textContent =
+    selected === "all" ? "You're done!" : "You're done with this chapter!";
+
+  const pct = total > 0 ? Math.round((numCorrect / total) * 100) : 0;
+  els.resultsScore.textContent = `Score: ${numCorrect} / ${total} (${pct}%)`;
+
+  els.resultsReview.replaceChildren();
+
+  if (numAnswered < total) {
+    const note = document.createElement("p");
+    note.className = "results-note";
+    note.textContent = `You answered ${numAnswered} of ${total} questions. Unanswered questions are shown below.`;
+    els.resultsReview.appendChild(note);
+  }
+
+  if (missed.length === 0) {
+    const perfect = document.createElement("p");
+    perfect.className = "review-line";
+    perfect.textContent = `\u{1F389} Perfect — you got all ${total} correct!`;
+    els.resultsReview.appendChild(perfect);
+  } else {
+    const heading = document.createElement("p");
+    heading.className = "results-note";
+    heading.textContent = "Questions to review:";
+    els.resultsReview.appendChild(heading);
+
+    for (const { q, picked } of missed) {
+      const item = document.createElement("div");
+      item.className = "review-item" + (picked === null ? " unanswered" : "");
+
+      const qEl = document.createElement("p");
+      qEl.className = "review-q";
+      qEl.textContent = q.question;
+      item.appendChild(qEl);
+
+      const yours = document.createElement("p");
+      yours.className = "review-line review-your";
+      yours.textContent =
+        picked === null
+          ? "Your answer: (not answered)"
+          : `Your answer: ${q.choices[picked]}`;
+      item.appendChild(yours);
+
+      const correct = document.createElement("p");
+      correct.className = "review-line review-correct";
+      correct.textContent = `Correct answer: ${q.choices[q.answer]}`;
+      item.appendChild(correct);
+
+      if (q.explanation) {
+        const exp = document.createElement("p");
+        exp.className = "review-explanation";
+        exp.textContent = q.explanation;
+        item.appendChild(exp);
+      }
+
+      els.resultsReview.appendChild(item);
+    }
+  }
+
+  refreshChapterMenuMarks();
+  setView("results");
+}
+
+// Clear the current selection's answers, reshuffle, and start over.
+function restartSelection() {
+  const sel = els.chapterSelect.value;
+  for (const q of poolFor(sel)) answersByKey.delete(q._key);
+  persist();
+  orderCache.delete(sel);
+  refreshChapterMenuMarks();
+  buildQuiz(true);
 }
 
 els.prevBtn.addEventListener("click", () => {
@@ -160,8 +358,19 @@ els.nextBtn.addEventListener("click", () => {
   render();
 });
 
-els.chapterSelect.addEventListener("change", startQuiz);
-els.restartBtn.addEventListener("click", startQuiz);
+els.finishBtn.addEventListener("click", showResults);
+els.summaryBtn.addEventListener("click", showResults);
+
+// Return to the quiz view (answers preserved) to page through and review.
+els.reviewBtn.addEventListener("click", () => {
+  current = 0;
+  setView("quiz");
+  render();
+});
+
+els.restartChapterBtn.addEventListener("click", restartSelection);
+els.restartBtn.addEventListener("click", restartSelection);
+els.chapterSelect.addEventListener("change", () => buildQuiz(false));
 
 async function init() {
   let data;
@@ -184,8 +393,12 @@ async function init() {
   }
 
   allQuestions = data;
+  allQuestions.forEach((q) => {
+    q._key = `${q.chapter ?? 0}|${q.question}`;
+  });
+  loadPersisted();
   populateChapterMenu();
-  startQuiz();
+  buildQuiz(false);
 }
 
 init();

@@ -4,6 +4,10 @@
   padding: 0;
 }
 
+[hidden] {
+  display: none !important;
+}
+
 body {
   font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
   background: #f2f4f7;
@@ -63,7 +67,7 @@ h1 {
   cursor: pointer;
 }
 
-.controls #restart-btn {
+.controls button {
   font-size: 0.9rem;
   padding: 0.5rem 0.8rem;
   border: 2px solid #d1d5db;
@@ -73,9 +77,19 @@ h1 {
   cursor: pointer;
 }
 
-.controls #restart-btn:hover {
+.controls button:hover {
   background: #f3f4f6;
   border-color: #9ca3af;
+}
+
+.controls #summary-btn {
+  border-color: #16a34a;
+  color: #15803d;
+  font-weight: 600;
+}
+
+.controls #summary-btn:hover {
+  background: #f0fdf4;
 }
 
 .progress,
@@ -190,4 +204,88 @@ h1 {
 .nav button:disabled {
   background: #d1d5db;
   cursor: default;
+}
+
+#finish-btn {
+  background: #16a34a;
+}
+
+#finish-btn:hover:not(:disabled) {
+  background: #15803d;
+}
+
+/* ---- Results / review screen ---- */
+#results-heading {
+  font-size: 1.3rem;
+  margin-bottom: 0.5rem;
+}
+
+.results-score {
+  font-size: 1.05rem;
+  font-weight: 600;
+  margin-bottom: 1.25rem;
+}
+
+.results-note {
+  font-size: 0.95rem;
+  color: #6b7280;
+  margin-bottom: 1rem;
+}
+
+.review-item {
+  padding: 0.8rem 1rem;
+  margin-bottom: 0.75rem;
+  background: #f9fafb;
+  border-left: 4px solid #dc2626;
+  border-radius: 4px;
+}
+
+.review-item.unanswered {
+  border-left-color: #9ca3af;
+}
+
+.review-q {
+  font-weight: 600;
+  line-height: 1.45;
+  margin-bottom: 0.4rem;
+}
+
+.review-line {
+  font-size: 0.95rem;
+  line-height: 1.5;
+}
+
+.review-your {
+  color: #dc2626;
+}
+
+.review-correct {
+  color: #16a34a;
+}
+
+.review-explanation {
+  font-size: 0.9rem;
+  color: #4b5563;
+  margin-top: 0.35rem;
+  line-height: 1.5;
+}
+
+.results-actions {
+  display: flex;
+  gap: 0.75rem;
+  margin-top: 1.25rem;
+}
+
+.results-actions button {
+  font-size: 1rem;
+  padding: 0.6rem 1.2rem;
+  border: none;
+  border-radius: 8px;
+  background: #1f2937;
+  color: #fff;
+  cursor: pointer;
+}
+
+.results-actions button:hover {
+  background: #374151;
 }
