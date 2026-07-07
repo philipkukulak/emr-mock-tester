@@ -76,8 +76,8 @@
     "choices": [
       "Implied consent",
       "Informed consent",
-      "Proxy directive",
-      "Duty to report"
+      "Expressed consent",
+      "Proxy consent"
     ],
     "answer": 0,
     "explanation": "When a person is unresponsive, confused, or seriously ill/injured and cannot grant informed consent, the law assumes they would consent to care — this is implied consent.",
@@ -144,10 +144,10 @@
     "chapterTitle": "The Professional Responder",
     "question": "You suspect a child you are treating has been abused. What should you do?",
     "choices": [
-      "Question the child in detail to confirm your suspicion",
-      "Confront the suspected abuser at the scene",
+      "Gently question the child in private to confirm what happened",
+      "Separate the child from the suspected abuser and wait for police",
       "Provide care, document your observations, and report per protocol to the child protection agency",
-      "Only report if the child confirms the abuse"
+      "Report only the injuries you can directly see, without your suspicions"
     ],
     "answer": 2,
     "explanation": "Do not interrogate or accuse — provide care, reassure and listen calmly, document everything in detail, and report. In all provinces and most territories, reporting suspected child abuse is a legal requirement.",
@@ -158,10 +158,10 @@
     "chapterTitle": "The Professional Responder",
     "question": "How do critical incident stress (CIS) and post-traumatic stress disorder (PTSD) typically differ?",
     "choices": [
-      "CIS only affects new responders, while PTSD affects experienced responders",
+      "CIS and PTSD are essentially two names for the same condition",
       "CIS signs appear soon after the event and may not last long, while PTSD usually occurs later and can be much more long-lasting",
-      "CIS requires medication, while PTSD resolves on its own",
-      "CIS is physical, while PTSD is purely emotional"
+      "CIS symptoms appear only after 3 months, while PTSD symptoms appear immediately",
+      "PTSD affects only the responder, while CIS affects only bystanders"
     ],
     "answer": 1,
     "explanation": "They can be seen as acute and chronic versions of a similar condition: CIS appears soon after the event and is often short-lived; PTSD usually appears within 3 months (sometimes years) and lasts longer.",
@@ -186,10 +186,10 @@
     "chapterTitle": "The Professional Responder",
     "question": "Using medical terminology, what does the term \"endotracheal\" mean?",
     "choices": [
-      "Around the trachea",
+      "Pertaining to the outer wall of the trachea",
       "Pertaining to something within the trachea",
-      "Below the trachea",
-      "A blocked trachea"
+      "Pertaining to the area just below the trachea",
+      "A surgically created opening into the trachea"
     ],
     "answer": 1,
     "explanation": "Endo- means within, trache- refers to the trachea, and -al means pertaining to — so endotracheal means pertaining to something within the trachea.",
@@ -200,10 +200,10 @@
     "chapterTitle": "The Professional Responder",
     "question": "Why should you never say a patient's name over the radio?",
     "choices": [
-      "Radio time is limited to essential traffic only",
+      "Radio channels are reserved for dispatch traffic only",
       "Transmissions can be overheard by anyone with a scanner, so confidentiality cannot be guaranteed",
-      "Names interfere with dispatch codes",
-      "It is illegal to transmit any personal information under the Canada Health Act"
+      "Patient names must be relayed only by the medical director",
+      "Only encrypted digital radios may legally carry patient identifiers"
     ],
     "answer": 1,
     "explanation": "Emergency frequencies can be monitored by the public with scanners, so never transmit personal or confidential information, including a patient's name.",
@@ -284,10 +284,10 @@
     "chapterTitle": "The Professional Responder",
     "question": "You come across a cyclist who has fallen and is bleeding from the leg, with a badly damaged bike nearby. If you act, your first concern should be to:",
     "choices": [
-      "Bandage the wounds",
-      "Determine whether there are other injuries you can't see",
+      "Bandage the wound to control the bleeding you can see",
+      "Check the rest of his body for other injuries first",
       "Ensure your own safety and the safety of any bystanders",
-      "Call work and tell them you will be late"
+      "Move him off the road before doing anything else"
     ],
     "answer": 2,
     "explanation": "Your first responsibility at any scene is ensuring your own safety and that of bystanders — if you become injured, you become a second patient.",
@@ -326,10 +326,10 @@
     "chapterTitle": "Responding to the Call",
     "question": "Which of the following is one of the four guidelines to ensure personal safety when arriving at an emergency scene?",
     "choices": [
-      "Enter quickly to reach the patient before conditions change",
+      "Approach rapidly so care can begin before the patient deteriorates",
       "Take time to assess (size up) the scene",
-      "Move bystanders out of the area yourself before assessing",
-      "Begin care first and evaluate hazards afterwards"
+      "Clear all bystanders from the area before assessing anything",
+      "Provide life-saving care first and identify hazards afterward"
     ],
     "answer": 1,
     "explanation": "The four guidelines are: take time to size up the scene, wear appropriate PPE, perform only skills you are trained in, and request any additional personnel you need.",
@@ -382,10 +382,10 @@
     "chapterTitle": "Responding to the Call",
     "question": "A vehicle is in contact with a downed electrical wire and the occupants appear seriously injured. What should you do?",
     "choices": [
-      "Remove the occupants as quickly as possible",
+      "Pull the occupants clear of the vehicle as quickly as possible",
       "Tell the occupants to stay inside, keep still, and avoid touching one another; do not touch the vehicle",
-      "Move the wire away with a wooden pole and then extricate",
-      "Have the occupants jump clear one at a time"
+      "Push the wire off the vehicle with a dry wooden pole, then help them out",
+      "Have the occupants step out one at a time, avoiding the wire"
     ],
     "answer": 1,
     "explanation": "Never touch the vehicle or attempt removal, no matter how injured the occupants seem. They should remain calm, stay inside, keep still, and avoid touching each other until power is confirmed off.",
@@ -424,10 +424,10 @@
     "chapterTitle": "Responding to the Call",
     "question": "Which of the following is a characteristic feature of a confined space?",
     "choices": [
-      "Wide entry points with good airflow",
+      "Large openings and forced ventilation to keep air fresh",
       "Restricted openings for entry and exit with poor ventilation",
-      "Always located underground",
-      "Designed for regular human occupancy"
+      "A space that is always below ground level",
+      "A space built and intended for people to work in"
     ],
     "answer": 1,
     "explanation": "Confined spaces (pits, tunnels, storage tanks, sewers, silos) have restricted entry/exit openings, poor ventilation with possible contaminants, and engulfment or collapse hazards — and are not designed for people to occupy.",
@@ -438,10 +438,10 @@
     "chapterTitle": "Responding to the Call",
     "question": "If you cannot reach a responsive person in the water, what should you try first?",
     "choices": [
-      "Swim out to them using a rescue stroke",
+      "Swim out to them using a strong front stroke",
       "Throw them something that floats",
-      "Wade in up to chest depth and extend your hand",
-      "Wait for them to swim to shore"
+      "Wade in up to your chest and reach out a hand",
+      "Wait to see whether they can make it to shore on their own"
     ],
     "answer": 1,
     "explanation": "Reach with an object or throw something that floats. Never enter the water unless trained in water rescue — and even then, only as a last resort.",
@@ -452,10 +452,10 @@
     "chapterTitle": "Responding to the Call",
     "question": "An unarmed person is threatening suicide. Which action is appropriate?",
     "choices": [
-      "Physically restrain the person before they can act",
-      "Leave to find help, telling the person to stay put",
+      "Physically restrain the person so they cannot harm themselves",
+      "Leave to summon help, telling the person to wait there",
       "Listen, keep the person talking, and never leave them alone unless your safety is threatened",
-      "Challenge the person to reconsider by pointing out the consequences"
+      "Warn the person of the consequences to convince them to stop"
     ],
     "answer": 2,
     "explanation": "Reassure and calm the person, listen, and keep them talking until help arrives. You cannot physically restrain a suicidal person without medical or legal authorization, and you should never dare them to act or trivialize their feelings.",
@@ -466,10 +466,10 @@
     "chapterTitle": "Responding to the Call",
     "question": "Why should gasoline-powered equipment such as chainsaws or generators never be used in confined spaces during disaster response?",
     "choices": [
-      "The noise can trigger structural collapse",
+      "The engine noise can mask calls for help from the patient",
       "Exhaust builds up in the enclosed space, creating a deadly atmosphere",
-      "Fuel is difficult to transport to the scene",
-      "Vibration interferes with radio communication"
+      "The fuel is too heavy to carry safely into the space",
+      "Engine vibration can destabilize the surrounding structure"
     ],
     "answer": 1,
     "explanation": "The textbook warns never to use gasoline-powered equipment (chainsaws, generators, pumps) in confined spaces — exhaust gases accumulate and create a lethal, oxygen-deficient atmosphere.",
@@ -578,10 +578,10 @@
     "chapterTitle": "Infection Prevention and Control",
     "question": "Why are antibiotics ineffective against viral infections?",
     "choices": [
-      "Viruses live outside the body where antibiotics can't reach",
+      "Viruses hide inside the body's own cells where antibiotics cannot reach them",
       "Antibiotics do not kill or weaken viruses; the immune system is the main defence",
-      "Viruses are too large for antibiotics to affect",
-      "Antibiotics only work on fungi and protozoa"
+      "Viruses reproduce too quickly for antibiotics to keep up",
+      "Antibiotics are effective only against fungi and parasites"
     ],
     "answer": 1,
     "explanation": "Antibiotics kill or weaken bacteria, but they do not kill or weaken viruses. The body's immune system is the main defence against viruses.",
@@ -609,7 +609,7 @@
       "Direct contact",
       "Indirect contact",
       "Airborne",
-      "Vector-borne"
+      "Droplet"
     ],
     "answer": 1,
     "explanation": "Indirect contact transmission occurs when a person touches objects (soiled dressings, equipment, needles) that have touched an infected person's bodily fluids.",
@@ -637,7 +637,7 @@
       "Hepatitis A",
       "Hepatitis B",
       "Hepatitis C",
-      "Hepatitis E"
+      "Hepatitis D"
     ],
     "answer": 2,
     "explanation": "There is no vaccine for hepatitis C, its symptoms may be absent so people are often unaware they're infected, and it is the leading cause of liver transplants.",
@@ -662,10 +662,10 @@
     "chapterTitle": "Infection Prevention and Control",
     "question": "According to universal precautions, how should you treat blood and other bodily fluids?",
     "choices": [
-      "As infectious only if the patient looks unwell",
-      "As infectious only in a hospital setting",
+      "As infectious only when the patient appears unwell or high-risk",
+      "As infectious only inside a hospital or clinical setting",
       "As if they are all infectious",
-      "As safe once dried"
+      "As no longer infectious once the blood has dried"
     ],
     "answer": 2,
     "explanation": "A core universal precaution is to handle all blood and other bodily fluids as if they are infectious, since you often won't know a person's health status.",
@@ -704,10 +704,10 @@
     "chapterTitle": "Infection Prevention and Control",
     "question": "To reduce the risk of a needle-stick injury, you should:",
     "choices": [
-      "Bend needles before disposal so they can't be reused",
-      "Recap contaminated needles by hand for safe storage",
+      "Bend or break needles before disposal so they cannot be reused",
+      "Recap contaminated needles using both hands before disposal",
       "Never bend or recap needles, and place sharps in puncture-resistant, leak-proof labelled containers",
-      "Rinse needles in disinfectant before recapping"
+      "Recap the needle only after rinsing it in disinfectant"
     ],
     "answer": 2,
     "explanation": "Avoid needle-sticks by never bending or hand-recapping needles; if recapping is required use a one-handed or mechanical technique, and place sharps in puncture-resistant, leak-proof, labelled containers.",
@@ -732,10 +732,10 @@
     "chapterTitle": "Infection Prevention and Control",
     "question": "When managing a spill of potentially infectious material, what is the FIRST step?",
     "choices": [
-      "Flood the area with disinfectant",
+      "Immediately flood the area with disinfectant solution",
       "Containment",
-      "Absorb the spill with paper towels",
-      "Report the spill to your supervisor"
+      "Absorb the spill with paper towels and discard them",
+      "Report the spill to your supervisor before touching anything"
     ],
     "answer": 1,
     "explanation": "The first step in dealing with a spill is containment (after donning appropriate PPE). Disinfectant is then applied and allowed to stand for at least 20 minutes.",
@@ -830,10 +830,10 @@
     "chapterTitle": "Anatomy and Physiology",
     "question": "In anatomical terms, do \"right\" and \"left\" refer to the patient's or the responder's sides?",
     "choices": [
-      "The responder's right and left",
+      "The responder's right and left, from the responder's point of view",
       "The patient's right and left",
-      "Whichever is closer to the injury",
-      "It depends on whether the patient is prone or supine"
+      "Whichever side the injury is on",
+      "Right and left are avoided in favour of medial and lateral"
     ],
     "answer": 1,
     "explanation": "In medical terms, right and left always refer to the patient's right and left, not the responder's.",
@@ -847,7 +847,7 @@
       "Lateral",
       "Distal",
       "Medial",
-      "Posterior"
+      "Ventral"
     ],
     "answer": 2,
     "explanation": "Medial means toward the midline; lateral means away from the midline. Anterior/posterior refer to front/back, and proximal/distal to nearer/farther from the trunk on a limb.",
@@ -875,7 +875,7 @@
       "Two",
       "Three",
       "Four",
-      "Six"
+      "Nine"
     ],
     "answer": 2,
     "explanation": "Two imaginary lines through the navel divide the abdomen into four quadrants, which helps determine which organs could be affected by an injury.",
@@ -903,7 +903,7 @@
       "In the bronchi",
       "In the trachea",
       "In the alveoli",
-      "In the pleura"
+      "In the bronchioles"
     ],
     "answer": 2,
     "explanation": "Oxygen and carbon dioxide are exchanged through the thin walls of millions of tiny air sacs called alveoli, and through the surrounding capillaries.",
@@ -917,7 +917,7 @@
       "The cerebellum",
       "The medulla oblongata",
       "The hypothalamus",
-      "The frontal lobe"
+      "The pons"
     ],
     "answer": 1,
     "explanation": "The involuntary breathing process is controlled by the medulla oblongata at the base of the brain.",
@@ -928,10 +928,10 @@
     "chapterTitle": "Anatomy and Physiology",
     "question": "Agonal respirations are best described as:",
     "choices": [
-      "Normal breathing that is simply slow",
+      "Slow but otherwise normal and effective breathing",
       "Sporadic, irregular gasping breaths that are NOT sufficient to oxygenate the body",
-      "Rapid deep breathing seen in anxiety",
-      "The recovery breaths seen after successful resuscitation"
+      "The rapid, deep breathing pattern seen with anxiety or hyperventilation",
+      "The deep sighing (Kussmaul) breaths seen in diabetic emergencies"
     ],
     "answer": 1,
     "explanation": "Agonal respirations are an inadequate, irregular gasping pattern associated with cardiac arrest. They are not sufficient to deliver oxygen — the person is not truly breathing and needs immediate intervention.",
@@ -1110,10 +1110,10 @@
     "chapterTitle": "Assessment",
     "question": "What is the purpose of the primary assessment?",
     "choices": [
-      "To gather a detailed medical history",
+      "To obtain a detailed medical history and set of vital signs",
       "To rapidly identify conditions that pose an immediate threat to life",
-      "To take a full set of baseline vital signs",
-      "To document the mechanism of injury"
+      "To record baseline vital signs for later comparison",
+      "To determine the mechanism of injury and document the scene"
     ],
     "answer": 1,
     "explanation": "The primary assessment is a rapid, systematic check to identify immediately life-threatening conditions, ordered to find the highest-priority problems first.",
@@ -1138,10 +1138,10 @@
     "chapterTitle": "Assessment",
     "question": "When applying a painful stimulus to assess responsiveness, why should you avoid pinching above the collarbone?",
     "choices": [
-      "It is less likely to produce a response there",
+      "A response is less likely to be produced above the collarbone",
       "It could cause the patient to move the head and aggravate a potential spinal injury",
-      "The skin there is too sensitive",
-      "It interferes with checking the carotid pulse"
+      "Pinching there may trigger the patient's gag reflex",
+      "It would interfere with feeling for the carotid pulse"
     ],
     "answer": 1,
     "explanation": "Pinch the nail bed or inside of the arm — avoid anywhere above the collarbone, since that could make the patient move the head and worsen a possible spinal injury.",
@@ -1222,10 +1222,10 @@
     "chapterTitle": "Assessment",
     "question": "A patient in obvious respiratory distress has an SpO2 reading of 95%. What should you do?",
     "choices": [
-      "Withhold oxygen because the reading is normal",
+      "Withhold oxygen, since 95% is within the normal range",
       "Treat the patient's clinical presentation and provide supplemental oxygen despite the reading",
-      "Wait 15 minutes and re-check before acting",
-      "Remove the oximeter as it is malfunctioning"
+      "Recheck the reading in 15 minutes before deciding",
+      "Assume the oximeter is faulty and disregard the patient's distress"
     ],
     "answer": 1,
     "explanation": "Treat the patient, not the pulse oximeter. If a patient appears to be in respiratory distress, do not withhold oxygen based on the SpO2 reading alone.",
@@ -1279,8 +1279,8 @@
     "question": "When checking capillary refill, colour should return to the nail bed within how many seconds in a healthy person?",
     "choices": [
       "2 seconds",
-      "5 seconds",
-      "8 seconds",
+      "4 seconds",
+      "6 seconds",
       "10 seconds"
     ],
     "answer": 0,
@@ -1334,10 +1334,10 @@
     "chapterTitle": "Assessment",
     "question": "Which of the following should you treat before performing a secondary assessment?",
     "choices": [
-      "A fracture of the elbow",
-      "An impaled object in the right hand",
+      "A suspected fracture of the elbow",
+      "A splinter or small impaled object in the hand",
       "Severe bleeding from the left leg",
-      "None of these should be treated until after the secondary assessment"
+      "None of these — all injuries wait until after the secondary assessment"
     ],
     "answer": 2,
     "explanation": "Life-threatening conditions found in the primary assessment — such as a severe hemorrhage — are treated immediately, before the secondary assessment.",
@@ -1349,9 +1349,9 @@
     "question": "When forming a general impression, which of the following do you NOT need to determine?",
     "choices": [
       "Whether the patient is ill or injured",
-      "The patient's sex and approximate age",
+      "The patient's approximate age and sex",
       "Whether the patient takes any medications",
-      "The patient's chief complaint or problem"
+      "The patient's chief complaint or main problem"
     ],
     "answer": 2,
     "explanation": "A general impression covers the chief complaint, whether the patient is ill or injured, and their sex and approximate age. Medications are gathered later during the SAMPLE history.",
@@ -1545,9 +1545,9 @@
     "question": "A hallmark sign of an asthma attack is:",
     "choices": [
       "Wheezing during exhalation",
-      "A slow, deep breathing pattern",
-      "Bright red skin",
-      "Coughing up blood"
+      "Slow, deep, and even breathing",
+      "A high-pitched crowing sound on inhalation (stridor)",
+      "Coughing up frothy pink sputum"
     ],
     "answer": 0,
     "explanation": "Wheezing during exhalation is characteristic of asthma, caused by constriction of the air passages, which also traps air in the lungs.",
@@ -1587,9 +1587,9 @@
     "question": "During assisted ventilation, air entering the stomach (gastric distension) is dangerous mainly because it can:",
     "choices": [
       "Cause the patient to vomit and aspirate stomach contents",
-      "Improve oxygen delivery too quickly",
-      "Cool the patient's core temperature",
-      "Trigger an allergic reaction"
+      "Reduce lung volume, making ventilations less effective",
+      "Push air past the epiglottis and out through the nose",
+      "Slow the heart by putting pressure on the vagus nerve"
     ],
     "answer": 0,
     "explanation": "Gastric distension can cause vomiting; an unresponsive patient may then aspirate the contents, impairing breathing and risking airway obstruction. Avoid it with proper head tilt, gentle volume, and a steady rhythm.",
@@ -1600,10 +1600,10 @@
     "chapterTitle": "Airway Management and Respiratory Emergencies",
     "question": "A patient has a stoma (a surgical opening in the neck for breathing). How do you provide ventilations?",
     "choices": [
-      "Seal the stoma and ventilate through the mouth",
+      "Seal the stoma and deliver ventilations through the mouth and nose",
       "Place the mask directly over the stoma and make a good seal on the neck",
-      "Perform abdominal thrusts first",
-      "Ventilations are not possible and you should wait for advanced care"
+      "Tilt the head back further and ventilate through the mouth",
+      "Ventilations are not possible; wait for advanced airway equipment"
     ],
     "answer": 1,
     "explanation": "Ventilate directly through the stoma, placing the mask over it with a good neck seal (an infant/child mask can help). If air leaks and the chest won't rise, seal the nose and mouth, as only part of the larynx may have been removed.",
@@ -1642,10 +1642,10 @@
     "chapterTitle": "Airway Management and Respiratory Emergencies",
     "question": "While ventilating an unresponsive patient, your ventilation goes in and you see the chest just begin to rise. You should:",
     "choices": [
-      "Do 30 chest compressions",
+      "Begin 30 chest compressions",
       "Give another ventilation",
       "Roll the patient into the recovery position",
-      "Recheck the patient's ABCs"
+      "Reassess the pulse for up to 10 seconds"
     ],
     "answer": 1,
     "explanation": "If a ventilation goes in and the chest rises, give a second ventilation, then continue care based on the patient's condition.",
@@ -1698,9 +1698,9 @@
     "chapterTitle": "Airway Management and Respiratory Emergencies",
     "question": "An unresponsive patient with no pulse has received two ventilations that made the chest rise. What should you do next?",
     "choices": [
-      "Check circulation for no more than 5 to 10 seconds",
-      "Check the patient's level of responsiveness",
-      "Continue providing assisted ventilation",
+      "Recheck for a pulse for another 10 seconds",
+      "Apply the AED before doing anything else",
+      "Continue ventilations at 1 every 5–6 seconds",
       "Begin 30 chest compressions"
     ],
     "answer": 3,
@@ -1712,10 +1712,10 @@
     "chapterTitle": "Airway Management and Respiratory Emergencies",
     "question": "If an unresponsive patient vomits while you are performing ventilations, this is probably because:",
     "choices": [
-      "The smell of the mask is bothering the patient",
+      "The mask was pressing on the stomach area",
       "The head wasn't tilted back appropriately, or you were ventilating too forcefully",
-      "The patient was poisoned and the ventilations expelled the poison",
-      "The lungs are reacting to positive pressure"
+      "Ventilations always cause an unresponsive patient to vomit",
+      "The positive pressure was too low to keep the airway open"
     ],
     "answer": 1,
     "explanation": "Vomiting during ventilation (from gastric distension) usually results from an inadequate head-tilt or ventilations given with too much force or volume, forcing air into the stomach.",
@@ -1726,10 +1726,10 @@
     "chapterTitle": "Airway Management and Respiratory Emergencies",
     "question": "If a patient is wearing dentures and you need to perform assisted ventilation, what should you do?",
     "choices": [
-      "Remove them immediately to prevent airway obstruction",
-      "Always keep them in so they aren't lost or broken",
+      "Remove them right away so they cannot block the airway",
+      "Tape them in place so they cannot shift during ventilation",
       "Leave them in unless they become loose, as they help you get a better seal",
-      "Check the patient's wallet for a card about the dentures"
+      "Remove them only if the patient is unresponsive"
     ],
     "answer": 2,
     "explanation": "Dentures help support the mouth and cheeks for a better mask seal — leave them in unless they become so loose that they obstruct the airway or impede ventilation.",
@@ -1754,10 +1754,10 @@
     "chapterTitle": "Airway Management and Respiratory Emergencies",
     "question": "When performing back blows and chest thrusts on a responsive choking infant, how should you position the patient?",
     "choices": [
-      "On a flat surface such as a table",
-      "On a soft surface such as a folded blanket",
+      "Lying face-up on a firm, flat surface",
+      "Sitting upright against your chest",
       "On your thigh with the head lower than the chest",
-      "Upside down so gravity has the most effect"
+      "Held upside down by the ankles"
     ],
     "answer": 2,
     "explanation": "Position the infant along your forearm/thigh with the head lower than the chest so gravity assists in dislodging the object during back blows.",
@@ -1768,10 +1768,10 @@
     "chapterTitle": "Circulatory Emergencies",
     "question": "What is angina pectoris?",
     "choices": [
-      "The permanent death of heart muscle tissue",
+      "The permanent death of a section of heart muscle",
       "Chest pain that occurs when the heart's oxygen demand exceeds its supply, often with exertion or stress",
-      "A complete blockage of a coronary artery",
-      "An irregular heart rhythm requiring defibrillation"
+      "A complete, sudden blockage of a coronary artery",
+      "An irregular heart rhythm that prevents the heart from pumping"
     ],
     "answer": 1,
     "explanation": "Angina occurs when the heart's oxygen demand exceeds the available oxygen-rich blood (e.g., during activity or stress). The pain usually lasts less than 10 minutes and may spread to the neck, jaw, and arms.",
@@ -1839,9 +1839,9 @@
     "question": "Nitroglycerin is a vasodilator. Which of the following is a contraindication to assisting a patient with it?",
     "choices": [
       "A systolic blood pressure lower than 90 mmHg",
-      "A pulse over 100 beats per minute",
-      "The patient is over 50 years old",
-      "The patient has already chewed ASA"
+      "A heart rate above 100 beats per minute",
+      "Recent use of an inhaled asthma medication",
+      "The patient has already chewed ASA for the chest pain"
     ],
     "answer": 0,
     "explanation": "Nitroglycerin lowers blood pressure, so a systolic pressure below 90 mmHg is a contraindication. BP must be checked before and after each dose. Recent erectile-dysfunction medication is also a contraindication (risk of fatal BP drop).",
@@ -1950,10 +1950,10 @@
     "chapterTitle": "Circulatory Emergencies",
     "question": "A patient regains a pulse during CPR (return of spontaneous circulation). What should you do?",
     "choices": [
-      "Remove the defibrillator pads and discontinue monitoring",
+      "Remove the pads and stop monitoring, since the heart is beating",
       "Monitor closely, keep the defibrillator pads attached, provide high-flow oxygen, and be ready to resume CPR",
-      "Give the patient food and water to aid recovery",
-      "Consider care complete since the heart is beating"
+      "Have the patient sit up and give small sips of water",
+      "Give a set of chest compressions to reinforce the rhythm"
     ],
     "answer": 1,
     "explanation": "After ROSC, monitor the pulse closely, keep the pads attached, provide high-flow oxygen (the patient is likely hypoxic), watch the airway, and be prepared to resume CPR. Advanced care is still needed as soon as possible.",
@@ -1978,10 +1978,10 @@
     "chapterTitle": "Circulatory Emergencies",
     "question": "What is a transient ischemic attack (TIA)?",
     "choices": [
-      "A stroke that always causes permanent paralysis",
+      "A stroke that always leaves the patient permanently paralyzed",
       "A stroke-like event caused by a temporary blockage that usually resolves without permanent damage — a warning sign of future stroke",
-      "A heart attack affecting the brain",
-      "A seizure caused by low blood sugar"
+      "Bleeding in the brain from a ruptured vessel",
+      "A brief loss of consciousness caused by low blood sugar"
     ],
     "answer": 1,
     "explanation": "A TIA (\"mini-stroke\" or \"warning stroke\") has stroke-like signs from a temporary reduction of blood flow that resolves within minutes to hours. It signals a significantly increased risk of a future CVA and still requires immediate care — don't delay transport.",
@@ -1993,9 +1993,9 @@
     "question": "For a patient with chest pain who has already taken one dose of nitroglycerin, when may a second dose be suggested?",
     "choices": [
       "If the pain has not been relieved after 3 to 5 minutes",
-      "If the pain is not relieved immediately",
-      "If the pain gets any worse",
-      "Never — a patient should not take more than one dose per day"
+      "If the pain is not relieved within 30 seconds",
+      "Only after confirming the pulse is above 100",
+      "Never — only one dose of nitroglycerin may ever be given"
     ],
     "answer": 0,
     "explanation": "Nitroglycerin may be repeated every 3 to 5 minutes until the pain is relieved or 3 doses have been given, reassessing blood pressure before each dose.",
@@ -2020,9 +2020,9 @@
     "chapterTitle": "Circulatory Emergencies",
     "question": "When applying defibrillator pads to a small child, you notice the two pads are almost touching. You should:",
     "choices": [
-      "Use only one electrode pad",
-      "Move the lower pad toward the abdomen",
-      "Not use the AED on the child",
+      "Use a single electrode pad instead of two",
+      "Trim the pads down so they fit with a gap",
+      "Place both pads lower, over the abdomen",
       "Place one pad on the chest and one on the back"
     ],
     "answer": 3,
@@ -2034,9 +2034,9 @@
     "chapterTitle": "Circulatory Emergencies",
     "question": "Children's and infants' hearts usually stop because:",
     "choices": [
-      "Their hearts are not fully developed yet",
-      "Many diseases affect their hearts",
-      "Their brains cannot yet regulate the heart's electrical system",
+      "Their hearts have an undetected structural defect",
+      "Childhood infections often attack the heart muscle",
+      "Their electrical conduction system is immature",
       "Their breathing stops"
     ],
     "answer": 3,
@@ -2174,10 +2174,10 @@
     "chapterTitle": "Shock",
     "question": "What are the three stages of shock, in order?",
     "choices": [
-      "Mild, moderate, severe",
+      "Mild, moderate, and severe",
       "Compensated, decompensated, irreversible",
-      "Early, middle, late",
-      "Acute, chronic, terminal"
+      "Initial, progressive, and refractory",
+      "Acute, subacute, and chronic"
     ],
     "answer": 1,
     "explanation": "A patient in shock progresses through compensated shock, decompensated shock, and finally irreversible shock.",
@@ -2191,7 +2191,7 @@
       "Compensated shock",
       "Decompensated shock",
       "Irreversible shock",
-      "Terminal shock"
+      "Refractory shock"
     ],
     "answer": 0,
     "explanation": "In compensated shock, the body constricts blood vessels and speeds up the heart and breathing to maintain perfusion to vital organs. Blood pressure tends to change little at this stage, though pulse and respiration changes may be detectable.",
@@ -2216,10 +2216,10 @@
     "chapterTitle": "Shock",
     "question": "How should you position a patient in shock (with no contraindications) to improve blood flow to vital organs?",
     "choices": [
-      "Sitting fully upright",
+      "Sitting upright to ease breathing",
       "Supine, sometimes with the feet elevated 20 to 30 cm",
-      "Prone (face down)",
-      "Standing with support"
+      "Prone, lying face-down",
+      "On the left side in the recovery position"
     ],
     "answer": 1,
     "explanation": "A supine position increases blood flow to vital organs; elevating the feet 20–30 cm (shock/Trendelenburg position) can further help — but not if there is trauma stressing the cardiovascular system or if systolic BP is over 100 mmHg.",
@@ -2230,10 +2230,10 @@
     "chapterTitle": "Shock",
     "question": "Why should you avoid giving a patient in shock anything to eat or drink, even if thirsty?",
     "choices": [
-      "It would raise their blood pressure too quickly",
+      "Fluids would spike the blood pressure and dislodge forming clots",
       "The condition may require surgery, so an empty stomach is safer",
-      "Food worsens the allergic component of shock",
-      "Fluids dilute the blood and worsen bleeding"
+      "Eating raises the body's oxygen demand and worsens shock",
+      "Water dilutes the remaining blood and lowers its oxygen content"
     ],
     "answer": 1,
     "explanation": "Withhold food and drink because the patient's condition may be severe enough to require surgery, in which case an empty stomach is safer.",
@@ -2244,10 +2244,10 @@
     "chapterTitle": "Shock",
     "question": "Because hypoxia is the underlying problem in shock, what treatment is indicated for any patient showing signs of shock?",
     "choices": [
-      "Oral rehydration",
+      "Oral rehydration with an electrolyte drink",
       "High-flow supplemental oxygen and rapid transport",
-      "A dose of ASA",
-      "Cooling the patient with ice packs"
+      "A chewable dose of ASA to improve circulation",
+      "Active cooling of the skin with cold packs"
     ],
     "answer": 1,
     "explanation": "Since hypoxia underlies shock, high-flow supplemental oxygen is indicated, and any patient with signs of shock should be rapidly transported to an advanced care facility regardless of the cause.",
@@ -2314,10 +2314,10 @@
     "chapterTitle": "Shock",
     "question": "Why does the skin of someone in shock appear pale and feel cool?",
     "choices": [
-      "The heart beats faster, so heat is used as energy",
-      "The heart slows down, so less heat is produced",
+      "The faster heartbeat burns off the body's heat as energy",
+      "The slower heartbeat produces less body heat",
       "The blood vessels constrict in the arms, legs, and skin",
-      "The body cools itself to conserve energy"
+      "The body deliberately cools itself to conserve energy"
     ],
     "answer": 2,
     "explanation": "In compensated shock, blood vessels constrict to shunt blood to the vital organs, reducing flow to the skin and extremities, which become pale and cool.",
@@ -2384,10 +2384,10 @@
     "chapterTitle": "Hemorrhage and Soft Tissue Trauma",
     "question": "Red streaks on the skin moving from a wound toward the heart are a sign of:",
     "choices": [
-      "Normal healing",
+      "A normal, healthy part of the healing process",
       "An infection progressing to the systemic level",
-      "Tetanus",
-      "A superficial burn"
+      "The early sign of gangrene forming",
+      "An allergic reaction to the dressing or bandage"
     ],
     "answer": 1,
     "explanation": "Red streaks moving away from the wound toward the heart indicate the infection is progressing to a systemic (whole-body) level — a life-threatening condition needing a physician and usually antibiotics.",
@@ -2400,8 +2400,8 @@
     "choices": [
       "A dressing holds a bandage in place",
       "A dressing covers and protects a wound; a bandage holds the dressing in place",
-      "They are two words for the same thing",
-      "A bandage is sterile; a dressing never is"
+      "A dressing controls bleeding; a bandage prevents infection",
+      "A dressing is always elastic; a bandage is always gauze"
     ],
     "answer": 1,
     "explanation": "A dressing is placed directly over a wound to cover, protect, and absorb; a bandage holds the dressing in place and can apply pressure (a pressure bandage).",
@@ -2412,10 +2412,10 @@
     "chapterTitle": "Hemorrhage and Soft Tissue Trauma",
     "question": "Tetanus infection is of greatest risk with which type of wound?",
     "choices": [
-      "Superficial abrasions",
+      "Shallow scrapes and abrasions",
       "Deep puncture wounds",
-      "Minor lacerations on the face",
-      "Closed bruises"
+      "Clean surgical incisions",
+      "Closed bruises with intact skin"
     ],
     "answer": 1,
     "explanation": "Clostridium tetani multiplies in low-oxygen environments, so deep wounds and puncture wounds are at greatest risk. Tetanus is sometimes called \"lockjaw\" and booster shots are recommended every 5 to 10 years.",
@@ -2497,9 +2497,9 @@
     "question": "What are the four main types of open wounds?",
     "choices": [
       "Abrasions, lacerations, avulsions, and punctures",
-      "Bruises, sprains, strains, and fractures",
+      "Contusions, hematomas, sprains, and strains",
       "Superficial, partial-thickness, full-thickness, and radiation",
-      "Cuts, scrapes, burns, and blisters"
+      "Incisions, ulcers, blisters, and calluses"
     ],
     "answer": 0,
     "explanation": "The four main open wounds are abrasions (scraped skin), lacerations (cuts), avulsions (skin torn away), and punctures (pierced by a pointed object). General care: control bleeding, protect against infection, check for internal injuries.",
@@ -2553,9 +2553,9 @@
     "question": "What is the correct way to cool a thermal burn?",
     "choices": [
       "Apply ice directly to the burn",
-      "Rub butter or ointment on the area",
+      "Rub an antibiotic ointment into the burn",
       "Flush or immerse with cool or cold potable water for at least about 10 minutes",
-      "Leave it uncovered and let it air-dry"
+      "Cover it with ice packs wrapped in a towel"
     ],
     "answer": 2,
     "explanation": "Cool thermal burns with cool/cold potable water (immersion preferred) for at least ~10 minutes. Never use ice (causes critical heat loss/tissue damage), and never apply ointments or oils, which seal in heat and cause infection. Cover with dry, non-stick sterile dressings.",
@@ -2608,10 +2608,10 @@
     "chapterTitle": "Hemorrhage and Soft Tissue Trauma",
     "question": "A patient becomes drowsy and complains of thirst and nausea; you expose the abdomen and find it bruised and swollen. This indicates:",
     "choices": [
-      "He has been doing a lot of sit-ups",
-      "He ate something that made him sick",
+      "He has a muscle strain from the collision",
+      "He has an upset stomach from something he ate",
       "He is bleeding internally",
-      "He was burned by a fire"
+      "He is having an anxiety reaction to the crash"
     ],
     "answer": 2,
     "explanation": "A bruised, swollen, tender abdomen with drowsiness, thirst, and nausea are signs of internal bleeding, which can progress to shock.",
@@ -2623,9 +2623,9 @@
     "question": "A patient has just had a hand amputated and is bleeding heavily. Which condition is he likely to develop shortly?",
     "choices": [
       "Shock",
-      "Hemothorax",
-      "Angina",
-      "Infection"
+      "Compartment syndrome",
+      "Deep vein thrombosis",
+      "A wound infection"
     ],
     "answer": 0,
     "explanation": "Significant blood loss from a major injury like an amputation puts the patient at risk of hemorrhagic (hypovolemic) shock.",
@@ -2777,9 +2777,9 @@
     "question": "A myocardial contusion is:",
     "choices": [
       "A bruise on the heart muscle",
-      "Any bruise located on the torso",
-      "Any soft tissue injury to the heart",
-      "A rupture of the major vessels supplying the heart"
+      "Any bruise located on the chest wall",
+      "Inflammation of the sac around the heart",
+      "A tear in one of the heart's valves"
     ],
     "answer": 0,
     "explanation": "A myocardial (cardiac) contusion is a bruising of the heart muscle, usually from blunt chest trauma; it can cause life-threatening arrhythmias.",
@@ -2791,9 +2791,9 @@
     "question": "The area around a recent wound is red, swollen, and warm to the touch. This may indicate:",
     "choices": [
       "An underlying chronic illness",
-      "Severe internal bleeding",
+      "Deep internal bleeding beneath the wound",
       "An infection",
-      "A superficial burn"
+      "Normal swelling that always follows an injury"
     ],
     "answer": 2,
     "explanation": "Redness, swelling, warmth, and pain around a wound are signs of infection.",
@@ -2819,8 +2819,8 @@
     "question": "Which situation involving epistaxis (nosebleed) would indicate the need for more advanced medical care?",
     "choices": [
       "It cannot be controlled within 10 to 15 minutes by pinching the nostrils",
-      "It is the fourth nosebleed in a one-year period",
-      "It is caused by low blood pressure",
+      "It stops on its own after a few minutes",
+      "It began after the patient blew their nose",
       "It is the patient's first nosebleed"
     ],
     "answer": 0,
@@ -2888,10 +2888,10 @@
     "chapterTitle": "Musculoskeletal Injuries",
     "question": "Should you attempt to reinsert (put back) a dislocated joint?",
     "choices": [
-      "Yes, always, to relieve pain quickly",
+      "Yes — reducing it right away relieves pain and restores circulation",
       "No — unless your scope of practice or medical director specifies it, as it can cause additional damage",
-      "Yes, but only for the shoulder",
-      "Only if the patient asks you to"
+      "Yes, but only for a dislocated shoulder or finger",
+      "Only after gently testing the joint's range of motion"
     ],
     "answer": 1,
     "explanation": "Do not attempt to reinsert a dislocated joint unless your scope of practice or medical director specifies it — doing so can cause additional damage to nerves and blood vessels.",
@@ -2930,10 +2930,10 @@
     "chapterTitle": "Musculoskeletal Injuries",
     "question": "What should you always check before AND after applying a splint?",
     "choices": [
-      "The patient's blood pressure",
+      "The patient's blood pressure in both arms",
       "Circulation and sensation in the digits distal to (below) the injury",
-      "The patient's temperature",
-      "The patient's pupils"
+      "The patient's level of responsiveness",
+      "The colour of the skin over the splint only"
     ],
     "answer": 1,
     "explanation": "Check circulation and sensation distal to the injury before and after splinting. If a splint impairs them (numbness, cold/blue fingers or toes), loosen it slightly and reassess. Comparing to the uninjured limb helps.",
@@ -2944,10 +2944,10 @@
     "chapterTitle": "Musculoskeletal Injuries",
     "question": "What is crepitus in the context of a fracture?",
     "choices": [
-      "Swelling around the injury",
+      "The swelling that surrounds the injury",
       "A grating, popping, or crackling sensation, commonly from broken bone ends rubbing together",
-      "The bluish discoloration of skin",
-      "Loss of sensation below the injury"
+      "The bluish discoloration (bruising) over the injury",
+      "The muscle spasm that guards the injured area"
     ],
     "answer": 1,
     "explanation": "Crepitus is a grating, popping, or crackling sound or sensation beneath the skin, commonly caused by fractured bone fragments rubbing against one another.",
@@ -3014,10 +3014,10 @@
     "chapterTitle": "Musculoskeletal Injuries",
     "question": "How can you effectively immobilize an injured arm that the patient is holding against the chest?",
     "choices": [
-      "Force the arm straight and apply a rigid splint",
+      "Straighten the arm and apply a rigid board splint",
       "Leave it against the chest and bind the injured arm to the chest",
-      "Have the patient raise the arm above the head",
-      "Do nothing — arm injuries don't require immobilization"
+      "Have the patient hold the arm straight out from the body",
+      "Wrap the arm tightly with an elastic bandage over the injury"
     ],
     "answer": 1,
     "explanation": "Holding the arm against the chest is itself effective immobilization. Don't reposition it — support it and bind the injured arm to the chest, which needs no special splinting equipment.",
@@ -3028,10 +3028,10 @@
     "chapterTitle": "Musculoskeletal Injuries",
     "question": "You approach a patient whose leg is shorter than the other and whose foot is pointed outward. This indicates:",
     "choices": [
-      "A hip injury",
+      "A dislocated hip",
       "A broken ankle",
       "A broken femur",
-      "Shock"
+      "Compensated shock"
     ],
     "answer": 2,
     "explanation": "A fractured femur often shortens the injured leg (strong thigh muscles pull the bone ends into overlap) and turns it outward.",
@@ -3058,7 +3058,7 @@
     "choices": [
       "Tibia and fibula",
       "Radius and humerus",
-      "Scapula and clavicle",
+      "Ulna and carpals",
       "Radius and ulna"
     ],
     "answer": 3,
@@ -3084,10 +3084,10 @@
     "chapterTitle": "Musculoskeletal Injuries",
     "question": "After splinting, you notice the fingers are becoming pale and cool. You should:",
     "choices": [
-      "Treat the patient for shock",
-      "Take the splint off and start again",
+      "Elevate the limb and treat the patient for shock",
+      "Remove the splint completely and start over",
       "Loosen any bandages or ties",
-      "Put a mitten or glove on the hand"
+      "Warm the hand with a chemical heat pack"
     ],
     "answer": 2,
     "explanation": "Pale, cool fingers mean the splint is impairing circulation — loosen the bandages/ties slightly and reassess.",
@@ -3127,9 +3127,9 @@
     "question": "When treating a bent knee with a suspected fracture that is painful to move, you should:",
     "choices": [
       "Immobilize it in the position found",
-      "Return it to normal anatomical position, then immobilize",
-      "Have the patient extend and hold the leg",
-      "Avoid immobilizing the injury"
+      "Gently straighten it, then immobilize it flat",
+      "Have the patient straighten and hold the leg themselves",
+      "Leave it unsplinted and simply apply a cold pack"
     ],
     "answer": 0,
     "explanation": "Splint a fractured joint in the position found; if the knee is bent and can't be straightened, support it in the bent position.",
@@ -3182,10 +3182,10 @@
     "chapterTitle": "Chest, Abdominal, and Pelvic Injuries",
     "question": "What is the recommended care for a patient with a suspected simple rib fracture?",
     "choices": [
-      "Wrap the chest tightly with a bandage to prevent movement",
+      "Wrap the chest tightly with a wide bandage to limit movement",
       "Position to facilitate breathing (often Semi-Fowler's) and support the area with a soft, bulky object like a pillow",
-      "Have the patient lie flat on the injured side",
-      "Apply firm direct pressure over the ribs"
+      "Have the patient lie flat on the uninjured side",
+      "Apply firm, steady pressure directly over the fracture"
     ],
     "answer": 1,
     "explanation": "Position the patient to ease breathing (Semi-Fowler's is often comfortable), support/immobilize the area with a soft bulky object like a pillow, and provide respiratory support if needed. Do not wrap the chest tightly, as that impairs breathing.",
@@ -3294,10 +3294,10 @@
     "chapterTitle": "Chest, Abdominal, and Pelvic Injuries",
     "question": "How should you position a patient with an abdominal injury?",
     "choices": [
-      "Prone (face down) with legs straight",
+      "Prone (face-down) with legs extended",
       "Supine with knees bent slightly (e.g., pillows under the knees) to relax the abdominal muscles",
-      "Sitting fully upright",
-      "On the injured side"
+      "Sitting fully upright with legs crossed",
+      "In the recovery position on the injured side"
     ],
     "answer": 1,
     "explanation": "Place the patient supine with knees slightly bent (pillows/blankets under the knees) to relax the abdominal muscles. If bending the legs causes pain, leave them straight.",
@@ -3308,10 +3308,10 @@
     "chapterTitle": "Chest, Abdominal, and Pelvic Injuries",
     "question": "How should you care for an abdominal evisceration (organs protruding from the wound)?",
     "choices": [
-      "Gently push the organs back into the abdomen",
+      "Gently push the organs back into the abdominal cavity",
       "Cover the organs loosely with moist, sterile dressings and keep them warm; do not touch or replace the organs",
-      "Apply firm direct pressure to hold the organs in",
-      "Leave the wound completely uncovered"
+      "Pack the organs with dry gauze and apply firm pressure",
+      "Rinse the organs with sterile water and cover with a tight bandage"
     ],
     "answer": 1,
     "explanation": "Do not touch or push the organs back in. Remove clothing around the wound, cover the organs loosely with moist sterile dressings (saline/warm water), optionally cover with plastic wrap, and keep the area warm. Rapid transport.",
@@ -3322,10 +3322,10 @@
     "chapterTitle": "Chest, Abdominal, and Pelvic Injuries",
     "question": "Why should you NOT apply firm pressure to the abdomen when controlling external bleeding there?",
     "choices": [
-      "It causes the patient embarrassment",
+      "It is too painful for the patient to tolerate",
       "Firm pressure can exacerbate internal injuries",
-      "It has no effect on bleeding",
-      "It always causes evisceration"
+      "Pressure has no effect on internal abdominal bleeding",
+      "The abdomen must be kept completely uncovered"
     ],
     "answer": 1,
     "explanation": "Use trauma dressings with only gentle pressure — firm pressure on the abdomen can worsen internal injuries. If gentle pressure doesn't control the bleeding, go to rapid transport immediately.",
@@ -3350,10 +3350,10 @@
     "chapterTitle": "Chest, Abdominal, and Pelvic Injuries",
     "question": "Fractured pelvic bones are dangerous mainly because they can:",
     "choices": [
-      "Only cause mild bruising",
+      "They usually cause only minor bruising and pain",
       "Puncture or lacerate internal organs and major blood vessels, causing severe internal hemorrhage",
-      "Heal without any treatment",
-      "Prevent the patient from speaking"
+      "They almost always heal on their own without care",
+      "They mainly affect the patient's ability to breathe"
     ],
     "answer": 1,
     "explanation": "Fractured pelvic bones can puncture or lacerate internal organs and major blood vessels, causing severe internal hemorrhage, and can damage nerves (affecting bowel, bladder, and sexual function). Minimize pelvic movement.",
@@ -3378,10 +3378,10 @@
     "chapterTitle": "Chest, Abdominal, and Pelvic Injuries",
     "question": "A patient has been impaled by a stake in the chest and you hear air moving at the wound. You suspect a:",
     "choices": [
-      "Fractured rib",
+      "A fractured rib",
       "Sucking chest wound",
-      "Flail chest",
-      "Kidney perforation"
+      "A flail chest segment",
+      "A ruptured diaphragm"
     ],
     "answer": 1,
     "explanation": "A penetrating chest injury that lets air pass in and out with a sucking sound is a sucking chest wound.",
@@ -3448,10 +3448,10 @@
     "chapterTitle": "Chest, Abdominal, and Pelvic Injuries",
     "question": "If someone receives a penetrating trauma about 5 cm (2 in.) below the navel, which organ is most likely injured?",
     "choices": [
-      "Pancreas",
-      "Gallbladder",
+      "The pancreas",
+      "The gallbladder",
       "Small intestine",
-      "Liver"
+      "The liver"
     ],
     "answer": 2,
     "explanation": "The area below the navel is the lower abdomen, where the small intestine lies. The liver, gallbladder, and pancreas are upper-abdominal organs.",
@@ -3518,10 +3518,10 @@
     "chapterTitle": "Chest, Abdominal, and Pelvic Injuries",
     "question": "If the abdomen is struck by a blunt object and the spleen is damaged, this may result in:",
     "choices": [
-      "Infection",
-      "Gastroenteritis",
+      "A localized infection over the next few days",
+      "Inflammation of the stomach lining",
       "Severe blood loss",
-      "Difficulty breathing (dyspnea)"
+      "Difficulty breathing from a collapsed lung"
     ],
     "answer": 2,
     "explanation": "The spleen stores blood, so a rupture can quickly cause severe, life-threatening blood loss.",
@@ -3532,10 +3532,10 @@
     "chapterTitle": "Head and Spinal Injuries",
     "question": "What is the difference between \"a head injury\" and \"an injury to the head\"?",
     "choices": [
-      "There is no difference — they mean the same thing",
+      "There is no real difference — the terms are interchangeable",
       "A head injury often involves brain trauma; an injury to the head is often a superficial injury like a cut to the scalp",
-      "A head injury is always fatal; an injury to the head never is",
-      "An injury to the head only refers to the skull, not the face"
+      "A head injury involves the skull, while an injury to the head involves only the face",
+      "An injury to the head is always more serious than a head injury"
     ],
     "answer": 1,
     "explanation": "An \"injury to the head\" is often superficial (a scalp or facial cut), whereas a \"head injury\" often involves brain trauma (like a concussion). A single event can cause both.",
@@ -3560,10 +3560,10 @@
     "chapterTitle": "Head and Spinal Injuries",
     "question": "If clear or pinkish fluid (possibly cerebrospinal fluid) is draining from a patient's ear after a head injury, you should:",
     "choices": [
-      "Pack the ear tightly to stop the drainage",
+      "Pack the ear firmly with gauze to stop the drainage",
       "Cover the ear lightly with a sterile dressing without applying direct pressure",
-      "Tilt the head so the fluid drains faster",
-      "Apply firm pressure to the wound"
+      "Position the head so the fluid drains out more quickly",
+      "Apply firm, direct pressure over the ear"
     ],
     "answer": 1,
     "explanation": "Cover the ear lightly with a sterile dressing and do not apply direct pressure (which could increase intracranial pressure). Allow the fluid to drain.",
@@ -3602,10 +3602,10 @@
     "chapterTitle": "Head and Spinal Injuries",
     "question": "An athlete sustains a significant blow to the head during a game. What is the correct action?",
     "choices": [
-      "Let them keep playing if they have no symptoms",
+      "Allow them to keep playing as long as they have no symptoms",
       "Remove them from the activity immediately, do not let them return to the game, monitor closely, and arrange medical evaluation",
-      "Have them rest 5 minutes then return",
-      "Only remove them if they lost consciousness"
+      "Let them sit out for a few minutes, then return if they feel fine",
+      "Remove them only if they actually lost consciousness"
     ],
     "answer": 1,
     "explanation": "Remove the athlete from the activity immediately regardless of whether symptoms are present, do not let them return to that game/practice, don't leave them alone, monitor closely, and arrange medical evaluation with a supervised return-to-sport process.",
@@ -3700,10 +3700,10 @@
     "chapterTitle": "Head and Spinal Injuries",
     "question": "When performing in-line stabilization, what is the correct neutral head position?",
     "choices": [
-      "The chin tucked firmly to the chest",
+      "The chin tucked down firmly against the chest",
       "The chin in line with the neck and the spine straight (chin aligned with the body's midline)",
-      "The head turned 45 degrees to one side",
-      "The head tilted fully back"
+      "The head rotated about 45 degrees toward the responder",
+      "The head tilted well back to open the airway"
     ],
     "answer": 1,
     "explanation": "Neutral alignment means the chin is in line with the neck and the spine is straight. Gently rotate/tilt the head until the chin aligns with the body's midline — but stop if you meet resistance or the patient reports neck pain.",
@@ -3756,10 +3756,10 @@
     "chapterTitle": "Head and Spinal Injuries",
     "question": "Which is an appropriate intervention for a patient with an orbit (eye socket) fracture?",
     "choices": [
-      "Applying direct pressure to the injured area",
+      "Apply firm direct pressure to the injured eye socket",
       "Placing cold packs around the injured area",
-      "Bandaging the area securely",
-      "Placing the patient in the recovery position"
+      "Bandage both eyes tightly to limit movement",
+      "Place the patient in the recovery position, injured side down"
     ],
     "answer": 1,
     "explanation": "Place cold packs around the injured orbit to reduce swelling without putting pressure on the fracture site; the patient needs rapid transport, usually supine.",
@@ -3784,10 +3784,10 @@
     "chapterTitle": "Acute and Chronic Illnesses",
     "question": "What is the difference between an acute and a chronic illness?",
     "choices": [
-      "Acute illnesses are always fatal; chronic illnesses never are",
+      "An acute illness is always life-threatening; a chronic one never is",
       "An acute illness has a sudden onset; a chronic illness persists over time",
-      "Acute illnesses only affect children; chronic illnesses only affect adults",
-      "There is no difference"
+      "An acute illness is contagious; a chronic illness is not",
+      "There is no meaningful difference between them"
     ],
     "answer": 1,
     "explanation": "An acute illness has a sudden onset, while a chronic illness persists over time. Both can develop into sudden medical emergencies rapidly or gradually.",
@@ -3798,10 +3798,10 @@
     "chapterTitle": "Acute and Chronic Illnesses",
     "question": "What is syncope?",
     "choices": [
-      "A seizure caused by fever",
+      "A seizure triggered by a high fever",
       "Fainting — a momentary loss of responsiveness when the brain is suddenly deprived of normal blood flow",
-      "A diabetic emergency",
-      "An inflammation of the abdomen"
+      "A sudden drop in blood sugar (hypoglycemia)",
+      "A stroke affecting one side of the body"
     ],
     "answer": 1,
     "explanation": "Syncope (fainting) occurs when the brain is suddenly deprived of its normal blood flow and momentarily shuts down. It often resolves once the patient is lying down and circulation returns.",
@@ -3938,10 +3938,10 @@
     "chapterTitle": "Acute and Chronic Illnesses",
     "question": "The pain of appendicitis characteristically:",
     "choices": [
-      "Stays constant in the upper left chest",
+      "It stays constant in the upper-left abdomen",
       "Begins near the umbilical (belly button) area and later becomes intense and localized in the lower right quadrant",
-      "Radiates down both legs",
-      "Only occurs after eating and then disappears"
+      "It radiates down both legs and into the groin",
+      "It occurs only right after eating and then fades"
     ],
     "answer": 1,
     "explanation": "Appendicitis pain usually begins near the umbilical area, then becomes intense and localized in the lower right quadrant, worsening with movement, deep breaths, coughing, or touch. Definitive care is surgical removal.",
@@ -3966,10 +3966,10 @@
     "chapterTitle": "Acute and Chronic Illnesses",
     "question": "Which finding suggests gastrointestinal (GI) bleeding?",
     "choices": [
-      "Bright, clear urine",
+      "Clear, pale-coloured urine",
       "Vomiting blood or black, tarry stools",
-      "A slow, strong pulse",
-      "Warm, dry, pink skin"
+      "A strong, slow, regular pulse",
+      "Bright yellow (jaundiced) skin"
     ],
     "answer": 1,
     "explanation": "GI bleeding may cause vomiting of blood, bloody bowel movements, or black tarry stools, along with fatigue, weakness, pale skin, and shortness of breath. Serious GI bleeding drops blood pressure and raises pulse — rapid transport.",
@@ -4008,10 +4008,10 @@
     "chapterTitle": "Acute and Chronic Illnesses",
     "question": "A diabetic patient exercised strenuously after eating a light lunch and now feels ill. You should:",
     "choices": [
-      "Give him water to drink",
+      "Give him plenty of water to rehydrate",
       "Give him a sugary substance",
-      "Not allow him to ingest anything",
-      "Get him to take his insulin"
+      "Give him nothing until his blood sugar is tested",
+      "Help him take a dose of his insulin"
     ],
     "answer": 1,
     "explanation": "Treat a diabetic emergency in a responsive patient who can swallow with oral glucose (a sugary substance). Never give insulin.",
@@ -4051,9 +4051,9 @@
     "question": "What will happen if you give glucose to a hyperglycemic (high blood sugar) patient?",
     "choices": [
       "It will have no effect on the patient's condition",
-      "The patient is likely to enter a diabetic coma",
-      "The patient is likely to develop tachypnea and tachycardia",
-      "The patient's condition will gradually improve"
+      "It will quickly push the patient into a diabetic coma",
+      "It will trigger a dangerous drop in blood pressure",
+      "It will fully resolve the emergency within minutes"
     ],
     "answer": 0,
     "explanation": "Giving glucose to a hyperglycemic patient will not cause additional harm — which is why the same treatment (oral glucose) is used when you can't tell hyper- from hypoglycemia.",
@@ -4078,10 +4078,10 @@
     "chapterTitle": "Acute and Chronic Illnesses",
     "question": "What should you recommend for a patient who experiences chronic migraines?",
     "choices": [
-      "A reduced-sodium diet",
+      "Switch to a strict low-sodium diet",
       "Consulting a physician for assessment and possibly prescription medication",
-      "Increasing physical activity",
-      "Drinking more water"
+      "Increase vigorous exercise to reduce their frequency",
+      "Drink several extra litres of water each day"
     ],
     "answer": 1,
     "explanation": "A patient with chronic migraines should consult a physician for assessment; preventive medications may be prescribed, especially if attacks increase in frequency or intensity.",
@@ -4120,10 +4120,10 @@
     "chapterTitle": "Poisoning",
     "question": "In general, should you give a poisoning patient something to eat or drink?",
     "choices": [
-      "Yes, always give milk to coat the stomach",
+      "Yes — give milk or bread to absorb the poison",
       "No — avoid giving anything by mouth unless advised by the Poison Control Centre (or per your scope of practice)",
-      "Yes, always induce vomiting immediately",
-      "Yes, give large amounts of water in every case"
+      "Yes — give water and then induce vomiting",
+      "Yes — give large amounts of water to dilute the poison"
     ],
     "answer": 1,
     "explanation": "Avoid giving anything by mouth unless advised by the Poison Control Centre or indicated by your scope of practice for a known poison. Contact Poison Control and follow their directions.",
@@ -4162,10 +4162,10 @@
     "chapterTitle": "Poisoning",
     "question": "Why should plants like poison ivy, sumac, and oak never be burned?",
     "choices": [
-      "The ash is toxic to touch",
+      "The ash left behind stays toxic to the touch for years",
       "The urushiol oil is carried in the smoke, and inhaling it can inflame the throat and irritate the lungs",
-      "Burning releases carbon monoxide",
-      "It causes the plants to spread faster"
+      "Burning the plants releases dangerous levels of carbon monoxide",
+      "The smoke causes the rash to spread faster across the skin"
     ],
     "answer": 1,
     "explanation": "These plants contain urushiol oil. When burned, the oil is carried in the smoke, and inhalation can cause inflammation of the throat and irritation of the lungs.",
@@ -4176,10 +4176,10 @@
     "chapterTitle": "Poisoning",
     "question": "A bee has left its stinger embedded in a patient's skin. How should you remove it?",
     "choices": [
-      "Pull it out with forceps or tweezers",
-      "Squeeze the venom sac to force it out",
+      "Pull it straight out with fine forceps or tweezers",
+      "Pinch the venom sac and lift the stinger out",
       "Scrape it away from the skin with a plastic card (like a credit card)",
-      "Leave it in and apply heat"
+      "Cover it and let the body push it out on its own"
     ],
     "answer": 2,
     "explanation": "Scrape the stinger away with a plastic card. Do not use forceps/tweezers — squeezing the still-attached venom sac would inject more toxin. Then wash the site, cover it, and apply a wrapped cold pack.",
@@ -4190,10 +4190,10 @@
     "chapterTitle": "Poisoning",
     "question": "How should you deactivate the toxin from a jellyfish, man-of-war, or sea anemone sting?",
     "choices": [
-      "Rinse with fresh water",
+      "Rinse the area thoroughly with cool fresh water",
       "Soak the area in vinegar",
-      "Rub the wound firmly",
-      "Apply ammonia"
+      "Rub the area with wet sand to remove tentacles",
+      "Flush the area with fresh cold water and ice"
     ],
     "answer": 1,
     "explanation": "Soak the affected area in vinegar to deactivate the toxin (rubbing alcohol or baking soda may also work). Do NOT rub the wound or use fresh water or ammonia, which increase pain. Deactivate before removing any tentacles.",
@@ -4274,10 +4274,10 @@
     "chapterTitle": "Poisoning",
     "question": "Naloxone is used to treat opioid overdose. Why is it considered safe to administer even if you're unsure an overdose occurred?",
     "choices": [
-      "Because it wears off instantly",
+      "Because its effects wear off almost instantly",
       "Because it has no effect on a person who is not suffering from an opioid overdose",
-      "Because it treats all types of poisoning",
-      "Because it only works when combined with oxygen"
+      "Because it counteracts every kind of drug overdose",
+      "Because it works only when the patient is also given oxygen"
     ],
     "answer": 1,
     "explanation": "Naloxone counteracts opioid overdose by displacing the opioid at brain receptors, preventing respiratory arrest. It has no effect on someone who isn't experiencing an opioid overdose, so it's safe to use even when an overdose can't be confirmed.",
@@ -4330,10 +4330,10 @@
     "chapterTitle": "Poisoning",
     "question": "If a patient under the effects of a drug becomes violent or threatening, you should:",
     "choices": [
-      "Ask bystanders to help you restrain the patient",
+      "Ask nearby bystanders to help you restrain the patient",
       "Withdraw from the area",
-      "Attempt to provide as much care as possible",
-      "Try to determine which drug the patient took"
+      "Continue providing as much care as you safely can",
+      "Try to find out exactly which drug the patient took"
     ],
     "answer": 1,
     "explanation": "If a patient becomes violent or threatening, withdraw from the area — your safety comes first.",
@@ -4429,9 +4429,9 @@
     "question": "When pouring water on a heat-stressed patient to cool them, why should you pour it onto a layer of cloth rather than directly on bare skin?",
     "choices": [
       "To keep the water in contact with the skin longer so it evaporates and cools",
-      "To avoid getting the patient's skin wet",
-      "Because bare skin cannot absorb water",
-      "To warm the water first"
+      "To spread the cooling evenly and avoid frostbite on the skin",
+      "Because water poured on bare skin runs off before it can cool",
+      "So the cloth can be used to scrub away sweat and salt"
     ],
     "answer": 0,
     "explanation": "Pour water onto clothing/a towel over the skin so it stays in contact and evaporates, cooling the patient. Fanning afterward encourages evaporation and convective cooling.",
@@ -4470,10 +4470,10 @@
     "chapterTitle": "Environmental Illnesses",
     "question": "How should you treat frostbite by warming the affected area?",
     "choices": [
-      "Rub the area vigorously with snow",
+      "Briskly rub the area with snow to restore circulation",
       "Submerge it in warm water (38–40°C / 100.4–104°F), but only if it won't refreeze",
-      "Hold it near an open flame",
-      "Apply ice to numb the pain"
+      "Warm it quickly next to a heat source such as a fire or heater",
+      "Massage the area firmly to bring back sensation"
     ],
     "answer": 1,
     "explanation": "Warm the area by submerging it in warm water (38–40°C/100.4–104°F) — but only thaw it if you're certain it won't refreeze. Never rub the area or apply snow/ice. Don't break blisters after thawing; protect them with dry sterile dressings.",
@@ -4554,10 +4554,10 @@
     "chapterTitle": "Environmental Illnesses",
     "question": "Decompression sickness (\"the bends\") in a scuba diver is caused by:",
     "choices": [
-      "Breathing contaminated air at the surface",
+      "Breathing air that was contaminated at the surface",
       "Nitrogen dissolved in the blood/tissues forming bubbles when the diver ascends too rapidly",
-      "Low oxygen at depth",
-      "Cold water entering the ears"
+      "A lack of oxygen in the tank at depth",
+      "Cold water entering the ear canal during the dive"
     ],
     "answer": 1,
     "explanation": "Under pressure, excess nitrogen dissolves into the blood and tissues. If ascent is too rapid, the nitrogen comes out of solution as bubbles in the tissues — decompression sickness (\"the bends\"). Treatment: high-concentration oxygen, supine position, and rapid transport to a facility that treats diving injuries.",
@@ -4568,10 +4568,10 @@
     "chapterTitle": "Environmental Illnesses",
     "question": "What is the best way to prevent an arterial gas embolism (AGE) during a scuba ascent?",
     "choices": [
-      "Ascend as quickly as possible",
-      "Hold your breath during ascent",
+      "Ascend as rapidly as possible to minimize exposure",
+      "Hold your breath steadily throughout the ascent",
       "Avoid ascending with a closed glottis — keep breathing/exhale bubbles",
-      "Descend deeper before surfacing"
+      "Make a final deep descent just before surfacing"
     ],
     "answer": 2,
     "explanation": "AGE happens when trapped, expanding lung air can't escape during ascent and ruptures lung tissue, sending air bubbles into the arteries. The best prevention is to avoid ascending with a closed glottis — keep exhaling. Assume AGE if a diver is unresponsive on surfacing or within 10 minutes after.",
@@ -4597,9 +4597,9 @@
     "question": "A patient's fingers appear white and small clear blisters are forming (frostbite). What should you do?",
     "choices": [
       "Immerse the hands in cool (not cold) water until sensation returns",
-      "Run the hands under water as hot as she can stand for 5 minutes",
+      "Rub the hands together briskly to warm them",
       "Immerse the hands in warm water until the skin turns red and is warm",
-      "Keep the hands from thawing until she can be examined by a physician"
+      "Keep the hands frozen until she can be examined by a physician"
     ],
     "answer": 2,
     "explanation": "Warm frostbite by immersing the area in warm water (38–40°C) until the skin turns red and feels warm — but only if it won't refreeze.",
@@ -4638,10 +4638,10 @@
     "chapterTitle": "Environmental Illnesses",
     "question": "Refusing water, a changing level of responsiveness, and vomiting are all signs that a heat-stressed patient:",
     "choices": [
-      "Has heat exhaustion",
+      "Are typical of ordinary heat exhaustion",
       "Should be in the rapid transport category",
-      "Has a pre-existing medical condition",
-      "Is recovering from heat exposure"
+      "Are simply dehydrated and need more fluids",
+      "Are recovering from the effects of the heat"
     ],
     "answer": 1,
     "explanation": "These signs mean the patient's condition is deteriorating — they should be in the rapid transport category, positioned to protect the airway, and cooled aggressively.",
@@ -4680,10 +4680,10 @@
     "chapterTitle": "Pregnancy, Labour, and Delivery",
     "question": "What is \"crowning\"?",
     "choices": [
-      "The delivery of the placenta",
+      "The delivery of the placenta after the baby",
       "When the top of the baby's head begins to emerge from the vagina, signaling birth is imminent",
-      "The rupture of the amniotic sac",
-      "The first contraction of labour"
+      "The rupture of the amniotic sac (water breaking)",
+      "The first strong contraction of active labour"
     ],
     "answer": 1,
     "explanation": "Crowning is when the top of the baby's head begins to emerge from the vagina. It signals that birth is imminent and you must be prepared to receive the baby.",
@@ -4694,10 +4694,10 @@
     "chapterTitle": "Pregnancy, Labour, and Delivery",
     "question": "As the baby's head crowns, what should you do?",
     "choices": [
-      "Pull gently on the head to speed delivery",
+      "Pull gently but steadily on the head to speed the delivery",
       "Place a hand on top of the head and apply gentle counter-pressure so it emerges slowly",
-      "Tell the mother to push as hard as possible",
-      "Push the head back to delay delivery"
+      "Encourage the mother to push as hard as she can",
+      "Hold the head back firmly to delay the birth"
     ],
     "answer": 1,
     "explanation": "Apply gentle, light counter-pressure to the crowning head so it emerges slowly, preventing tearing of the perineum and injury to the baby. Direct the mother to stop pushing and pant/breathe for a controlled delivery.",
@@ -4709,9 +4709,9 @@
     "question": "As the baby's head emerges, you should check for what life-threatening condition?",
     "choices": [
       "The umbilical cord looped around the baby's neck (nuchal cord)",
-      "A breech position",
-      "Excessive amniotic fluid",
-      "Postpartum bleeding"
+      "A breech (feet-first) presentation",
+      "An excess of amniotic fluid",
+      "The onset of postpartum bleeding"
     ],
     "answer": 0,
     "explanation": "Check whether the umbilical cord is looped around the baby's neck (a nuchal cord). If so, gently slip it over the baby's head (or over the shoulders as they emerge).",
@@ -4722,10 +4722,10 @@
     "chapterTitle": "Pregnancy, Labour, and Delivery",
     "question": "A newborn is not breathing spontaneously. How should you stimulate it to elicit crying?",
     "choices": [
-      "Hold it upside down and slap its back",
+      "Hold the baby upside down and slap its back",
       "Flick your fingers on the soles of the feet and dry the neonate vigorously for 30 seconds",
-      "Blow air into its face",
-      "Submerge it briefly in warm water"
+      "Blow sharply into the baby's face to trigger a gasp",
+      "Briefly dip the baby in warm water"
     ],
     "answer": 1,
     "explanation": "Stimulate by flicking your fingers on the soles of the neonate's feet and drying it vigorously for 30 seconds. Crying helps clear the airway and promotes respiration. Then assess respiration for 10 seconds.",
@@ -4764,10 +4764,10 @@
     "chapterTitle": "Pregnancy, Labour, and Delivery",
     "question": "After delivery, how does encouraging the mother to breastfeed help?",
     "choices": [
-      "It speeds delivery of the placenta only",
+      "It helps the placenta detach more quickly",
       "It stimulates the uterus to contract, which helps slow bleeding",
-      "It raises the mother's blood pressure",
-      "It has no medical effect at this stage"
+      "It raises the mother's blood pressure back to normal",
+      "It has no real medical effect at this stage"
     ],
     "answer": 1,
     "explanation": "Breastfeeding stimulates the uterus to contract, which helps slow bleeding, and provides benefits for both infant and mother. Gentle massage of the lower abdomen also stimulates uterine contraction.",
@@ -4792,10 +4792,10 @@
     "chapterTitle": "Pregnancy, Labour, and Delivery",
     "question": "What is an ectopic pregnancy, and why is it dangerous?",
     "choices": [
-      "A pregnancy with twins; it causes premature labour",
+      "A pregnancy with twins that triggers premature labour",
       "A fertilized ovum implanting outside the uterus (e.g., in a fallopian tube); it can rupture and cause severe hemorrhage — the leading cause of maternal death in the first trimester",
-      "A normal pregnancy that ends early",
-      "A pregnancy where the placenta covers the cervix"
+      "A normal pregnancy that happens to end early",
+      "A pregnancy in which the placenta covers the cervix"
     ],
     "answer": 1,
     "explanation": "An ectopic pregnancy implants outside the uterus (often a fallopian tube). As it grows it can rupture, causing severe hemorrhage — the leading cause of maternal death in the first trimester. Any possibly-pregnant woman with severe abdominal pain is rapid transport and should not eat or drink.",
@@ -4820,10 +4820,10 @@
     "chapterTitle": "Pregnancy, Labour, and Delivery",
     "question": "What is a prolapsed cord, and how should you position the mother?",
     "choices": [
-      "The cord wrapped around the neck; place her supine",
+      "The cord wrapped tightly around the baby's neck; place her supine",
       "A loop of umbilical cord protruding from the vagina before the baby; place her in a knee-chest position leaning to the left",
-      "The cord attached to the placenta; have her sit upright",
-      "A cut cord; elevate her legs"
+      "The cord still attached to the placenta; have her sit upright",
+      "A cord that has been cut too early; elevate her legs"
     ],
     "answer": 1,
     "explanation": "A prolapsed cord is a loop of umbilical cord protruding from the vagina while the baby is still in the birth canal — the cord gets compressed, cutting off the baby's oxygen. Have the mother assume a knee-chest position leaning left to take pressure off the cord, give oxygen, and rapidly transport.",
@@ -4836,8 +4836,8 @@
     "choices": [
       "Pull firmly on the baby's body to deliver the head",
       "Place two gloved fingers into the vagina next to the baby's mouth/nose and spread them in a \"V\" to allow air in",
-      "Push the baby back into the birth canal",
-      "Wait without intervening"
+      "Push the baby back into the birth canal to relieve pressure",
+      "Have the mother stand up to let gravity assist"
     ],
     "answer": 1,
     "explanation": "Never pull on the baby's body. If the head hasn't delivered after ~3 minutes, insert your index and middle fingers next to the baby's mouth and nose and spread them into a \"V\" to create an air passage, maintaining it until the head delivers. Give the mother oxygen and rapidly transport.",
@@ -5016,10 +5016,10 @@
     "chapterTitle": "Special Populations",
     "question": "Why can a toddler often be best examined in a parent or guardian's lap?",
     "choices": [
-      "Toddlers cannot sit up on their own",
+      "Toddlers are usually too weak to sit up on their own",
       "Toddlers are frequently uncooperative and may fear being separated from a parent",
-      "It is required by protocol",
-      "It keeps the responder at a safe distance"
+      "Regulations require children to be examined in a parent's lap",
+      "The parent can hold the child still while you work quickly"
     ],
     "answer": 1,
     "explanation": "Toddlers (1–2 years) are frequently uncooperative and may fear separation from a parent/guardian, so they are often best examined in the parent's lap, with reassurance that they won't be separated.",
@@ -5031,9 +5031,9 @@
     "question": "Compared to adults, a child's airway is more easily obstructed partly because:",
     "choices": [
       "The tongue is proportionally larger and the airway is narrower",
-      "Children have no epiglottis",
-      "The trachea is wider and stiffer",
-      "Children breathe only through the mouth"
+      "The epiglottis does not develop until about age two",
+      "The trachea is wider and more rigid than an adult's",
+      "The airway is supported only by soft cartilage rings"
     ],
     "answer": 0,
     "explanation": "Children have a proportionally larger tongue and a narrower airway, both of which can block or obstruct the airway more readily. Their trachea is also smaller with less cartilage, so the neck is easily hyperextended and closes the airway.",
@@ -5058,10 +5058,10 @@
     "chapterTitle": "Special Populations",
     "question": "When performing a head-to-toe exam on a frightened but responsive child, a helpful technique is to:",
     "choices": [
-      "Start at the head as usual for adults",
+      "Begin at the head, exactly as you would for an adult",
       "Perform it in reverse, as a toe-to-head examination",
-      "Skip the physical exam entirely",
-      "Only examine the area of complaint"
+      "Skip the hands-on physical exam altogether",
+      "Examine only the specific area the child points to"
     ],
     "answer": 1,
     "explanation": "A responsive child is often more willing to accept you touching the feet first and progressing upward, so a toe-to-head examination can work better. Lower yourself to eye level and keep the child with loved ones when possible.",
@@ -5100,10 +5100,10 @@
     "chapterTitle": "Special Populations",
     "question": "Which signs would make you suspect dehydration in a child?",
     "choices": [
-      "Warm, moist skin and frequent urination",
+      "Warm, moist skin and more frequent urination than usual",
       "Dry mouth/tongue, sunken eyes, no tears when crying, and listlessness (plus a sunken fontanel in infants)",
-      "Bright red cheeks and increased appetite",
-      "A slow, strong pulse"
+      "Flushed red cheeks and an increased appetite",
+      "A slow but strong and steady pulse"
     ],
     "answer": 1,
     "explanation": "Signs of dehydration include a dry mouth/tongue, sunken eyes, no tears when crying, and listlessness/irritability; in infants the fontanel (soft spot) may be sunken and there are fewer wet diapers. A dehydrated child with persistent vomiting/diarrhea is rapid transport.",
@@ -5156,10 +5156,10 @@
     "chapterTitle": "Special Populations",
     "question": "Why might a geriatric patient's head injury be harder to recognize?",
     "choices": [
-      "Older adults never get head injuries",
+      "Older adults rarely sustain significant head injuries",
       "Signs and symptoms may not appear immediately, and the brain shrinks with age leaving more space to move within the skull",
-      "Their skulls are too thick to injure",
-      "Head injuries heal instantly in older adults"
+      "The thicker skull of an older adult absorbs most of the force",
+      "A geriatric brain recovers from injury faster than a younger one"
     ],
     "answer": 1,
     "explanation": "As the brain shrinks with age, there is more space between it and the skull, allowing more movement and increasing injury risk. Signs may be delayed — you might suspect a head injury as the cause of altered behaviour even days after the event. Establish a baseline by interviewing family.",
@@ -5184,10 +5184,10 @@
     "chapterTitle": "Special Populations",
     "question": "When caring for a patient with a service animal, you should:",
     "choices": [
-      "Pet and talk to the animal to keep it calm",
+      "Speak to and pet the animal to help keep it calm",
       "Avoid interacting with the working animal and try to keep it close to the patient, including during transport",
-      "Separate the animal from the patient immediately",
-      "Remove the animal's harness"
+      "Have a bystander take the animal to a separate area",
+      "Remove the animal's harness so it can rest"
     ],
     "answer": 1,
     "explanation": "When a service animal is in its harness, it is working — avoid interacting with it (no talking or petting). Keep it close to the patient for comfort and reassurance, and keep it with the patient during transport when possible.",
@@ -5268,10 +5268,10 @@
     "chapterTitle": "Crisis Intervention",
     "question": "When caring for a patient who has experienced a sexual assault, why should you discourage them from bathing, showering, or douching?",
     "choices": [
-      "To save time before transport",
+      "To make transport quicker and simpler",
       "To preserve evidence before a medical examination can be performed (the area is treated as a crime scene)",
-      "Because water would worsen their injuries",
-      "It is not important either way"
+      "Because washing could worsen the patient's injuries",
+      "To help the patient feel calmer before questioning"
     ],
     "answer": 1,
     "explanation": "Discourage bathing, showering, or douching to preserve evidence, since the area is treated as a crime scene. Also cover the patient, offer a same-gender responder, remove clothing only if necessary for care, and don't question them about specifics beyond what care requires.",
@@ -5310,10 +5310,10 @@
     "chapterTitle": "Crisis Intervention",
     "question": "In a behavioural/mental health emergency, when is it acceptable to leave the patient alone?",
     "choices": [
-      "Whenever you need to call for backup",
+      "Whenever you must step away to call for backup",
       "Only when there is a threat to your own safety",
-      "As soon as the patient calms down",
-      "Never, under any circumstances"
+      "Once the patient appears to have calmed down",
+      "Never — you must stay no matter what"
     ],
     "answer": 1,
     "explanation": "Never leave the patient alone unless there is a threat to your safety. Continue talking with the patient while awaiting additional resources, and continually reassess their mental status, as rapid changes can occur.",
@@ -5324,10 +5324,10 @@
     "chapterTitle": "Crisis Intervention",
     "question": "A patient having a panic attack is hyperventilating with a rapid heart rate and chest discomfort. What is often the only treatment necessary?",
     "choices": [
-      "Immediate sedation",
+      "Administer a sedative to slow the breathing",
       "Calming and reassuring the patient and helping them take deep, controlled breaths",
-      "Physical restraint",
-      "Rapid transport with lights and sirens"
+      "Have them breathe into a paper bag until it passes",
+      "Rapid transport with lights and sirens to ease their fear"
     ],
     "answer": 1,
     "explanation": "Calming and reassuring the patient and helping them take slow, deep, controlled breaths may be the only treatment needed for a panic attack. A full medical history helps rule out underlying disease (e.g., the rapid heart rate could indicate a pulmonary embolism).",
@@ -5380,10 +5380,10 @@
     "chapterTitle": "Crisis Intervention",
     "question": "How can having a patient help care for their own minor injury be beneficial in a mental health crisis?",
     "choices": [
-      "It saves the responder time",
+      "It frees you up to complete your documentation",
       "It may help the patient regain a sense of control",
-      "It is required by law",
-      "It distracts the responder from the patient"
+      "It is a legal requirement on a mental health call",
+      "It keeps the patient too occupied to become aggressive"
     ],
     "answer": 1,
     "explanation": "Encouraging the patient to participate in caring for a minor injury may help them regain a sense of control, which can be valuable during a mental health crisis.",
@@ -5394,10 +5394,10 @@
     "chapterTitle": "Crisis Intervention",
     "question": "When a patient's death seems probable, what is appropriate to say to family and bystanders?",
     "choices": [
-      "Give a detailed prognosis of how likely death is",
+      "Give them a frank estimate of the chance of survival",
       "Avoid statements about the patient's condition; offer comfort with positive statements like \"We are doing everything we can\"",
-      "Say nothing at all and ignore them",
-      "Tell them the patient will definitely recover"
+      "Say nothing to them and focus only on the patient",
+      "Reassure them that the patient is going to be fine"
     ],
     "answer": 1,
     "explanation": "Be cautious about what you say — avoid making statements about the patient's condition to the patient, family, or bystanders. Provide comfort with positive statements such as \"We are doing everything we can.\"",
@@ -5437,9 +5437,9 @@
     "question": "After a sexual assault, when the patient's partner has finished with the police, he should:",
     "choices": [
       "Remain with the patient to provide emotional support, if she prefers his presence",
-      "Leave the area so she can have privacy",
-      "Help her change her clothes and wash her face",
-      "Look around for clues about what happened"
+      "Step away to give her complete privacy",
+      "Help her change out of her clothes and clean up",
+      "Search the area for evidence of what happened"
     ],
     "answer": 0,
     "explanation": "Friends or family who can provide emotional support may stay if the patient prefers their presence.",
@@ -5604,10 +5604,10 @@
     "chapterTitle": "Reaching, Lifting, and Extricating Patients",
     "question": "Why should responders treat vehicle airbags as a serious hazard even after the vehicle is turned off and the battery is disconnected?",
     "choices": [
-      "Airbags cannot deploy once the car is off",
+      "A deployed airbag cannot possibly go off a second time",
       "Airbags should be assumed live and could still deploy at any moment, striking a patient or responder with lethal force",
-      "Airbags only pose a risk during the original collision",
-      "Airbags disconnect automatically with the battery"
+      "Airbags are only a hazard during the original impact",
+      "Cutting the battery instantly disables all the airbags"
     ],
     "answer": 1,
     "explanation": "Assume any airbag is live and could deploy at any moment — even one that already deployed could redeploy via a secondary charge. Never place a hard object between a patient and an airbag zone, and avoid positioning yourself/the patient where a deploying airbag could strike.",
@@ -5632,10 +5632,10 @@
     "chapterTitle": "Reaching, Lifting, and Extricating Patients",
     "question": "If you must break a window to access a patient, which window should you choose?",
     "choices": [
-      "The one closest to the patient for fastest access",
+      "The one closest to the patient for the fastest access",
       "The window as far from the occupant(s) as possible",
-      "The front windshield",
-      "Any window, it doesn't matter"
+      "The front windshield, since it is built to break safely",
+      "Any window — the choice makes no difference"
     ],
     "answer": 1,
     "explanation": "Choose a window as far from the occupant(s) as possible to protect them from glass shards and glass dust. Instruct responsive patients to cover their faces first, and wear appropriate PPE (eye protection, respiratory mask, thick gloves).",
@@ -5703,9 +5703,9 @@
     "question": "The vehicle is stable and hazard-free, but the patient is hemorrhaging from the lower leg and the driver's door is locked. What should you do next?",
     "choices": [
       "Check whether any of the vehicle's doors are unlocked",
-      "Break a window as far from the patient as possible and open the door",
-      "Break the driver's window and open the door",
-      "Call a towing company to help you access the patient"
+      "Break the window nearest the patient to reach them quickly",
+      "Break the driver's window and open the door from inside",
+      "Wait for a tow company to open the vehicle for you"
     ],
     "answer": 0,
     "explanation": "Check whether any doors are unlocked first — it's a simple, time-saving step that's easy to overlook.",
@@ -5730,10 +5730,10 @@
     "chapterTitle": "Reaching, Lifting, and Extricating Patients",
     "question": "If you must break a vehicle window to reach injured patients inside, you should:",
     "choices": [
-      "Instruct the patients to move to the opposite side of the vehicle",
+      "Have the patients shield their eyes only after the glass breaks",
       "Instruct the patients to cover their faces before you break the window",
-      "Have a patient break the window from the inside",
-      "Break a small hole, pass PPE in, then break the rest"
+      "Ask one of the patients to kick the window out from inside",
+      "Break a small hole first, then reach in to unlock the door"
     ],
     "answer": 1,
     "explanation": "Choose a window as far from occupants as possible and instruct responsive patients to cover their faces (to protect from glass shards and dust) before breaking it.",
@@ -5772,10 +5772,10 @@
     "chapterTitle": "Transportation",
     "question": "When driving to an emergency, even with lights and sirens, you should:",
     "choices": [
-      "Assume all motorists will see you and yield the right-of-way",
+      "Assume that motorists will see you and yield the right-of-way",
       "Never assume warning devices give you an absolute right-of-way; proceed with caution",
-      "Drive as fast as possible",
-      "Skip stopping at red lights"
+      "Maintain the highest safe speed to reach the scene faster",
+      "Treat red lights and stop signs as an automatic right-of-way"
     ],
     "answer": 1,
     "explanation": "Never assume warning devices grant an absolute right-of-way — motorists may not see or hear you (windows up, radio/AC on). Proceed with caution and drive defensively with due regard for the safety of others.",
@@ -5814,10 +5814,10 @@
     "chapterTitle": "Transportation",
     "question": "When parking an emergency vehicle at a scene with a hazard like leaking fuel or hazardous materials, you should position the vehicle:",
     "choices": [
-      "As close to the hazard as possible",
+      "As close to the hazard as possible to help contain it",
       "Uphill, upwind, and at a safe distance",
-      "Downhill and downwind for a quick exit",
-      "Directly over the spill to contain it"
+      "Downhill and downwind so you can leave quickly",
+      "Directly over the spill to keep it from spreading"
     ],
     "answer": 1,
     "explanation": "With hazards like leaking fuel/gas or hazardous materials present, position the vehicle uphill, upwind, and at a safe distance, and so it protects you and the patient from other motorists.",
@@ -5842,7 +5842,7 @@
     "chapterTitle": "Transportation",
     "question": "Which of the following should you NOT use to illuminate a helicopter landing site?",
     "choices": [
-      "Portable lights",
+      "Portable electric lights",
       "Emergency vehicle warning lights around the perimeter",
       "Flares",
       "Traffic cones with reflectors"
@@ -5884,10 +5884,10 @@
     "chapterTitle": "Transportation",
     "question": "When approaching a helicopter that has landed on an incline, you should approach from:",
     "choices": [
-      "The uphill side",
+      "From the uphill side",
       "The downhill side",
-      "The rear",
-      "Directly under the main rotor"
+      "From directly behind the aircraft",
+      "From directly beneath the main rotor"
     ],
     "answer": 1,
     "explanation": "Approach or depart a helicopter from the downhill side when it has landed on an incline — this keeps you clear of the main rotor blades, which are lower on the uphill side.",
@@ -5926,10 +5926,10 @@
     "chapterTitle": "Multiple-Casualty Incidents",
     "question": "What is a multiple-casualty incident (MCI)?",
     "choices": [
-      "Any incident with a single critically injured patient",
+      "An incident with one critically injured patient",
       "A situation involving two or more patients",
-      "An incident that only involves natural disasters",
-      "An incident requiring a helicopter"
+      "An incident caused specifically by a natural disaster",
+      "Any incident serious enough to require a helicopter"
     ],
     "answer": 1,
     "explanation": "An MCI is any situation involving two or more patients — from a two-person car crash to large-scale events with hundreds of patients.",
@@ -5982,10 +5982,10 @@
     "chapterTitle": "Multiple-Casualty Incidents",
     "question": "In an MCI, what is the FIRST thing responders do with patients using the START system?",
     "choices": [
-      "Begin CPR on anyone in cardiac arrest",
+      "Start CPR on anyone found in cardiac arrest",
       "Clear the area of all minor-category patients (the \"walking wounded\") by directing them to a designated area",
-      "Take full vital signs on every patient",
-      "Transport the closest patient first"
+      "Take a full set of vital signs on every patient",
+      "Transport the nearest patient to hospital first"
     ],
     "answer": 1,
     "explanation": "First, direct all patients who can walk unassisted (the \"walking wounded,\" minor/green category) to a designated area for later evaluation. Then quickly assess the remaining patients into the other categories.",
@@ -6080,10 +6080,10 @@
     "chapterTitle": "Multiple-Casualty Incidents",
     "question": "What is \"directed first aid\" in a CBRNE incident?",
     "choices": [
-      "First aid provided only by paramedics",
+      "First aid that only paramedics are permitted to perform",
       "Care a patient provides to themselves (or another patient) while being verbally directed by a more qualified person from a distance",
-      "First aid directed by the incident commander over radio to responders",
-      "A written protocol posted at the scene"
+      "Instructions the incident commander radios to the responders",
+      "A standard first aid protocol posted at the scene entrance"
     ],
     "answer": 1,
     "explanation": "Directed first aid is care a patient performs on themselves (or on another patient) while being guided by a more qualified person. It's useful when responders can't safely reach or touch a contaminated patient. Many interventions (like applying pressure to bleeding) are simple to describe.",
@@ -6094,10 +6094,10 @@
     "chapterTitle": "Multiple-Casualty Incidents",
     "question": "Before a patient can leave a CBRNE scene, what must happen?",
     "choices": [
-      "Nothing special — they leave as in any MCI",
+      "Nothing special — they may leave as in any MCI",
       "They must be decontaminated (an emergency wash-down is a rapid preliminary step, not a substitute for proper decontamination)",
-      "They must give a statement to police",
-      "They must be tagged green"
+      "They must first give a statement to law enforcement",
+      "They must be re-triaged and tagged green"
     ],
     "answer": 1,
     "explanation": "A contaminated patient must be decontaminated before leaving the scene to prevent further harm and avoid contaminating others. Emergency wash-down (removing clothing and washing with soap and water) is a rapid preliminary measure but not a replacement for formal decontamination.",
@@ -6150,9 +6150,9 @@
     "chapterTitle": "Multiple-Casualty Incidents",
     "question": "When is triage necessary?",
     "choices": [
-      "Whenever two or more patients require care simultaneously",
-      "Whenever two or more patients are injured in a CBRNE event",
-      "Whenever only one responder is available",
+      "Whenever two or more patients need care at the same time",
+      "Only during a declared CBRNE or mass-casualty event",
+      "Whenever a single responder is working alone",
       "Whenever there are more patients than responders"
     ],
     "answer": 3,
@@ -6206,10 +6206,10 @@
     "chapterTitle": "Multiple-Casualty Incidents",
     "question": "How is triage different in a CBRNE event?",
     "choices": [
-      "The patients' level of responsiveness should not be assessed",
+      "Level of responsiveness is not assessed in a CBRNE event",
       "Patients should be assessed only by specialized personnel with appropriate PPE",
-      "Patients with dyspnea are automatically immediate",
-      "Patients should assess themselves or one another"
+      "Any patient with dyspnea is automatically tagged immediate",
+      "Triage is skipped in favour of mass decontamination"
     ],
     "answer": 1,
     "explanation": "Because patients may be contaminated, initial assessment in a CBRNE event should be done by specialized personnel with appropriate PPE (or after decontamination).",
@@ -6249,9 +6249,9 @@
     "question": "In a CBRNE event, who should establish perimeters around the affected area?",
     "choices": [
       "The first responders on the scene",
-      "The incident commander",
+      "The incident commander once they arrive",
       "The local public health authority",
-      "The first personnel with specialized PPE"
+      "The first hazmat team to arrive with PPE"
     ],
     "answer": 0,
     "explanation": "Inner and outer perimeters should be established quickly by the first responders on scene to reduce the risk of contaminating additional people.",
@@ -6290,10 +6290,10 @@
     "chapterTitle": "Pharmacology",
     "question": "Which of the following is an example of ADMINISTERING (not just assisting with) medication?",
     "choices": [
-      "Opening the lid of a pill bottle",
-      "Reading a medication's label aloud",
+      "Unscrewing the lid of a pill bottle for the patient",
+      "Reading the medication's label and dosage aloud",
       "Placing medication in a patient's mouth or injecting it",
-      "Opening an epinephrine auto-injector"
+      "Handing the patient their own epinephrine auto-injector"
     ],
     "answer": 2,
     "explanation": "Administering includes injecting a medication, placing medication in a patient's mouth, placing a transdermal patch on the skin, or spraying medication into the nose. Opening a bottle, reading a label, or unwrapping a patch are assisting.",
@@ -6318,10 +6318,10 @@
     "chapterTitle": "Pharmacology",
     "question": "A drug administered SUBLINGUALLY is:",
     "choices": [
-      "Swallowed and absorbed through the digestive system",
+      "Swallowed and absorbed through the stomach and intestines",
       "Placed under the tongue for rapid absorption into the blood (not to be swallowed)",
-      "Injected into a muscle",
-      "Inhaled into the lungs"
+      "Injected into the large muscle of the thigh",
+      "Breathed in as a fine mist through an inhaler"
     ],
     "answer": 1,
     "explanation": "Sublingual medications are placed under the tongue and rapidly absorbed into the blood. They should not be swallowed or inhaled, and the patient shouldn't take anything else by mouth until the drug is fully absorbed (e.g., nitroglycerin).",
@@ -6349,7 +6349,7 @@
       "The kidneys",
       "The liver",
       "The lungs",
-      "The stomach"
+      "The pancreas"
     ],
     "answer": 1,
     "explanation": "The liver is the primary site of biotransformation, chemically converting a drug into a metabolite (detoxifying it). If metabolism is delayed, drug accumulation and cumulative effects can occur.",
@@ -6402,10 +6402,10 @@
     "chapterTitle": "Pharmacology",
     "question": "At what angle is a subcutaneous injection inserted?",
     "choices": [
-      "A 5- to 7-degree angle, nearly parallel to the skin",
+      "A 5- to 15-degree angle, almost flat against the skin",
       "A 30- to 45-degree angle into a fold of pinched skin",
-      "A 90-degree (right) angle into muscle",
-      "Straight down into a vein"
+      "A 90-degree angle straight into the muscle",
+      "Straight down into a surface vein"
     ],
     "answer": 1,
     "explanation": "A subcutaneous injection goes into the fat below the skin: pinch a fold of skin and insert the needle at a 30- to 45-degree angle to about 2 cm deep. Draw back the plunger; if no blood appears, inject. (Intramuscular is 90°; intradermal is 5–7°.)",
@@ -6473,9 +6473,9 @@
     "question": "In addition to confirming the Six Rights of Medication, which of the following should you also do?",
     "choices": [
       "Confirm that the medication has not expired",
-      "Confirm that the prescribing doctor has a valid license",
-      "Confirm the patient's symptoms match her presentation",
-      "Confirm that the patient is who she claims to be"
+      "Confirm the prescribing physician is still licensed",
+      "Confirm which pharmacy filled the prescription",
+      "Confirm the medication is covered by insurance"
     ],
     "answer": 0,
     "explanation": "Also check the medication's colour, clarity (no particles), concentration, and expiration date.",
@@ -6528,10 +6528,10 @@
     "chapterTitle": "Marine Environment",
     "question": "How often must a ship's first aid kit, medicine chest, and medical guide be inspected by a qualified person?",
     "choices": [
-      "Every voyage",
+      "Before and after every voyage",
       "At least once every 12 months",
-      "Every 5 years",
-      "Only when supplies run out"
+      "At least once every five years",
+      "Only when the supplies run low"
     ],
     "answer": 1,
     "explanation": "The first aid kit, medicine chest, medical equipment, and medical guide must be properly maintained and inspected by a qualified person at least once every 12 months.",
@@ -6612,10 +6612,10 @@
     "chapterTitle": "Marine Environment",
     "question": "What is immersion foot (trench foot) caused by?",
     "choices": [
-      "Frostbite from below-freezing water",
+      "Frostbite of the toes in below-freezing water",
       "Exposure of the feet to water above freezing but usually below 10°C for more than 12 hours",
-      "A bacterial infection from seawater",
-      "Wearing boots that are too loose"
+      "A bacterial infection picked up from seawater",
+      "Prolonged wear of boots that are too loose"
     ],
     "answer": 1,
     "explanation": "Immersion foot results from exposing the lower extremities to water above freezing (usually below 10°C/50°F) for more than 12 hours — common in shipwreck survivors with wet, constrictive clothing. Signs: swollen, cold, waxy feet, peeling skin, and reduced sensation. Warm the feet slowly.",
@@ -6626,10 +6626,10 @@
     "chapterTitle": "Marine Environment",
     "question": "How should you care for a shipwreck survivor who is contaminated with oil?",
     "choices": [
-      "Scrub all areas vigorously immediately",
+      "Scrub all oiled areas hard and immediately",
       "Clean the skin only after the patient is warm and comfortable (but clean around the mouth and eyes immediately); avoid wiping any burned areas directly",
-      "Leave the oil on to protect the skin",
-      "Rinse only with cold seawater"
+      "Leave the oil in place to protect the skin from cold",
+      "Rinse the patient only with cold seawater"
     ],
     "answer": 1,
     "explanation": "Clean the skin only after the patient is warm and comfortable — but clean around the mouth and eyes immediately. Wipe with a soft cloth/paper towels and have them shower with soap and shampoo. Do not directly wipe any areas showing signs of burns. Oil can cause breathing trouble if inhaled or nausea/vomiting if ingested.",
@@ -6670,8 +6670,8 @@
     "choices": [
       "\"For emergency use only\"",
       "\"Give only on radio medical advice from a physician\"",
-      "\"Captain's discretion\"",
-      "\"Do not use at sea\""
+      "\"To be given at the captain's discretion\"",
+      "\"Not to be administered while at sea\""
     ],
     "answer": 1,
     "explanation": "Medications that can't be given without a physician's approval should be labelled \"Give only on radio medical advice from a physician.\" A drug guide on board outlines side effects and precautions; nitroglycerin spray, for example, is restricted to use on a doctor's advice.",
@@ -6696,10 +6696,10 @@
     "chapterTitle": "Workplace",
     "question": "Can a supervisor override the first aid attendant's decision about the treatment of an ill or injured worker?",
     "choices": [
-      "Yes, supervisors always have final authority",
+      "Yes — the supervisor always has the final say",
       "No — supervisors cannot override the first aid attendant's decision regarding treatment",
-      "Only if the supervisor has first aid training",
-      "Only for minor injuries"
+      "Only if the supervisor also holds a first aid certificate",
+      "Only when the injury is judged to be minor"
     ],
     "answer": 1,
     "explanation": "Supervisors cannot override the decision of the first aid attendant regarding the treatment of an ill or injured person. The patient is the attendant's responsibility until care is transferred to qualified EMS or hospital staff.",
@@ -6710,10 +6710,10 @@
     "chapterTitle": "Workplace",
     "question": "Approximately when should the first aid attendant conduct follow-up with an ill or injured person?",
     "choices": [
-      "Immediately at the scene only",
+      "Only at the scene, before care is transferred",
       "About three days after the person returns to work",
-      "One month later",
-      "Follow-up is not required"
+      "Roughly one month after the incident",
+      "Follow-up with the person is not required"
     ],
     "answer": 1,
     "explanation": "The advanced first aid attendant should conduct follow-up with the ill or injured person approximately three days after the person returns to work, and document that follow-up.",
@@ -6738,10 +6738,10 @@
     "chapterTitle": "Workplace",
     "question": "What is the purpose of lock-out/tag-out procedures in a workplace?",
     "choices": [
-      "To lock the first aid room",
+      "To keep the first aid room secured",
       "To safeguard against the unexpected start-up of machinery or release of hazardous energy during maintenance",
-      "To tag injured workers for triage",
-      "To lock hazardous chemicals away"
+      "To label and sort injured workers during triage",
+      "To lock hazardous chemicals away from staff"
     ],
     "answer": 1,
     "explanation": "Lock-out/tag-out procedures prevent the unexpected start-up of machinery/equipment or release of hazardous energy during maintenance. The machine is turned off and disconnected, and an authorized employee locks or tags the energy-isolating device.",
@@ -6797,7 +6797,7 @@
       "The head and neck",
       "The hands and arms (often caught in machinery)",
       "The feet and ankles",
-      "The chest and abdomen"
+      "The lower back"
     ],
     "answer": 1,
     "explanation": "Workplace injuries most often involve the hands and arms, which can get caught in machinery. Common workplace injuries include soft tissue injuries, musculoskeletal injuries, head/spinal injuries, and poisoning.",
@@ -6866,8 +6866,8 @@
     "choices": [
       "Machinery and tractors",
       "Farm animals (livestock)",
-      "They cause equal numbers",
-      "Neither causes significant injuries"
+      "They cause roughly equal numbers of injuries",
+      "Neither is a significant source of farm injuries"
     ],
     "answer": 1,
     "explanation": "There are more injuries each year from farm animals than from tractors or machinery. Poor judgment and lack of understanding of animal behaviour are the main causes. Never enter an area with unsecured livestock, and flush animal feces from any wound.",
