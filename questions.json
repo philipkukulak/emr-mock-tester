@@ -917,7 +917,7 @@
       "The cerebellum",
       "The medulla oblongata",
       "The hypothalamus",
-      "The pons"
+      "The thalamus"
     ],
     "answer": 1,
     "explanation": "The involuntary breathing process is controlled by the medulla oblongata at the base of the brain.",
@@ -1587,9 +1587,9 @@
     "question": "During assisted ventilation, air entering the stomach (gastric distension) is dangerous mainly because it can:",
     "choices": [
       "Cause the patient to vomit and aspirate stomach contents",
-      "Reduce lung volume, making ventilations less effective",
-      "Push air past the epiglottis and out through the nose",
-      "Slow the heart by putting pressure on the vagus nerve"
+      "Cause the extra air to be absorbed into the bloodstream",
+      "Trigger an allergic reaction to the ventilations",
+      "Cause the patient's blood sugar to drop"
     ],
     "answer": 0,
     "explanation": "Gastric distension can cause vomiting; an unresponsive patient may then aspirate the contents, impairing breathing and risking airway obstruction. Avoid it with proper head tilt, gentle volume, and a steady rhythm.",
@@ -2176,7 +2176,7 @@
     "choices": [
       "Mild, moderate, and severe",
       "Compensated, decompensated, irreversible",
-      "Initial, progressive, and refractory",
+      "Primary, secondary, and tertiary",
       "Acute, subacute, and chronic"
     ],
     "answer": 1,
@@ -2219,7 +2219,7 @@
       "Sitting upright to ease breathing",
       "Supine, sometimes with the feet elevated 20 to 30 cm",
       "Prone, lying face-down",
-      "On the left side in the recovery position"
+      "Seated with the legs hanging down"
     ],
     "answer": 1,
     "explanation": "A supine position increases blood flow to vital organs; elevating the feet 20–30 cm (shock/Trendelenburg position) can further help — but not if there is trauma stressing the cardiovascular system or if systolic BP is over 100 mmHg.",
@@ -4764,9 +4764,9 @@
     "chapterTitle": "Pregnancy, Labour, and Delivery",
     "question": "After delivery, how does encouraging the mother to breastfeed help?",
     "choices": [
-      "It helps the placenta detach more quickly",
+      "It replaces fluids and nutrients the mother lost during birth",
       "It stimulates the uterus to contract, which helps slow bleeding",
-      "It raises the mother's blood pressure back to normal",
+      "It quickly restores the mother's blood pressure to normal",
       "It has no real medical effect at this stage"
     ],
     "answer": 1,
