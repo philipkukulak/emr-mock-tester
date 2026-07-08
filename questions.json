@@ -515,7 +515,8 @@
     ],
     "answer": 3,
     "explanation": "Clues include placards/transport tanks, vapour clouds, spilled liquids or solids, unusual odours, and leaking containers — all of the above.",
-    "source": "workbook"
+    "source": "workbook",
+    "fixedChoices": true
   },
   {
     "chapter": 2,
@@ -795,7 +796,8 @@
     ],
     "answer": 3,
     "explanation": "Full PPE is indicated both for hemorrhage control with spurting blood and for caring for a patient with a transmissible respiratory illness.",
-    "source": "workbook"
+    "source": "workbook",
+    "fixedChoices": true
   },
   {
     "chapter": 3,
@@ -1047,7 +1049,8 @@
     ],
     "answer": 3,
     "explanation": "Arteries carry blood away from the heart: systemic arteries to the body tissues, and the pulmonary artery from the heart to the lungs.",
-    "source": "workbook"
+    "source": "workbook",
+    "fixedChoices": true
   },
   {
     "chapter": 4,
@@ -2055,7 +2058,8 @@
     ],
     "answer": 0,
     "explanation": "The ventilator (Responder B) can check the effectiveness of compressions by feeling for the carotid (or brachial in infants) pulse and give feedback to the compressor.",
-    "source": "workbook"
+    "source": "workbook",
+    "fixedChoices": true
   },
   {
     "chapter": 7,
@@ -2069,7 +2073,8 @@
     ],
     "answer": 1,
     "explanation": "CPR artificially replicates the lungs and heart to keep oxygenated blood — especially to the brain — circulating until advanced care is available.",
-    "source": "workbook"
+    "source": "workbook",
+    "fixedChoices": true
   },
   {
     "chapter": 7,
@@ -2335,7 +2340,8 @@
     ],
     "answer": 3,
     "explanation": "Neurogenic (spinal injury), hemorrhagic (amputation), and hypovolemic (dehydration) causes can all lead to shock.",
-    "source": "workbook"
+    "source": "workbook",
+    "fixedChoices": true
   },
   {
     "chapter": 8,
@@ -2671,7 +2677,8 @@
     ],
     "answer": 3,
     "explanation": "External bleeding is a life-threatening hemorrhage when blood spurts from a wound or cannot be easily controlled.",
-    "source": "workbook"
+    "source": "workbook",
+    "fixedChoices": true
   },
   {
     "chapter": 9,
@@ -2727,7 +2734,8 @@
     ],
     "answer": 3,
     "explanation": "Electrocution (including lightning) can cause burns with entry and exit wounds, and — because of the powerful forces — spinal injuries and other fractures.",
-    "source": "workbook"
+    "source": "workbook",
+    "fixedChoices": true
   },
   {
     "chapter": 9,
@@ -2741,7 +2749,8 @@
     ],
     "answer": 2,
     "explanation": "Full-thickness (third-degree) burns destroy all skin layers and may look brown or charred with white tissue beneath.",
-    "source": "workbook"
+    "source": "workbook",
+    "fixedChoices": true
   },
   {
     "chapter": 9,
@@ -2769,7 +2778,8 @@
     ],
     "answer": 3,
     "explanation": "A full-thickness burn of any size is critical, and any partial- or full-thickness burn on an older adult is critical — both need advanced care.",
-    "source": "workbook"
+    "source": "workbook",
+    "fixedChoices": true
   },
   {
     "chapter": 9,
@@ -3049,7 +3059,8 @@
     ],
     "answer": 3,
     "explanation": "A femur fracture may be immobilized with a traction splint, rigid splints (lateral and medial), or by securing it to the uninjured leg (anatomical splint).",
-    "source": "workbook"
+    "source": "workbook",
+    "fixedChoices": true
   },
   {
     "chapter": 10,
@@ -3427,7 +3438,8 @@
     ],
     "answer": 3,
     "explanation": "Remove clothing around the wound, cover the organs loosely with moist sterile dressings, and keep the area warm — do not touch or replace the organs.",
-    "source": "workbook"
+    "source": "workbook",
+    "fixedChoices": true
   },
   {
     "chapter": 11,
@@ -3749,7 +3761,8 @@
     ],
     "answer": 3,
     "explanation": "Do not force in-line stabilization if the head is severely angulated, you feel resistance, or the patient reports pain, pressure, or muscle spasms — support the head in the position found.",
-    "source": "workbook"
+    "source": "workbook",
+    "fixedChoices": true
   },
   {
     "chapter": 12,
@@ -3777,7 +3790,8 @@
     ],
     "answer": 3,
     "explanation": "Brain injury can alter pupils and level of responsiveness, pulse and blood pressure (Cushing's triad includes rising BP and slowing pulse), and respiration.",
-    "source": "workbook"
+    "source": "workbook",
+    "fixedChoices": true
   },
   {
     "chapter": 13,
@@ -4911,7 +4925,8 @@
     ],
     "answer": 3,
     "explanation": "Slow, deep breathing aids muscle relaxation, distracts from contraction pain, and ensures adequate oxygen for both mother and baby.",
-    "source": "workbook"
+    "source": "workbook",
+    "fixedChoices": true
   },
   {
     "chapter": 16,
@@ -5905,7 +5920,8 @@
     ],
     "answer": 3,
     "explanation": "Use audible and visual warning devices according to local protocols and provincial/territorial motor vehicle laws.",
-    "source": "workbook"
+    "source": "workbook",
+    "fixedChoices": true
   },
   {
     "chapter": 20,
@@ -5919,7 +5935,8 @@
     ],
     "answer": 3,
     "explanation": "During transport, warning-device use is based on patient assessment/type of call, local protocols, and provincial/territorial laws.",
-    "source": "workbook"
+    "source": "workbook",
+    "fixedChoices": true
   },
   {
     "chapter": 21,

@@ -175,6 +175,20 @@ function buildQuiz(reshuffle) {
   }
   orderCache.set(sel, ordered.map((q) => q._key));
 
+  // Give each question a display order for its answer choices. It's shuffled
+  // once so the options stay put while the user pages back and forth, and is
+  // reshuffled on Restart. The stored answer stays an ORIGINAL choice index,
+  // so scoring, persistence, and the review screen are unaffected. Questions
+  // flagged fixedChoices (e.g. options like "Both a and c" or "All of the
+  // above") keep their original order so the letter references stay correct.
+  for (const q of ordered) {
+    if (q.fixedChoices) {
+      q._choiceOrder = q.choices.map((_, i) => i);
+    } else if (reshuffle || !q._choiceOrder) {
+      q._choiceOrder = shuffle(q.choices.map((_, i) => i));
+    }
+  }
+
   questions = ordered;
   current = 0;
   setView("quiz");
@@ -228,18 +242,19 @@ function render() {
   els.question.textContent = q.question;
 
   els.choices.replaceChildren();
-  q.choices.forEach((choice, i) => {
+  const order = q._choiceOrder || q.choices.map((_, i) => i);
+  order.forEach((origIdx) => {
     const btn = document.createElement("button");
     btn.type = "button";
     btn.className = "choice";
-    btn.textContent = choice;
+    btn.textContent = q.choices[origIdx];
     if (answered) {
       btn.disabled = true;
-      if (i === q.answer) btn.classList.add("correct");
-      else if (i === picked) btn.classList.add("incorrect");
+      if (origIdx === q.answer) btn.classList.add("correct");
+      else if (origIdx === picked) btn.classList.add("incorrect");
     } else {
       btn.addEventListener("click", () => {
-        answersByKey.set(q._key, i);
+        answersByKey.set(q._key, origIdx);
         persist();
         refreshChapterMenuMarks();
         render();
