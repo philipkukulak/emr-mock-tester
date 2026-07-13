@@ -233,15 +233,15 @@
   {
     "chapter": 2,
     "chapterTitle": "Responding to the Call",
-    "question": "You arrive at a suspected crime scene before police. What should you do?",
+    "question": "You arrive at a violent assault scene before police, and the victim is bleeding. What should you do FIRST?",
     "choices": [
-      "Enter carefully and begin patient care immediately",
-      "Retreat and wait until police arrive and indicate it is safe to enter",
-      "Secure the evidence yourself, then treat the patient",
-      "Move the patient outside the scene perimeter"
+      "Stay back and wait for police to secure the scene",
+      "Approach and control the visible bleeding right away",
+      "Enter and move the victim to a safer spot",
+      "Kneel beside the victim and begin your primary assessment"
     ],
-    "answer": 1,
-    "explanation": "At a suspected crime scene, your safety is paramount: retreat and wait for police to declare the scene safe, notifying them immediately if they haven't been dispatched.",
+    "answer": 0,
+    "explanation": "Scene safety comes before patient care — the attacker may still be present. Controlling bleeding is normally right, but here it is a correct action at the wrong time: it must wait until police make the scene safe.",
     "source": "generated",
     "difficulty": "hard"
   },
@@ -276,15 +276,15 @@
   {
     "chapter": 2,
     "chapterTitle": "Responding to the Call",
-    "question": "A vehicle is in contact with a downed electrical wire and the occupants appear seriously injured. What should you do?",
+    "question": "A vehicle is in contact with a downed electrical wire and the occupants appear seriously injured. Which should you NOT do?",
     "choices": [
-      "Pull the occupants clear of the vehicle as quickly as possible",
-      "Tell the occupants to stay inside, keep still, and not touch anything",
-      "Push the wire off the vehicle with a dry wooden pole, then help them out",
-      "Have the occupants step out one at a time, avoiding the wire"
+      "Pull the occupants out of the vehicle to safety",
+      "Tell the occupants to stay inside and keep still",
+      "Keep yourself and bystanders well back from the vehicle",
+      "Wait for the utility company to confirm the power is off"
     ],
-    "answer": 1,
-    "explanation": "Never touch the vehicle or attempt removal, no matter how injured the occupants seem. They should remain calm, stay inside, keep still, and avoid touching each other until power is confirmed off.",
+    "answer": 0,
+    "explanation": "Touching or removing occupants from an energized vehicle can be fatal. Telling them to stay still inside, keeping everyone back, and waiting for the power to be confirmed off are the correct actions.",
     "source": "generated",
     "difficulty": "hard"
   },
@@ -363,15 +363,15 @@
   {
     "chapter": 2,
     "chapterTitle": "Responding to the Call",
-    "question": "Appropriate resources are handling a crashed truck. You move to a car with passengers. What should be your first step?",
+    "question": "Appropriate crews are handling a crashed truck, and you move to a car with injured passengers. What should you do FIRST?",
     "choices": [
-      "Climbing into the car to assess the people inside",
-      "Asking the people in the car to climb out",
-      "Ensuring that the car has been stabilized and is safe",
-      "Gathering people to help you roll the car upright"
+      "Make sure the car is stabilized and safe",
+      "Climb in and start assessing the passengers",
+      "Ask the passengers to climb out to you",
+      "Begin controlling any bleeding you can see"
     ],
-    "answer": 2,
-    "explanation": "All vehicles must be stabilized and confirmed safe before you attempt to access occupants.",
+    "answer": 0,
+    "explanation": "Patient care — even bleeding control — waits until the vehicle is stabilized and the scene is safe. Assessing or treating in an unstable car risks injury to you and the patients.",
     "source": "workbook",
     "difficulty": "hard"
   },
@@ -612,15 +612,15 @@
   {
     "chapter": 3,
     "chapterTitle": "Infection Prevention and Control",
-    "question": "You have a needle you just used to give an injection. To avoid a needle-stick injury, you should:",
+    "question": "You have just used a needle to give an injection. To avoid a needle-stick injury, which should you NOT do?",
     "choices": [
-      "Drop it, uncapped, straight into a puncture-resistant sharps container without recapping",
-      "Carefully recap it using both hands before disposal",
-      "Bend or break the needle so it cannot be reused",
-      "Recap it after rinsing it in disinfectant"
+      "Recap the needle before putting it in the bin",
+      "Drop it uncapped into a puncture-resistant sharps container",
+      "Avoid bending or breaking the needle",
+      "Dispose of it immediately after use"
     ],
     "answer": 0,
-    "explanation": "Most needle-stick injuries happen during recapping. The safe practice is to never recap, bend, or break needles — dispose of them uncapped directly into a sharps container. All three other options involve handling the exposed needle again.",
+    "explanation": "Recapping causes most needle-stick injuries — never do it. Dropping the uncapped needle into a sharps container, not bending/breaking it, and disposing immediately are the safe practices.",
     "source": "gotcha",
     "difficulty": "hard"
   },
@@ -887,15 +887,15 @@
   {
     "chapter": 5,
     "chapterTitle": "Assessment",
-    "question": "A patient in obvious respiratory distress has an SpO2 reading of 95%. What should you do?",
+    "question": "A patient in obvious respiratory distress has an SpO2 reading of 95%. What should you NOT do?",
     "choices": [
-      "Withhold oxygen, since 95% is within the normal range",
-      "Treat the patient's clinical presentation and provide supplemental oxygen despite the reading",
-      "Recheck the reading in 15 minutes before deciding",
-      "Assume the oximeter is faulty and disregard the patient's distress"
+      "Withhold oxygen because 95% is within the normal range",
+      "Give supplemental oxygen despite the reading",
+      "Continue to monitor the patient's breathing and effort",
+      "Be prepared to assist ventilations if they tire"
     ],
-    "answer": 1,
-    "explanation": "Treat the patient, not the pulse oximeter. If a patient appears to be in respiratory distress, do not withhold oxygen based on the SpO2 reading alone.",
+    "answer": 0,
+    "explanation": "Treat the patient, not the number. A distressed patient needs oxygen even when SpO2 looks normal, so withholding it is the one thing you must not do. Giving oxygen, monitoring, and preparing to assist ventilations are all appropriate.",
     "source": "generated",
     "difficulty": "hard"
   },
@@ -1202,15 +1202,15 @@
   {
     "chapter": 6,
     "chapterTitle": "Airway Management and Respiratory Emergencies",
-    "question": "An unresponsive woman is not breathing but has a pulse. After opening her airway you should:",
+    "question": "An unresponsive woman is not breathing but she DOES have a pulse. After opening her airway, what should you do NEXT?",
     "choices": [
-      "Attempt to give her a ventilation",
-      "Check for bystanders who can answer SAMPLE questions",
+      "Give a rescue ventilation",
       "Begin chest compressions",
-      "Do a finger sweep of her mouth"
+      "Do a finger sweep of her mouth",
+      "Check for bystanders to gather a history"
     ],
     "answer": 0,
-    "explanation": "A patient with a pulse but no breathing is in respiratory arrest — attempt to ventilate. (If the breath doesn't go in, reposition and try again; a completely obstructed airway then needs obstruction care.)",
+    "explanation": "With a pulse present she needs ventilations, not compressions — starting compressions on a perfused patient is the classic precedence error. A blind finger sweep and history-taking both come later, if at all.",
     "source": "workbook",
     "difficulty": "hard"
   },
@@ -1274,15 +1274,15 @@
   {
     "chapter": 6,
     "chapterTitle": "Airway Management and Respiratory Emergencies",
-    "question": "You are caring for an unresponsive choking patient. If your first ventilation does not go in, you should:",
+    "question": "You are ventilating an unresponsive choking patient and your first ventilation does not go in. What should you do NEXT?",
     "choices": [
-      "Do 30 chest compressions",
-      "Attempt another ventilation with slightly more force",
-      "Do a finger sweep of the mouth",
-      "Reposition the patient's head and attempt another ventilation"
+      "Reposition the head and attempt another ventilation",
+      "Move straight to chest compressions",
+      "Do a blind finger sweep of the mouth",
+      "Attempt the next ventilation with much more force"
     ],
-    "answer": 3,
-    "explanation": "If the first ventilation doesn't go in, reposition the head (re-tilt) and attempt a second ventilation before moving on to obstruction care.",
+    "answer": 0,
+    "explanation": "A failed ventilation is most often a positioning problem, so the next step is to reposition the airway and try again before anything else. Jumping to compressions, a blind finger sweep, or forcing air in are all wrong or premature.",
     "source": "workbook",
     "difficulty": "hard"
   },
@@ -1610,15 +1610,15 @@
   {
     "chapter": 7,
     "chapterTitle": "Circulatory Emergencies",
-    "question": "You witness a 4-year-old collapse in cardiac arrest. You have started CPR and an AED is available. What should you do about the AED?",
+    "question": "A 4-year-old is in cardiac arrest with CPR underway and an AED available. Which is NOT appropriate?",
     "choices": [
-      "Use the AED on the child, using pediatric pads/settings if available",
-      "Do not use an AED on a child — it is only for adults",
-      "Do not use the AED, because children's hearts are structurally different",
-      "Stop CPR and simply wait for paramedics to defibrillate"
+      "Withhold the AED because it is only for adults",
+      "Apply the AED, using pediatric pads or settings if available",
+      "Continue high-quality chest compressions between analyses",
+      "Follow the AED's voice prompts"
     ],
     "answer": 0,
-    "explanation": "AEDs are used on children in cardiac arrest (with pediatric pads/settings when available). Refusing to defibrillate a child, or stopping CPR to wait, both worsen survival. The \"adults only\" myth is the trap.",
+    "explanation": "AEDs are used on children in cardiac arrest — withholding it is the wrong call. Applying it (with pediatric pads/settings if available), continuing good compressions, and following the prompts are correct.",
     "source": "gotcha",
     "difficulty": "hard"
   },
@@ -1828,15 +1828,15 @@
   {
     "chapter": 8,
     "chapterTitle": "Shock",
-    "question": "A patient shows early signs of shock after a crash and keeps asking for water because they are thirsty. What should you do?",
+    "question": "A patient shows early signs of shock after a crash and keeps asking for water because they are thirsty. Which action would be INAPPROPRIATE?",
     "choices": [
-      "Give nothing by mouth, even though they are thirsty",
-      "Give small sips of water to keep them hydrated",
-      "Give water only if their blood pressure is still normal",
-      "Give an electrolyte sports drink instead of water"
+      "Give small sips of water to relieve the thirst",
+      "Give high-flow supplemental oxygen",
+      "Keep the patient warm and lying down",
+      "Reassure the patient and monitor for deterioration"
     ],
     "answer": 0,
-    "explanation": "A shock patient is given nothing by mouth: they may need surgery, and vomiting/aspiration is a serious risk. Thirst is expected and does not justify fluids — so all of the \"give something\" options are wrong.",
+    "explanation": "A shock patient is given nothing by mouth — they may need surgery and could vomit and aspirate — so offering water is inappropriate despite the thirst. Oxygen, warmth/positioning, and reassurance are all correct.",
     "source": "gotcha",
     "difficulty": "hard"
   },
@@ -1958,15 +1958,15 @@
   {
     "chapter": 9,
     "chapterTitle": "Hemorrhage and Soft Tissue Trauma",
-    "question": "How should an amputated body part be cared for to improve the chance of reattachment?",
+    "question": "A body part has been amputated. When caring for the severed part, which should you NOT do?",
     "choices": [
-      "Place it directly on ice to freeze it",
-      "Rinse with saline, wrap in sterile gauze, place in a plastic bag, then put that bag in a larger bag cooled with ice",
-      "Submerge it directly in ice water",
-      "Wrap it tightly in dry cloth and keep it warm"
+      "Pack the part directly in ice to freeze it",
+      "Rinse it with clean saline and wrap it in sterile gauze",
+      "Seal the wrapped part in a plastic bag",
+      "Keep that bag cool by placing it on ice"
     ],
-    "answer": 1,
-    "explanation": "Rinse the part with saline, wrap in sterile gauze, seal in a plastic bag, then place that bag in a larger bag cooled with ice or cold packs (don't freeze it directly). Label with name, date, and time; the patient is rapid transport.",
+    "answer": 0,
+    "explanation": "Freezing the part or putting it in direct contact with ice destroys the tissue. Rinse it, wrap it, bag it, and keep that bag cool on ice (not the part itself) to preserve it for possible reattachment.",
     "source": "generated",
     "difficulty": "hard"
   },
@@ -2321,15 +2321,15 @@
   {
     "chapter": 10,
     "chapterTitle": "Musculoskeletal Injuries",
-    "question": "A patient fell on an outstretched arm and the forearm looks deformed. Which two bones may be broken?",
+    "question": "A stable collision patient has a deformed forearm with a normal pulse and sensation in the hand, and you are partway through your head-to-toe exam. What should you do?",
     "choices": [
-      "Tibia and fibula",
-      "Radius and humerus",
-      "Ulna and carpals",
-      "Radius and ulna"
+      "Finish the head-to-toe exam, then splint the forearm",
+      "Stop and splint the forearm before continuing the exam",
+      "Splint it and transport before completing the exam",
+      "Apply a tourniquet just above the deformity"
     ],
-    "answer": 3,
-    "explanation": "The two forearm bones are the radius and ulna; a fall on an outstretched hand can break both.",
+    "answer": 0,
+    "explanation": "For a STABLE patient, treatment/interventions such as splinting come AFTER the head-to-toe examination — the forearm has good circulation and is not life-threatening, so splinting mid-exam is a correct action at the wrong time. A tourniquet is inappropriate for a closed, well-perfused fracture.",
     "source": "workbook",
     "difficulty": "hard"
   },
@@ -2451,15 +2451,15 @@
   {
     "chapter": 10,
     "chapterTitle": "Musculoskeletal Injuries",
-    "question": "You find an open fracture with the bone end protruding through the skin. How should you care for it?",
+    "question": "You are caring for an open fracture with the bone end protruding through the skin. Which should you NOT do?",
     "choices": [
-      "Control bleeding, cover the exposed bone with a moist sterile dressing, and immobilize it",
-      "Gently push the bone back under the skin to reduce contamination",
-      "Scrub the exposed bone clean before dressing it",
-      "Realign the limb to its normal straight position first"
+      "Push the protruding bone back under the skin",
+      "Control the bleeding around the wound",
+      "Cover the exposed bone with a moist sterile dressing",
+      "Immobilize the limb to prevent further movement"
     ],
     "answer": 0,
-    "explanation": "For an open fracture you cover and immobilize without pushing the bone back (which drives contaminants deep and causes further damage). Scrubbing or forcibly realigning the limb are also incorrect.",
+    "explanation": "Pushing the bone back drives contaminants deep and causes further damage — never do it. Controlling bleeding, covering with a moist sterile dressing, and immobilizing are the correct care.",
     "source": "gotcha",
     "difficulty": "hard"
   },
@@ -2710,15 +2710,15 @@
   {
     "chapter": 11,
     "chapterTitle": "Chest, Abdominal, and Pelvic Injuries",
-    "question": "You are dressing an open ('sucking') chest wound. What type of dressing should you use and why?",
+    "question": "You are caring for an open ('sucking') chest wound. Which is NOT appropriate?",
     "choices": [
-      "A non-occlusive dressing, so trapped air can escape and a tension pneumothorax is less likely",
-      "A fully occlusive dressing taped airtight on all four sides",
-      "A tight circumferential pressure bandage around the chest",
-      "No dressing — leave the wound completely open to the air"
+      "Seal the wound airtight on all four sides",
+      "Apply a non-occlusive dressing that lets trapped air escape",
+      "Give supplemental oxygen",
+      "Monitor for a developing tension pneumothorax and transport"
     ],
     "answer": 0,
-    "explanation": "A completely sealed (occlusive) chest wound can trap air and cause a life-threatening tension pneumothorax, so a non-occlusive dressing is used. A tight chest wrap would restrict breathing, and leaving it fully open is also not the taught care.",
+    "explanation": "A fully sealed (occlusive) chest wound can trap air and cause a tension pneumothorax, so an airtight seal is the wrong move. A non-occlusive dressing, oxygen, and monitoring/transport are correct.",
     "source": "gotcha",
     "difficulty": "hard"
   },
@@ -2797,15 +2797,15 @@
   {
     "chapter": 12,
     "chapterTitle": "Head and Spinal Injuries",
-    "question": "An athlete sustains a significant blow to the head during a game. What is the correct action?",
+    "question": "An athlete sustains a significant blow to the head during a game. Which is NOT appropriate?",
     "choices": [
-      "Allow them to keep playing as long as they have no symptoms",
-      "Remove them from the activity immediately, do not let them return to the game, monitor closely, and arrange medical evaluation",
-      "Let them sit out for a few minutes, then return if they feel fine",
-      "Remove them only if they actually lost consciousness"
+      "Let them keep playing as long as they feel fine",
+      "Remove them from play immediately",
+      "Monitor them closely for worsening symptoms",
+      "Arrange a medical evaluation"
     ],
-    "answer": 1,
-    "explanation": "Remove the athlete from the activity immediately regardless of whether symptoms are present, do not let them return to that game/practice, don't leave them alone, monitor closely, and arrange medical evaluation with a supervised return-to-sport process.",
+    "answer": 0,
+    "explanation": "Allowing return to play after a significant head blow is dangerous (risk of second-impact injury). Removing them immediately, monitoring, and arranging medical evaluation are the correct steps.",
     "source": "generated",
     "difficulty": "hard"
   },
@@ -2841,15 +2841,15 @@
   {
     "chapter": 12,
     "chapterTitle": "Head and Spinal Injuries",
-    "question": "When should spinal motion restriction (SMR) be initiated?",
+    "question": "Partway through the head-to-toe exam of a crash patient, your findings suggest a possible spinal injury. What should you do?",
     "choices": [
-      "Only after an X-ray confirms a fracture",
-      "For any patient with a suspected spinal injury, based on signs/symptoms and mechanism of injury",
-      "Only if the patient is unconscious",
-      "Never in the field"
+      "Address spinal motion restriction now, before continuing the exam",
+      "Finish the entire head-to-toe first, then immobilize the spine",
+      "Continue unless the patient complains of neck pain",
+      "Leave spinal care until you are ready to transport"
     ],
-    "answer": 1,
-    "explanation": "SMR should be initiated for any patient with a suspected spinal injury (considering signs/symptoms, MOI, age, and history). These patients are rapid transport. But if SMR interferes with life-saving care, saving the life takes priority.",
+    "answer": 0,
+    "explanation": "Unlike a minor injury (which you treat after the exam), a suspected head/spinal injury must be addressed BEFORE continuing the secondary assessment. Carrying on, waiting for neck pain, or deferring spinal care all risk cord injury from movement.",
     "source": "generated",
     "difficulty": "hard"
   },
@@ -3276,15 +3276,15 @@
   {
     "chapter": 14,
     "chapterTitle": "Poisoning",
-    "question": "For a stingray, sea urchin, or spiny fish sting, after flushing the wound you should:",
+    "question": "A patient has a stingray sting. After flushing the wound, which should you NOT do?",
     "choices": [
-      "Soak the area in ice water",
-      "Soak the affected area in water as hot as the patient can tolerate for about 30 minutes or until pain subsides",
-      "Apply a tourniquet above the sting",
-      "Cut the wound to release the venom"
+      "Pack the sting in ice",
+      "Soak the area in water as hot as the patient can tolerate",
+      "Keep soaking for about 30 minutes or until the pain eases",
+      "Watch the patient for an allergic reaction"
     ],
-    "answer": 1,
-    "explanation": "Flush the wound, immobilize the injured part, and soak it in water as hot as the patient can tolerate for ~30 minutes or until pain subsides, then clean and bandage. Watch for infection and check tetanus status.",
+    "answer": 0,
+    "explanation": "Heat helps deactivate the venom, so icing the sting is wrong. Soaking in hot water for about 30 minutes (or until pain eases) and watching for an allergic reaction are the correct care.",
     "source": "generated",
     "difficulty": "hard"
   },
@@ -3348,15 +3348,15 @@
   {
     "chapter": 14,
     "chapterTitle": "Poisoning",
-    "question": "A patient with suspected inhaled poisoning has rapid, shallow breathing and is unresponsive. What should you do?",
+    "question": "A patient with suspected inhaled poisoning is unresponsive with rapid, shallow breathing. Which should you NOT do?",
     "choices": [
-      "Give the patient something to make him vomit",
-      "Place the patient in the rapid transport category",
-      "Move him to open air and monitor for 5 to 10 minutes only",
-      "Check the patient's arms for needle marks"
+      "Induce vomiting to remove the poison",
+      "Get the patient to fresh air if the scene is safe",
+      "Support breathing and give oxygen",
+      "Place the patient in the rapid transport category"
     ],
-    "answer": 1,
-    "explanation": "Any patient with suspected inhaled poisoning should be in the rapid transport category, since respiration is often impaired. Move to safe air and provide interventions for respiratory distress.",
+    "answer": 0,
+    "explanation": "Inducing vomiting does nothing for an inhaled poison and risks aspiration. Getting the patient to fresh air (if safe), supporting breathing with oxygen, and rapid transport are the correct actions.",
     "source": "workbook",
     "difficulty": "hard"
   },
@@ -3435,15 +3435,15 @@
   {
     "chapter": 14,
     "chapterTitle": "Poisoning",
-    "question": "You find a young adult unresponsive with pinpoint pupils, slow and shallow breathing, and a needle on the floor beside them. What should you do?",
+    "question": "You find a young adult unresponsive with pinpoint pupils and slow, shallow breathing, with a needle nearby. Which should you NOT do?",
     "choices": [
-      "Support their breathing and give naloxone per your protocol",
-      "Give them something sugary in case it is a diabetic emergency",
-      "Induce vomiting to remove the drug",
-      "Sit them up and wait for them to wake on their own"
+      "Sit them up and wait for them to wake on their own",
+      "Support their breathing with assisted ventilations and oxygen",
+      "Give naloxone per your protocol",
+      "Arrange rapid transport"
     ],
     "answer": 0,
-    "explanation": "Pinpoint pupils plus slow, shallow breathing point to an opioid overdose — the immediate killer is respiratory depression, so support ventilation and give naloxone per protocol. Sugar, induced vomiting, and 'wait and see' all fail to address the failing breathing.",
+    "explanation": "The immediate killer in an opioid overdose is respiratory depression, so 'wait and see' is the wrong choice. Supporting ventilation, giving naloxone per protocol, and rapid transport are all correct.",
     "source": "gotcha",
     "difficulty": "hard"
   },
@@ -3651,15 +3651,15 @@
   {
     "chapter": 15,
     "chapterTitle": "Environmental Illnesses",
-    "question": "A hiker has frostbitten toes. You are still two hours from help, it is well below freezing, and refreezing is very possible. Should you rewarm the toes now?",
+    "question": "A hiker has frostbitten toes, is two hours from help, and refreezing is very likely. Which should you NOT do?",
     "choices": [
-      "No — do not rewarm if there is any chance the part will refreeze, because a refreeze causes worse damage",
-      "Yes — rewarm in warm water immediately, no matter what",
-      "Yes — rub the toes with snow to bring back circulation",
-      "Yes — hold the foot close to a fire to thaw it quickly"
+      "Rewarm the toes now in warm water",
+      "Protect the toes with dry, loose dressings",
+      "Take care to prevent the toes from refreezing",
+      "Get the patient to definitive care"
     ],
     "answer": 0,
-    "explanation": "Rewarming is only started when you can keep the part warm; a thaw-refreeze cycle is more damaging than staying frozen. Rubbing with snow and dry-heat sources (fire) are both harmful rewarming methods.",
+    "explanation": "Do not rewarm if the part may refreeze — a thaw-refreeze cycle causes worse damage than staying frozen. Protecting the toes, preventing refreezing, and getting to care are correct.",
     "source": "gotcha",
     "difficulty": "hard"
   },
@@ -3838,15 +3838,15 @@
   {
     "chapter": 16,
     "chapterTitle": "Pregnancy, Labour, and Delivery",
-    "question": "A newborn is crying spontaneously, breathing normally, with a heart rate of 102 bpm. What should you do next?",
+    "question": "A newborn is crying vigorously, breathing normally, with a heart rate of 110 bpm. Which should you NOT do?",
     "choices": [
-      "Dry the neonate and help him maintain a normal body temperature",
-      "Begin compression-only CPR",
-      "Perform CPR at a ratio of 3:1",
-      "Provide blow-by oxygen at 4 litres per minute"
+      "Begin CPR",
+      "Dry the newborn",
+      "Keep the newborn warm",
+      "Monitor the newborn's breathing and colour"
     ],
     "answer": 0,
-    "explanation": "With a heart rate over 100 bpm and normal breathing, continue routine care: dry the neonate and keep him warm.",
+    "explanation": "A newborn who is crying, breathing, and has a heart rate over 100 needs only routine care — CPR is not indicated (that is for a heart rate under 60). Drying, warming, and monitoring are correct.",
     "source": "workbook",
     "difficulty": "hard"
   },
@@ -3896,15 +3896,15 @@
   {
     "chapter": 16,
     "chapterTitle": "Pregnancy, Labour, and Delivery",
-    "question": "During delivery you see a loop of umbilical cord protruding from the vagina BEFORE the baby (a prolapsed cord). What is the priority?",
+    "question": "During delivery you see a loop of umbilical cord protruding before the baby (a prolapsed cord). Which should you NOT do?",
     "choices": [
-      "Position the mother knee-chest to take pressure off the cord",
-      "Gently push the cord back into the vagina",
-      "Have her sit upright and bear down to deliver quickly",
-      "Pull gently on the presenting part to speed delivery"
+      "Push the cord back into the vagina",
+      "Position the mother knee-chest to relieve pressure on the cord",
+      "Give the mother oxygen if it is available",
+      "Arrange immediate transport"
     ],
     "answer": 0,
-    "explanation": "A prolapsed cord can be compressed by the baby, cutting off its oxygen. Relieve pressure by positioning (knee-chest/hips up) and transport urgently. Pushing the cord back or hurrying the delivery can worsen cord compression.",
+    "explanation": "Never push the cord back — handling it can worsen compression and cut off the baby's oxygen. Knee-chest positioning to relieve pressure, oxygen for the mother, and immediate transport are the correct care.",
     "source": "gotcha",
     "difficulty": "hard"
   },
@@ -4113,15 +4113,15 @@
   {
     "chapter": 17,
     "chapterTitle": "Special Populations",
-    "question": "A 3-year-old has a barking, seal-like cough and mild stridor but is alert and pink. The parents mention a low fever. Regarding the airway, what should you do?",
+    "question": "A 3-year-old has a barking, seal-like cough and mild stridor but is alert and pink. Regarding the airway, which should you NOT do?",
     "choices": [
-      "Keep the child calm in a position of comfort and do not put anything into the mouth",
-      "Depress the tongue with a stick to get a clear look at the throat",
-      "Lay the child flat to examine the airway more easily",
-      "Have the child drink water to soothe the throat"
+      "Depress the tongue with a stick to inspect the throat",
+      "Keep the child calm in a position of comfort",
+      "Consider giving supplemental oxygen",
+      "Arrange prompt transport"
     ],
     "answer": 0,
-    "explanation": "With croup or possible epiglottitis you never put objects in the mouth or force an airway exam — in epiglottitis that can trigger complete obstruction. Keep the child calm and upright. Examining the throat or laying them flat can be dangerous.",
+    "explanation": "Never put anything in the mouth or examine the throat with possible epiglottitis — it can trigger complete airway obstruction. Keeping the child calm, considering oxygen, and transporting are appropriate.",
     "source": "gotcha",
     "difficulty": "hard"
   },
@@ -4227,15 +4227,15 @@
   {
     "chapter": 18,
     "chapterTitle": "Crisis Intervention",
-    "question": "When approaching a patient experiencing a psychotic episode, what should you do before getting close?",
+    "question": "You are approaching a patient having a psychotic episode who could become violent. Which should you NOT do?",
     "choices": [
-      "Assess the potential for violence and request law enforcement if necessary",
       "Immediately restrain the patient",
-      "Turn off all lights to reduce stimulation",
-      "Insist the patient answer all your questions first"
+      "Assess the potential for violence before getting close",
+      "Request law enforcement if it is needed",
+      "Keep a safe distance"
     ],
     "answer": 0,
-    "explanation": "Aggressive behaviour can arise during psychotic episodes, so assess the potential for violence before approaching and request law enforcement if necessary. Assessing such a patient can be difficult due to disorganized thoughts and trouble concentrating.",
+    "explanation": "Physically restraining a potentially violent patient is not the responder's role and is dangerous. Assessing for violence, requesting law enforcement, and keeping a safe distance are the correct steps.",
     "source": "generated",
     "difficulty": "hard"
   },
@@ -4603,15 +4603,15 @@
   {
     "chapter": 20,
     "chapterTitle": "Transportation",
-    "question": "You need to park at a scene where fuel is leaking from a crashed vehicle. Where should you position your ambulance?",
+    "question": "You must park at a scene where fuel is leaking from a crashed vehicle. Where should you NOT position your ambulance?",
     "choices": [
-      "Uphill and upwind of the hazard, at a safe distance",
-      "Downhill and downwind so you can leave quickly",
-      "As close to the spill as possible to help contain it",
-      "Directly over the spill to keep it from spreading"
+      "Downhill and downwind of the leak",
+      "Uphill of the hazard",
+      "Upwind of the hazard",
+      "At a safe distance from the spill"
     ],
     "answer": 0,
-    "explanation": "Park uphill and upwind so leaking fuel and its vapours flow away from you and the patient. Downhill/downwind positions and parking on or over the spill place responders directly in the path of flammable liquid and fumes.",
+    "explanation": "Downhill and downwind puts you and the patient in the path of flowing fuel and its vapours — the wrong place to park. Uphill, upwind, and a safe distance away all keep the hazard flowing away from you.",
     "source": "gotcha",
     "difficulty": "hard"
   },
@@ -5120,15 +5120,15 @@
   {
     "chapter": 23,
     "chapterTitle": "Marine Environment",
-    "question": "When should you enter a confined space (like a pump room or tank) on a ship?",
+    "question": "On a ship, in which situation should you NOT enter a confined space such as a tank?",
     "choices": [
-      "Any time you suspect a crew member needs help",
-      "Only with the permission of the master or a responsible officer who has ensured the space is safe, and with proper training/equipment",
-      "Whenever the space looks empty",
-      "Only at night"
+      "Whenever you think a crew member inside needs help",
+      "After the master or a responsible officer confirms it is safe",
+      "When you have proper confined-space entry training",
+      "When you have the correct protective equipment"
     ],
-    "answer": 1,
-    "explanation": "Never enter a confined space without the permission of the master or a responsible officer who has confirmed it's safe. Confined spaces may lack oxygen or contain toxic/asphyxiating gases. You need respiratory protection, communication, safety equipment, and proper training.",
+    "answer": 0,
+    "explanation": "Rushing in on impulse is how rescuers become victims of invisible, odourless gases or low oxygen. Only enter with permission once the space is confirmed safe, and only if you are trained and properly equipped.",
     "source": "generated",
     "difficulty": "hard"
   },
@@ -5321,15 +5321,15 @@
   {
     "chapter": 24,
     "chapterTitle": "Workplace",
-    "question": "To rescue a person from a manure storage area, what protective equipment is required, and how do you treat a submerged person?",
+    "question": "You must rescue a worker from a manure storage pit. Which is NOT correct?",
     "choices": [
-      "No special equipment; treat as a fall",
-      "Wear an SCBA and a lifeline, and treat a submerged person as a drowning patient",
-      "Just gloves; treat as a poisoning",
-      "A dust mask; treat as heat stroke"
+      "Enter with just gloves and treat it as a simple fall",
+      "Wear a self-contained breathing apparatus (SCBA)",
+      "Use a lifeline",
+      "Treat a submerged person as a drowning patient"
     ],
-    "answer": 1,
-    "explanation": "Manure storage areas have toxic fumes and drowning risk. Wear an SCBA and a lifeline to rescue someone, and treat an immersed/submerged person as a drowning patient. Remove contaminated clothing, flush the body with water, and don't bring contaminated materials into the transport vehicle.",
+    "answer": 0,
+    "explanation": "Manure pits contain deadly gases and a drowning risk, so entering with just gloves and treating it as a fall is wrong. Wear an SCBA and a lifeline, and treat a submerged person as a drowning patient.",
     "source": "generated",
     "difficulty": "hard"
   },
