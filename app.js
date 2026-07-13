@@ -2,6 +2,7 @@
 
 const els = {
   chapterSelect: document.getElementById("chapter-select"),
+  hardOnly: document.getElementById("hard-only"),
   summaryBtn: document.getElementById("summary-btn"),
   restartBtn: document.getElementById("restart-btn"),
   progress: document.getElementById("progress"),
@@ -24,6 +25,10 @@ const els = {
 };
 
 const STORAGE_KEY = "emr-mock-tester-answers-v1";
+const HARD_ONLY_KEY = "emr-mock-tester-hardonly-v1";
+
+// When true, the active pool is restricted to hard "gotcha" questions.
+let hardOnly = false;
 
 // All questions loaded from questions.json (unfiltered). Each is tagged with a
 // stable _key derived from its content so answers can be tracked by identity
@@ -81,9 +86,28 @@ function loadPersisted() {
 }
 
 function poolFor(value) {
-  return value === "all"
-    ? allQuestions
-    : allQuestions.filter((q) => String(q.chapter ?? 0) === value);
+  let pool =
+    value === "all"
+      ? allQuestions
+      : allQuestions.filter((q) => String(q.chapter ?? 0) === value);
+  if (hardOnly) pool = pool.filter((q) => q.difficulty === "hard");
+  return pool;
+}
+
+// A helper to count the hard questions in a chapter selection, ignoring the
+// active filter (used for the menu labels).
+function hardCountFor(value) {
+  const base =
+    value === "all"
+      ? allQuestions
+      : allQuestions.filter((q) => String(q.chapter ?? 0) === value);
+  return base.filter((q) => q.difficulty === "hard").length;
+}
+
+// The order cache is namespaced by the active filter so switching the filter
+// on/off keeps a stable, independent shuffle for each mode.
+function cacheKey() {
+  return (hardOnly ? "hard|" : "all|") + els.chapterSelect.value;
 }
 
 function getPicked(q) {
@@ -124,25 +148,34 @@ function populateChapterMenu() {
 
   const allOpt = document.createElement("option");
   allOpt.value = "all";
-  allOpt.dataset.label = `All chapters (${allQuestions.length} questions)`;
+  allOpt.dataset.base = "All chapters";
+  allOpt.dataset.total = String(allQuestions.length);
+  allOpt.dataset.hard = String(hardCountFor("all"));
   els.chapterSelect.appendChild(allOpt);
 
   for (const key of [...chapters.keys()].sort((a, b) => a - b)) {
     const { title, count } = chapters.get(key);
     const opt = document.createElement("option");
     opt.value = String(key);
-    const label = key ? `Ch ${key}: ${title}` : title;
-    opt.dataset.label = `${label} (${count})`;
+    opt.dataset.base = key ? `Ch ${key}: ${title}` : title;
+    opt.dataset.total = String(count);
+    opt.dataset.hard = String(hardCountFor(opt.value));
     els.chapterSelect.appendChild(opt);
   }
   refreshChapterMenuMarks();
 }
 
-// Prefix a checkmark to any chapter the user has fully completed.
+// Refresh each option's label to reflect the active filter's count and the
+// user's completion, and disable chapters that have no hard questions while
+// the "Hard only" filter is on.
 function refreshChapterMenuMarks() {
   for (const opt of els.chapterSelect.options) {
+    const count = hardOnly ? Number(opt.dataset.hard) : Number(opt.dataset.total);
     const done = isSelectionComplete(opt.value);
-    opt.textContent = (done ? "✓ " : "") + opt.dataset.label;
+    const empty = hardOnly && count === 0;
+    opt.disabled = empty;
+    opt.textContent =
+      (done ? "✓ " : "") + `${opt.dataset.base} (${empty ? "no hard Qs" : count})`;
   }
 }
 
@@ -164,16 +197,17 @@ function setView(view) {
 function buildQuiz(reshuffle) {
   const sel = els.chapterSelect.value;
   const pool = poolFor(sel);
+  const ck = cacheKey();
 
   let ordered;
-  if (!reshuffle && orderCache.has(sel)) {
+  if (!reshuffle && orderCache.has(ck)) {
     const byKey = new Map(pool.map((q) => [q._key, q]));
-    ordered = orderCache.get(sel).map((k) => byKey.get(k)).filter(Boolean);
+    ordered = orderCache.get(ck).map((k) => byKey.get(k)).filter(Boolean);
     if (ordered.length !== pool.length) ordered = shuffle([...pool]);
   } else {
     ordered = shuffle([...pool]);
   }
-  orderCache.set(sel, ordered.map((q) => q._key));
+  orderCache.set(ck, ordered.map((q) => q._key));
 
   // Give each question a display order for its answer choices. It's shuffled
   // once so the options stay put while the user pages back and forth, and is
@@ -200,7 +234,9 @@ function render() {
     els.progress.textContent = "";
     els.chapterLabel.textContent = "";
     els.score.replaceChildren();
-    els.question.textContent = "No questions in this chapter yet.";
+    els.question.textContent = hardOnly
+      ? "No hard questions in this chapter. Turn off “Hard only” or pick another chapter."
+      : "No questions in this chapter yet.";
     els.choices.replaceChildren();
     els.explanation.hidden = true;
     els.prevBtn.disabled = true;
@@ -358,7 +394,7 @@ function restartSelection() {
   const sel = els.chapterSelect.value;
   for (const q of poolFor(sel)) answersByKey.delete(q._key);
   persist();
-  orderCache.delete(sel);
+  orderCache.delete(cacheKey());
   refreshChapterMenuMarks();
   buildQuiz(true);
 }
@@ -387,6 +423,17 @@ els.restartChapterBtn.addEventListener("click", restartSelection);
 els.restartBtn.addEventListener("click", restartSelection);
 els.chapterSelect.addEventListener("change", () => buildQuiz(false));
 
+els.hardOnly.addEventListener("change", () => {
+  hardOnly = els.hardOnly.checked;
+  try {
+    localStorage.setItem(HARD_ONLY_KEY, hardOnly ? "1" : "0");
+  } catch (_e) {
+    // Storage may be unavailable — ignore.
+  }
+  refreshChapterMenuMarks();
+  buildQuiz(false);
+});
+
 async function init() {
   let data;
   try {
@@ -411,6 +458,12 @@ async function init() {
   allQuestions.forEach((q) => {
     q._key = `${q.chapter ?? 0}|${q.question}`;
   });
+  try {
+    hardOnly = localStorage.getItem(HARD_ONLY_KEY) === "1";
+  } catch (_e) {
+    hardOnly = false;
+  }
+  els.hardOnly.checked = hardOnly;
   loadPersisted();
   populateChapterMenu();
   buildQuiz(false);

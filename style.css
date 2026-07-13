@@ -56,6 +56,28 @@ h1 {
   font-weight: 600;
 }
 
+.difficulty-toggle {
+  display: flex;
+  align-items: center;
+  gap: 0.35rem;
+  padding: 0.4rem 0.6rem;
+  border: 2px solid #d1d5db;
+  border-radius: 8px;
+  cursor: pointer;
+  white-space: nowrap;
+}
+
+.difficulty-toggle input {
+  accent-color: #dc2626;
+  cursor: pointer;
+}
+
+.difficulty-toggle:has(input:checked) {
+  border-color: #dc2626;
+  color: #b91c1c;
+  background: #fef2f2;
+}
+
 .controls select {
   flex: 1;
   min-width: 12rem;
