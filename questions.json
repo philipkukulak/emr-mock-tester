@@ -145,7 +145,7 @@
     "question": "Why should you never say a patient's name over the radio?",
     "choices": [
       "Radio channels are reserved for dispatch traffic only",
-      "Transmissions can be overheard by anyone with a scanner, so confidentiality cannot be guaranteed",
+      "Transmissions can be overheard by anyone with a scanner",
       "Patient names must be relayed only by the medical director",
       "Only encrypted digital radios may legally carry patient identifiers"
     ],
@@ -330,7 +330,7 @@
     "question": "A vehicle is in contact with a downed electrical wire and the occupants appear seriously injured. What should you do?",
     "choices": [
       "Pull the occupants clear of the vehicle as quickly as possible",
-      "Tell the occupants to stay inside, keep still, and avoid touching one another; do not touch the vehicle",
+      "Tell the occupants to stay inside, keep still, and not touch anything",
       "Push the wire off the vehicle with a dry wooden pole, then help them out",
       "Have the occupants step out one at a time, avoiding the wire"
     ],
@@ -456,7 +456,7 @@
     "chapterTitle": "Responding to the Call",
     "question": "You arrive first at a collision where a car is resting against a downed power line and the driver is slumped over, apparently unconscious. What should you do?",
     "choices": [
-      "Keep yourself and bystanders back at least 15 m (50 ft) and wait for the utility company/trained crews — do not approach the car",
+      "Keep yourself and bystanders back at least 15 m (50 ft) and wait for trained crews",
       "Approach on the dry side of the car and pull the driver out through the window",
       "Push the wire off the car with a dry wooden pole, then reach the driver",
       "Approach and tell the driver to step out quickly, away from the wire"
@@ -599,7 +599,7 @@
     "chapterTitle": "Infection Prevention and Control",
     "question": "What is the difference between engineering controls and work practice controls?",
     "choices": [
-      "Engineering controls isolate or remove a hazard (e.g. sharps containers); work practice controls specify how a task is carried out",
+      "Engineering controls isolate or remove a hazard; work practice controls specify how a task is carried out",
       "Engineering controls apply to buildings; work practice controls apply to vehicles",
       "Engineering controls are optional; work practice controls are mandatory",
       "There is no meaningful difference between them"
@@ -1748,8 +1748,8 @@
     "question": "What is a transient ischemic attack (TIA)?",
     "choices": [
       "A stroke that always leaves the patient permanently paralyzed",
-      "A stroke-like event caused by a temporary blockage that usually resolves without permanent damage — a warning sign of future stroke",
-      "Bleeding in the brain from a ruptured vessel",
+      "A stroke-like event caused by a temporary blockage that usually resolves without permanent damage",
+      "Bleeding in the brain from a ruptured vessel that causes lasting damage",
       "A brief loss of consciousness caused by low blood sugar"
     ],
     "answer": 1,
@@ -2502,7 +2502,7 @@
     "chapterTitle": "Hemorrhage and Soft Tissue Trauma",
     "question": "A 3-year-old has a partial-thickness (blistering) burn across the chest. Why should this be treated as a critical burn needing rapid transport, even though it is 'only' partial-thickness?",
     "choices": [
-      "Because patients under 5 (and over 60) have thinner skin and burn more severely, so age itself can make a burn critical",
+      "Because patients under 5 and over 60 have thinner skin and burn more severely",
       "Because every partial-thickness burn is automatically critical",
       "Because blistered burns are certain to become infected within hours",
       "Because a young child's skin cannot safely be cooled with water"
@@ -2517,7 +2517,7 @@
     "chapterTitle": "Musculoskeletal Injuries",
     "question": "What is the difference between an open and a closed fracture?",
     "choices": [
-      "An open fracture involves an open wound (bone or object breaks the skin); a closed fracture leaves the skin intact",
+      "An open fracture involves an open wound; a closed fracture leaves the skin intact",
       "An open fracture is a complete break; a closed fracture is only a crack",
       "An open fracture heals faster than a closed one",
       "There is no difference"
@@ -2574,7 +2574,7 @@
     "question": "What should you always check before AND after applying a splint?",
     "choices": [
       "The patient's blood pressure in both arms",
-      "Circulation and sensation in the digits distal to (below) the injury",
+      "Circulation and sensation in the digits distal to the injury",
       "The patient's level of responsiveness",
       "The colour of the skin over the splint only"
     ],
@@ -2602,7 +2602,7 @@
     "question": "Why should a patient with a fractured femur always be placed in the rapid transport category?",
     "choices": [
       "Because femur fractures are always open fractures",
-      "Because of the risk of internal hemorrhage from the femoral artery, which can be rapidly life-threatening",
+      "Because of the risk of internal hemorrhage from the femoral artery",
       "Because the pain is unbearable",
       "Because the leg must be amputated"
     ],
@@ -2828,7 +2828,7 @@
     "chapterTitle": "Musculoskeletal Injuries",
     "question": "You find an open fracture with the bone end protruding through the skin. How should you care for it?",
     "choices": [
-      "Control bleeding, cover the exposed bone with a moist sterile dressing, and immobilize — do NOT push the bone back in",
+      "Control bleeding, cover the exposed bone with a moist sterile dressing, and immobilize it",
       "Gently push the bone back under the skin to reduce contamination",
       "Scrub the exposed bone clean before dressing it",
       "Realign the limb to its normal straight position first"
@@ -2844,7 +2844,7 @@
     "question": "What is the recommended care for a patient with a suspected simple rib fracture?",
     "choices": [
       "Wrap the chest tightly with a wide bandage to limit movement",
-      "Position to facilitate breathing (often Semi-Fowler's) and support the area with a soft, bulky object like a pillow",
+      "Position them to make breathing easier and support the area with a soft, bulky object",
       "Have the patient lie flat on the uninjured side",
       "Apply firm, steady pressure directly over the fracture"
     ],
@@ -2885,10 +2885,10 @@
     "chapterTitle": "Chest, Abdominal, and Pelvic Injuries",
     "question": "What is the primary sign of a penetrating chest injury that has punctured the lung?",
     "choices": [
-      "A sucking sound from the wound with each inhalation (sucking chest wound)",
-      "Bright red bleeding",
-      "A slow, strong pulse",
-      "Numbness in the arms"
+      "A sucking sound from the wound with each inhalation",
+      "Bright red blood spurting steadily from the wound",
+      "A slow but strong and steady pulse",
+      "Numbness and tingling in both arms"
     ],
     "answer": 0,
     "explanation": "A sucking sound from the wound with each inhalation — a \"sucking chest wound\" — is the primary sign of a penetrating chest injury with a punctured lung.",
@@ -2942,7 +2942,7 @@
     "question": "How should you care for an abdominal evisceration (organs protruding from the wound)?",
     "choices": [
       "Gently push the organs back into the abdominal cavity",
-      "Cover the organs loosely with moist, sterile dressings and keep them warm; do not touch or replace the organs",
+      "Cover the organs loosely with moist, sterile dressings and keep them warm",
       "Pack the organs with dry gauze and apply firm pressure",
       "Rinse the organs with sterile water and cover with a tight bandage"
     ],
@@ -3226,7 +3226,7 @@
     "question": "The three signs of Cushing's triad, which indicate increased intracranial pressure, are:",
     "choices": [
       "Rapid pulse, low blood pressure, and rapid breathing",
-      "Irregular (often deep) respiration, increased blood pressure (widening pulse pressure), and bradycardia",
+      "Irregular respiration, increased blood pressure, and bradycardia",
       "Fever, rash, and vomiting",
       "Dilated pupils, seizures, and pale skin"
     ],
@@ -3240,7 +3240,7 @@
     "question": "What is the significance of a cerebral hematoma (bleeding in the skull)?",
     "choices": [
       "It has no effect because the skull protects the brain",
-      "The buildup of blood creates intracranial pressure, which can damage brain tissue",
+      "The buildup of blood creates dangerous pressure inside the skull",
       "It always resolves on its own within hours",
       "It only affects the outer scalp"
     ],
@@ -3310,7 +3310,7 @@
     "question": "When performing in-line stabilization, what is the correct neutral head position?",
     "choices": [
       "The chin tucked down firmly against the chest",
-      "The chin in line with the neck and the spine straight (chin aligned with the body's midline)",
+      "The chin in line with the neck and the spine straight",
       "The head rotated about 45 degrees toward the responder",
       "The head tilted well back to open the airway"
     ],
@@ -3324,7 +3324,7 @@
     "question": "During in-line stabilization, you meet resistance or the patient complains of neck pain when you begin to align the head. What should you do?",
     "choices": [
       "Force the head into neutral position quickly",
-      "Stop moving the head and support it in the position found (unless it compromises the airway)",
+      "Stop moving the head and support it in the position found",
       "Rotate the head faster to get past the resistance",
       "Abandon spinal precautions entirely"
     ],
@@ -3395,7 +3395,7 @@
     "chapterTitle": "Head and Spinal Injuries",
     "question": "A head-injured patient's vital signs shift to a SLOW pulse, RISING blood pressure, and IRREGULAR breathing. How should you interpret this triad?",
     "choices": [
-      "As a sign of rising pressure inside the skull (Cushing's triad) — a serious, worsening brain injury",
+      "As a sign of rising pressure inside the skull",
       "As a reassuring sign that the patient is stabilizing",
       "As early shock from blood loss",
       "As a normal stress response to the injury"
@@ -3425,10 +3425,10 @@
     "chapterTitle": "Head and Spinal Injuries",
     "question": "A patient struck in the head briefly lost consciousness, then woke and seemed completely fine (a 'lucid interval'), and is now rapidly deteriorating. This classic pattern suggests:",
     "choices": [
-      "An epidural hematoma (arterial bleeding building pressure inside the skull)",
-      "An ordinary concussion with no bleeding",
-      "A simple scalp laceration",
-      "A slow venous subdural bleed that takes days to appear"
+      "An epidural hematoma",
+      "A concussion",
+      "A scalp laceration",
+      "A subdural hematoma"
     ],
     "answer": 0,
     "explanation": "The brief loss of consciousness → lucid interval → rapid decline pattern is classic for an epidural (arterial) hematoma. A concussion or scalp cut wouldn't cause this decline, and a subdural bleed characteristically develops more slowly.",
@@ -3455,7 +3455,7 @@
     "question": "For a responsive patient having a diabetic emergency, why doesn't it matter whether they have hyperglycemia or hypoglycemia?",
     "choices": [
       "Because both conditions are harmless",
-      "Because the standard treatment (giving glucose) is the same, and giving glucose to a hyperglycemic patient will not cause additional harm",
+      "Because the treatment is the same either way",
       "Because you should give insulin in both cases",
       "Because both always resolve on their own"
     ],
@@ -3469,7 +3469,7 @@
     "question": "A responsive diabetic patient who can swallow safely should be given:",
     "choices": [
       "An injection of insulin",
-      "2 to 5 glucose tablets (or another oral glucose product) to chew",
+      "2 to 5 glucose tablets to chew",
       "A large glass of water only",
       "Nothing by mouth"
     ],
@@ -3511,7 +3511,7 @@
     "question": "During an active seizure, should you place something in the patient's mouth to protect their tongue?",
     "choices": [
       "Yes, always insert a soft object",
-      "No — never put anything in the mouth, as it can cause an airway obstruction",
+      "No — never put anything in the mouth",
       "Only if they are bleeding heavily",
       "Only for children"
     ],
@@ -3566,10 +3566,10 @@
     "chapterTitle": "Acute and Chronic Illnesses",
     "question": "The pain of appendicitis characteristically:",
     "choices": [
-      "It stays constant in the upper-left abdomen",
-      "Begins near the umbilical (belly button) area and later becomes intense and localized in the lower right quadrant",
-      "It radiates down both legs and into the groin",
-      "It occurs only right after eating and then fades"
+      "Stays constant in the upper-left abdomen",
+      "Begins near the navel and later becomes intense and localized in the lower right quadrant",
+      "Radiates down both legs and into the groin",
+      "Occurs only right after eating, then fades"
     ],
     "answer": 1,
     "explanation": "Appendicitis pain usually begins near the umbilical area, then becomes intense and localized in the lower right quadrant, worsening with movement, deep breaths, coughing, or touch. Definitive care is surgical removal.",
@@ -3679,10 +3679,10 @@
     "chapterTitle": "Acute and Chronic Illnesses",
     "question": "You find a known diabetic who is confused and sweaty but still able to swallow safely. You cannot tell whether their blood sugar is high or low. What should you do?",
     "choices": [
-      "Give them glucose (sugar) — it helps if they are low and does no significant harm if they are high",
+      "Give them glucose (sugar)",
       "Give insulin to be safe",
-      "Give nothing by mouth until their blood sugar can be measured",
-      "Give only water and wait to see if they improve"
+      "Give nothing by mouth and wait",
+      "Give water and monitor them"
     ],
     "answer": 0,
     "explanation": "When you can't distinguish hypo- from hyperglycemia in a responsive, swallowing patient, give sugar: it rapidly rescues the far more dangerous low, and does little harm if they are high. Giving insulin blindly could be fatal.",
@@ -3694,7 +3694,7 @@
     "chapterTitle": "Acute and Chronic Illnesses",
     "question": "After a seizure, a patient is drowsy and disoriented but slowly becoming more alert, with normal breathing and pulse and no injuries. What stage is this?",
     "choices": [
-      "The postictal (recovery) phase",
+      "The postictal phase",
       "A second seizure beginning",
       "Status epilepticus",
       "A stroke"
@@ -3724,7 +3724,7 @@
     "question": "In general, should you give a poisoning patient something to eat or drink?",
     "choices": [
       "Yes — give milk or bread to absorb the poison",
-      "No — avoid giving anything by mouth unless advised by the Poison Control Centre (or per your scope of practice)",
+      "No — avoid giving anything by mouth unless advised by Poison Control",
       "Yes — give water and then induce vomiting",
       "Yes — give large amounts of water to dilute the poison"
     ],
@@ -3850,7 +3850,7 @@
     "question": "What is the difference between substance misuse and substance abuse?",
     "choices": [
       "They are the same thing",
-      "Misuse is using a substance for an unintended purpose or exceeding the dose (may be accidental); abuse is deliberate, persistent, excessive use without regard to health",
+      "Misuse is using a substance wrongly or in excess; abuse is deliberate, persistent overuse despite the harm",
       "Misuse is always illegal; abuse is always legal",
       "Misuse applies to alcohol only; abuse applies to drugs only"
     ],
@@ -3977,7 +3977,7 @@
     "chapterTitle": "Poisoning",
     "question": "You find a young adult unresponsive with pinpoint pupils, slow and shallow breathing, and a needle on the floor beside them. What should you do?",
     "choices": [
-      "Support their breathing (assist ventilations / give oxygen) and give naloxone per your protocol",
+      "Support their breathing and give naloxone per your protocol",
       "Give them something sugary in case it is a diabetic emergency",
       "Induce vomiting to remove the drug",
       "Sit them up and wait for them to wake on their own"
@@ -4007,7 +4007,7 @@
     "question": "A key sign that distinguishes heat stroke from heat exhaustion is that in heat stroke the skin is typically:",
     "choices": [
       "Cool and moist",
-      "Hot and dry (sweating has stopped)",
+      "Hot and dry",
       "Pale and clammy",
       "Bluish and wet"
     ],
@@ -4063,7 +4063,7 @@
     "question": "How should you treat frostbite by warming the affected area?",
     "choices": [
       "Briskly rub the area with snow to restore circulation",
-      "Submerge it in warm water (38–40°C / 100.4–104°F), but only if it won't refreeze",
+      "Submerge it in warm water, but only if it won't refreeze",
       "Warm it quickly next to a heat source such as a fire or heater",
       "Massage the area firmly to bring back sensation"
     ],
@@ -4092,7 +4092,7 @@
     "choices": [
       "Hypothermia",
       "Cold incapacitation",
-      "Cold shock response (gasping and hyperventilation)",
+      "Cold shock response",
       "Circum-rescue collapse"
     ],
     "answer": 2,
@@ -4105,7 +4105,7 @@
     "question": "If you fall into cold water wearing a PFD and cannot climb out, which position conserves body heat?",
     "choices": [
       "Swimming continuously to stay warm",
-      "The Heat Escape Lessening Position (HELP) — arms against the armpits, thighs squeezed, knees drawn up",
+      "Curling up with your knees drawn toward your chest",
       "Floating spread-eagle on your back",
       "Treading water vigorously"
     ],
@@ -4148,7 +4148,7 @@
     "choices": [
       "Ascend as rapidly as possible to minimize exposure",
       "Hold your breath steadily throughout the ascent",
-      "Avoid ascending with a closed glottis — keep breathing/exhale bubbles",
+      "Keep exhaling and never hold your breath during the ascent",
       "Make a final deep descent just before surfacing"
     ],
     "answer": 2,
@@ -4373,7 +4373,7 @@
     "chapterTitle": "Pregnancy, Labour, and Delivery",
     "question": "What is postpartum bleeding, and what should you NOT do to control it?",
     "choices": [
-      "Excessive bleeding after birth (over 500 mL); do not attempt vaginal packing",
+      "Excessive bleeding after birth; do not attempt vaginal packing",
       "Normal minor spotting; apply a tourniquet",
       "Bleeding before birth; insert gauze into the vagina",
       "Bleeding from the umbilical cord; clamp the cord tighter"
@@ -4387,9 +4387,9 @@
     "chapterTitle": "Pregnancy, Labour, and Delivery",
     "question": "What is an ectopic pregnancy, and why is it dangerous?",
     "choices": [
-      "A pregnancy with twins that triggers premature labour",
-      "A fertilized ovum implanting outside the uterus (e.g., in a fallopian tube); it can rupture and cause severe hemorrhage — the leading cause of maternal death in the first trimester",
-      "A normal pregnancy that happens to end early",
+      "A twin pregnancy that triggers premature labour",
+      "A fertilized ovum implanting outside the uterus; it can rupture and cause severe internal bleeding",
+      "A normal pregnancy that simply ends early",
       "A pregnancy in which the placenta covers the cervix"
     ],
     "answer": 1,
@@ -4514,7 +4514,7 @@
     "chapterTitle": "Pregnancy, Labour, and Delivery",
     "question": "During delivery you see a loop of umbilical cord protruding from the vagina BEFORE the baby (a prolapsed cord). What is the priority?",
     "choices": [
-      "Position the mother knee-chest (or hips elevated) to take pressure off the cord, and transport immediately",
+      "Position the mother knee-chest to take pressure off the cord",
       "Gently push the cord back into the vagina",
       "Have her sit upright and bear down to deliver quickly",
       "Pull gently on the presenting part to speed delivery"
@@ -4544,7 +4544,7 @@
     "chapterTitle": "Pregnancy, Labour, and Delivery",
     "question": "After delivery, the mother is bleeding heavily from the vagina. Which is appropriate, and what must you NOT do?",
     "choices": [
-      "Massage the lower abdomen (uterus) and encourage breastfeeding; do NOT pack the vagina",
+      "Massage the lower abdomen and encourage breastfeeding",
       "Pack the vagina firmly with sterile gauze to tamponade the bleeding",
       "Apply a tourniquet around the lower abdomen",
       "Insert a gloved hand to compress the bleeding internally"
@@ -4602,7 +4602,7 @@
     "question": "What is the key difference between croup and epiglottitis?",
     "choices": [
       "Croup is bacterial and life-threatening; epiglottitis is viral and mild",
-      "Croup (viral) is generally not life-threatening and causes a barking cough; epiglottitis (bacterial) can swell the epiglottis and completely obstruct the airway",
+      "Croup is viral and usually not serious; epiglottitis is bacterial and can obstruct the airway",
       "They are the same condition",
       "Croup only affects adults; epiglottitis only affects children"
     ],
@@ -4616,7 +4616,7 @@
     "question": "For a child with suspected croup or epiglottitis, you should:",
     "choices": [
       "Place a tongue depressor in the mouth to examine the throat",
-      "NOT place any objects in the mouth or examine the mouth; allow the position that eases breathing and consider oxygen",
+      "Not place anything in the mouth or examine it; keep them in the position that eases breathing",
       "Have the child lie flat",
       "Force the child to drink water"
     ],
@@ -4630,7 +4630,7 @@
     "question": "Which signs would make you suspect dehydration in a child?",
     "choices": [
       "Warm, moist skin and more frequent urination than usual",
-      "Dry mouth/tongue, sunken eyes, no tears when crying, and listlessness (plus a sunken fontanel in infants)",
+      "Dry mouth/tongue, sunken eyes, no tears when crying, and listlessness",
       "Flushed red cheeks and an increased appetite",
       "A slow but strong and steady pulse"
     ],
@@ -4644,7 +4644,7 @@
     "question": "Shaken Baby Syndrome (SBS) should be treated as:",
     "choices": [
       "A minor injury that resolves on its own",
-      "A case of suspected child abuse — treat the injuries found and rapidly transport",
+      "A case of suspected child abuse",
       "The same as SIDS",
       "A contagious illness"
     ],
@@ -4686,7 +4686,7 @@
     "question": "Is Alzheimer's disease a normal part of aging?",
     "choices": [
       "Yes, all older adults develop it",
-      "No — it is a progressive, degenerative disease that destroys brain cells; it is the most common form of dementia but not a normal part of aging",
+      "No — it is a progressive, degenerative brain disease, not a normal part of aging",
       "Yes, but only after age 90",
       "No, it is a temporary condition that resolves"
     ],
@@ -4769,7 +4769,7 @@
     "chapterTitle": "Special Populations",
     "question": "A 3-year-old has a barking, seal-like cough and mild stridor but is alert and pink. The parents mention a low fever. Regarding the airway, what should you do?",
     "choices": [
-      "Keep the child calm in a position of comfort and do NOT put anything (like a tongue depressor) into the mouth",
+      "Keep the child calm in a position of comfort and do not put anything into the mouth",
       "Depress the tongue with a stick to get a clear look at the throat",
       "Lay the child flat to examine the airway more easily",
       "Have the child drink water to soothe the throat"
@@ -4800,7 +4800,7 @@
     "question": "When caring for a patient who has experienced a sexual assault, why should you discourage them from bathing, showering, or douching?",
     "choices": [
       "To make transport quicker and simpler",
-      "To preserve evidence before a medical examination can be performed (the area is treated as a crime scene)",
+      "To preserve evidence before a medical examination can be performed",
       "Because washing could worsen the patient's injuries",
       "To help the patient feel calmer before questioning"
     ],
@@ -4814,7 +4814,7 @@
     "question": "At a scene where a physical assault has occurred, what is your FIRST concern?",
     "choices": [
       "Collecting evidence",
-      "Your own safety — the attacker may still be present, so don't approach until the scene is safe",
+      "Your own safety",
       "Questioning the patient in detail",
       "Cleaning up the crime scene"
     ],
@@ -4828,7 +4828,7 @@
     "question": "As a responder, is it your role to diagnose a patient's psychiatric condition?",
     "choices": [
       "Yes, you must diagnose it before providing care",
-      "No — just as with physical illness, your role is to care for injuries/illness, ensure safety, and refer the patient to appropriate treatment",
+      "No — your role is to ensure safety, care for injuries/illness, and refer for treatment",
       "Yes, but only for anxiety disorders",
       "No, you should ignore mental health entirely"
     ],
@@ -4869,7 +4869,7 @@
     "chapterTitle": "Crisis Intervention",
     "question": "Why must any statement about suicide or suicidal thoughts from a depressed patient be taken seriously?",
     "choices": [
-      "Because individuals experiencing depression are at risk for suicide, so such statements must be documented and reported at transfer of care",
+      "Because people with depression are at real risk of suicide",
       "Because it is required paperwork only",
       "Because depression is contagious",
       "It does not need to be taken seriously"
@@ -4912,7 +4912,7 @@
     "question": "When a patient's death seems probable, what is appropriate to say to family and bystanders?",
     "choices": [
       "Give them a frank estimate of the chance of survival",
-      "Avoid statements about the patient's condition; offer comfort with positive statements like \"We are doing everything we can\"",
+      "Avoid commenting on the patient's condition; offer general comfort and reassurance",
       "Say nothing to them and focus only on the patient",
       "Reassure them that the patient is going to be fine"
     ],
@@ -4926,7 +4926,7 @@
     "question": "If a patient in a mental health crisis says something rude or antagonistic to you, you should:",
     "choices": [
       "Respond firmly in kind",
-      "Remember it is not directed at you personally; stay respectful, listen, and keep positive nonverbal communication",
+      "Don't take it personally; stay respectful and keep listening",
       "Leave the scene immediately",
       "Restrain the patient"
     ],
@@ -5012,7 +5012,7 @@
     "question": "What is the simplest technique for stabilizing a vehicle that has its tires on the ground?",
     "choices": [
       "Deflating the tires",
-      "Chocking — placing blocks or wedges against the wheels",
+      "Placing blocks or wedges against the wheels",
       "Turning the steering wheel fully",
       "Lifting the vehicle onto jacks"
     ],
@@ -5151,7 +5151,7 @@
     "chapterTitle": "Reaching, Lifting, and Extricating Patients",
     "question": "Which stretcher can be separated into two pieces and reconnected under a patient, allowing you to lift them without rolling — ideal for suspected spinal injuries?",
     "choices": [
-      "Scoop stretcher (clamshell)",
+      "Scoop stretcher",
       "Stair chair",
       "Flexible litter",
       "Army-type stretcher"
@@ -5222,7 +5222,7 @@
     "question": "If a vehicle or piece of onboard equipment is damaged in a way that could pose a safety hazard, you should:",
     "choices": [
       "Use it carefully until the end of the shift",
-      "Remove the vehicle from service (or repair/replace the equipment) before use, and affix a sign to the steering wheel",
+      "Remove the vehicle from service (or repair the equipment) before use",
       "Report it only if a patient complains",
       "Ignore minor problems"
     ],
@@ -5250,7 +5250,7 @@
     "question": "The special driving privileges given to emergency vehicles (e.g., exceeding the speed limit) are best described as:",
     "choices": [
       "Absolute rights with no legal responsibility",
-      "Privileges that carry legal responsibility — you must operate with due regard for the safety of all others",
+      "Privileges that carry legal responsibility",
       "Optional guidelines",
       "Available only at night"
     ],
@@ -5265,7 +5265,7 @@
     "choices": [
       "10 by 10 metres",
       "25 by 25 metres",
-      "46 by 46 metres (about 151 by 151 feet)",
+      "46 by 46 metres",
       "100 by 100 metres"
     ],
     "answer": 2,
@@ -5291,8 +5291,8 @@
     "chapterTitle": "Transportation",
     "question": "From which direction should you NEVER approach a helicopter?",
     "choices": [
-      "From the front, in the pilot's view",
-      "From the rear (where the tail rotor spins nearly invisibly near the ground)",
+      "From the front",
+      "From the rear",
       "From the downhill side",
       "From either side"
     ],
@@ -5334,7 +5334,7 @@
     "chapterTitle": "Transportation",
     "question": "You are driving an ambulance to a call with lights and sirens running. How should you treat your right-of-way?",
     "choices": [
-      "Never assume warning devices give you the right-of-way — proceed with caution and be ready to yield",
+      "Never assume warning devices give you the right-of-way",
       "Assume other motorists see you and will yield",
       "Treat red lights and stop signs as an automatic right-of-way",
       "Maintain the highest safe speed since you are exempt from traffic laws"
@@ -5422,7 +5422,7 @@
     "question": "In an MCI, what is the FIRST thing responders do with patients using the START system?",
     "choices": [
       "Start CPR on anyone found in cardiac arrest",
-      "Clear the area of all minor-category patients (the \"walking wounded\") by directing them to a designated area",
+      "Direct everyone who can walk to a designated area",
       "Take a full set of vital signs on every patient",
       "Transport the nearest patient to hospital first"
     ],
@@ -5506,7 +5506,7 @@
     "question": "What is \"directed first aid\" in a CBRNE incident?",
     "choices": [
       "First aid that only paramedics are permitted to perform",
-      "Care a patient provides to themselves (or another patient) while being verbally directed by a more qualified person from a distance",
+      "Self-care a patient performs while being guided from a distance by a more qualified person",
       "Instructions the incident commander radios to the responders",
       "A standard first aid protocol posted at the scene entrance"
     ],
@@ -5520,7 +5520,7 @@
     "question": "Before a patient can leave a CBRNE scene, what must happen?",
     "choices": [
       "Nothing special — they may leave as in any MCI",
-      "They must be decontaminated (an emergency wash-down is a rapid preliminary step, not a substitute for proper decontamination)",
+      "They must be decontaminated",
       "They must first give a statement to law enforcement",
       "They must be re-triaged and tagged green"
     ],
@@ -5676,7 +5676,7 @@
     "question": "What is the difference between ASSISTING with medication and ADMINISTERING medication?",
     "choices": [
       "Assisting means injecting the drug; administering means reading the label",
-      "Assisting means helping per the patient's direction (e.g., opening a bottle); administering means deciding to give the drug and introducing it into the patient's body",
+      "Assisting means helping at the patient's direction; administering means deciding to give the drug and putting it into the body",
       "There is no legal difference",
       "Only assisting requires special training"
     ],
@@ -5718,7 +5718,7 @@
     "question": "A drug administered SUBLINGUALLY is:",
     "choices": [
       "Swallowed and absorbed through the stomach and intestines",
-      "Placed under the tongue for rapid absorption into the blood (not to be swallowed)",
+      "Placed under the tongue for rapid absorption into the blood",
       "Injected into the large muscle of the thigh",
       "Breathed in as a fine mist through an inhaler"
     ],
@@ -5746,7 +5746,7 @@
     "question": "What is the difference between a drug's generic name and its trade name?",
     "choices": [
       "The generic name is copyrighted by the manufacturer; the trade name is the chemical formula",
-      "The generic name is an abbreviated form of the chemical name; the trade (brand) name is the copyrighted name from the drug company and is capitalized",
+      "The generic name is an abbreviated form of the chemical name; the trade name is the company's copyrighted brand name",
       "They are always identical",
       "The trade name is cheaper than the generic"
     ],
@@ -5802,7 +5802,7 @@
     "question": "During injection, why do you draw back the syringe plunger before injecting (for subcutaneous and intramuscular injections)?",
     "choices": [
       "To mix the medication",
-      "To check for blood — if blood appears, you're in a vessel and must restart at a new site with new equipment",
+      "To check whether the needle is in a blood vessel",
       "To warm the medication",
       "To remove air bubbles"
     ],
@@ -5916,7 +5916,7 @@
     "question": "Which regulations specify the legal requirements for first aid and medical care in a Canadian marine environment?",
     "choices": [
       "WHMIS regulations",
-      "The Maritime Occupational Health and Safety Regulations (MOHS) of the Canada Labour Code",
+      "The Maritime Occupational Health and Safety Regulations",
       "The Good Samaritan Act",
       "Transport Canada's aviation rules"
     ],
@@ -5944,7 +5944,7 @@
     "question": "Unless a qualified person (e.g., doctor or nurse) is on board, who is ultimately responsible for administering medicine on a ship?",
     "choices": [
       "The first aid attendant",
-      "The ship's captain (after consulting the medical advisor)",
+      "The ship's captain",
       "The ship's owner",
       "Any crew member"
     ],
@@ -5958,7 +5958,7 @@
     "question": "What is the preferred method of sterilizing surgical instruments on board?",
     "choices": [
       "Dry heat",
-      "Steam sterilization (autoclaving)",
+      "Steam sterilization",
       "Soaking in soapy water",
       "Wiping with alcohol"
     ],
@@ -6028,7 +6028,7 @@
     "question": "How should you care for a shipwreck survivor who is contaminated with oil?",
     "choices": [
       "Scrub all oiled areas hard and immediately",
-      "Clean the skin only after the patient is warm and comfortable (but clean around the mouth and eyes immediately); avoid wiping any burned areas directly",
+      "Clean the skin only after the patient is warm and comfortable",
       "Leave the oil in place to protect the skin from cold",
       "Rinse the patient only with cold seawater"
     ],
@@ -6112,7 +6112,7 @@
     "question": "What does WHMIS stand for and what are its key elements?",
     "choices": [
       "Workplace Health Monitoring and Injury System; inspections and audits",
-      "Workplace Hazardous Materials Information System; cautionary labelling, Safety Data Sheets (SDSs), and worker education/training",
+      "Workplace Hazardous Materials Information System; labelling, Safety Data Sheets, and worker training",
       "Worker Hazard Management and Insurance Service; insurance forms",
       "Warehouse Hazard Material Inventory Standard; container tracking"
     ],
@@ -6140,7 +6140,7 @@
     "question": "Before entering a confined space to rescue a worker, you should:",
     "choices": [
       "Rely on your senses to judge if the air is safe",
-      "Never attempt it without training in safe confined-space entry/rescue; assume it's hazardous, test conditions, and have a first aid attendant and rescue plan outside",
+      "Never attempt it without confined-space rescue training; assume it's hazardous and test conditions first",
       "Enter quickly since time is critical",
       "Enter as long as the space looks and smells normal"
     ],
@@ -6182,7 +6182,7 @@
     "question": "The most common workplace injuries most often involve which part of the body?",
     "choices": [
       "The head and neck",
-      "The hands and arms (often caught in machinery)",
+      "The hands and arms",
       "The feet and ankles",
       "The lower back"
     ],
@@ -6210,7 +6210,7 @@
     "question": "The major hazard inside a silo is:",
     "choices": [
       "Falling grain",
-      "Silo gas formed during fermentation, which can kill within minutes if inhaled",
+      "Silo gas produced by fermentation",
       "Electrical wiring",
       "Extreme heat"
     ],
@@ -6224,7 +6224,7 @@
     "question": "When extricating a patient trapped in a combine, why should the machine's reverse feature NEVER be used?",
     "choices": [
       "It drains the battery",
-      "The safest approach is to prevent the machinery from moving at all — jam moving parts and lock the hydraulic system before extrication",
+      "Moving the machine in any direction can cause further injury, so it must be kept still",
       "Reverse is too slow",
       "It voids the warranty"
     ],
@@ -6238,7 +6238,7 @@
     "question": "To rescue a person from a manure storage area, what protective equipment is required, and how do you treat a submerged person?",
     "choices": [
       "No special equipment; treat as a fall",
-      "Wear a self-contained breathing apparatus (SCBA) and a lifeline, and treat an immersed/submerged person as a drowning patient",
+      "Wear an SCBA and a lifeline, and treat a submerged person as a drowning patient",
       "Just gloves; treat as a poisoning",
       "A dust mask; treat as heat stroke"
     ],
