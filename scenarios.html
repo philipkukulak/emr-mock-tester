@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>EMR Scenario Practice</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <main class="card">
+    <header>
+      <h1>EMR Scenario Practice</h1>
+      <p class="subtitle">
+        Moderator view for running assessment scenarios &mdash;
+        <a class="page-link" href="index.html">back to the quiz</a>
+      </p>
+
+      <div class="controls">
+        <select id="category-select" title="Filter scenarios by type">
+          <option value="all">All types</option>
+          <option value="medical">Medical</option>
+          <option value="trauma">Trauma</option>
+        </select>
+        <select id="scenario-select" title="Pick a specific scenario"></select>
+        <button id="random-btn" type="button" title="Draw a random scenario">&#127922; New scenario</button>
+      </div>
+
+      <p class="moderator-note">
+        You are the moderator: read the dispatch aloud, then reveal each section
+        only as the responder assesses or asks for it.
+      </p>
+    </header>
+
+    <section id="scenario" hidden>
+      <div class="scenario-title-row">
+        <h2 id="scenario-title"></h2>
+        <span id="scenario-badges"></span>
+      </div>
+
+      <div class="dispatch">
+        <p class="dispatch-label">Dispatch &mdash; read aloud</p>
+        <p id="dispatch-text"></p>
+      </div>
+
+      <div class="reveal-controls">
+        <button id="reveal-all-btn" type="button">Reveal all</button>
+        <button id="hide-all-btn" type="button">Hide all</button>
+      </div>
+
+      <div id="sections"></div>
+    </section>
+
+    <p id="error" class="error" hidden></p>
+  </main>
+
+  <script src="scenarios.js"></script>
+</body>
+</html>

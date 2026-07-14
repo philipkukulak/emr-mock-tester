@@ -1,0 +1,958 @@
+[
+  {
+    "id": "diabetic-office",
+    "title": "Slumped over the desk",
+    "category": "medical",
+    "difficulty": "standard",
+    "hook": "Altered LOC in a diabetic — hypoglycemia",
+    "dispatch": "You are called to a downtown office at 14:30 for a 52-year-old man found slumped over his desk. His secretary called 911. She meets you at the elevator, visibly worried, and says he 'seemed off all morning' and stopped answering her about twenty minutes ago.",
+    "scene": {
+      "Hazards": "None — quiet indoor office, safe to enter",
+      "Number of patients": "1",
+      "MOI / NOI": "Nature of illness unknown; no signs of trauma, chair upright, nothing knocked over",
+      "Bystanders": "Secretary — says he skipped lunch for back-to-back meetings; doesn't know his medical history",
+      "Additional resources": "None needed; EMS already en route"
+    },
+    "primary": {
+      "General impression": "Middle-aged man slumped forward in his chair, pale and sweaty, does not look up as you approach",
+      "LOC (AVPU)": "V — moans and stirs to a loud voice, does not obey commands or answer questions",
+      "Airway": "Open and clear once positioned; no sounds of obstruction",
+      "Breathing": "Present, slightly rapid and shallow but adequate",
+      "Circulation": "Radial pulse present — rapid and weak; no visible bleeding",
+      "Skin": "Pale, cool, very diaphoretic",
+      "Transport decision": "Load-and-go candidate if LOC does not improve; altered LOC of unknown cause is time-sensitive"
+    },
+    "vitals": {
+      "LOC": "V on AVPU",
+      "HR": "118, regular, weak at the radial",
+      "RR": "24, shallow",
+      "BP": "108/70",
+      "SpO2": "97% on room air",
+      "Pupils": "Equal and reactive, slightly sluggish",
+      "Skin": "Pale, cool, wet",
+      "Glucose": "2.1 mmol/L — only if the responder checks or asks; do not volunteer"
+    },
+    "sample": {
+      "S": "Decreased LOC, diaphoresis, pallor. Secretary: confused and irritable late morning, slurring words before lunch",
+      "A": "No known allergies (medic-alert bracelet lists diabetes only)",
+      "M": "Insulin — pen visible in an open desk drawer; medic-alert bracelet on left wrist reads 'Type 1 diabetic'",
+      "P": "Type 1 diabetes, otherwise healthy per bracelet; secretary knows of nothing else",
+      "L": "Coffee at 07:30; skipped lunch. Took his usual insulin this morning (per routine — he mentions this himself if he recovers)",
+      "E": "Busy morning of meetings, no food, symptoms crept up over hours"
+    },
+    "opqrst": null,
+    "secondary": "Head-to-toe unremarkable: no DCAP-BTLS, no incontinence, no tongue trauma (helps rule out an unwitnessed seizure). Medic-alert bracelet on the left wrist — only found if the responder actually looks. Insulin pen in the open desk drawer.",
+    "intervention": {
+      "trigger": "Patient positioned safely and given oral glucose ONLY once he can swallow and follow commands (if the responder tries to give it while he's still V on AVPU, challenge them on airway protection)",
+      "result": "Over about five minutes his LOC improves to A — awake, oriented, embarrassed. Skin warms and dries. HR settles to 96, RR 16. He thanks you and says he 'just needs a granola bar' and doesn't want to go to the hospital — make the responder address the refusal: he should still be assessed/transported or released per local protocol with someone staying with him and a meal eaten.",
+      "ifNot": "If no sugar is given, LOC deteriorates from V to P over the next few minutes; skin becomes more mottled. This should push the responder toward rapid transport and airway positioning."
+    },
+    "debrief": {
+      "diagnosis": "Hypoglycemia — Type 1 diabetic who took his usual insulin but skipped lunch",
+      "expectedActions": [
+        "Verbalize scene assessment: hazards, number of patients, MOI/NOI, bystanders, resources",
+        "Gloves on before patient contact",
+        "AVPU check and primary survey in order: airway, breathing, circulation",
+        "Recognize altered LOC + diaphoresis + diabetic history as probable hypoglycemia; check glucose if equipped",
+        "Look for medic-alert jewelry",
+        "Oral glucose only with an intact gag/ability to swallow",
+        "Reassess LOC and vitals after the intervention",
+        "Handle the refusal properly if he recovers (or hand over to EMS)"
+      ],
+      "teachingPoints": [
+        "Altered LOC in a known diabetic is hypoglycemia until proven otherwise — sugar won't seriously harm a hyperglycemic patient, but withholding it can kill a hypoglycemic one",
+        "Never put anything in the mouth of a patient who can't protect their own airway",
+        "The history (skipped lunch + usual insulin) is the whole diagnosis — SAMPLE matters",
+        "A patient who 'recovers' from hypoglycemia can crash again; don't accept a casual refusal"
+      ]
+    }
+  },
+  {
+    "id": "cyclist-airway",
+    "title": "Cyclist down on the trail",
+    "category": "trauma",
+    "difficulty": "tricky",
+    "hook": "Unresponsive with a pulse — but the airway is blocked. Breathing check is the whole scenario.",
+    "dispatch": "You are called to a paved multi-use trail at 10:15 for a cyclist who went over his handlebars. A jogger found him face-down next to his bike and rolled him onto his back before calling 911. The patient is a man in his 20s, helmet still on, not moving.",
+    "scene": {
+      "Hazards": "Trail is clear; bike is off to the side. Watch for other cyclists coming around the bend — have the jogger flag them down",
+      "Number of patients": "1",
+      "MOI / NOI": "Significant MOI — over the handlebars at speed; front wheel is bent, helmet is scraped and cracked at the front. Suspect head and spinal injury",
+      "Bystanders": "The jogger — didn't witness the crash, found him face-down, rolled him over without support ('I had to check if he was breathing')",
+      "Additional resources": "EMS en route; trail access point needed for the crew — send the jogger to flag them"
+    },
+    "primary": {
+      "General impression": "Young man supine, unresponsive, cracked helmet still on, abrasions on chin and shoulder. Snoring, gurgling sounds as you approach",
+      "LOC (AVPU)": "U — no response to voice or pinch",
+      "Airway": "OBSTRUCTED — snoring/gurgling respirations; blood and vomit visible in the mouth. Tongue and fluids are blocking the airway. This does NOT resolve until the responder acts: jaw thrust (spinal MOI) + suction or roll with spinal alignment to clear",
+      "Breathing": "Ineffective while obstructed — gurgling, minimal chest rise. AFTER the airway is cleared and held open: breathing 10/min and adequate",
+      "Circulation": "Strong carotid AND radial pulse, 92 — circulation is fine; this is an airway problem, not an arrest",
+      "Skin": "Becoming dusky around the lips while obstructed; pinks up once the airway is cleared",
+      "Transport decision": "Rapid transport — unresponsive with significant MOI"
+    },
+    "vitals": {
+      "LOC": "U on AVPU throughout",
+      "HR": "92, strong and regular",
+      "RR": "10 and adequate once the airway is open (gurgling and ineffective before that)",
+      "BP": "132/84",
+      "SpO2": "89% while obstructed, climbing to 96% after the airway is cleared and maintained",
+      "Pupils": "Left slightly larger than right, both react",
+      "Skin": "Dusky lips while obstructed; pale but pink after"
+    },
+    "sample": {
+      "S": "Unresponsive, obstructed airway, vomit and blood in mouth, unequal pupils",
+      "A": "Unknown — no medic-alert found",
+      "M": "Unknown",
+      "P": "Unknown",
+      "L": "Unknown",
+      "E": "Went over the handlebars at speed; unwitnessed; found face-down. Vomited at some point before or after the roll"
+    },
+    "opqrst": null,
+    "secondary": "Cracked helmet (leave decisions about removal to protocol — airway access may require it). Chin and right shoulder road rash. No obvious limb deformity. Trickle of blood from the nose. Belly soft. If the responder does a full head-to-toe before fixing the airway, stop them: 'he's still gurgling.'",
+    "intervention": {
+      "trigger": "Manual airway maneuver appropriate for spinal MOI (jaw thrust), clearing the mouth (suction or a spinal-aligned roll), and then continuously maintaining the airway — plus an OPA if trained/equipped and no gag",
+      "result": "Gurgling stops, chest rises normally at 10/min, SpO2 climbs to 96%, lips pink up. He remains U on AVPU. The responder must keep the airway managed and monitor breathing until handover — if they let go to do other tasks, the snoring returns.",
+      "ifNot": "If the airway is not cleared within a couple of minutes, breathing becomes agonal, SpO2 keeps falling, and the scenario progresses toward respiratory arrest requiring ventilations."
+    },
+    "debrief": {
+      "diagnosis": "Head injury with decreased LOC; airway obstruction from the tongue plus blood/vomit. Circulation intact throughout — an A problem, not a C problem",
+      "expectedActions": [
+        "Scene assessment including ongoing trail traffic and tasking the bystander",
+        "Recognize significant MOI and take spinal motion restriction from first contact",
+        "Jaw thrust — not head-tilt — with this MOI",
+        "Actually LOOK and LISTEN at the airway: identify the gurgling as obstruction, clear it, and keep it clear",
+        "Check breathing only after the airway is open; support with ventilations if inadequate",
+        "Rapid transport decision; monitor continuously; note the unequal pupils in the handover"
+      ],
+      "teachingPoints": [
+        "ABC is a sequence for a reason — a perfect pulse means nothing if no air is moving. 'Circulation present' can lull responders into skipping A and B",
+        "Snoring and gurgling ARE the airway assessment: snoring = tongue, gurgling = fluid",
+        "An unresponsive patient can't protect their airway even when 'breathing fine' — the job isn't done after one jaw thrust; someone owns that airway until handover",
+        "Bystanders may have already moved the patient — ask, and factor it into your spinal suspicion rather than scolding them"
+      ]
+    }
+  },
+  {
+    "id": "restaurant-anaphylaxis",
+    "title": "Reaction at the restaurant",
+    "category": "medical",
+    "difficulty": "standard",
+    "hook": "Anaphylaxis — rapid airway involvement, epinephrine is the fix",
+    "dispatch": "You are called to a Thai restaurant at 19:40 for a 24-year-old woman having 'some kind of allergic reaction.' The manager meets you at the door and hurries you to a table where a woman is sitting forward, scratching at her neck, with her friend beside her.",
+    "scene": {
+      "Hazards": "None — busy but orderly restaurant; staff have cleared space around the table",
+      "Number of patients": "1",
+      "MOI / NOI": "NOI: allergic reaction, onset within about ten minutes of starting her meal",
+      "Bystanders": "Her friend — knows her well, tells you she has a severe peanut allergy and 'asked them to check' about the sauce. Friend is calm and useful",
+      "Additional resources": "EMS en route. Ask staff to bring the patient's bag (her epinephrine auto-injector is in it — but only if someone asks for it)"
+    },
+    "primary": {
+      "General impression": "Anxious young woman sitting bolt upright, flushed face, scratching at hives on her neck and chest, voice sounds tight",
+      "LOC (AVPU)": "A — alert, anxious, answers in short phrases",
+      "Airway": "Open but threatened — voice is hoarse, she says her tongue 'feels thick,' audible swallowing effort. Deteriorating if untreated",
+      "Breathing": "Rapid with audible wheeze on exhalation; increasing work of breathing",
+      "Circulation": "Radial pulse rapid and present but weakening over time; skin flushed with raised hives",
+      "Skin": "Flushed, warm, widespread hives on neck, chest, and arms; lips beginning to swell",
+      "Transport decision": "Load-and-go — rapidly progressing anaphylaxis"
+    },
+    "vitals": {
+      "LOC": "A, anxious",
+      "HR": "124, regular, weakening at the radial as minutes pass",
+      "RR": "28 with expiratory wheeze",
+      "BP": "First reading 100/64; five minutes later 88/56 if untreated",
+      "SpO2": "93% and drifting down",
+      "Pupils": "Equal and reactive",
+      "Skin": "Flushed, hives, swelling lips and eyelids"
+    },
+    "sample": {
+      "S": "Hives, itching, tight throat, thick tongue, wheeze, abdominal cramping and nausea starting",
+      "A": "Peanuts — severe, known since childhood; carries an EpiPen in her bag",
+      "M": "EpiPen (in her bag under the table); daily antihistamine in allergy season",
+      "P": "One previous anaphylactic reaction at 16 requiring epinephrine and hospital observation",
+      "L": "The meal in front of her — started eating about ten minutes ago",
+      "E": "Ordered a dish specifically asking about peanuts; sauce likely contained peanut. Symptoms began with mouth itching, then hives, now throat"
+    },
+    "opqrst": {
+      "O": "About ten minutes ago, a few bites into the meal",
+      "P": "Nothing makes it better; getting worse by the minute",
+      "Q": "Throat tightness, itching 'everywhere,' cramping stomach",
+      "R": "Started at the mouth and throat, spreading to chest and belly",
+      "S": "She says 7/10 and frightened — 'this is like last time but faster'",
+      "T": "Continuous and progressing since onset"
+    },
+    "secondary": "Widespread urticaria on trunk and arms, swelling of lips and around the eyes, audible wheeze throughout the chest. No medic-alert jewelry — the history comes from her and the friend. Her bag with the EpiPen is under the table; nobody mentions it unless asked about medications.",
+    "intervention": {
+      "trigger": "Recognize anaphylaxis (two or more body systems, or any airway involvement, after allergen exposure) and assist/administer her epinephrine auto-injector to the outer mid-thigh, then position her comfortably (sitting if breathing is the problem; supine with legs raised if pressure crashes) and monitor",
+      "result": "Within a few minutes of epinephrine: breathing eases, wheeze quiets, voice less tight, HR 110, BP recovers to 108/70. She feels shaky (normal from the epi). She still MUST be transported — symptoms can rebound as the epinephrine wears off. A second dose may be needed in 5–15 minutes if symptoms return.",
+      "ifNot": "Without epinephrine: within five minutes her voice fades to a whisper, wheeze worsens to stridor, BP falls to 88/56, LOC drops to V. Antihistamines alone or 'watchful waiting' should be challenged in the debrief."
+    },
+    "debrief": {
+      "diagnosis": "Anaphylaxis from peanut exposure — airway, skin, GI, and circulatory involvement",
+      "expectedActions": [
+        "Scene assessment, gloves, primary survey",
+        "Recognize this as anaphylaxis, not a simple allergic reaction — airway involvement plus multiple systems",
+        "Ask about medications → find the EpiPen; assist/administer early rather than 'waiting to see'",
+        "Correct auto-injector technique: outer mid-thigh, hold per device instructions, note the time",
+        "Position appropriately and prepare for airway/ventilation support",
+        "Insist on transport even after improvement; monitor for a biphasic rebound and be ready with a second dose"
+      ],
+      "teachingPoints": [
+        "Epinephrine is the treatment for anaphylaxis, and it works best given early — hesitation is the most common fatal error",
+        "Two or more systems (or any airway/breathing/circulation involvement) after exposure = anaphylaxis = epi",
+        "Feeling better after epinephrine is not being better: biphasic reactions can hit after the drug wears off",
+        "Patients often carry their own fix — SAMPLE's 'M' finds it. Ask about medications out loud, every time"
+      ]
+    }
+  },
+  {
+    "id": "opioid-overdose",
+    "title": "Found in the stairwell",
+    "category": "medical",
+    "difficulty": "standard",
+    "hook": "Opioid overdose — respiratory depression; ventilate and naloxone",
+    "dispatch": "You are called to an apartment stairwell at 23:10 for an 'unconscious man, maybe 30.' A neighbour taking out garbage found him sitting slumped against the wall on the third-floor landing and couldn't wake him.",
+    "scene": {
+      "Hazards": "Dim stairwell — check footing and lighting. An uncapped needle lies beside his right hand: point it out only if the responder says they're scanning the ground; if they kneel without looking, tell them their knee is about to land next to it",
+      "Number of patients": "1",
+      "MOI / NOI": "NOI: suspected overdose — drug paraphernalia present, no signs of trauma or fall",
+      "Bystanders": "The neighbour — doesn't know him well, thinks he lives on the fourth floor, saw him fine a few hours ago",
+      "Additional resources": "EMS and police en route"
+    },
+    "primary": {
+      "General impression": "Thin man slumped against the wall, cyanotic lips, breathing barely visible",
+      "LOC (AVPU)": "U — no response to voice or painful stimulus",
+      "Airway": "Open when positioned; occasional shallow snore",
+      "Breathing": "INADEQUATE — 4-5 breaths per minute, shallow. Needs assisted ventilation now",
+      "Circulation": "Carotid pulse present, slow; radial weak; no bleeding",
+      "Skin": "Pale, cyanotic lips and nail beds, cool",
+      "Transport decision": "Rapid transport; this patient needs ventilations immediately and may arrest"
+    },
+    "vitals": {
+      "LOC": "U on AVPU",
+      "HR": "54, regular, weak",
+      "RR": "4-5, shallow — rises with assisted ventilation",
+      "BP": "98/60",
+      "SpO2": "78% found; climbs with ventilation",
+      "Pupils": "Pinpoint, minimally reactive",
+      "Skin": "Pale, cyanotic, cool"
+    },
+    "sample": {
+      "S": "Unresponsive, respiratory depression, pinpoint pupils, cyanosis",
+      "A": "Unknown",
+      "M": "Unknown; used needle at the scene. Naloxone kit visible in his open jacket pocket — if anyone looks",
+      "P": "Unknown; track marks on the left forearm if examined",
+      "L": "Unknown",
+      "E": "Neighbour saw him 'fine' a few hours ago; found slumped in the stairwell"
+    },
+    "opqrst": null,
+    "secondary": "Track marks on the left forearm. His own naloxone kit is in his jacket pocket. No injuries from a fall — he slid down the wall. Do the secondary only after breathing is being managed; if the responder starts a head-to-toe while he's breathing 4 times a minute, describe his lips getting bluer.",
+    "intervention": {
+      "trigger": "Assisted ventilations with a barrier device/BVM at an appropriate rate FIRST, then naloxone (his kit or the responder's) per protocol. Ventilation is the priority — naloxone without ventilation leaves him hypoxic for the minutes it takes to work",
+      "result": "With ventilations: cyanosis fades, SpO2 climbs to 94%. A few minutes after naloxone: breathing improves to 12/min on his own, LOC rises to V then A. He may wake confused or agitated and want to leave — remind the responder that naloxone wears off before the opioid does; he needs transport and monitoring",
+      "ifNot": "Without ventilation support he progresses to respiratory arrest within a few minutes, then cardiac arrest — the scenario becomes CPR"
+    },
+    "debrief": {
+      "diagnosis": "Opioid overdose — respiratory depression with hypoxia",
+      "expectedActions": [
+        "Scene assessment with sharps awareness — verbalize scanning before kneeling",
+        "Gloves; consider eye protection",
+        "Recognize inadequate breathing (rate AND depth), not just 'breathing present'",
+        "Ventilate first; naloxone second, per protocol",
+        "Find the patient's own naloxone kit through the M in SAMPLE or a pocket check",
+        "Anticipate agitation/withdrawal on wake-up; keep the scene controlled and insist on transport",
+        "Recovery position if he must be left breathing on his own at any point"
+      ],
+      "teachingPoints": [
+        "The classic toxidrome: unresponsive + pinpoint pupils + slow shallow breathing = opioid until proven otherwise",
+        "Naloxone is not the airway plan — ventilation is. Hypoxic minutes kill while the drug kicks in",
+        "Sharps on scene change how you approach, kneel, and search pockets",
+        "Naloxone outlasts nothing: the opioid usually outlives the antidote, so 'he woke up' is not 'he's fine'"
+      ]
+    }
+  },
+  {
+    "id": "stroke-kitchen",
+    "title": "Grandma's making no sense",
+    "category": "medical",
+    "difficulty": "standard",
+    "hook": "Stroke — FAST positive; time of onset is the critical detail",
+    "dispatch": "You are called to a house at 09:20. A teenage grandson says his 72-year-old grandmother is 'talking funny and making no sense.' She is sitting at the kitchen table, awake, with breakfast half-eaten in front of her.",
+    "scene": {
+      "Hazards": "None — tidy kitchen; kettle is on, ask someone to turn it off",
+      "Number of patients": "1",
+      "MOI / NOI": "NOI: sudden confusion/speech trouble; no fall, no trauma",
+      "Bystanders": "Grandson — she was normal when he got up at 8:30; she 'went weird' about fifteen minutes ago, mid-conversation. This timestamp matters: give it precisely only if the responder asks when symptoms started",
+      "Additional resources": "EMS en route; nothing else needed"
+    },
+    "primary": {
+      "General impression": "Elderly woman upright at the table, awake, right side of her face looks 'off,' trying to speak",
+      "LOC (AVPU)": "A — but confused; speech is slurred and words come out wrong",
+      "Airway": "Open; slight pooling of saliva on the right — watch it",
+      "Breathing": "Normal rate and effort",
+      "Circulation": "Radial pulse present, irregular; no bleeding",
+      "Skin": "Warm, dry, normal colour",
+      "Transport decision": "Load-and-go — suspected stroke is a time-critical transport to a stroke centre"
+    },
+    "vitals": {
+      "LOC": "A, confused, speech impaired",
+      "HR": "88, IRREGULARLY irregular (atrial fibrillation, if the responder comments on it)",
+      "RR": "16, easy",
+      "BP": "168/94",
+      "SpO2": "96% on room air",
+      "Pupils": "Equal and reactive",
+      "Glucose": "6.2 mmol/L — normal; rules out hypoglycemia if checked",
+      "FAST": "Face: right-sided droop, asymmetric smile. Arms: right arm drifts down within seconds. Speech: slurred, wrong words. Time: onset ~09:05 per grandson"
+    },
+    "sample": {
+      "S": "Sudden slurred speech, right facial droop, right arm weakness, confusion",
+      "A": "Penicillin",
+      "M": "Blood pressure pill and 'a blood thinner' — grandson brings the bottles if asked: ramipril and apixaban",
+      "P": "High blood pressure, atrial fibrillation",
+      "L": "Breakfast, half-finished — tea and toast around 08:45",
+      "E": "Mid-conversation at the table; no warning, no complaint of headache before it started"
+    },
+    "opqrst": null,
+    "secondary": "Right-sided facial droop, right arm drift, right leg slightly weak if tested. Grip weaker on the right. No head trauma, no neck stiffness. She keeps trying to wave you off and say she's fine — the words come out garbled.",
+    "intervention": null,
+    "debrief": {
+      "diagnosis": "Acute stroke, likely embolic (atrial fibrillation, on a blood thinner) — left-hemisphere signs",
+      "expectedActions": [
+        "Recognize the sudden focal deficits and run FAST deliberately, out loud",
+        "Pin down time of onset (or last-seen-normal) from the grandson and write it down — the hospital's treatment decisions hang on it",
+        "Check glucose to rule out the great stroke mimic",
+        "Nothing by mouth — her swallow is not safe",
+        "Position with head slightly elevated; protect the weak side; suction ready",
+        "Rapid transport decision and a handover that includes onset time, FAST findings, medications (especially the anticoagulant)"
+      ],
+      "teachingPoints": [
+        "Time of onset is a treatable-window question — 'when did you last see her normal' is one of the most important questions an EMR asks",
+        "Always rule out hypoglycemia: it can mimic stroke perfectly and is fixable on scene",
+        "Facial droop + saliva pooling = airway and aspiration risk; nothing by mouth",
+        "An irregular pulse plus a blood thinner in the SAMPLE tells the receiving team half the story — report it"
+      ]
+    }
+  },
+  {
+    "id": "postictal-sidewalk",
+    "title": "Seizure at the bus stop",
+    "category": "medical",
+    "difficulty": "standard",
+    "hook": "Post-ictal patient — protect, reassess, and watch for a second seizure",
+    "dispatch": "You are called to a bus stop at 16:45 for a 'man having a seizure.' On arrival the shaking has stopped. A woman is kneeling beside a man in his 30s who is lying on the sidewalk, eyes open but vacant.",
+    "scene": {
+      "Hazards": "Sidewalk next to a moderately busy road — position yourself between the patient and traffic; bystanders crowding",
+      "Number of patients": "1",
+      "MOI / NOI": "NOI: witnessed generalized seizure, about 90 seconds of full-body convulsions per the bystander; he also hit his head on the concrete when he fell — don't volunteer this unless they ask the witness what happened",
+      "Bystanders": "The woman who called — calm, watched the whole thing; other onlookers can be asked to step back",
+      "Additional resources": "EMS en route"
+    },
+    "primary": {
+      "General impression": "Adult man supine on the sidewalk, dazed, a small cut over his left eyebrow, damp patch on his trousers",
+      "LOC (AVPU)": "V — eyes open, mumbles to questions, doesn't know where he is. Improves gradually over ~10 minutes to A but confused",
+      "Airway": "Open; a little blood in the mouth from a bitten tongue; sonorous breathing that clears with positioning",
+      "Breathing": "Slightly rapid, adequate",
+      "Circulation": "Radial pulse present, strong; minor bleeding from the eyebrow laceration",
+      "Skin": "Flushed, sweaty",
+      "Transport decision": "Transport — post-ictal with a head strike; treat the fall as trauma too"
+    },
+    "vitals": {
+      "LOC": "V improving to A-confused over minutes",
+      "HR": "104, strong, regular",
+      "RR": "20",
+      "BP": "134/82",
+      "SpO2": "95%",
+      "Pupils": "Equal, reactive",
+      "Glucose": "5.4 mmol/L if checked",
+      "Skin": "Flushed, diaphoretic, warming down over time"
+    },
+    "sample": {
+      "S": "Witnessed 90-second convulsion, post-ictal confusion, bitten tongue, incontinence, head strike on concrete",
+      "A": "None known (medic-alert bracelet: epilepsy)",
+      "M": "Levetiracetam — bracelet says epilepsy; he confirms once oriented, admits he missed doses this week because his prescription ran out",
+      "P": "Epilepsy, diagnosed in his 20s; last seizure over a year ago",
+      "L": "Lunch around noon",
+      "E": "Standing at the bus stop, fell without warning per the witness"
+    },
+    "opqrst": null,
+    "secondary": "Small eyebrow laceration with a swelling lump under it (he hit the concrete), bitten lateral tongue edge, urinary incontinence. Given the unprotected fall, spine should at least be considered and assessed. As he clears he becomes embarrassed and wants to just get on the next bus.",
+    "intervention": {
+      "trigger": "Protect from traffic, manage the airway with positioning during the post-ictal phase, treat the head laceration, reassess LOC every few minutes, and keep him from standing up too early",
+      "result": "He clears to fully oriented over ten minutes. Handles the refusal conversation: missed medication + first seizure in a year + head strike = he should be seen. If the responder explains the head-injury risk plainly, he agrees to transport.",
+      "ifNot": "If he is stood up quickly or left unmonitored, he has a second brief seizure at the ten-minute mark — the responder should manage it: protect the head, nothing in the mouth, time it, airway after"
+    },
+    "debrief": {
+      "diagnosis": "Breakthrough tonic-clonic seizure in a known epileptic who ran out of medication, with a secondary head strike",
+      "expectedActions": [
+        "Control the scene: traffic, crowd, patient dignity (cover the incontinence, clear onlookers)",
+        "Get the story from the witness: duration, appearance, whether he was seizing on arrival",
+        "Airway positioning and suction-readiness in the post-ictal phase; never force anything into the mouth",
+        "Find the medic-alert bracelet; SAMPLE reveals the missed medication",
+        "Treat the fall as its own problem: assess the head strike and consider the spine",
+        "Serial LOC checks; recognize post-ictal confusion as expected but improving — if it isn't improving, escalate",
+        "Handle the refusal properly"
+      ],
+      "teachingPoints": [
+        "By the time you arrive the seizure is usually over — your job is the airway, the injuries from the fall, and the next seizure",
+        "A seizure is a symptom: ask why today (missed meds, fever, hypoglycemia, head injury, first-ever)",
+        "Post-ictal confusion should steadily improve; a LOC that stays down or drops needs rapid transport",
+        "Time any seizure you witness — duration drives treatment decisions downstream"
+      ]
+    }
+  },
+  {
+    "id": "cardiac-woman",
+    "title": "Just tired and a bit sick",
+    "category": "medical",
+    "difficulty": "tricky",
+    "hook": "Atypical cardiac presentation in a woman — no classic chest pain",
+    "dispatch": "You are called to a community centre at 11:00 where a 58-year-old woman leading a seniors' fitness class stopped mid-session, saying she felt unwell. Staff sat her in the office. She is apologetic and says everyone is overreacting.",
+    "scene": {
+      "Hazards": "None — quiet office, chair, staff helpful",
+      "Number of patients": "1",
+      "MOI / NOI": "NOI: sudden fatigue, nausea, and 'just not feeling right' during light exertion",
+      "Bystanders": "Centre staff — say she looked grey and had to sit down mid-class, which is 'not like her at all'",
+      "Additional resources": "EMS en route; the centre has an AED on the wall — noted only if the responder asks what resources are on site"
+    },
+    "primary": {
+      "General impression": "Fit-looking woman sitting upright, pale and clammy, one hand resting on her upper stomach, downplaying everything",
+      "LOC (AVPU)": "A — alert, oriented, apologetic",
+      "Airway": "Open and clear",
+      "Breathing": "Mildly short of breath, worse than she admits — she pauses mid-sentence",
+      "Circulation": "Radial pulse present, slightly irregular; no bleeding",
+      "Skin": "Pale, cool, clammy — visibly grey per bystanders",
+      "Transport decision": "Load-and-go once the responder puts the picture together; this is a cardiac patient"
+    },
+    "vitals": {
+      "LOC": "A throughout (unless untreated — see intervention)",
+      "HR": "96 with occasional skipped beats",
+      "RR": "22, slightly laboured",
+      "BP": "104/68",
+      "SpO2": "94% on room air",
+      "Pupils": "Equal, reactive",
+      "Skin": "Pale, cool, diaphoretic"
+    },
+    "sample": {
+      "S": "Nausea, one episode of vomiting in the washroom (she only admits this if asked directly), crushing fatigue, aching jaw and left shoulder 'from sleeping funny,' short of breath",
+      "A": "Sulfa drugs",
+      "M": "Medication for blood pressure and cholesterol; 'baby aspirin' she takes most days but skipped today",
+      "P": "Hypertension, high cholesterol; mother died of a heart attack at 60 — she mentions this only if family history is asked",
+      "L": "Toast and coffee at 07:30; couldn't finish it, felt off since",
+      "E": "Symptoms built gradually through the morning; got much worse leading the warm-up"
+    },
+    "opqrst": {
+      "O": "Vague onset over the morning, clearly worse with exertion",
+      "P": "Exertion makes it worse; rest helps a little; nothing fixes it",
+      "Q": "NOT sharp pain — she describes pressure-like heaviness and fullness in the upper stomach/lower chest, 'like bad indigestion'",
+      "R": "Aching jaw and left shoulder — she blames sleeping position",
+      "S": "She rates the discomfort only 3/10 — 'it's more that I feel awful all over'",
+      "T": "Ongoing about three hours, worst in the last thirty minutes"
+    },
+    "secondary": "Nothing new on head-to-toe. The picture IS the history: grey, clammy, nauseated, exertional 'indigestion' with jaw and shoulder ache in a woman with hypertension, high cholesterol, and a family history. If the responder concludes 'stomach bug,' have the staff member mention again how grey she looked.",
+    "intervention": {
+      "trigger": "Recognize a possible cardiac event: place her at rest in a position of comfort, ask about aspirin allergies/contraindications and assist with chewable ASA per protocol, keep the AED nearby, and make an urgent transport decision",
+      "result": "She remains stable but symptomatic to handover. She tries to refuse transport ('I have a class at noon') — the responder should not accept it: symptoms plus risk factors make this a must-transport conversation",
+      "ifNot": "If she is dismissed as 'flu/indigestion' and allowed to rest without escalation, she suddenly slumps in the chair — VSA. The scenario becomes CPR and AED use. Debrief the miss kindly but clearly"
+    },
+    "debrief": {
+      "diagnosis": "Acute coronary syndrome with an atypical (and very common) female presentation — nausea, fatigue, epigastric pressure, jaw/shoulder ache",
+      "expectedActions": [
+        "Take the bystander observation ('grey, had to stop') seriously over the patient's minimizing",
+        "Full OPQRST — the quality, radiation, and exertional pattern give it away despite the low pain score",
+        "SAMPLE surfaces the risk factors: hypertension, cholesterol, family history, skipped ASA",
+        "Rest, reassurance, ASA per protocol, AED located and nearby",
+        "Urgent transport; do not accept the refusal without a real informed-risk conversation"
+      ],
+      "teachingPoints": [
+        "Women's heart attacks often present without classic chest pain: nausea, fatigue, jaw/back/shoulder ache, and 'indigestion' are the story",
+        "A low pain score is not a low acuity score — pattern and risk factors beat the number",
+        "Patients minimize; bystanders who know the patient's baseline are gold",
+        "Know where the AED is before you need it"
+      ]
+    }
+  },
+  {
+    "id": "asthma-fields",
+    "title": "Can't catch her breath",
+    "category": "medical",
+    "difficulty": "standard",
+    "hook": "Severe asthma attack — silent chest is worse, not better",
+    "dispatch": "You are called to a soccer field at 18:20 for a 16-year-old girl having trouble breathing. Her coach called 911. It's a cool evening; play has stopped and her team is standing around her at the sideline bench.",
+    "scene": {
+      "Hazards": "None; ask the coach to move the team back and to call her parents",
+      "Number of patients": "1",
+      "MOI / NOI": "NOI: respiratory distress during exercise in cold air; no collision or trauma per the coach",
+      "Bystanders": "Coach — knows she has asthma and 'usually has a puffer in her bag.' The bag is at the far bench; someone must be sent for it",
+      "Additional resources": "EMS en route; parents being called"
+    },
+    "primary": {
+      "General impression": "Teenager sitting in the tripod position, working hard to breathe, speaking in one-to-two-word bursts, frightened",
+      "LOC (AVPU)": "A — alert, anxious",
+      "Airway": "Open",
+      "Breathing": "LABOURED — audible expiratory wheeze, accessory muscle use, prolonged exhalation, can't speak a sentence",
+      "Circulation": "Radial pulse rapid and strong",
+      "Skin": "Pale, sweaty; lips a normal colour for now",
+      "Transport decision": "Transport regardless of improvement — a severe attack that needed help is a hospital visit"
+    },
+    "vitals": {
+      "LOC": "A, anxious",
+      "HR": "128",
+      "RR": "32, laboured, prolonged exhale",
+      "BP": "118/74",
+      "SpO2": "90% on room air",
+      "Pupils": "Equal, reactive",
+      "Skin": "Pale, diaphoretic"
+    },
+    "sample": {
+      "S": "Severe shortness of breath, wheeze, chest tightness, can't finish sentences",
+      "A": "Grass and pollen; no drug allergies",
+      "M": "Salbutamol inhaler (blue) — in her bag with a spacer; a controller inhaler she 'forgets a lot'",
+      "P": "Asthma since childhood; hospitalized for it once at 12 — a severity flag if the responder asks",
+      "L": "Granola bar before the game",
+      "E": "Second half of a game in cold evening air; symptoms built over ten minutes and kept getting worse despite stopping"
+    },
+    "opqrst": {
+      "O": "Gradual over ~10 minutes during play",
+      "P": "Rest hasn't helped; cold air and exertion made it worse",
+      "Q": "Chest tightness, 'breathing through a straw'",
+      "R": "None",
+      "S": "Severe — she signals with a hand wave that she can't do the number",
+      "T": "Worsening steadily since onset"
+    },
+    "secondary": "Nothing beyond the respiratory picture. If assessment is slow or the inhaler isn't used, her wheeze becomes QUIETER and she becomes drowsy — make sure the responder interprets the silence as deterioration, not improvement.",
+    "intervention": {
+      "trigger": "Position of comfort (sitting, never forced supine), coach her breathing, assist with her own salbutamol using the spacer per protocol — correct technique: shake, seal, actuate on a slow deep inhale, hold, repeat per protocol",
+      "result": "After assisted puffs: wheeze loosens, RR eases to 24, she can speak short sentences, SpO2 climbs to 95%. She remains tired and must still be transported — and monitored, because severe attacks rebound",
+      "ifNot": "Without her bronchodilator: the chest goes quiet, she can no longer speak, LOC drops to V, lips dusky — imminent respiratory failure requiring assisted ventilation and rapid transport"
+    },
+    "debrief": {
+      "diagnosis": "Severe asthma exacerbation triggered by exertion and cold air, on poorly maintained controller therapy",
+      "expectedActions": [
+        "Calm the scene and the patient; send someone for her inhaler immediately",
+        "Recognize severity markers: tripod, one-word speech, accessory muscles, SpO2 90%",
+        "Assist with her own salbutamol with correct spacer technique, per protocol",
+        "Never lay a respiratory-distress patient flat",
+        "Reassess after each round of puffs; recognize a quieting chest as a red flag",
+        "Transport even after improvement; parents/consent handled appropriately for a minor per protocol"
+      ],
+      "teachingPoints": [
+        "Speech is a severity meter: sentences → phrases → words → silence",
+        "A silent chest in asthma means almost no air is moving — it is pre-arrest, not recovery",
+        "The patient's own fast-acting inhaler is the treatment; know assisted-medication protocol cold",
+        "Severe attacks can rebound as the medication wears off — improvement doesn't cancel transport"
+      ]
+    }
+  },
+  {
+    "id": "heat-stroke-race",
+    "title": "Runner down at the finish line",
+    "category": "medical",
+    "difficulty": "tricky",
+    "hook": "Heat STROKE, not heat exhaustion — hot dry skin and altered LOC; cooling is the treatment",
+    "dispatch": "You are working first aid at a charity 10K on a 31°C humid afternoon. At 13:40 a volunteer waves you over: a runner in his 40s collapsed just past the finish line. Another runner is pouring drops of water on his forehead 'to cool him down.'",
+    "scene": {
+      "Hazards": "Direct sun and radiating pavement — he must be moved to shade; finish-line crowd funnelling past",
+      "Number of patients": "1 — but on a day like this, tell the responder other runners are looking wobbly too if they ask about the broader scene; resources should be considered",
+      "MOI / NOI": "NOI: collapse during maximal exertion in heat and humidity",
+      "Bystanders": "A fellow runner and a race volunteer; the volunteer can fetch ice, water, and the medical tent's supplies if tasked",
+      "Additional resources": "Race medical tent has ice, tarps/tubs, and an AED; EMS on site at the event"
+    },
+    "primary": {
+      "General impression": "Man supine on hot pavement, flushed, confused, mumbling and trying to push helpers away",
+      "LOC (AVPU)": "V — confused, combative-ish, not oriented. This altered LOC is the finding that separates stroke from exhaustion",
+      "Airway": "Open",
+      "Breathing": "Rapid, adequate",
+      "Circulation": "Radial pulse very rapid and pounding",
+      "Skin": "HOT to the touch, flushed, and largely DRY — he has stopped sweating despite the conditions",
+      "Transport decision": "Load-and-go — but aggressive cooling starts NOW and continues during transport; cooling first, driving second per most protocols"
+    },
+    "vitals": {
+      "LOC": "V, confused",
+      "HR": "138, pounding",
+      "RR": "28",
+      "BP": "96/60",
+      "SpO2": "96%",
+      "Pupils": "Equal, reactive",
+      "Skin": "Hot, dry, flushed — core temperature dangerously high"
+    },
+    "sample": {
+      "S": "Collapse, confusion, hot dry skin, staggering 'drunken' gait in the last kilometre per the fellow runner",
+      "A": "None known",
+      "M": "None; took ibuprofen this morning for a sore knee (dehydrating day + NSAID, worth noting)",
+      "P": "Healthy, trains regularly — fitness does not immunize against heat stroke",
+      "L": "Small breakfast at 07:00; the fellow runner says he skipped the last two water stations to chase a personal best",
+      "E": "Maximal effort, 31°C and humid, inadequate fluids, collapse at the line"
+    },
+    "opqrst": null,
+    "secondary": "No trauma from the collapse beyond minor scrapes. The exam is the skin and the LOC. If asked to compare: the classic heat-exhaustion patient nearby (there is one at the tent) is sweaty, pale, nauseated, and ALERT — this man is the opposite and much sicker.",
+    "intervention": {
+      "trigger": "Move to shade, strip excess clothing, and cool aggressively: ice packs to neck/armpits/groin at minimum; cold-water immersion or continuous dousing/fanning if the tent's tub is used per protocol. Nothing by mouth while his LOC is altered",
+      "result": "With aggressive cooling his LOC improves to A-confused over ~10 minutes, HR eases to 116. He must still be transported — organ damage from heat stroke isn't visible on scene",
+      "ifNot": "With only forehead drips and reassurance: he seizes within minutes and his LOC falls to U. Aggressive cooling is the resuscitation; delay is measured in cooked organs"
+    },
+    "debrief": {
+      "diagnosis": "Exertional heat stroke — thermoregulation failure with CNS involvement",
+      "expectedActions": [
+        "Recognize heat STROKE from the pair of findings: altered LOC + hot (often dry) skin",
+        "Move off the hot pavement into shade immediately — the ground is part of the problem",
+        "Aggressive cooling as the primary treatment, using the resources on site; task bystanders to fetch ice",
+        "No oral fluids with altered LOC",
+        "Transport regardless of improvement; consider that a mass-participation event in this weather may produce more patients"
+      ],
+      "teachingPoints": [
+        "Heat exhaustion: sweaty, alert, nauseated. Heat stroke: altered mental status and hot skin — that line is the emergency",
+        "Cooling IS the treatment and it cannot wait for transport; minutes of hyperthermia cause permanent damage",
+        "'Fit and healthy' athletes get exertional heat stroke, often while still sweating early on — don't let a damp shirt rule it out",
+        "The pavement, the sun, and the crowd are all scene-management problems before they're patient problems"
+      ]
+    }
+  },
+  {
+    "id": "ladder-fall",
+    "title": "Off the ladder",
+    "category": "trauma",
+    "difficulty": "standard",
+    "hook": "Fall from height — spinal motion restriction and a distracting injury",
+    "dispatch": "You are called to a residential backyard at 15:30. A 47-year-old man fell about three metres from an extension ladder while cleaning eavestroughs. His wife called 911. He is on the grass, awake, and yelling about his wrist.",
+    "scene": {
+      "Hazards": "The ladder is still leaning unsecured against the eavestrough directly over the patient — it must be noticed and moved/secured before anyone works underneath it",
+      "Number of patients": "1",
+      "MOI / NOI": "Fall from ~3 m onto grass; landed feet-first then fell backward per his wife — a significant MOI with axial loading",
+      "Bystanders": "Wife — witnessed the whole fall; can secure the dog (barking at the back door) and meet EMS out front",
+      "Additional resources": "EMS en route"
+    },
+    "primary": {
+      "General impression": "Middle-aged man supine on grass, alert, cradling an obviously deformed right wrist, moving his head around freely to talk to you",
+      "LOC (AVPU)": "A — alert and oriented, in pain",
+      "Airway": "Open and clear",
+      "Breathing": "Normal",
+      "Circulation": "Radial pulse strong (check the LEFT wrist); no external bleeding beyond a scrape",
+      "Skin": "Normal colour, warm, slightly sweaty from pain",
+      "Transport decision": "Transport with spinal motion restriction; wrist is secondary"
+    },
+    "vitals": {
+      "LOC": "A and oriented",
+      "HR": "98",
+      "RR": "18",
+      "BP": "142/88",
+      "SpO2": "98%",
+      "Pupils": "Equal, reactive",
+      "Skin": "Warm, pink, mildly diaphoretic"
+    },
+    "sample": {
+      "S": "Severe right wrist pain and deformity; midline lower-back ache he only mentions if asked about OTHER pain ('yeah, my back's sore, but look at my wrist!'); heels sore",
+      "A": "None",
+      "M": "None regular; ibuprofen occasionally",
+      "P": "Healthy",
+      "L": "Lunch at noon",
+      "E": "Reached too far, ladder skidded, fell ~3 m, landed feet-first on grass then onto his back"
+    },
+    "opqrst": {
+      "O": "Immediately on landing",
+      "P": "Any wrist movement is agony; lying still helps the back",
+      "Q": "Wrist: sharp. Back: deep dull midline ache",
+      "R": "Wrist pain stays put; back ache doesn't radiate, no numbness or tingling — but ASK: he reports brief tingling in both feet right after landing if specifically questioned",
+      "S": "Wrist 9/10; back 4/10",
+      "T": "Constant since the fall"
+    },
+    "secondary": "Right wrist: deformed, swollen, distal circulation/sensation/movement intact — check and record CSM before and after splinting. Midline lumbar tenderness on palpation. Bruised heels (classic for feet-first falls, and a spine red flag). Everything else clear.",
+    "intervention": {
+      "trigger": "Spinal motion restriction appropriate to protocol BEFORE dealing with the wrist (and after the ladder overhead is addressed); then splint the wrist in position found, recheck CSM",
+      "result": "Patient stable throughout; pain managed with splinting and reassurance. If SMR was applied early, the handover is clean: MOI, midline tenderness, heel bruising, transient foot tingling all reported",
+      "ifNot": "If he's allowed to sit up or 'walk it off' to a chair, he reports a sharp electric jolt down both legs — a hard stop that should trigger immediate SMR and an honest debrief point"
+    },
+    "debrief": {
+      "diagnosis": "Distal radius fracture PLUS probable lumbar compression injury from axial loading — the wrist is the loud injury, the spine is the important one",
+      "expectedActions": [
+        "Spot the overhead ladder hazard before kneeling under it",
+        "Treat the MOI, not the chief complaint: 3 m fall = spinal motion restriction from first contact",
+        "Ask about pain OTHER than the obvious injury; ask about numbness/tingling specifically",
+        "Check CSM before and after splinting the wrist",
+        "Get the witnessed mechanism from the wife (feet-first, then backward)",
+        "Keep him from moving 'to get comfortable'"
+      ],
+      "teachingPoints": [
+        "A distracting injury is exactly that — the screaming wrist pulls everyone away from the quiet spine",
+        "Feet-first falls transmit force up the axial skeleton: heels, then lumbar spine. Bruised heels are a clue, not a footnote",
+        "Transient neurological symptoms (that tingling) count as neuro deficits — they must be asked about, found, and reported",
+        "The scene hazard you walked under is the one that gets you"
+      ]
+    }
+  },
+  {
+    "id": "kitchen-bleed",
+    "title": "The mandoline accident",
+    "category": "trauma",
+    "difficulty": "standard",
+    "hook": "Arterial bleed — direct pressure done properly, early shock recognition",
+    "dispatch": "You are called to a restaurant kitchen at 17:50. A 29-year-old prep cook has cut his forearm — a co-worker says a shelf collapsed and a falling mandoline blade caught him. 'There's blood everywhere.' Kitchen staff are panicking.",
+    "scene": {
+      "Hazards": "Blood on the floor (slip hazard), the collapsed shelf's contents still half-hanging, knives and equipment around. BSI is not optional here: gloves absolutely, eye protection if available",
+      "Number of patients": "1",
+      "MOI / NOI": "Laceration to the left inner forearm from a falling blade",
+      "Bystanders": "Co-worker pressing a completely soaked rag loosely on the wound; the manager can clear the kitchen and meet EMS",
+      "Additional resources": "EMS en route; first aid kit on the wall has dressings"
+    },
+    "primary": {
+      "General impression": "Young man sitting on the floor against the counter, pale, holding his left forearm with a blood-soaked rag; bright red blood visibly pulsing through it in spurts",
+      "LOC (AVPU)": "A — alert, frightened; becomes quieter and drowsier if bleeding control is delayed",
+      "Airway": "Open",
+      "Breathing": "Rapid",
+      "Circulation": "SEVERE external hemorrhage — arterial, spurting. Radial pulse on the uninjured side rapid; this is the primary-survey problem to fix immediately",
+      "Skin": "Pale, cool, sweaty and getting worse",
+      "Transport decision": "Rapid transport — significant blood loss already on the floor"
+    },
+    "vitals": {
+      "LOC": "A, anxious (deteriorates without bleeding control)",
+      "HR": "First set: 118, weak. Second set if bleeding controlled: 110. If not controlled: 136 and thready",
+      "RR": "24",
+      "BP": "First set 106/70; falls to 88/58 if bleeding continues",
+      "SpO2": "97%",
+      "Pupils": "Equal, reactive",
+      "Skin": "Pale, cool, diaphoretic — classic early shock"
+    },
+    "sample": {
+      "S": "Spurting laceration to the left inner forearm, lightheadedness, thirst",
+      "A": "None",
+      "M": "None",
+      "P": "Healthy",
+      "L": "Coffee and a pastry mid-afternoon",
+      "E": "Shelf gave way; caught the falling mandoline by reflex and the blade opened his forearm"
+    },
+    "opqrst": null,
+    "secondary": "Single deep 6-cm laceration to the volar forearm; no other injuries from the shelf collapse if checked (ask him — a can also hit his shoulder, minor bruise). Check distal CSM in the injured hand after bandaging. Defer any full head-to-toe until the bleed is controlled and reassessed.",
+    "intervention": {
+      "trigger": "Take over bleeding control properly: remove the soaked loose rag, firm DIRECT pressure with a proper dressing right on the bleeding point, pressure bandage; if bleeding continues through it, more pressure/additional dressing, and escalate to a tourniquet per protocol if direct pressure fails. Treat for shock: lying down, keep warm, nothing by mouth despite the thirst",
+      "result": "With firm direct pressure the spurting stops; bandage holds with only minor strike-through. Second vitals improve slightly. He asks for water — the responder should decline it and explain why",
+      "ifNot": "With loose or hesitant pressure the rag keeps soaking through, his LOC drifts to V, skin mottles, and vitals fall — decompensating shock. Escalate to a tourniquet and rapid transport"
+    },
+    "debrief": {
+      "diagnosis": "Arterial laceration (radial artery territory) with class II hemorrhage — compressible and fully controllable with correct direct pressure",
+      "expectedActions": [
+        "BSI stated and worn before approach; footing on the bloody floor noted",
+        "Go straight at the bleed in the primary survey — this is the C problem; don't detour",
+        "Firm direct pressure on the exact bleeding point, not a gentle hold on a soaked rag",
+        "Recognize the early shock picture (pale/cool/clammy, rising HR, anxiety, thirst) and treat for it",
+        "Nothing by mouth; keep him warm and flat",
+        "Reassess the bandage and distal CSM; escalate per protocol if pressure fails"
+      ],
+      "teachingPoints": [
+        "A soaked dressing loosely held is not bleeding control — pressure must be firm, direct, and on the point of bleeding",
+        "Estimate blood loss from the scene, then trust the patient's skin and pulse over their reassurances",
+        "Thirst, anxiety, and pallor arrive before the blood pressure falls — early shock is a clinical picture, not a number",
+        "Bright red and spurting = arterial; it can exsanguinate but it's also usually compressible — act, don't stare"
+      ]
+    }
+  },
+  {
+    "id": "mvc-two-patients",
+    "title": "Car versus pole",
+    "category": "trauma",
+    "difficulty": "tricky",
+    "hook": "The obvious patient isn't the only patient — scene assessment finds the second one",
+    "dispatch": "You are called at 21:15 to a single-vehicle collision: a sedan has hit a utility pole on a quiet suburban street. Dispatch reports 'one patient, conscious.' On arrival a man in his 50s is standing beside the car holding a cloth to his bleeding forehead, waving at you.",
+    "scene": {
+      "Hazards": "Struck utility pole — LOOK UP: a power line sags low over the car but is not down. Keep everyone away from the car until utilities confirm; glass on the road; dark street, oncoming-traffic protection needed",
+      "Number of patients": "TWO. The driver is obvious. If the responder asks him or checks the car from a safe distance: his teenage daughter was in the front passenger seat and is still in the car, quiet, 'she says she's fine, she's texting her mom.' If nobody asks 'was anyone else in the car?', the second patient is missed until EMS arrives — a major debrief point",
+      "MOI / NOI": "Frontal impact into a fixed pole at maybe 40 km/h; airbags deployed; passenger-side intrusion is minimal but the windshield is starred on HER side (head strike?)",
+      "Bystanders": "A neighbour who heard the crash; can direct traffic with a flashlight from a safe spot",
+      "Additional resources": "Utilities for the power line, police for traffic, EMS — a second unit once patient count is known"
+    },
+    "primary": {
+      "General impression": "DRIVER: walking, talking, forehead laceration, more worried about the car. DAUGHTER (once found): 16, sitting belted in the passenger seat, pale and quiet, staring ahead, arms wrapped around her belly",
+      "LOC (AVPU)": "Driver: A, oriented. Daughter: A but withdrawn, answers in flat single words",
+      "Airway": "Both: open and clear",
+      "Breathing": "Driver: normal. Daughter: rapid and shallow",
+      "Circulation": "Driver: minor forehead bleed, strong pulse. Daughter: radial pulse fast and weak; no external bleeding visible",
+      "Skin": "Driver: normal. Daughter: pale, cool, clammy",
+      "Transport decision": "Daughter is the priority patient — load-and-go. Triage decision must be verbalized"
+    },
+    "vitals": {
+      "Driver — HR": "92, strong",
+      "Driver — RR": "16",
+      "Driver — BP": "148/90",
+      "Driver — LOC": "A, oriented ×4",
+      "Daughter — HR": "124, weak",
+      "Daughter — RR": "26, shallow",
+      "Daughter — BP": "98/64, trending down on reassessment",
+      "Daughter — LOC": "A, withdrawn; slower answers on reassessment",
+      "Daughter — Skin": "Pale, cool, clammy"
+    },
+    "sample": {
+      "Driver": "S: forehead lac, sore chest from the belt. A: none. M: blood pressure pill. P: hypertension. L: dinner. E: 'the deer came out of nowhere,' swerved into the pole",
+      "Daughter": "S: belly pain she downplays ('just the seatbelt'), left shoulder-tip pain when lying flatter, nausea. A: none. M: none. P: healthy. L: dinner. E: same crash; lap belt was riding high over her abdomen — she'd slid it up because it was 'digging in'"
+    },
+    "opqrst": {
+      "O (daughter)": "Since the impact",
+      "P": "Pressing on her belly hurts; sitting still helps a little",
+      "Q": "Deep ache with cramping",
+      "R": "LEFT SHOULDER TIP — referred pain; there's no injury to the shoulder itself",
+      "S": "5/10 'it's fine' — her vitals disagree",
+      "T": "Steadily worse since the crash"
+    },
+    "secondary": "Driver: forehead laceration, seatbelt chest soreness, nothing else. Daughter: bruising in a band across the lower abdomen (seatbelt sign), guarding and tenderness in the left upper quadrant, left shoulder-tip pain, starred windshield above her seat — assess her head and neck too. Her belly findings + falling BP = internal bleed.",
+    "intervention": {
+      "trigger": "Correct triage: after the power-line check, ask the patient count question, assess the quiet patient before the loud one is fully packaged, treat the daughter for shock (supine per protocol, warmth, nothing by mouth), SMR for both given the MOI, and communicate the priority clearly to arriving EMS",
+      "result": "Daughter remains stable enough for handover with shock care and a crisp report: mechanism, seatbelt sign, LUQ tenderness, shoulder-tip pain, trending vitals. Driver's laceration dressed while waiting",
+      "ifNot": "If she stays unassessed in the car, her second 'check-in' finds her drowsy (V), grey, HR 140 — decompensated shock, and the debrief writes itself"
+    },
+    "debrief": {
+      "diagnosis": "Daughter: blunt abdominal trauma with probable splenic injury and internal hemorrhage (seatbelt sign, LUQ tenderness, Kehr's sign — referred left shoulder-tip pain). Driver: minor lacerations only",
+      "expectedActions": [
+        "Look up at the pole/lines before approaching a vehicle that hit one",
+        "ALWAYS establish the number of patients — 'was anyone else in the car?' is a scene-assessment question, not an afterthought",
+        "Triage by findings, not by volume: the walking talker is rarely the sickest person on scene",
+        "Recognize the internal-bleed picture: mechanism + seatbelt sign + tenderness + shock vitals + referred shoulder pain",
+        "Shock care, SMR, priority transport, and a handover that transmits the trend, not just one set of numbers"
+      ],
+      "teachingPoints": [
+        "Dispatch information is a rumour: 'one patient, conscious' is where you start, not what's true",
+        "Quiet patients die politely — anxiety-quiet, pale, and withdrawn is a presentation, not a personality",
+        "Left shoulder-tip pain after abdominal trauma (Kehr's sign) points at the spleen; there's nothing wrong with the shoulder",
+        "A misplaced lap belt turns into an abdominal injury pattern; a starred windshield tells you where a head went"
+      ]
+    }
+  },
+  {
+    "id": "concussion-rink",
+    "title": "He says he's fine",
+    "category": "trauma",
+    "difficulty": "tricky",
+    "hook": "Concussion with a lucid patient who wants to keep playing — refusal and red-flag monitoring",
+    "dispatch": "You are providing coverage at a recreational hockey game. At 20:35 a 19-year-old winger is checked hard into the boards, helmet-first, and stays down for perhaps twenty seconds. By the time you get to the bench he is sitting up, laughing with teammates, and telling everyone he's fine.",
+    "scene": {
+      "Hazards": "Ice surface — your own footing; play has stopped",
+      "Number of patients": "1",
+      "MOI / NOI": "Helmet-first impact into the boards, brief loss of consciousness witnessed by the referee ('his lights were out for a few seconds' — but the referee only volunteers this if asked; teammates say he 'just got his bell rung')",
+      "Bystanders": "Teammates (minimizing), the referee (accurate witness), his girlfriend in the stands who can be asked about baseline and can stay with him",
+      "Additional resources": "None on site beyond your kit; EMS can be requested"
+    },
+    "primary": {
+      "General impression": "Young man on the bench, helmet off, slightly glassy-eyed, repeating 'I'm good' a bit too often",
+      "LOC (AVPU)": "A — but ask orientation questions: he knows who and where, is fuzzy on the score, and asks 'what period is it?' TWICE a few minutes apart (repeating the question is the tell)",
+      "Airway": "Open",
+      "Breathing": "Normal",
+      "Circulation": "Strong regular pulse; no external bleeding; no neck pain on assessment",
+      "Skin": "Slightly pale",
+      "Transport decision": "Should be assessed at hospital tonight given the witnessed LOC — the whole scenario is getting him to accept that"
+    },
+    "vitals": {
+      "LOC": "A; orientation intact except recent events; repeats questions",
+      "HR": "82",
+      "RR": "14",
+      "BP": "126/78",
+      "SpO2": "99%",
+      "Pupils": "Equal and reactive (a reassuring but not clearing finding)",
+      "Skin": "Slightly pale, otherwise normal"
+    },
+    "sample": {
+      "S": "Headache building behind the eyes, 'a bit foggy,' nausea he calls 'nothing,' doesn't remember the hit itself or going down (retrograde gap)",
+      "A": "None",
+      "M": "None",
+      "P": "One previous concussion last season — 'it was nothing, missed a week' (second concussion = bigger deal; only surfaces if P is actually asked)",
+      "L": "Burger before the game",
+      "E": "Checked helmet-first into the boards; ~20 seconds unresponsive per the referee"
+    },
+    "opqrst": {
+      "O": "Headache started within minutes of the hit",
+      "P": "Arena lights and noise make it worse — he squints",
+      "Q": "Pressure headache",
+      "R": "None",
+      "S": "3/10 'and dropping' he claims; he winces at the loudspeaker",
+      "T": "Slowly building, not fading"
+    },
+    "secondary": "No scalp deformity or bleeding; helmet has a fresh scuff. Cervical spine assessed: no midline tenderness, full pain-free range — per protocol this may clear the collar question. Balance test if performed: sways on tandem stance. The exam findings are subtle; the HISTORY (LOC, amnesia, repetition, prior concussion) is the case.",
+    "intervention": {
+      "trigger": "Take him off the ice for good (no return to play, non-negotiable), do serial reassessments, gather the referee's account, involve the girlfriend, and have the informed-refusal conversation properly: witnessed LOC + amnesia + second concussion + worsening headache = hospital tonight",
+      "result": "If the responder explains the red flags concretely (what a brain bleed looks like hours later, why sleep-it-off is dangerous advice tonight) he grudgingly agrees to go, girlfriend driving behind the ambulance. If the responder folds and lets him refuse: see ifNot",
+      "ifNot": "Twenty minutes later, mid-game, he vomits on the bench and becomes confused and combative — signs of deterioration; now it's an urgent transport with a much harder patient. The moderator should let a weak refusal conversation reach this consequence"
+    },
+    "debrief": {
+      "diagnosis": "Concussion with witnessed brief LOC and post-traumatic amnesia; risk stratified upward by a prior concussion — and a presentation designed to be talked out of",
+      "expectedActions": [
+        "Find the credible witness — the referee's 'lights out' outranks the teammates' 'bell rung'",
+        "Ask orientation and memory questions rather than accepting 'I'm fine'; notice the repeated question",
+        "Assess the neck given the mechanism, per protocol",
+        "P in SAMPLE catches the prior concussion",
+        "No return to play, full stop",
+        "A real informed-refusal conversation: specific risks, specific red flags, a monitoring plan and a sober adult if he still refuses — documented"
+      ],
+      "teachingPoints": [
+        "Lucid and cheerful does not mean uninjured — the lucid interval is a famous trap (and repeated questioning is the classic concussion tell)",
+        "Witnessed LOC, amnesia, worsening headache, vomiting, and a second concussion are all escalation flags",
+        "Refusal is a process, not a sentence: capacity, specific risks explained, red flags taught, someone assigned to watch, documentation",
+        "Your job includes overruling the team's culture: 'shake it off' is not a clinical assessment"
+      ]
+    }
+  },
+  {
+    "id": "garage-co",
+    "title": "Flu season in the garage",
+    "category": "medical",
+    "difficulty": "tricky",
+    "hook": "Carbon monoxide — the scene is the diagnosis, and the responder is the next patient",
+    "dispatch": "You are called to a residential address at 08:50 on a cold morning for a 61-year-old man who is 'dizzy and confused — probably the flu, it's been going around,' per his wife. She adds that their two grandkids, staying the weekend, are also 'coming down with it' — headachy and nauseous this morning.",
+    "scene": {
+      "Hazards": "THE SCENE IS THE HAZARD. The man has been running a gasoline generator IN THE ATTACHED GARAGE since a pre-dawn power outage; the door from the garage into the house is ajar. You can hear a small engine running somewhere as you approach and there's a faint exhaust smell in the hallway — volunteer only these two sensory cues; the responder must put it together. If they walk in and start patient care, narrate the responder's own growing headache within a few minutes",
+      "Number of patients": "FOUR: the man (worst), the wife, and both grandkids — everyone in the house is exposed. This only becomes clear once CO is suspected",
+      "MOI / NOI": "NOI: carbon monoxide poisoning from generator exhaust migrating into the house",
+      "Bystanders": "The wife — mobile and mildly symptomatic (headache she's been blaming on stress)",
+      "Additional resources": "Fire department (gas detection and ventilation), multiple EMS units once the patient count is real, utility company for the outage"
+    },
+    "primary": {
+      "General impression": "Man slumped in a recliner one room from the garage door, awake but sluggish, cherry-flushed cheeks his wife thinks are fever",
+      "LOC (AVPU)": "V-to-A borderline — rouses fully to voice, confused about the morning, improves noticeably once outside in fresh air",
+      "Airway": "Open",
+      "Breathing": "Rapid; no wheeze, no distress sounds — the problem is what's ON the hemoglobin, not the mechanics",
+      "Circulation": "Radial pulse rapid; no bleeding",
+      "Skin": "Flushed; the grandkids are pale and nauseated; wife has a headache. Four patients, one cause",
+      "Transport decision": "Evacuate FIRST, assess outside. Everyone gets assessed; the man is priority transport with high-flow oxygen per protocol"
+    },
+    "vitals": {
+      "Man — LOC": "V/A borderline, confused, improving outdoors",
+      "Man — HR": "116",
+      "Man — RR": "26",
+      "Man — BP": "138/86",
+      "Man — SpO2": "A pulse oximeter reads 97% — EXPLAIN IN DEBRIEF: standard SpO2 is unreliable in CO poisoning; it reads carboxyhemoglobin as if it were oxygen",
+      "Others": "Wife: headache, HR 92. Grandkids: headache, nausea, one vomited; both alert. All improve in fresh air"
+    },
+    "sample": {
+      "S": "Man: headache since ~06:00, dizziness, confusion, nausea. Everyone in the house: headache and nausea of the same vintage — the shared timeline is the giveaway if the responder asks the family about themselves",
+      "A": "None relevant",
+      "M": "Man: metformin. Others: none",
+      "P": "Man: type 2 diabetes (a red herring — glucose is 7.8 if checked)",
+      "L": "Nobody has eaten breakfast — too nauseated",
+      "E": "Power went out around 05:30; he set up the generator in the garage 'so it wouldn't get stolen' and cracked the inside door to run an extension cord"
+    },
+    "opqrst": {
+      "O": "All symptoms began within the same two-hour window this morning",
+      "P": "Symptoms improve outside / with fresh air — if anyone is asked whether they felt better leaving the house, YES",
+      "Q": "Dull global headache, 'hungover' feeling",
+      "R": "None",
+      "S": "Man: 6/10 headache. Others: 3-4/10",
+      "T": "Steadily worse the longer each person stayed inside"
+    },
+    "secondary": "No trauma. The 'flu' has no fever (36.9°C if checked), no cough, no congestion — and it struck four people simultaneously at the same address on the same morning a generator started running. Nothing else to find; the case is solved by the scene and the history.",
+    "intervention": {
+      "trigger": "STOP patient care in the house: get everyone (including yourself and the wife) out into fresh air, leave the generator/ventilation to the fire department, request the additional resources, and treat all four outside — high-flow oxygen for the man per protocol, transport for everyone exposed",
+      "result": "Everyone improves in fresh air; the man clears to A but stays confused about the early morning. All four are transported for evaluation (CO effects and delayed problems aren't ruled out by feeling better)",
+      "ifNot": "If care continues inside: the responder's own headache and dizziness build until the moderator asks them how they're feeling — if they still don't leave, they become a fifth patient and the scenario ends. This is the lesson; let it land"
+    },
+    "debrief": {
+      "diagnosis": "Carbon monoxide poisoning of an entire household from a generator in an attached garage; the 'family flu' was the exposure pattern",
+      "expectedActions": [
+        "Treat the scene assessment as live throughout: engine noise + exhaust smell + power outage + everyone-sick-at-once → CO",
+        "Evacuate before treating; don't ventilate or touch the generator yourself — fire department's job",
+        "Recount the patients: a toxic scene means everyone exposed is a patient, including the 'caller'",
+        "High-flow oxygen and transport for all, per protocol",
+        "Know the SpO2 trap: a normal pulse-ox reading does NOT rule out CO",
+        "Monitor yourself and your partner — responders are on the exposure list"
+      ],
+      "teachingPoints": [
+        "When a whole household gets 'the flu' on the same morning, think environment, not virus — headache + nausea + no fever + shared roof = CO until proven otherwise",
+        "The scene assessment doesn't end when patient care starts; the best clue here is a sound and a smell in the hallway",
+        "Pulse oximetry lies in CO poisoning — treat the story, not the number",
+        "You can't help anyone from inside the same poisoned air; evacuation IS the treatment, and you are not exempt from it"
+      ]
+    }
+  }
+]

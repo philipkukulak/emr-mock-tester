@@ -311,3 +311,159 @@ h1 {
 .results-actions button:hover {
   background: #374151;
 }
+
+/* ---- Scenario practice page ---- */
+.page-link {
+  color: #3b82f6;
+  font-weight: 600;
+  text-decoration: none;
+}
+
+.page-link:hover {
+  text-decoration: underline;
+}
+
+.moderator-note {
+  font-size: 0.85rem;
+  color: #6b7280;
+  font-style: italic;
+  line-height: 1.5;
+}
+
+.scenario-title-row {
+  display: flex;
+  align-items: baseline;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+  margin-bottom: 0.75rem;
+}
+
+.scenario-title-row h2 {
+  font-size: 1.25rem;
+}
+
+.badge {
+  font-size: 0.7rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+  padding: 0.15rem 0.5rem;
+  border-radius: 999px;
+}
+
+.badge-medical {
+  background: #dbeafe;
+  color: #1d4ed8;
+}
+
+.badge-trauma {
+  background: #ffedd5;
+  color: #c2410c;
+}
+
+.badge-tricky {
+  background: #fef2f2;
+  color: #b91c1c;
+  border: 1px solid #fca5a5;
+}
+
+.dispatch {
+  padding: 0.9rem 1rem;
+  background: #eff6ff;
+  border-left: 4px solid #3b82f6;
+  border-radius: 4px;
+  line-height: 1.55;
+  margin-bottom: 1rem;
+}
+
+.dispatch-label {
+  font-size: 0.75rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+  color: #1d4ed8;
+  margin-bottom: 0.35rem;
+}
+
+.reveal-controls {
+  display: flex;
+  gap: 0.5rem;
+  margin-bottom: 0.75rem;
+}
+
+.reveal-controls button {
+  font-size: 0.85rem;
+  padding: 0.4rem 0.7rem;
+  border: 2px solid #d1d5db;
+  border-radius: 8px;
+  background: #fff;
+  color: #1f2937;
+  cursor: pointer;
+}
+
+.reveal-controls button:hover {
+  background: #f3f4f6;
+  border-color: #9ca3af;
+}
+
+.section {
+  border: 2px solid #d1d5db;
+  border-radius: 8px;
+  margin-bottom: 0.6rem;
+  background: #fff;
+}
+
+.section[open] {
+  border-color: #16a34a;
+}
+
+.section summary {
+  font-size: 1rem;
+  font-weight: 600;
+  padding: 0.7rem 1rem;
+  cursor: pointer;
+  user-select: none;
+  list-style-position: inside;
+}
+
+.section summary:hover {
+  background: #f3f4f6;
+  border-radius: 6px;
+}
+
+.section[open] summary {
+  color: #15803d;
+}
+
+.section-body {
+  padding: 0.25rem 1rem 0.9rem;
+  line-height: 1.55;
+  font-size: 0.95rem;
+}
+
+.kv-row {
+  margin-bottom: 0.4rem;
+}
+
+.kv-key {
+  font-weight: 700;
+  color: #374151;
+}
+
+.kv-key::after {
+  content: ":";
+}
+
+.debrief-hook {
+  font-weight: 600;
+  color: #b91c1c;
+  margin-bottom: 0.6rem;
+}
+
+.debrief-list {
+  margin: 0.25rem 0 0.75rem 1.25rem;
+}
+
+.debrief-list li {
+  margin-bottom: 0.3rem;
+}
