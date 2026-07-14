@@ -3,7 +3,7 @@
     "id": "diabetic-office",
     "title": "Slumped over the desk",
     "category": "medical",
-    "difficulty": "standard",
+    "difficulty": "easy",
     "hook": "Altered LOC in a diabetic — hypoglycemia",
     "dispatch": "You are called to a downtown office at 14:30 for a 52-year-old man found slumped over his desk. His secretary called 911. She meets you at the elevator, visibly worried, and says he 'seemed off all morning' and stopped answering her about twenty minutes ago.",
     "scene": {
@@ -71,7 +71,7 @@
     "id": "cyclist-airway",
     "title": "Cyclist down on the trail",
     "category": "trauma",
-    "difficulty": "tricky",
+    "difficulty": "medium",
     "hook": "Unresponsive with a pulse — but the airway is blocked. Breathing check is the whole scenario.",
     "dispatch": "You are called to a paved multi-use trail at 10:15 for a cyclist who went over his handlebars. A jogger found him face-down next to his bike and rolled him onto his back before calling 911. The patient is a man in his 20s, helmet still on, not moving.",
     "scene": {
@@ -136,7 +136,7 @@
     "id": "restaurant-anaphylaxis",
     "title": "Reaction at the restaurant",
     "category": "medical",
-    "difficulty": "standard",
+    "difficulty": "easy",
     "hook": "Anaphylaxis — rapid airway involvement, epinephrine is the fix",
     "dispatch": "You are called to a Thai restaurant at 19:40 for a 24-year-old woman having 'some kind of allergic reaction.' The manager meets you at the door and hurries you to a table where a woman is sitting forward, scratching at her neck, with her friend beside her.",
     "scene": {
@@ -182,7 +182,7 @@
     },
     "secondary": "Widespread urticaria on trunk and arms, swelling of lips and around the eyes, audible wheeze throughout the chest. No medic-alert jewelry — the history comes from her and the friend. Her bag with the EpiPen is under the table; nobody mentions it unless asked about medications.",
     "intervention": {
-      "trigger": "Recognize anaphylaxis (two or more body systems, or any airway involvement, after allergen exposure) and assist/administer her epinephrine auto-injector to the outer mid-thigh, then position her comfortably (sitting if breathing is the problem; supine with legs raised if pressure crashes) and monitor",
+      "trigger": "Recognize anaphylaxis (two or more body systems, or any airway involvement, after allergen exposure) and assist/administer her epinephrine auto-injector (0.3 mg adult dose; 0.15 mg would be the pediatric device) to the outer mid-thigh, then position her comfortably (sitting if breathing is the problem; supine with legs raised if pressure crashes) and monitor",
       "result": "Within a few minutes of epinephrine: breathing eases, wheeze quiets, voice less tight, HR 110, BP recovers to 108/70. She feels shaky (normal from the epi). She still MUST be transported — symptoms can rebound as the epinephrine wears off. A second dose may be needed in 5–15 minutes if symptoms return.",
       "ifNot": "Without epinephrine: within five minutes her voice fades to a whisper, wheeze worsens to stridor, BP falls to 88/56, LOC drops to V. Antihistamines alone or 'watchful waiting' should be challenged in the debrief."
     },
@@ -208,7 +208,7 @@
     "id": "opioid-overdose",
     "title": "Found in the stairwell",
     "category": "medical",
-    "difficulty": "standard",
+    "difficulty": "easy",
     "hook": "Opioid overdose — respiratory depression; ventilate and naloxone",
     "dispatch": "You are called to an apartment stairwell at 23:10 for an 'unconscious man, maybe 30.' A neighbour taking out garbage found him sitting slumped against the wall on the third-floor landing and couldn't wake him.",
     "scene": {
@@ -247,7 +247,7 @@
     "opqrst": null,
     "secondary": "Track marks on the left forearm. His own naloxone kit is in his jacket pocket. No injuries from a fall — he slid down the wall. Do the secondary only after breathing is being managed; if the responder starts a head-to-toe while he's breathing 4 times a minute, describe his lips getting bluer.",
     "intervention": {
-      "trigger": "Assisted ventilations with a barrier device/BVM at an appropriate rate FIRST, then naloxone (his kit or the responder's) per protocol. Ventilation is the priority — naloxone without ventilation leaves him hypoxic for the minutes it takes to work",
+      "trigger": "Assisted ventilations with a barrier device/BVM at an appropriate rate FIRST, then administer naloxone — 4 mg intranasal, one spray into a nostril (his kit or the responder's). Ventilation is the priority — naloxone without ventilation leaves him hypoxic for the minutes it takes to work",
       "result": "With ventilations: cyanosis fades, SpO2 climbs to 94%. A few minutes after naloxone: breathing improves to 12/min on his own, LOC rises to V then A. He may wake confused or agitated and want to leave — remind the responder that naloxone wears off before the opioid does; he needs transport and monitoring",
       "ifNot": "Without ventilation support he progresses to respiratory arrest within a few minutes, then cardiac arrest — the scenario becomes CPR"
     },
@@ -257,7 +257,7 @@
         "Scene assessment with sharps awareness — verbalize scanning before kneeling",
         "Gloves; consider eye protection",
         "Recognize inadequate breathing (rate AND depth), not just 'breathing present'",
-        "Ventilate first; naloxone second, per protocol",
+        "Ventilate first; then administer 4 mg intranasal naloxone",
         "Find the patient's own naloxone kit through the M in SAMPLE or a pocket check",
         "Anticipate agitation/withdrawal on wake-up; keep the scene controlled and insist on transport",
         "Recovery position if he must be left breathing on his own at any point"
@@ -274,7 +274,7 @@
     "id": "stroke-kitchen",
     "title": "Grandma's making no sense",
     "category": "medical",
-    "difficulty": "standard",
+    "difficulty": "easy",
     "hook": "Stroke — FAST positive; time of onset is the critical detail",
     "dispatch": "You are called to a house at 09:20. A teenage grandson says his 72-year-old grandmother is 'talking funny and making no sense.' She is sitting at the kitchen table, awake, with breakfast half-eaten in front of her.",
     "scene": {
@@ -336,7 +336,7 @@
     "id": "postictal-sidewalk",
     "title": "Seizure at the bus stop",
     "category": "medical",
-    "difficulty": "standard",
+    "difficulty": "easy",
     "hook": "Post-ictal patient — protect, reassess, and watch for a second seizure",
     "dispatch": "You are called to a bus stop at 16:45 for a 'man having a seizure.' On arrival the shaking has stopped. A woman is kneeling beside a man in his 30s who is lying on the sidewalk, eyes open but vacant.",
     "scene": {
@@ -403,7 +403,7 @@
     "id": "cardiac-woman",
     "title": "Just tired and a bit sick",
     "category": "medical",
-    "difficulty": "tricky",
+    "difficulty": "hard",
     "hook": "Atypical cardiac presentation in a woman — no classic chest pain",
     "dispatch": "You are called to a community centre at 11:00 where a 58-year-old woman leading a seniors' fitness class stopped mid-session, saying she felt unwell. Staff sat her in the office. She is apologetic and says everyone is overreacting.",
     "scene": {
@@ -449,7 +449,7 @@
     },
     "secondary": "Nothing new on head-to-toe. The picture IS the history: grey, clammy, nauseated, exertional 'indigestion' with jaw and shoulder ache in a woman with hypertension, high cholesterol, and a family history. If the responder concludes 'stomach bug,' have the staff member mention again how grey she looked.",
     "intervention": {
-      "trigger": "Recognize a possible cardiac event: place her at rest in a position of comfort, have her chew 160-325 mg of ASA (single dose, never repeated) after ruling out the contraindications — asthma or a bleeding condition — keep the AED nearby, and make an urgent transport decision",
+      "trigger": "Recognize a possible cardiac event: place her at rest in a position of comfort, have her chew 160 mg of ASA before swallowing (single dose, never repeated) after ruling out the contraindications — allergy to aspirin or NSAIDs, asthma, or a recent head injury, stroke, or bleeding problem — keep the AED nearby, and make an urgent transport decision",
       "result": "She remains stable but symptomatic to handover. She tries to refuse transport ('I have a class at noon') — the responder should not accept it: symptoms plus risk factors make this a must-transport conversation",
       "ifNot": "If she is dismissed as 'flu/indigestion' and allowed to rest without escalation, she suddenly slumps in the chair — VSA. The scenario becomes CPR and AED use. Debrief the miss kindly but clearly"
     },
@@ -459,7 +459,7 @@
         "Take the bystander observation ('grey, had to stop') seriously over the patient's minimizing",
         "Full OPQRST — the quality, radiation, and exertional pattern give it away despite the low pain score",
         "SAMPLE surfaces the risk factors: hypertension, cholesterol, family history, skipped ASA",
-        "Rest, reassurance, chewed ASA once asthma and bleeding conditions are ruled out, AED located and nearby",
+        "Rest, reassurance, 160 mg ASA chewed before swallowing once the contraindications (aspirin/NSAID allergy, asthma, recent head injury or stroke) are ruled out, AED located and nearby",
         "Urgent transport; do not accept the refusal without a real informed-risk conversation"
       ],
       "teachingPoints": [
@@ -474,7 +474,7 @@
     "id": "asthma-fields",
     "title": "Can't catch her breath",
     "category": "medical",
-    "difficulty": "standard",
+    "difficulty": "easy",
     "hook": "Severe asthma attack — silent chest is worse, not better",
     "dispatch": "You are called to a soccer field at 18:20 for a 16-year-old girl having trouble breathing. Her coach called 911. It's a cool evening; play has stopped and her team is standing around her at the sideline bench.",
     "scene": {
@@ -546,7 +546,7 @@
     "id": "heat-stroke-race",
     "title": "Runner down at the finish line",
     "category": "medical",
-    "difficulty": "tricky",
+    "difficulty": "medium",
     "hook": "Heat STROKE, not heat exhaustion — hot dry skin and altered LOC; cooling is the treatment",
     "dispatch": "You are working first aid at a charity 10K on a 31°C humid afternoon. At 13:40 a volunteer waves you over: a runner in his 40s collapsed just past the finish line. Another runner is pouring drops of water on his forehead 'to cool him down.'",
     "scene": {
@@ -610,7 +610,7 @@
     "id": "ladder-fall",
     "title": "Off the ladder",
     "category": "trauma",
-    "difficulty": "standard",
+    "difficulty": "easy",
     "hook": "Fall from height — spinal motion restriction and a distracting injury",
     "dispatch": "You are called to a residential backyard at 15:30. A 47-year-old man fell about three metres from an extension ladder while cleaning eavestroughs. His wife called 911. He is on the grass, awake, and yelling about his wrist.",
     "scene": {
@@ -682,7 +682,7 @@
     "id": "kitchen-bleed",
     "title": "The mandoline accident",
     "category": "trauma",
-    "difficulty": "standard",
+    "difficulty": "easy",
     "hook": "Arterial bleed — direct pressure done properly, early shock recognition",
     "dispatch": "You are called to a restaurant kitchen at 17:50. A 29-year-old prep cook has cut his forearm — a co-worker says a shelf collapsed and a falling mandoline blade caught him. 'There's blood everywhere.' Kitchen staff are panicking.",
     "scene": {
@@ -747,7 +747,7 @@
     "id": "mvc-two-patients",
     "title": "Car versus pole",
     "category": "trauma",
-    "difficulty": "tricky",
+    "difficulty": "hard",
     "hook": "The obvious patient isn't the only patient — scene assessment finds the second one",
     "dispatch": "You are called at 21:15 to a single-vehicle collision: a sedan has hit a utility pole on a quiet suburban street. Dispatch reports 'one patient, conscious.' On arrival a man in his 50s is standing beside the car holding a cloth to his bleeding forehead, waving at you.",
     "scene": {
@@ -816,7 +816,7 @@
     "id": "concussion-rink",
     "title": "He says he's fine",
     "category": "trauma",
-    "difficulty": "tricky",
+    "difficulty": "medium",
     "hook": "Concussion with a lucid patient who wants to keep playing — refusal and red-flag monitoring",
     "dispatch": "You are providing coverage at a recreational hockey game. At 20:35 a 19-year-old winger is checked hard into the boards, helmet-first, and stays down for perhaps twenty seconds. By the time you get to the bench he is sitting up, laughing with teammates, and telling everyone he's fine.",
     "scene": {
@@ -888,7 +888,7 @@
     "id": "garage-co",
     "title": "Flu season in the garage",
     "category": "medical",
-    "difficulty": "tricky",
+    "difficulty": "medium",
     "hook": "Carbon monoxide — the scene is the diagnosis, and the responder is the next patient",
     "dispatch": "You are called to a residential address at 08:50 on a cold morning for a 61-year-old man who is 'dizzy and confused — probably the flu, it's been going around,' per his wife. She adds that their two grandkids, staying the weekend, are also 'coming down with it' — headachy and nauseous this morning.",
     "scene": {
@@ -952,6 +952,425 @@
         "The scene assessment doesn't end when patient care starts; the best clue here is a sound and a smell in the hallway",
         "Pulse oximetry lies in CO poisoning — treat the story, not the number",
         "You can't help anyone from inside the same poisoned air; evacuation IS the treatment, and you are not exempt from it"
+      ]
+    }
+  },
+  {
+    "id": "syncope-church",
+    "title": "Fainted in the pew",
+    "category": "medical",
+    "difficulty": "easy",
+    "hook": "Vasovagal syncope — lay flat, rule out the scarier causes",
+    "dispatch": "You are called to a church at 11:20 on a warm Sunday for a 17-year-old who 'passed out' during a long standing portion of the service. Ushers have laid her across a pew. She is awake when you arrive, embarrassed, with her mother beside her.",
+    "scene": {
+      "Hazards": "None — crowded but calm; ask the ushers to give her space and air",
+      "Number of patients": "1",
+      "MOI / NOI": "NOI: brief collapse after prolonged standing in a warm room; an usher caught her partway down, so no significant impact",
+      "Bystanders": "Her mother (knows her history) and the usher who caught her (saw the whole thing: she went pale, swayed, and folded — no shaking, no stiffness, out for maybe ten seconds)",
+      "Additional resources": "EMS en route; nothing else needed"
+    },
+    "primary": {
+      "General impression": "Teenage girl lying across a pew, pale but awake, talking, embarrassed and asking to sit up",
+      "LOC (AVPU)": "A — alert and fully oriented on your arrival",
+      "Airway": "Open and clear",
+      "Breathing": "Normal rate and effort",
+      "Circulation": "Radial pulse present, slightly slow-to-normal, regular; no bleeding",
+      "Skin": "Pale, cool, clammy — warming and pinking up over the next few minutes lying flat",
+      "Transport decision": "Assess and monitor; transport or release per protocol once the red-flag causes are ruled out"
+    },
+    "vitals": {
+      "LOC": "A, oriented ×4",
+      "HR": "58 on the first set, 72 and stronger ten minutes later",
+      "RR": "16, easy",
+      "BP": "First set 96/60 lying flat; 108/68 on reassessment",
+      "SpO2": "99% on room air",
+      "Pupils": "Equal and reactive",
+      "Glucose": "5.1 mmol/L — normal, if the responder is trained/equipped to check",
+      "Skin": "Pale and clammy at first, normal by the second set of vitals"
+    },
+    "sample": {
+      "S": "Felt hot, dizzy, vision 'went sparkly and grey,' then woke up on the pew; mild nausea; no headache, no chest pain, no palpitations before it happened (ask — the answers matter)",
+      "A": "None",
+      "M": "None",
+      "P": "Healthy; one similar faint at a school assembly two years ago. No heart problems, no seizures — mother confirms",
+      "L": "Skipped breakfast to get to church on time; nothing to eat or drink since last night",
+      "E": "Standing for about twenty minutes in a warm, packed room; locked knees per the usher"
+    },
+    "opqrst": null,
+    "secondary": "No injuries from the fall — the usher caught her. Head and neck clear, no tongue biting, no incontinence, no chest complaints. She looks better every minute she stays flat, and worse (dizzy, grey) if she is allowed to pop up to sitting too soon.",
+    "intervention": {
+      "trigger": "Keep her lying flat with legs elevated 20-30 cm, loosen tight clothing, get air moving, and keep her down until vitals and colour recover; reassess before any staged move to sitting, then standing",
+      "result": "Colour, pulse, and BP recover over ten minutes lying flat. When moved up in stages she stays symptom-free. Once fully recovered and red flags are ruled out, handle the disposition per protocol — EMS assessment, with food and fluids and her mother watching her either way",
+      "ifNot": "If she is sat or stood up straight away, she goes grey and faints again — this time nobody catches her before her head clips the pew. Now it's a head-injury assessment too"
+    },
+    "debrief": {
+      "diagnosis": "Vasovagal (simple) syncope — prolonged standing, warm room, empty stomach; a benign story with reassuring findings, arrived at only after the dangerous causes were actually ruled out",
+      "expectedActions": [
+        "Get the story from the witness: how she went down, how long she was out, any shaking or stiffness",
+        "Ask the screening questions out loud: chest pain or palpitations beforehand? headache? seizure activity? injury from the fall?",
+        "Check glucose if trained and equipped — an easy mimic to rule out",
+        "Lie her flat, elevate the legs, and keep her down until vitals normalize; move her up in stages",
+        "Full set of vitals twice — the improving trend is the reassurance",
+        "Involve the mother for history and for aftercare"
+      ],
+      "teachingPoints": [
+        "Syncope is a symptom with a spectrum of causes: your job is separating the benign faint from the cardiac, neurological, and metabolic ones — the history does the separating",
+        "Faint vs seizure: seconds of limpness with a fast, clear-headed recovery points to syncope; convulsions, tongue biting, incontinence, or a long confused wake-up point to seizure",
+        "The fastest treatment is gravity: flat with legs up beats every other manoeuvre",
+        "A syncope patient who fainted sitting or lying down, or with chest pain or palpitations first, is a different, scarier patient — those details must be asked for"
+      ]
+    }
+  },
+  {
+    "id": "bbq-choking",
+    "title": "Silent at the barbecue",
+    "category": "medical",
+    "difficulty": "easy",
+    "hook": "Severe airway obstruction — silent, clutching the throat; back blows and abdominal thrusts",
+    "dispatch": "You are at a neighbourhood barbecue when shouting starts near the picnic tables at 18:05. A man in his 40s is on his feet, hands at his throat, face darkening. His brother is slapping him weakly between the shoulders and yelling for help.",
+    "scene": {
+      "Hazards": "None — back away from the crowded table so you have room to work",
+      "Number of patients": "1",
+      "MOI / NOI": "NOI: foreign-body airway obstruction — he was eating steak, talking and laughing mid-swallow per his brother",
+      "Bystanders": "His brother (panicking but able to follow instructions) and a crowd; someone should be told by name to call 911 and report back",
+      "Additional resources": "EMS via the bystander's 911 call"
+    },
+    "primary": {
+      "General impression": "Man standing, leaning on the table, both hands clutching his throat — the universal sign — eyes wide, making NO sound",
+      "LOC (AVPU)": "A — alert and terrified, nods to questions, cannot speak",
+      "Airway": "SEVERELY OBSTRUCTED — no air movement: he cannot speak, cough, or cry out. Asking 'are you choking? can you cough?' and getting a silent nod IS the assessment",
+      "Breathing": "None effective while obstructed; face darkening, lips going dusky",
+      "Circulation": "Pulse present, pounding",
+      "Skin": "Face flushed-to-dusky, sweating",
+      "Transport decision": "Fix the airway NOW; he needs hospital assessment afterward either way"
+    },
+    "vitals": {
+      "LOC": "A while obstructed — deteriorating toward unresponsive if the obstruction isn't relieved",
+      "HR": "128, pounding",
+      "RR": "No effective breaths while obstructed; 22 and settling after relief",
+      "BP": "Not a priority until the airway is clear; 146/90 afterward",
+      "SpO2": "Falling through the 80s while obstructed; 96% a few minutes after relief",
+      "Pupils": "Equal, reactive",
+      "Skin": "Dusky while obstructed, pinks up after"
+    },
+    "sample": {
+      "S": "Sudden inability to speak, cough, or breathe while eating; universal choking sign",
+      "A": "None — this is mechanical, not allergic (no hives, no swelling; it started mid-swallow)",
+      "M": "None",
+      "P": "Healthy",
+      "L": "Steak, corn, a couple of beers over the afternoon",
+      "E": "Laughing at a joke mid-bite; a chunk of steak went down the wrong way"
+    },
+    "opqrst": null,
+    "secondary": "Only relevant after the airway is relieved: check for injuries from the thrusts (abdominal soreness is expected), and insist he be assessed — abdominal thrusts can injure, and a fragment may remain. If the moderator is asked: no allergy signs at any point.",
+    "intervention": {
+      "trigger": "Confirm severe obstruction ('Are you choking? Can you cough?' — silent nod), tell him you're going to help, then alternate 5 firm back blows between the shoulder blades with 5 abdominal thrusts (in-and-up above the navel), repeating until the object clears or he goes unresponsive",
+      "result": "On the second cycle a chunk of steak flies onto the grass; he takes a huge gasping breath and starts coughing and crying. Coach him to breathe, reassess airway and breathing, get a full set of vitals, and have him checked by EMS — thrusts can cause internal injury and he should be seen",
+      "ifNot": "If the responder hesitates, only pats his back, or runs for equipment: he becomes unresponsive within a minute or two. Then it's a controlled lower to the ground, 911 confirmed, and CPR starting with compressions — checking the mouth for the object before each set of ventilations"
+    },
+    "debrief": {
+      "diagnosis": "Severe (complete) foreign-body airway obstruction from a food bolus — relieved with back blows and abdominal thrusts",
+      "expectedActions": [
+        "Recognize SEVERE obstruction: silence is the finding — no speech, no cough, no air",
+        "Ask permission fast and act fast: alternating 5 back blows and 5 abdominal thrusts",
+        "Task a named bystander with calling 911 rather than assuming someone did",
+        "If he becomes unresponsive: lower him safely and start CPR, checking the mouth before ventilations",
+        "After relief: reassess the airway and breathing, full vitals, and insist on EMS assessment",
+        "Watch him afterward — distress, coughing that persists, or abdominal pain all matter"
+      ],
+      "teachingPoints": [
+        "A choking patient who can cough forcefully or speak has a MILD obstruction — encourage coughing and keep your hands off; the silent one is the emergency",
+        "The universal choking sign plus silence is a complete assessment; don't waste time hunting for other causes mid-crisis",
+        "An unresponsive choking patient gets CPR — chest compressions also generate airway pressure that can dislodge the object",
+        "Relief is not discharge: abdominal thrusts injure livers and spleens, and retained fragments cause problems — he gets assessed"
+      ]
+    }
+  },
+  {
+    "id": "hypothermia-trail",
+    "title": "Sitting in the drizzle",
+    "category": "medical",
+    "difficulty": "medium",
+    "hook": "Hypothermia that looks like intoxication or stroke — handle gently, stop the heat loss",
+    "dispatch": "You are called to a river trail at 19:30 on a 5°C, drizzly evening. A dog-walker found a 79-year-old man sitting on the wet ground against a bench, 'drunk or confused.' A police unit is also en route. His family reported him missing from home this afternoon — he has early dementia.",
+    "scene": {
+      "Hazards": "Wet, sloping ground and fading light — watch footing; it's cold and windy for the responders too",
+      "Number of patients": "1",
+      "MOI / NOI": "NOI: prolonged exposure — likely outdoors 5+ hours in cold drizzle; no signs of trauma around him, but ask: did anyone see him fall? (No one did — keep it in mind anyway)",
+      "Bystanders": "The dog-walker who called; police arriving can help with warmth, lighting, and contacting the family",
+      "Additional resources": "EMS en route; blankets from the police car; family en route with his medication list"
+    },
+    "primary": {
+      "General impression": "Thin elderly man sitting hunched on wet ground, soaked through, mumbling, NOT shivering",
+      "LOC (AVPU)": "V — rouses to voice, confused, slurring, uncooperative and swatting at helpers",
+      "Airway": "Open",
+      "Breathing": "Slow and shallow but present",
+      "Circulation": "Radial pulse hard to find — slow and weak; check for a full 30-45 seconds before concluding anything",
+      "Skin": "Cold to the touch even under his coat at the belly and back; pale, waxy",
+      "Transport decision": "Urgent transport, handled GENTLY — rough movement can trigger a lethal rhythm in a cold heart"
+    },
+    "vitals": {
+      "LOC": "V, confused and slurring",
+      "HR": "48, weak and difficult to palpate — and his daughter will later report he takes a beta-blocker, so the rate can't be trusted to rise with stress",
+      "RR": "10, shallow",
+      "BP": "92/60, hard to auscultate",
+      "SpO2": "Unreliable on cold fingers — the machine keeps erroring; treat the patient, not the gadget",
+      "Pupils": "Equal, sluggish",
+      "Glucose": "4.8 mmol/L if checked — normal; rules out the hypoglycemia mimic",
+      "Skin": "Cold trunk, pale and waxy; no shivering (a bad sign at this stage, not a good one)"
+    },
+    "sample": {
+      "S": "Confusion, slurred speech, stumbling gait per the dog-walker, cold to the touch, no shivering",
+      "A": "Penicillin (from the family list when it arrives)",
+      "M": "Metoprolol (beta-blocker), donepezil — family brings the list; nothing found on him",
+      "P": "Early dementia, hypertension. NOT a drinker — the family is adamant, and there's no bottle and no smell of alcohol (ask before assuming)",
+      "L": "Breakfast this morning, probably nothing since",
+      "E": "Walked away from home around 14:00; found at 19:20 soaked, sitting on wet ground in wind and drizzle"
+    },
+    "opqrst": null,
+    "secondary": "Soaked clothing through every layer; cold, rigid-feeling muscles; a small abrasion on one palm (probably a stumble). FAST exam, if done for the slurring: face symmetric, both arms weak-but-equal, no one-sided deficit — the impairment is global, not focal. Handle every exam movement slowly and gently.",
+    "intervention": {
+      "trigger": "Stop the heat loss: get him off the wet ground onto insulation, remove the wet clothing (cutting beats wrestling), wrap him in dry blankets covering the head and neck, shield him from wind and drizzle, and handle him gently throughout — no rubbing his limbs, nothing by mouth while his LOC is altered, no walking him to the ambulance",
+      "result": "Bundled, insulated from the ground, and moved gently, he stays V-to-A borderline and his breathing holds; he's packaged for urgent transport with the family's medication list handed over. The slurring and confusion do NOT resolve on scene — rewarming a cold core takes hours, not minutes",
+      "ifNot": "If he's stood up and walked, hauled roughly, or left on the wet ground while the assessment grinds on: he suddenly becomes unresponsive with no palpable pulse — a cold heart tipped into a lethal rhythm; the scenario becomes a long, careful pulse check and CPR"
+    },
+    "debrief": {
+      "diagnosis": "Moderate hypothermia in an elderly man with dementia — prolonged wet, cold exposure; presentation mimicking intoxication or stroke, with a beta-blocker hiding the tachycardia stress response",
+      "expectedActions": [
+        "Consider the environment as the cause: hours outside, wet, 5°C, elderly and thin — cold until proven otherwise",
+        "Touch the TRUNK (belly/back under clothing) to assess cold, not the hands",
+        "Take a long, careful pulse check — cold, slow, weak pulses hide from quick checks",
+        "Rule the mimics in or out deliberately: glucose checked, FAST run for the slurring, alcohol asked about rather than assumed",
+        "Insulate from the ground, strip the wet layers, wrap including the head, shield from wind — passive rewarming, gentle handling, nothing by mouth",
+        "Recognize absent shivering + altered LOC as WORSE, and make the urgent-transport call"
+      ],
+      "teachingPoints": [
+        "'Found down and confused' has a differential: cold, sugar, stroke, and substances all present alike — the environment and the ruled-out mimics make this diagnosis",
+        "Shivering stopping is the body giving up heat production — the quiet patient is colder than the shaking one",
+        "A cold heart is an irritable heart: rough handling, sudden movement, and walking the patient can trigger arrest — gentleness is a clinical intervention here",
+        "Medications reshape vital signs: a beta-blocker caps the heart rate, so 'HR 48' reads differently once the M in SAMPLE arrives — chase the medication list",
+        "Wet clothing outperforms cold air at stealing heat; removing it is worth more than any blanket over it"
+      ]
+    }
+  },
+  {
+    "id": "scald-burn-kitchen",
+    "title": "The stock pot",
+    "category": "trauma",
+    "difficulty": "medium",
+    "hook": "Facial scald with airway involvement — the burn you see distracts from the airway you're about to lose",
+    "dispatch": "You are called to a restaurant kitchen at 12:40. A 23-year-old line cook pulled a large stock pot off the range and took boiling stock across his face, neck, and chest. Staff have him at the hand sink splashing water on his face. He is crying out in pain.",
+    "scene": {
+      "Hazards": "Wet, greasy floor; the range is still on with more pots — have staff kill the burners; steam and heat in a cramped line",
+      "Number of patients": "1",
+      "MOI / NOI": "Scald — boiling liquid to the face, neck, and upper chest; soaked shirt held the heat against the skin until staff pulled it off",
+      "Bystanders": "Kitchen staff — one is running cool water over his face with a jug; the manager can clear the kitchen and meet EMS",
+      "Additional resources": "EMS en route; cool running water at the sink is the most useful thing on scene"
+    },
+    "primary": {
+      "General impression": "Young man leaning over the sink, red weeping burns across his right cheek, neck, and upper chest, yelling — which means air is moving, for now",
+      "LOC (AVPU)": "A — alert, in severe pain",
+      "Airway": "Open — but LISTEN and LOOK: his voice is getting hoarser over minutes, he coughs intermittently, and there's redness and swelling at the lips and inside the mouth if inspected. The scald reached the airway, and swelling is progressing",
+      "Breathing": "Rapid from pain; a faint high-pitched note on deep inhalation appears later in the scenario if the airway findings go unnoticed",
+      "Circulation": "Radial pulse rapid and strong; no bleeding",
+      "Skin": "Face/neck/upper chest: bright red with blistering starting — partial thickness; roughly one arm's-worth of body surface if the responder estimates",
+      "Transport decision": "RAPID transport — any burn with airway involvement is a load-and-go regardless of how the skin looks"
+    },
+    "vitals": {
+      "LOC": "A throughout",
+      "HR": "118",
+      "RR": "24, increasing work over time as the airway narrows",
+      "BP": "132/84",
+      "SpO2": "97% early — a number that falsely reassures; the problem is swelling above the lungs, not gas exchange below",
+      "Pupils": "Equal, reactive",
+      "Skin": "Burned areas red, wet, blistering; unburned skin pale and sweaty",
+      "Voice": "Progressively hoarser between sets of vitals — track it out loud each time the responder reassesses"
+    },
+    "sample": {
+      "S": "Severe burning pain to face, neck, chest; hoarse voice; occasional cough; swallowing 'feels tight' if asked",
+      "A": "None",
+      "M": "None",
+      "P": "Healthy",
+      "L": "Coffee at 06:00 — nothing since (relevant: nothing by mouth anyway)",
+      "E": "Pulled a boiling stock pot down at chest height; splash caught the right side of his face and ran down the neck and chest; he inhaled sharply as it hit — likely drawing steam in"
+    },
+    "opqrst": {
+      "O": "Instant, at the moment of the spill",
+      "P": "Cool running water eases the skin pain; nothing eases the throat tightness",
+      "Q": "Skin: raw burning. Throat: tightness, 'like a lump,' worsening",
+      "R": "Right face, neck, upper chest — the path of the splash",
+      "S": "9/10 skin pain; the throat is what should worry the responder more than his pain score",
+      "T": "Skin pain steady; hoarseness and tightness PROGRESSING minute over minute"
+    },
+    "secondary": "Partial-thickness scald over right cheek, neck, upper chest (blisters forming — leave them intact). Singed feel and redness at the lips; redness inside the mouth. No other injuries — he didn't fall. The head-to-toe is quick; the airway recheck is what must keep happening.",
+    "intervention": {
+      "trigger": "Keep cooling the burn with cool running water (10-20 minutes), remove remaining hot/wet clothing and anything constrictive near the burn, cover loosely with dry sterile dressings after cooling, high-flow oxygen per protocol, position of comfort sitting up, NOTHING by mouth, no ice and no ointments — and above all, recheck the airway and voice on a tight loop with a rapid transport decision made early",
+      "result": "Cooling controls the skin pain; he stays alert with a hoarse-but-open airway to handover, sitting up on oxygen. The handover leads with the airway story (mechanism, hoarseness trend, mouth findings), not the skin",
+      "ifNot": "If the burn gets dressed and the airway is never rechecked: over ~10 minutes his voice fades to a whisper, a high inspiratory noise appears, and he starts working hard to breathe — a closing airway that positioning and oxygen can only chase, in a patient who should already be gone from the scene"
+    },
+    "debrief": {
+      "diagnosis": "Partial-thickness facial/neck/chest scald WITH inhalation-pattern airway involvement — progressive upper-airway swelling; the skin was never the dangerous injury",
+      "expectedActions": [
+        "Scene control: burners off, footing watched, staff tasked",
+        "Cool the burn properly — cool running water, not ice — while the assessment continues",
+        "Actively hunt airway involvement in any face/neck burn: voice quality, cough, mouth redness, throat tightness, and RE-CHECK them serially",
+        "High-flow oxygen per protocol; sitting position; nothing by mouth",
+        "Blisters left intact; loose dry sterile cover after cooling; no ointments",
+        "Early rapid-transport decision driven by the airway, with a handover that reports the TREND in his voice"
+      ],
+      "teachingPoints": [
+        "Face and neck burns are airway burns until proven otherwise — hoarseness, cough, singeing, and mouth findings outrank the size of the skin burn",
+        "Airway swelling is progressive: the gap between 'talking fine' and 'can't breathe' closes in minutes, which is why the recheck loop matters more than any dressing",
+        "A normal SpO2 says nothing about an airway that is swelling shut above the lungs",
+        "Cool water treats the burn; ice and ointments injure it further",
+        "The loudest finding (screaming pain) and the deadliest finding (quiet hoarseness) are different findings — treat the pain, but follow the voice"
+      ]
+    }
+  },
+  {
+    "id": "dark-stools-weakness",
+    "title": "Weak for two days",
+    "category": "medical",
+    "difficulty": "medium",
+    "hook": "GI bleed — shock with no blood in sight; the vitals and the history are the whole case",
+    "dispatch": "You are called to an apartment at 10:10 for a 78-year-old man who is 'weak and dizzy and won't eat.' His daughter called after finding him still in his chair from the night before. She says he's 'been off for a couple of days' but refuses to see a doctor.",
+    "scene": {
+      "Hazards": "None — cluttered but safe apartment",
+      "Number of patients": "1",
+      "MOI / NOI": "NOI: two days of progressive weakness and dizziness, worse on standing; no fall, no trauma, no fever",
+      "Bystanders": "His daughter — good historian, has his pill bottles in a shoebox if anyone asks for medications",
+      "Additional resources": "EMS en route"
+    },
+    "primary": {
+      "General impression": "Thin elderly man sunk into an armchair, pale, tired-looking, talking in full but weary sentences",
+      "LOC (AVPU)": "A — alert, oriented, flat affect",
+      "Airway": "Open and clear",
+      "Breathing": "Slightly rapid, no distress",
+      "Circulation": "Radial pulse rapid and thready; no external bleeding anywhere — and none will be found, because it's internal",
+      "Skin": "Pale, cool, dry; lips and nail beds notably pale; inner eyelids pale if examined",
+      "Transport decision": "Urgent transport once the shock picture is recognized — compensated shock in the elderly decompensates without much warning"
+    },
+    "vitals": {
+      "LOC": "A throughout, though he gets drowsier if the scenario is allowed to run long",
+      "HR": "112 lying in the chair, thready — and it jumps over 130 with severe dizziness if he's stood up (do NOT walk this patient)",
+      "RR": "22",
+      "BP": "100/70 seated; a standing attempt produces near-syncope — the orthostatic story without needing numbers",
+      "SpO2": "96% on room air",
+      "Pupils": "Equal, reactive",
+      "Skin": "Pale, cool; capillary refill sluggish",
+      "Glucose": "5.9 mmol/L if checked — normal"
+    },
+    "sample": {
+      "S": "Weakness, dizziness worse on standing, thirst, nausea, no appetite — and, ONLY if asked directly about bathroom habits or stool: his bowel movements have been 'black and sticky, like tar' for two days. He is embarrassed and volunteers nothing",
+      "A": "None",
+      "M": "Naproxen twice daily for months for his knees (in the shoebox — a giant bottle, mostly gone), plus a blood pressure pill he's stopped taking because he felt dizzy",
+      "P": "Osteoarthritis, hypertension, 'a stomach ulcer years ago' — he mentions the ulcer only if his stomach history is asked",
+      "L": "Tea yesterday evening; nothing today",
+      "E": "Symptoms crept up over ~48 hours; no injury, no new foods, nobody else sick"
+    },
+    "opqrst": {
+      "O": "Gradual, over about two days",
+      "P": "Standing makes the dizziness much worse; lying back helps",
+      "Q": "Weak, 'wrung out,' lightheaded; mild burning in the upper stomach if asked about pain",
+      "R": "None",
+      "S": "Weakness 'bad'; stomach discomfort only 2/10 — the low pain score is part of the trap",
+      "T": "Steadily worse; this morning he couldn't get up without the room spinning"
+    },
+    "secondary": "Head-to-toe finds NOTHING dramatic: soft belly with mild epigastric tenderness, no distension, no bruising, no blood anywhere visible. Pale conjunctivae. The exam is unremarkable by design — the case is made by the vitals, the skin, the naproxen bottle, the old ulcer, and the black stools nobody asked about.",
+    "intervention": {
+      "trigger": "Recognize compensated shock from the picture (pale/cool skin, thready tachycardia, orthostatic near-syncope, thirst) and treat for it: keep him lying down — he does not walk anywhere — legs elevated 20-30 cm per protocol, keep him warm, nothing by mouth despite the thirst, oxygen per protocol, and an urgent transport decision with serial vitals",
+      "result": "Managed flat, warm, and quickly, he stays compensated to handover. The handover connects the dots out loud: chronic NSAID use + prior ulcer + two days of melena + shock vitals = GI bleed, and the trend in his vitals goes with him",
+      "ifNot": "If he's walked to the ambulance or the assessment stalls without a transport decision: he faints on his feet, and reassessment finds HR 136, BP 84/58, drowsy — decompensated hemorrhagic shock with, still, not a drop of blood in sight"
+    },
+    "debrief": {
+      "diagnosis": "Upper GI hemorrhage (NSAID-eroded ulcer) with compensated hemorrhagic shock — melena for two days, no external bleeding",
+      "expectedActions": [
+        "Trust the shock picture over the calm patient: pale + cool + thready and fast + orthostatic dizziness + thirst = volume loss until proven otherwise",
+        "Hunt for WHERE the volume went when there's no blood: ask about stool colour and vomiting directly — euphemisms miss melena",
+        "Mine SAMPLE properly: the naproxen bottle and the old ulcer are sitting in the M and the P",
+        "Shock care: flat, legs elevated per protocol, warm, nothing by mouth, oxygen per protocol",
+        "Never stand or walk a shocky patient — the orthostatic near-faint is a warning, not a test to repeat",
+        "Urgent transport with serial vitals and a handover that states the suspected source"
+      ],
+      "teachingPoints": [
+        "Hemorrhagic shock does not require visible blood — the GI tract can hold a life-threatening bleed with nothing to bandage",
+        "Black tarry stool is digested blood; patients are embarrassed by the question, which is exactly why it must be asked plainly",
+        "Chronic NSAID use in the elderly is a bleeding risk factor hiding in plain sight in the medication list",
+        "Elderly patients compensate quietly and then fall off a cliff — 'stable' vitals with a shock-coloured patient deserve urgency, not reassurance",
+        "Thirst, pallor, and restlessness are early shock findings that arrive before the blood pressure drops"
+      ]
+    }
+  },
+  {
+    "id": "nitro-date-night",
+    "title": "Anniversary dinner",
+    "category": "medical",
+    "difficulty": "hard",
+    "hook": "Chest pain with his own nitro — but the SAMPLE hides a Viagra dose that makes nitro lethal",
+    "dispatch": "You are called to an upscale restaurant at 20:50 for a 61-year-old man with chest pain. He is at a corner table with his wife — it's their anniversary. He has already told the manager he 'just needs a minute,' but the manager called anyway. He has his own nitroglycerin spray on the table and asks you to help him take it.",
+    "scene": {
+      "Hazards": "None — quiet corner of a restaurant; staff helpful",
+      "Number of patients": "1",
+      "MOI / NOI": "NOI: crushing central chest pain at rest, ongoing ~15 minutes",
+      "Bystanders": "His wife — worried, holding his hand, and NOT someone he wants hearing every answer; the manager can meet EMS at the door",
+      "Additional resources": "EMS en route; the restaurant has an AED at the host stand — noted only if the responder asks"
+    },
+    "primary": {
+      "General impression": "Well-dressed man leaning back in his chair, pale and sweaty, fist pressed to the centre of his chest, nitro spray and reading glasses on the tablecloth in front of him",
+      "LOC (AVPU)": "A — alert, oriented, anxious",
+      "Airway": "Open and clear",
+      "Breathing": "Slightly rapid, no distress sounds",
+      "Circulation": "Radial pulse present, regular, unremarkable rate; no bleeding",
+      "Skin": "Pale, cool, diaphoretic",
+      "Transport decision": "Load-and-go — active cardiac chest pain; every treatment decision happens alongside, not instead of, transport"
+    },
+    "vitals": {
+      "LOC": "A throughout",
+      "HR": "92, regular",
+      "RR": "20",
+      "BP": "98/64 — LOW-NORMAL AND LOAD-BEARING: barely above nitro's systolic floor, and a second reading five minutes later is 96/62. The responder should be asked what they make of it",
+      "SpO2": "95% on room air",
+      "Pupils": "Equal, reactive",
+      "Skin": "Pale, cool, clammy"
+    },
+    "sample": {
+      "S": "Crushing central chest pressure radiating to the left arm, nausea, sweating — a textbook cardiac presentation, nothing atypical about it",
+      "A": "No drug allergies",
+      "M": "Nitroglycerin spray PRN for angina, a statin, a blood pressure pill — AND, only if the responder asks about ALL medications including anything taken today, or asks the wife to give them a moment and asks him privately: he took sildenafil (Viagra) about six hours ago. He will NOT volunteer it with his wife listening; he goes quiet and changes the subject if asked vaguely",
+      "P": "Stable angina (diagnosed two years ago — usually relieved by one spray and rest), high cholesterol, hypertension",
+      "L": "Rich anniversary dinner, most of a bottle of wine between them",
+      "E": "Pain started at the table AT REST, unlike his usual exertional angina; one spray 'didn't touch it' — wait: if asked directly whether he's already taken any nitro tonight, he admits he took ONE spray five minutes before you arrived. The BP you're reading is already post-nitro"
+    },
+    "opqrst": {
+      "O": "About 15 minutes ago, sitting at dinner — at rest",
+      "P": "Nothing relieves it; his usual one-spray-and-rest routine has failed",
+      "Q": "Crushing pressure, 'an elephant on my chest'",
+      "R": "Left arm to the elbow; some jaw ache",
+      "S": "8/10",
+      "T": "Constant and unrelenting since onset — worse than any angina episode he's had"
+    },
+    "secondary": "Nothing new on head-to-toe — the case lives in the history and the numbers. The moderator's job is to guard two secrets honestly: the sildenafil comes out ONLY with a private or specifically-worded medication question, and the already-taken spray comes out ONLY if his nitro use tonight is asked about. A responder who asks 'any medications?' and accepts 'my heart pills' misses both.",
+    "intervention": {
+      "trigger": "The pass condition is a WITHHOLD: recognize that nitroglycerin is contraindicated twice over — sildenafil within 24 hours AND a systolic pressure of 98 sitting on the >90 floor after a dose already on board — so NO further nitro, his or anyone's. ASA is the drug that IS indicated: 160 mg chewed before swallowing after confirming no aspirin/NSAID allergy, no asthma, no recent head injury or stroke, no bleeding problem. Position of comfort, AED located, urgent transport, and a handover that reports the sildenafil and the pre-arrival spray",
+      "result": "He is embarrassed but cooperative once asked privately — 'don't tell my wife I ruined dinner over a pill.' ASA given, no further nitro, transported urgently and still in pain but with a stable pressure. The handover names the sildenafil, the timing, the single pre-arrival spray, and the borderline BP — the receiving crew's nitro decision now has the information it needs",
+      "ifNot": "If the responder helps him take another spray without digging: within two minutes his systolic pressure collapses, he goes grey, LOC falls to V, and the radial pulse disappears — profound nitrate-plus-sildenafil hypotension in a heart that needed MORE perfusion pressure, not less. Supine, legs elevated, oxygen, and a much harder scenario from there. Debrief the miss step by step"
+    },
+    "debrief": {
+      "diagnosis": "Acute coronary syndrome (rest pain breaking through stable angina) — with nitroglycerin doubly contraindicated by sildenafil taken six hours earlier and a borderline-low blood pressure after one self-administered spray",
+      "expectedActions": [
+        "Full OPQRST — 'at rest' and 'usual routine failed' mark this as unstable, not his normal angina",
+        "Medication history taken like it matters: ALL medications including today's, asked in private when the patient goes evasive — the sildenafil question is a technique question, not a luck question",
+        "Ask specifically whether he has already taken nitro tonight — the current BP is meaningless without that answer",
+        "Check the BP BEFORE any assisted nitro and hold it against the >90 systolic floor with repeat-dosing rules in mind",
+        "Withhold nitro and say why; give 160 mg ASA chewed after screening its contraindications (aspirin/NSAID allergy, asthma, recent head injury or stroke, bleeding)",
+        "AED located, urgent transport, and a handover that transmits the sildenafil timing and the pre-arrival dose"
+      ],
+      "teachingPoints": [
+        "Nitro plus a phosphodiesterase inhibitor (Viagra/Levitra within 24 h, Cialis within 48 h) can produce catastrophic, treatment-resistant hypotension — this contraindication is asked-for, never volunteered",
+        "Patients hide medications that embarrass them, especially in front of family — 'any medications?' and 'anything you've taken today, including things you'd rather discuss privately?' are different questions with different answers",
+        "Assisting with a patient's own prescribed medication still requires the full contraindication screen — 'it's his prescription' is not a safety check",
+        "A blood pressure floor (systolic >90 for nitro) is a hard gate, and it must be re-checked before every dose, counting doses the patient took before you arrived",
+        "Withholding a drug can be the intervention that passes the scenario — knowing when NOT to give something is the same skill as knowing when to give it"
       ]
     }
   }

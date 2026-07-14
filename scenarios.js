@@ -95,16 +95,27 @@ function pool() {
   return cat === "all" ? scenarios : scenarios.filter((s) => s.category === cat);
 }
 
+const TIERS = [
+  { id: "easy", emoji: "🟢", label: "Easy" },
+  { id: "medium", emoji: "🟡", label: "Medium" },
+  { id: "hard", emoji: "🔴", label: "Hard" },
+];
+
 function populateScenarioMenu() {
   els.scenarioSelect.replaceChildren();
-  for (const s of pool()) {
-    const opt = document.createElement("option");
-    opt.value = s.id;
-    opt.textContent =
-      (doneIds.has(s.id) ? "✓ " : "") +
-      s.title +
-      (s.difficulty === "tricky" ? " ⚠" : "");
-    els.scenarioSelect.appendChild(opt);
+  const p = pool();
+  for (const tier of TIERS) {
+    const inTier = p.filter((s) => s.difficulty === tier.id);
+    if (inTier.length === 0) continue;
+    const group = document.createElement("optgroup");
+    group.label = `${tier.emoji} ${tier.label}`;
+    for (const s of inTier) {
+      const opt = document.createElement("option");
+      opt.value = s.id;
+      opt.textContent = (doneIds.has(s.id) ? "✓ " : "") + s.title;
+      group.appendChild(opt);
+    }
+    els.scenarioSelect.appendChild(group);
   }
   if (current) els.scenarioSelect.value = current.id;
 }
@@ -306,11 +317,12 @@ function render(s) {
   cat.className = "badge badge-" + s.category;
   cat.textContent = s.category;
   els.badges.appendChild(cat);
-  if (s.difficulty === "tricky") {
-    const tricky = document.createElement("span");
-    tricky.className = "badge badge-tricky";
-    tricky.textContent = "tricky";
-    els.badges.appendChild(tricky);
+  const tier = TIERS.find((t) => t.id === s.difficulty);
+  if (tier) {
+    const diff = document.createElement("span");
+    diff.className = "badge badge-" + tier.id;
+    diff.textContent = `${tier.emoji} ${tier.id}`;
+    els.badges.appendChild(diff);
   }
   renderDoneBtn();
 

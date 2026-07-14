@@ -471,7 +471,19 @@ button.chip:hover {
   color: #c2410c;
 }
 
-.badge-tricky {
+.badge-easy {
+  background: #f0fdf4;
+  color: #15803d;
+  border: 1px solid #86efac;
+}
+
+.badge-medium {
+  background: #fef3c7;
+  color: #b45309;
+  border: 1px solid #fcd34d;
+}
+
+.badge-hard {
   background: #fef2f2;
   color: #b91c1c;
   border: 1px solid #fca5a5;
