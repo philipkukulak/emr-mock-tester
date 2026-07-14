@@ -1,33 +1,27 @@
 "use strict";
 
-// Theme cycling for the navbar button. The inline boot script in each page's
-// <head> already applied the saved theme before first paint; this just keeps
-// the button label in sync and persists changes.
+// Light/dark toggle for the navbar switch. The inline boot script in each
+// page's <head> already applied the saved theme before first paint; this
+// keeps the switch state in sync and persists changes.
 (() => {
   const KEY = "emr-theme-v1";
-  const THEMES = [
-    { id: "light", icon: "☀️", label: "Light" },
-    { id: "dark", icon: "🌙", label: "Dark" },
-    { id: "grey", icon: "◐", label: "Grey" },
-  ];
 
   const btn = document.getElementById("theme-btn");
   if (!btn) return;
 
-  function current() {
-    return THEMES.find((t) => t.id === document.documentElement.dataset.theme) || THEMES[0];
+  function isDark() {
+    return document.documentElement.dataset.theme === "dark";
   }
 
   function renderBtn() {
-    const t = current();
-    btn.textContent = `${t.icon} ${t.label}`;
+    btn.setAttribute("aria-checked", String(isDark()));
   }
 
   btn.addEventListener("click", () => {
-    const next = THEMES[(THEMES.indexOf(current()) + 1) % THEMES.length];
-    document.documentElement.dataset.theme = next.id;
+    const next = isDark() ? "light" : "dark";
+    document.documentElement.dataset.theme = next;
     try {
-      localStorage.setItem(KEY, next.id);
+      localStorage.setItem(KEY, next);
     } catch (_e) {
       // Storage unavailable — theme still applies for this page view.
     }

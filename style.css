@@ -1,5 +1,5 @@
 /* ---- Theme tokens ----------------------------------------------------------
-   Light is the default; dark and grey override on <html data-theme="...">.
+   Light is the default; dark overrides on <html data-theme="dark">.
    The boot script in each page's <head> sets data-theme before first paint. */
 :root {
   color-scheme: light;
@@ -103,59 +103,6 @@
   --trauma-text: #eda06b;
 }
 
-/* Greyscale: soft light-grey base, reduced contrast, colors desaturated to
-   faint hints where the meaning depends on them (quiz feedback, moderator). */
-:root[data-theme="grey"] {
-  color-scheme: light;
-
-  --bg: #caccd0;
-  --surface: #d7d9dc;
-  --surface-2: #cfd1d5;
-  --surface-3: #c6c8cc;
-  --text: #34373c;
-  --text-2: #43464b;
-  --muted: #5f6267;
-  --faint: #84868b;
-  --border: #b6b8bc;
-  --border-2: #a8abb0;
-  --shadow-1: 0 1px 4px rgba(0, 0, 0, 0.08);
-  --shadow-2: 0 2px 12px rgba(0, 0, 0, 0.1);
-
-  --btn-bg: #4a4d52;
-  --btn-bg-hover: #3c3f44;
-  --btn-text: #e8e9eb;
-  --btn-disabled: #b6b8bc;
-
-  --info-bg: #c9ced6;
-  --info-bg-2: #bfc6d1;
-  --info-text: #414c5c;
-  --info-border: #8a94a4;
-
-  --ok-bg: #c9d2c9;
-  --ok-bg-2: #bfccc0;
-  --ok-text: #46584a;
-  --ok-border: #7e9082;
-  --ok-border-soft: #a5b2a7;
-  --ok-btn-bg: #5d6f60;
-  --ok-btn-hover: #4f5f52;
-
-  --bad-bg: #d4c9c9;
-  --bad-bg-2: #cdbebe;
-  --bad-text: #5d4646;
-  --bad-border: #a08282;
-  --bad-border-soft: #b89e9e;
-
-  --warn-bg: #d4cfc2;
-  --warn-bg-soft: #d7d3c8;
-  --warn-bg-2: #cbc4b2;
-  --warn-text: #5c5340;
-  --warn-border: #b0a688;
-  --warn-border-strong: #99906f;
-
-  --trauma-bg: #d3c9bf;
-  --trauma-text: #5d4c3d;
-}
-
 * {
   box-sizing: border-box;
   margin: 0;
@@ -217,21 +164,49 @@ body {
   color: var(--btn-text);
 }
 
-.navbar-theme {
-  font-size: 0.85rem;
-  font-weight: 600;
-  padding: 0.4rem 0.8rem;
+/* Dark-mode slider switch: a track whose knob (::after) slides right and
+   swaps ☀️ for 🌙 when the switch is on (aria-checked="true" = dark). */
+.theme-switch {
+  flex: none;
+  position: relative;
+  width: 48px;
+  height: 26px;
   border: 1.5px solid var(--border-2);
   border-radius: 999px;
-  background: var(--surface);
-  color: var(--text-2);
+  background: var(--surface-3);
   cursor: pointer;
-  white-space: nowrap;
+  padding: 0;
+  transition: background 0.2s, border-color 0.2s;
 }
 
-.navbar-theme:hover {
-  background: var(--surface-3);
+.theme-switch::after {
+  content: "☀️";
+  position: absolute;
+  top: 1px;
+  left: 1px;
+  width: 21px;
+  height: 21px;
+  border-radius: 50%;
+  background: var(--surface);
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.25);
+  font-size: 12px;
+  line-height: 21px;
+  text-align: center;
+  transition: transform 0.2s;
+}
+
+.theme-switch:hover {
   border-color: var(--faint);
+}
+
+.theme-switch[aria-checked="true"] {
+  background: var(--btn-bg);
+  border-color: var(--btn-bg);
+}
+
+.theme-switch[aria-checked="true"]::after {
+  content: "🌙";
+  transform: translateX(22px);
 }
 
 .card {

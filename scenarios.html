@@ -8,7 +8,7 @@
     (function () {
       var t;
       try { t = localStorage.getItem("emr-theme-v1"); } catch (e) {}
-      if (t !== "light" && t !== "dark" && t !== "grey") {
+      if (t !== "light" && t !== "dark") {
         t = window.matchMedia && matchMedia("(prefers-color-scheme: dark)").matches ? "dark" : "light";
       }
       document.documentElement.dataset.theme = t;
@@ -22,7 +22,7 @@
       <a class="navbar-tab" href="index.html">Quiz</a>
       <a class="navbar-tab active" href="scenarios.html" aria-current="page">Scenarios</a>
     </div>
-    <button id="theme-btn" class="navbar-theme" type="button" title="Switch theme (light / dark / grey)"></button>
+    <button id="theme-btn" class="theme-switch" type="button" role="switch" aria-label="Dark mode" title="Toggle dark mode"></button>
   </nav>
 
   <main class="card card--wide">
