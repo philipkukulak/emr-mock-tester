@@ -7,7 +7,7 @@
   <link rel="stylesheet" href="style.css">
 </head>
 <body>
-  <main class="card">
+  <main class="card card--wide">
     <header>
       <h1>EMR Scenario Practice</h1>
       <p class="subtitle">
@@ -25,16 +25,20 @@
         <button id="random-btn" type="button" title="Draw a random scenario">&#127922; New scenario</button>
       </div>
 
-      <p class="moderator-note">
-        You are the moderator: read the dispatch aloud, then reveal each section
-        only as the responder assesses or asks for it.
-      </p>
+      <div class="toolbar">
+        <button id="timer-btn" type="button" class="chip" title="Tap to start or pause the drill timer">&#9201; 00:00</button>
+        <span id="progress-chip" class="chip chip-static" title="Assessment sections revealed to the responder"></span>
+        <span class="toolbar-spacer"></span>
+        <button id="reveal-all-btn" type="button" class="chip">Reveal all</button>
+        <button id="hide-all-btn" type="button" class="chip">Hide all</button>
+      </div>
     </header>
 
     <section id="scenario" hidden>
       <div class="scenario-title-row">
         <h2 id="scenario-title"></h2>
         <span id="scenario-badges"></span>
+        <button id="done-btn" type="button" title="Track which scenarios your group has already run"></button>
       </div>
 
       <div class="dispatch">
@@ -42,12 +46,12 @@
         <p id="dispatch-text"></p>
       </div>
 
-      <div class="reveal-controls">
-        <button id="reveal-all-btn" type="button">Reveal all</button>
-        <button id="hide-all-btn" type="button">Hide all</button>
-      </div>
+      <div id="phases"></div>
 
-      <div id="sections"></div>
+      <div class="moderator-zone">
+        <p class="moderator-zone-label">&#9888; Moderator only</p>
+        <div id="moderator-sections"></div>
+      </div>
     </section>
 
     <p id="error" class="error" hidden></p>

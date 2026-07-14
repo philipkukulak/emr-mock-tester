@@ -323,23 +323,93 @@ h1 {
   text-decoration: underline;
 }
 
-.moderator-note {
-  font-size: 0.85rem;
-  color: #6b7280;
-  font-style: italic;
-  line-height: 1.5;
+.card--wide {
+  max-width: 720px;
 }
 
+/* Toolbar: timer, reveal progress, reveal/hide all */
+.toolbar {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+  padding-top: 0.75rem;
+  margin-top: 0.25rem;
+  border-top: 1px solid #e5e7eb;
+}
+
+.toolbar-spacer {
+  flex: 1;
+}
+
+.chip {
+  font-size: 0.85rem;
+  font-variant-numeric: tabular-nums;
+  padding: 0.35rem 0.7rem;
+  border: 1.5px solid #d1d5db;
+  border-radius: 999px;
+  background: #fff;
+  color: #374151;
+  cursor: pointer;
+}
+
+button.chip:hover {
+  background: #f3f4f6;
+  border-color: #9ca3af;
+}
+
+.chip-static {
+  cursor: default;
+  background: #f9fafb;
+}
+
+.chip-active {
+  border-color: #3b82f6;
+  color: #1d4ed8;
+  background: #eff6ff;
+}
+
+.chip-complete {
+  border-color: #16a34a;
+  color: #15803d;
+  background: #f0fdf4;
+}
+
+/* Scenario title row */
 .scenario-title-row {
   display: flex;
-  align-items: baseline;
+  align-items: center;
   flex-wrap: wrap;
   gap: 0.5rem;
   margin-bottom: 0.75rem;
 }
 
 .scenario-title-row h2 {
-  font-size: 1.25rem;
+  font-size: 1.3rem;
+  margin-right: 0.25rem;
+}
+
+#done-btn {
+  margin-left: auto;
+  font-size: 0.8rem;
+  padding: 0.35rem 0.7rem;
+  border: 1.5px solid #d1d5db;
+  border-radius: 999px;
+  background: #fff;
+  color: #6b7280;
+  cursor: pointer;
+  white-space: nowrap;
+}
+
+#done-btn:hover {
+  border-color: #9ca3af;
+  background: #f3f4f6;
+}
+
+#done-btn.done {
+  border-color: #16a34a;
+  color: #15803d;
+  background: #f0fdf4;
 }
 
 .badge {
@@ -347,7 +417,7 @@ h1 {
   font-weight: 700;
   text-transform: uppercase;
   letter-spacing: 0.05em;
-  padding: 0.15rem 0.5rem;
+  padding: 0.2rem 0.55rem;
   border-radius: 999px;
 }
 
@@ -367,13 +437,14 @@ h1 {
   border: 1px solid #fca5a5;
 }
 
+/* Dispatch — the read-aloud card */
 .dispatch {
   padding: 0.9rem 1rem;
   background: #eff6ff;
   border-left: 4px solid #3b82f6;
   border-radius: 4px;
   line-height: 1.55;
-  margin-bottom: 1rem;
+  margin-bottom: 1.25rem;
 }
 
 .dispatch-label {
@@ -385,64 +456,129 @@ h1 {
   margin-bottom: 0.35rem;
 }
 
-.reveal-controls {
+/* Phase rail: numbered circles joined by a vertical line */
+.phase {
   display: flex;
+  gap: 0.9rem;
+  position: relative;
+  padding-bottom: 1.1rem;
+}
+
+.phase::before {
+  content: "";
+  position: absolute;
+  left: 15px;
+  top: 32px;
+  bottom: -2px;
+  width: 2px;
+  background: #e5e7eb;
+}
+
+.phase:last-child::before {
+  display: none;
+}
+
+.phase:last-child {
+  padding-bottom: 0;
+}
+
+.phase-num {
+  flex: none;
+  width: 32px;
+  height: 32px;
+  border-radius: 50%;
+  background: #1f2937;
+  color: #fff;
+  font-weight: 700;
+  font-size: 0.95rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  z-index: 1;
+}
+
+.phase-content {
+  flex: 1;
+  min-width: 0;
+  display: flex;
+  flex-direction: column;
   gap: 0.5rem;
-  margin-bottom: 0.75rem;
 }
 
-.reveal-controls button {
-  font-size: 0.85rem;
-  padding: 0.4rem 0.7rem;
-  border: 2px solid #d1d5db;
-  border-radius: 8px;
-  background: #fff;
+.phase-title {
+  font-size: 1rem;
+  font-weight: 600;
+  padding: 0.35rem 0;
   color: #1f2937;
-  cursor: pointer;
 }
 
-.reveal-controls button:hover {
-  background: #f3f4f6;
-  border-color: #9ca3af;
-}
-
-.section {
+/* Reveal sections */
+.reveal {
   border: 2px solid #d1d5db;
   border-radius: 8px;
-  margin-bottom: 0.6rem;
   background: #fff;
 }
 
-.section[open] {
+.reveal.revealed {
+  border-color: #86efac;
+}
+
+.reveal[open] {
   border-color: #16a34a;
 }
 
-.section summary {
+.reveal summary {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  min-height: 44px;
   font-size: 1rem;
   font-weight: 600;
-  padding: 0.7rem 1rem;
+  padding: 0.55rem 1rem;
   cursor: pointer;
   user-select: none;
-  list-style-position: inside;
+  list-style: none;
 }
 
-.section summary:hover {
-  background: #f3f4f6;
+.reveal summary::-webkit-details-marker {
+  display: none;
+}
+
+.reveal summary::before {
+  content: "▸";
+  color: #9ca3af;
+  transition: transform 0.15s;
+}
+
+.reveal[open] summary::before {
+  transform: rotate(90deg);
+  color: #16a34a;
+}
+
+.reveal summary:hover {
+  background: #f9fafb;
   border-radius: 6px;
 }
 
-.section[open] summary {
+.reveal[open] summary .reveal-label {
   color: #15803d;
 }
 
+.reveal-mark {
+  margin-left: auto;
+  color: #16a34a;
+  font-weight: 700;
+}
+
 .section-body {
-  padding: 0.25rem 1rem 0.9rem;
+  padding: 0.35rem 1rem 1rem;
   line-height: 1.55;
   font-size: 0.95rem;
 }
 
 .kv-row {
-  margin-bottom: 0.4rem;
+  margin-bottom: 0.45rem;
 }
 
 .kv-key {
@@ -452,6 +588,109 @@ h1 {
 
 .kv-key::after {
   content: ":";
+}
+
+/* SAMPLE / OPQRST mnemonic letter chips */
+.chip-row {
+  display: flex;
+  align-items: baseline;
+  gap: 0.5rem;
+}
+
+.letter-chip {
+  flex: none;
+  width: 1.5rem;
+  height: 1.5rem;
+  border-radius: 50%;
+  background: #dbeafe;
+  color: #1d4ed8;
+  font-size: 0.8rem;
+  font-weight: 700;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  align-self: flex-start;
+  transform: translateY(0.15rem);
+}
+
+.chip-rest {
+  font-weight: 600;
+  color: #6b7280;
+  font-size: 0.85rem;
+}
+
+/* Vitals stat tiles */
+.vitals-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+  gap: 0.5rem;
+}
+
+.vital-tile {
+  background: #f9fafb;
+  border: 1px solid #e5e7eb;
+  border-radius: 8px;
+  padding: 0.55rem 0.7rem;
+}
+
+.vital-tile--wide {
+  grid-column: 1 / -1;
+}
+
+.vital-label {
+  font-size: 0.7rem;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+  color: #6b7280;
+  margin-bottom: 0.15rem;
+}
+
+.vital-value {
+  font-size: 0.95rem;
+  font-weight: 600;
+  color: #1f2937;
+  line-height: 1.4;
+}
+
+/* Moderator-only spoiler zone */
+.moderator-zone {
+  margin-top: 1.25rem;
+  padding: 0.9rem;
+  background: #fffbeb;
+  border: 1.5px solid #fcd34d;
+  border-radius: 10px;
+}
+
+.moderator-zone-label {
+  font-size: 0.75rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+  color: #b45309;
+  margin-bottom: 0.6rem;
+}
+
+.moderator-zone .reveal {
+  border-color: #fcd34d;
+  background: #fffdf5;
+}
+
+.moderator-zone .reveal + .reveal {
+  margin-top: 0.5rem;
+}
+
+.moderator-zone .reveal[open] {
+  border-color: #f59e0b;
+}
+
+.moderator-zone .reveal[open] summary .reveal-label,
+.moderator-zone .reveal[open] summary::before {
+  color: #b45309;
+}
+
+.moderator-zone .reveal summary:hover {
+  background: #fef3c7;
 }
 
 .debrief-hook {
@@ -466,4 +705,28 @@ h1 {
 
 .debrief-list li {
   margin-bottom: 0.3rem;
+}
+
+@media (max-width: 480px) {
+  .card--wide {
+    padding: 1.1rem;
+  }
+
+  .phase {
+    gap: 0.6rem;
+  }
+
+  .phase::before {
+    left: 12px;
+  }
+
+  .phase-num {
+    width: 26px;
+    height: 26px;
+    font-size: 0.85rem;
+  }
+
+  .section-body {
+    padding: 0.25rem 0.75rem 0.85rem;
+  }
 }
