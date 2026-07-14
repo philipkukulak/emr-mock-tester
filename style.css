@@ -14,9 +14,57 @@ body {
   color: #1f2937;
   min-height: 100vh;
   display: flex;
-  align-items: flex-start;
-  justify-content: center;
-  padding: 2rem 1rem;
+  flex-direction: column;
+  align-items: center;
+}
+
+/* ---- Navbar (shared by both pages) ---- */
+.navbar {
+  position: sticky;
+  top: 0;
+  z-index: 10;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 0.75rem;
+  padding: 0.6rem 1rem;
+  background: #fff;
+  border-bottom: 1px solid #e5e7eb;
+  box-shadow: 0 1px 4px rgba(0, 0, 0, 0.04);
+}
+
+.navbar-brand {
+  font-weight: 700;
+  font-size: 1rem;
+  color: #1f2937;
+  text-decoration: none;
+  white-space: nowrap;
+}
+
+.navbar-tabs {
+  display: flex;
+  gap: 0.4rem;
+}
+
+.navbar-tab {
+  font-size: 0.9rem;
+  font-weight: 600;
+  padding: 0.45rem 1rem;
+  border-radius: 999px;
+  color: #4b5563;
+  text-decoration: none;
+  white-space: nowrap;
+}
+
+.navbar-tab:hover {
+  background: #f3f4f6;
+  color: #1f2937;
+}
+
+.navbar-tab.active {
+  background: #1f2937;
+  color: #fff;
 }
 
 .card {
@@ -24,7 +72,8 @@ body {
   border-radius: 12px;
   box-shadow: 0 2px 12px rgba(0, 0, 0, 0.08);
   max-width: 640px;
-  width: 100%;
+  width: calc(100% - 2rem);
+  margin: 2rem 0 3rem;
   padding: 2rem;
 }
 
@@ -81,6 +130,7 @@ h1 {
 .controls select {
   flex: 1;
   min-width: 12rem;
+  max-width: 100%;
   font-size: 0.95rem;
   padding: 0.5rem 0.6rem;
   border: 2px solid #d1d5db;
@@ -313,16 +363,6 @@ h1 {
 }
 
 /* ---- Scenario practice page ---- */
-.page-link {
-  color: #3b82f6;
-  font-weight: 600;
-  text-decoration: none;
-}
-
-.page-link:hover {
-  text-decoration: underline;
-}
-
 .card--wide {
   max-width: 720px;
 }
@@ -708,8 +748,10 @@ button.chip:hover {
 }
 
 @media (max-width: 480px) {
-  .card--wide {
+  .card {
     padding: 1.1rem;
+    margin: 1rem 0 2rem;
+    width: calc(100% - 1.5rem);
   }
 
   .phase {
