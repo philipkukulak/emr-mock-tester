@@ -30,7 +30,7 @@
       "SpO2": "97% on room air",
       "Pupils": "Equal and reactive, slightly sluggish",
       "Skin": "Pale, cool, wet",
-      "Glucose": "2.1 mmol/L — only if the responder checks or asks; do not volunteer"
+      "Glucose": "2.1 mmol/L — only if the responder is trained/equipped for glucometry and checks, or asks; do not volunteer"
     },
     "sample": {
       "S": "Decreased LOC, diaphoresis, pallor. Secretary: confused and irritable late morning, slurring words before lunch",
@@ -43,7 +43,7 @@
     "opqrst": null,
     "secondary": "Head-to-toe unremarkable: no DCAP-BTLS, no incontinence, no tongue trauma (helps rule out an unwitnessed seizure). Medic-alert bracelet on the left wrist — only found if the responder actually looks. Insulin pen in the open desk drawer.",
     "intervention": {
-      "trigger": "Patient positioned safely and given oral glucose ONLY once he can swallow and follow commands (if the responder tries to give it while he's still V on AVPU, challenge them on airway protection)",
+      "trigger": "Patient positioned safely and given oral glucose — 2 to 5 chewed glucose tablets or equivalent gel — ONLY once he can swallow and follow commands (if the responder tries to give it while he's still V on AVPU, challenge them on airway protection). If symptoms persist 5-10 minutes after the first dose: second dose and rapid transport category",
       "result": "Over about five minutes his LOC improves to A — awake, oriented, embarrassed. Skin warms and dries. HR settles to 96, RR 16. He thanks you and says he 'just needs a granola bar' and doesn't want to go to the hospital — make the responder address the refusal: he should still be assessed/transported or released per local protocol with someone staying with him and a meal eaten.",
       "ifNot": "If no sugar is given, LOC deteriorates from V to P over the next few minutes; skin becomes more mottled. This should push the responder toward rapid transport and airway positioning."
     },
@@ -53,7 +53,7 @@
         "Verbalize scene assessment: hazards, number of patients, MOI/NOI, bystanders, resources",
         "Gloves on before patient contact",
         "AVPU check and primary survey in order: airway, breathing, circulation",
-        "Recognize altered LOC + diaphoresis + diabetic history as probable hypoglycemia; check glucose if equipped",
+        "Recognize altered LOC + diaphoresis + diabetic history as probable hypoglycemia; check glucose if trained and equipped (glucometry is invasive — jurisdiction-dependent)",
         "Look for medic-alert jewelry",
         "Oral glucose only with an intact gag/ability to swallow",
         "Reassess LOC and vitals after the intervention",
@@ -300,7 +300,7 @@
       "BP": "168/94",
       "SpO2": "96% on room air",
       "Pupils": "Equal and reactive",
-      "Glucose": "6.2 mmol/L — normal; rules out hypoglycemia if checked",
+      "Glucose": "6.2 mmol/L — normal; rules out hypoglycemia if the responder is trained/equipped to check",
       "FAST": "Face: right-sided droop, asymmetric smile. Arms: right arm drifts down within seconds. Speech: slurred, wrong words. Time: onset ~09:05 per grandson"
     },
     "sample": {
@@ -319,7 +319,7 @@
       "expectedActions": [
         "Recognize the sudden focal deficits and run FAST deliberately, out loud",
         "Pin down time of onset (or last-seen-normal) from the grandson and write it down — the hospital's treatment decisions hang on it",
-        "Check glucose to rule out the great stroke mimic",
+        "Check glucose to rule out the great stroke mimic (if trained and equipped for glucometry)",
         "Nothing by mouth — her swallow is not safe",
         "Position with head slightly elevated; protect the weak side; suction ready",
         "Rapid transport decision and a handover that includes onset time, FAST findings, medications (especially the anticoagulant)"
@@ -449,7 +449,7 @@
     },
     "secondary": "Nothing new on head-to-toe. The picture IS the history: grey, clammy, nauseated, exertional 'indigestion' with jaw and shoulder ache in a woman with hypertension, high cholesterol, and a family history. If the responder concludes 'stomach bug,' have the staff member mention again how grey she looked.",
     "intervention": {
-      "trigger": "Recognize a possible cardiac event: place her at rest in a position of comfort, ask about aspirin allergies/contraindications and assist with chewable ASA per protocol, keep the AED nearby, and make an urgent transport decision",
+      "trigger": "Recognize a possible cardiac event: place her at rest in a position of comfort, have her chew 160-325 mg of ASA (single dose, never repeated) after ruling out the contraindications — asthma or a bleeding condition — keep the AED nearby, and make an urgent transport decision",
       "result": "She remains stable but symptomatic to handover. She tries to refuse transport ('I have a class at noon') — the responder should not accept it: symptoms plus risk factors make this a must-transport conversation",
       "ifNot": "If she is dismissed as 'flu/indigestion' and allowed to rest without escalation, she suddenly slumps in the chair — VSA. The scenario becomes CPR and AED use. Debrief the miss kindly but clearly"
     },
@@ -459,7 +459,7 @@
         "Take the bystander observation ('grey, had to stop') seriously over the patient's minimizing",
         "Full OPQRST — the quality, radiation, and exertional pattern give it away despite the low pain score",
         "SAMPLE surfaces the risk factors: hypertension, cholesterol, family history, skipped ASA",
-        "Rest, reassurance, ASA per protocol, AED located and nearby",
+        "Rest, reassurance, chewed ASA once asthma and bleeding conditions are ruled out, AED located and nearby",
         "Urgent transport; do not accept the refusal without a real informed-risk conversation"
       ],
       "teachingPoints": [
@@ -585,7 +585,7 @@
     "opqrst": null,
     "secondary": "No trauma from the collapse beyond minor scrapes. The exam is the skin and the LOC. If asked to compare: the classic heat-exhaustion patient nearby (there is one at the tent) is sweaty, pale, nauseated, and ALERT — this man is the opposite and much sicker.",
     "intervention": {
-      "trigger": "Move to shade, strip excess clothing, and cool aggressively: ice packs to neck/armpits/groin at minimum; cold-water immersion or continuous dousing/fanning if the tent's tub is used per protocol. Nothing by mouth while his LOC is altered",
+      "trigger": "Move to shade, strip excess clothing, and cool aggressively: immerse as much of the body in cold water as the tent's tub allows, or continuously pour water over cloth on his torso and fan for evaporation; ice packs can supplement. Nothing by mouth while his LOC is altered",
       "result": "With aggressive cooling his LOC improves to A-confused over ~10 minutes, HR eases to 116. He must still be transported — organ damage from heat stroke isn't visible on scene",
       "ifNot": "With only forehead drips and reassurance: he seizes within minutes and his LOC falls to U. Aggressive cooling is the resuscitation; delay is measured in cooked organs"
     },
@@ -860,7 +860,7 @@
       "S": "3/10 'and dropping' he claims; he winces at the loudspeaker",
       "T": "Slowly building, not fading"
     },
-    "secondary": "No scalp deformity or bleeding; helmet has a fresh scuff. Cervical spine assessed: no midline tenderness, full pain-free range — per protocol this may clear the collar question. Balance test if performed: sways on tandem stance. The exam findings are subtle; the HISTORY (LOC, amnesia, repetition, prior concussion) is the case.",
+    "secondary": "No scalp deformity or bleeding; helmet has a fresh scuff. Cervical spine assessed: no midline tenderness, full pain-free range — reassuring findings to note and report, but with a helmet-first impact and witnessed LOC the responder should maintain spinal precautions per local protocol; 'clearing' the spine is not an EMR decision. Balance test if performed: sways on tandem stance. The exam findings are subtle; the HISTORY (LOC, amnesia, repetition, prior concussion) is the case.",
     "intervention": {
       "trigger": "Take him off the ice for good (no return to play, non-negotiable), do serial reassessments, gather the referee's account, involve the girlfriend, and have the informed-refusal conversation properly: witnessed LOC + amnesia + second concussion + worsening headache = hospital tonight",
       "result": "If the responder explains the red flags concretely (what a brain bleed looks like hours later, why sleep-it-off is dangerous advice tonight) he grudgingly agrees to go, girlfriend driving behind the ambulance. If the responder folds and lets him refuse: see ifNot",
@@ -871,7 +871,7 @@
       "expectedActions": [
         "Find the credible witness — the referee's 'lights out' outranks the teammates' 'bell rung'",
         "Ask orientation and memory questions rather than accepting 'I'm fine'; notice the repeated question",
-        "Assess the neck given the mechanism, per protocol",
+        "Assess the neck given the mechanism and maintain spinal precautions per protocol — reassuring findings get reported at handover, not used to 'clear' the spine",
         "P in SAMPLE catches the prior concussion",
         "No return to play, full stop",
         "A real informed-refusal conversation: specific risks, specific red flags, a monitoring plan and a sober adult if he still refuses — documented"
