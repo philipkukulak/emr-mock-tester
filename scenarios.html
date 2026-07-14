@@ -4,6 +4,16 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>EMR Scenario Practice</title>
+  <script>
+    (function () {
+      var t;
+      try { t = localStorage.getItem("emr-theme-v1"); } catch (e) {}
+      if (t !== "light" && t !== "dark" && t !== "grey") {
+        t = window.matchMedia && matchMedia("(prefers-color-scheme: dark)").matches ? "dark" : "light";
+      }
+      document.documentElement.dataset.theme = t;
+    })();
+  </script>
   <link rel="stylesheet" href="style.css">
 </head>
 <body>
@@ -13,6 +23,7 @@
       <a class="navbar-tab" href="index.html">Quiz</a>
       <a class="navbar-tab active" href="scenarios.html" aria-current="page">Scenarios</a>
     </div>
+    <button id="theme-btn" class="navbar-theme" type="button" title="Switch theme (light / dark / grey)"></button>
   </nav>
 
   <main class="card card--wide">
@@ -67,6 +78,7 @@
     </p>
   </main>
 
+  <script src="theme.js"></script>
   <script src="scenarios.js"></script>
 </body>
 </html>
