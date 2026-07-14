@@ -192,14 +192,6 @@ body {
   box-shadow: var(--shadow-1);
 }
 
-.navbar-brand {
-  font-weight: 700;
-  font-size: 1rem;
-  color: var(--text);
-  text-decoration: none;
-  white-space: nowrap;
-}
-
 .navbar-tabs {
   display: flex;
   gap: 0.4rem;
@@ -254,17 +246,6 @@ body {
 
 header {
   margin-bottom: 1.5rem;
-}
-
-h1 {
-  font-size: 1.4rem;
-  margin-bottom: 0.25rem;
-}
-
-.subtitle {
-  font-size: 0.85rem;
-  color: var(--muted);
-  margin-bottom: 1rem;
 }
 
 .controls {
