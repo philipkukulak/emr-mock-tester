@@ -128,6 +128,7 @@ body {
   position: sticky;
   top: 0;
   z-index: 10;
+  transition: transform 0.25s ease;
   width: 100%;
   display: flex;
   align-items: center;
@@ -137,6 +138,11 @@ body {
   background: var(--surface);
   border-bottom: 1px solid var(--border);
   box-shadow: var(--shadow-1);
+}
+
+/* Hidden while scrolling down; scrolling up brings it back (see theme.js). */
+.navbar.navbar-hidden {
+  transform: translateY(-100%);
 }
 
 .navbar-tabs {
