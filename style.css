@@ -772,13 +772,27 @@ button.chip:hover {
   margin-bottom: 0.45rem;
 }
 
-.kv-key {
-  font-weight: 700;
-  color: var(--text-2);
+/* Stacked label/value rows (Scene, Primary, intervention, debrief) — the
+   vitals-tile typography without the tile box. */
+.kv-item {
+  margin-bottom: 0.55rem;
 }
 
-.kv-key::after {
-  content: ":";
+.kv-item:last-child {
+  margin-bottom: 0;
+}
+
+.kv-label {
+  font-size: 0.7rem;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+  color: var(--muted);
+  margin-bottom: 0.1rem;
+}
+
+.kv-value {
+  line-height: 1.45;
 }
 
 /* SAMPLE / OPQRST mnemonic letter chips */

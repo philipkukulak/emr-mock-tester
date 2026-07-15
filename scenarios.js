@@ -134,15 +134,16 @@ function chipParts(key) {
   return m ? { letter: m[1].toUpperCase(), rest: (m[2] || "").trim() } : null;
 }
 
-// Ordered { label: value } map as labeled rows; mnemonic-letter keys get a
-// leading circular chip (SAMPLE / OPQRST), other keys a plain bold label.
+// Ordered { label: value } map. Mnemonic-letter keys get a leading circular
+// chip on one line (SAMPLE / OPQRST); other keys render as a stacked item —
+// small-caps label above the value, echoing the vitals-tile typography.
 function kvBody(map, { chips = false } = {}) {
   const div = document.createElement("div");
   div.className = "section-body";
   for (const [k, v] of Object.entries(map)) {
-    const row = document.createElement("p");
     const parts = chips ? chipParts(k) : null;
     if (parts) {
+      const row = document.createElement("p");
       row.className = "kv-row chip-row";
       const chip = document.createElement("span");
       chip.className = "letter-chip";
@@ -155,16 +156,26 @@ function kvBody(map, { chips = false } = {}) {
         row.appendChild(rest);
       }
       row.appendChild(document.createTextNode(" " + v));
+      div.appendChild(row);
     } else {
-      row.className = "kv-row";
-      const key = document.createElement("span");
-      key.className = "kv-key";
-      key.textContent = k;
-      row.append(key, document.createTextNode(" " + v));
+      div.appendChild(kvItem(k, v));
     }
-    div.appendChild(row);
   }
   return div;
+}
+
+// One stacked label/value row.
+function kvItem(label, value) {
+  const item = document.createElement("div");
+  item.className = "kv-item";
+  const labelEl = document.createElement("p");
+  labelEl.className = "kv-label";
+  labelEl.textContent = label;
+  const valueEl = document.createElement("p");
+  valueEl.className = "kv-value";
+  valueEl.textContent = value;
+  item.append(labelEl, valueEl);
+  return item;
 }
 
 // Vitals as a scannable grid of quiet stat tiles. Long narrative values get a
@@ -202,7 +213,7 @@ function textBody(text) {
 function listBlock(container, heading, items) {
   if (!items || items.length === 0) return;
   const h = document.createElement("p");
-  h.className = "kv-key";
+  h.className = "kv-label";
   h.textContent = heading;
   container.appendChild(h);
   const ul = document.createElement("ul");
@@ -231,13 +242,7 @@ function debriefBody(s) {
     div.appendChild(hook);
   }
   if (s.debrief.diagnosis) {
-    const dx = document.createElement("p");
-    dx.className = "kv-row";
-    const key = document.createElement("span");
-    key.className = "kv-key";
-    key.textContent = "What it was";
-    dx.append(key, document.createTextNode(" " + s.debrief.diagnosis));
-    div.appendChild(dx);
+    div.appendChild(kvItem("What it was", s.debrief.diagnosis));
   }
   listBlock(div, "Expected actions", s.debrief.expectedActions);
   listBlock(div, "Teaching points", s.debrief.teachingPoints);
@@ -428,7 +433,10 @@ async function init() {
   loadDone();
   renderTimer();
   populateScenarioMenu();
-  randomScenario();
+  // Always open on an easy scenario; "New scenario" draws from the full pool.
+  const easy = scenarios.filter((s) => s.difficulty === "easy");
+  const starters = easy.length > 0 ? easy : scenarios;
+  render(starters[Math.floor(Math.random() * starters.length)]);
 }
 
 init();
