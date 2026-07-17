@@ -128,16 +128,48 @@ function showError(message) {
 
 // ---- Section bodies --------------------------------------------------------
 
+// What each mnemonic letter stands for, per section — the same letter means
+// different things in EMCAP, SAMPLE, and OPQRST, so each keeps its own map.
+// Shown as a tooltip on the letter chip (hover on desktop, tap on touch).
+const EMCAP_MEANINGS = {
+  E: "Environment",
+  M: "Mechanism of injury / nature of illness",
+  B: "Bystanders",
+  C: "Casualties — number of patients",
+  A: "Additional resources",
+  P: "PPE needed",
+};
+
+const SAMPLE_MEANINGS = {
+  S: "Signs & symptoms",
+  A: "Allergies",
+  M: "Medications",
+  P: "Past medical history",
+  L: "Last oral intake",
+  E: "Events leading up",
+};
+
+const OPQRST_MEANINGS = {
+  O: "Onset",
+  P: "Provocation / palliation",
+  Q: "Quality",
+  R: "Region / radiation",
+  S: "Severity",
+  T: "Time",
+};
+
 // True for mnemonic keys like "S" or "O (daughter)" that get a letter chip.
 function chipParts(key) {
   const m = key.match(/^([A-Za-z])(\s*\(.*\))?$/);
   return m ? { letter: m[1].toUpperCase(), rest: (m[2] || "").trim() } : null;
 }
 
-// Ordered { label: value } map. Mnemonic-letter keys get a leading circular
-// chip on one line (SAMPLE / OPQRST); other keys render as a stacked item —
-// small-caps label above the value, echoing the vitals-tile typography.
-function kvBody(map, { chips = false } = {}) {
+// Ordered { label: value } map. When `chips` is a letter→meaning map,
+// mnemonic-letter keys get a leading circular chip on one line
+// (EMCAP / SAMPLE / OPQRST) with the meaning as its tooltip; other keys
+// render as a stacked item — small-caps label above the value, echoing the
+// vitals-tile typography.
+function kvBody(map, { chips = null } = {}) {
   const div = document.createElement("div");
   div.className = "section-body";
   for (const [k, v] of Object.entries(map)) {
@@ -148,6 +180,12 @@ function kvBody(map, { chips = false } = {}) {
       const chip = document.createElement("span");
       chip.className = "letter-chip";
       chip.textContent = parts.letter;
+      const meaning = chips[parts.letter];
+      if (meaning) {
+        chip.dataset.tip = meaning;
+        chip.setAttribute("tabindex", "0");
+        chip.setAttribute("aria-label", meaning);
+      }
       row.appendChild(chip);
       if (parts.rest) {
         const rest = document.createElement("span");
@@ -333,17 +371,17 @@ function render(s) {
 
   els.dispatchText.textContent = s.dispatch;
 
-  const scene = makeReveal("Scene assessment (EMCAP)", kvBody(s.scene, { chips: true }), "scene");
+  const scene = makeReveal("Scene assessment (EMCAP)", kvBody(s.scene, { chips: EMCAP_MEANINGS }), "scene");
   const primary = makeReveal("Primary assessment", kvBody(s.primary), "primary");
   const secondaryTitle = document.createElement("p");
   secondaryTitle.className = "phase-title";
   secondaryTitle.textContent = "Secondary assessment";
   const vitals = makeReveal("Vitals", vitalsBody(s.vitals), "vitals");
-  const sample = makeReveal("SAMPLE", kvBody(s.sample, { chips: true }), "sample");
+  const sample = makeReveal("SAMPLE", kvBody(s.sample, { chips: SAMPLE_MEANINGS }), "sample");
   const opqrst = makeReveal(
     "OPQRST",
     s.opqrst
-      ? kvBody(s.opqrst, { chips: true })
+      ? kvBody(s.opqrst, { chips: OPQRST_MEANINGS })
       : textBody("N/A — no pain complaint (or patient can't answer)."),
     "opqrst"
   );
@@ -407,6 +445,16 @@ els.doneBtn.addEventListener("click", () => {
   persistDone();
   renderDoneBtn();
   populateScenarioMenu();
+});
+
+// Letter-chip tooltips on touch (and click anywhere): tapping a chip toggles
+// its tooltip; tapping anywhere else — or the same chip again — dismisses.
+document.addEventListener("click", (e) => {
+  const chip = e.target.closest(".letter-chip[data-tip]");
+  for (const open of document.querySelectorAll(".letter-chip.tip-open")) {
+    if (open !== chip) open.classList.remove("tip-open");
+  }
+  if (chip) chip.classList.toggle("tip-open");
 });
 
 async function init() {
