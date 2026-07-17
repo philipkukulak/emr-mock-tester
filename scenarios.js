@@ -447,9 +447,12 @@ els.doneBtn.addEventListener("click", () => {
   populateScenarioMenu();
 });
 
-// Letter-chip tooltips on touch (and click anywhere): tapping a chip toggles
-// its tooltip; tapping anywhere else — or the same chip again — dismisses.
+// Letter-chip tooltips on touch: tapping a chip toggles its tooltip; tapping
+// anywhere else — or the same chip again — dismisses. Hover-capable devices
+// (matching the CSS @media (hover: hover) rule) use mouseover only, so a
+// desktop click must not pin the tooltip open.
 document.addEventListener("click", (e) => {
+  if (matchMedia("(hover: hover)").matches) return;
   const chip = e.target.closest(".letter-chip[data-tip]");
   for (const open of document.querySelectorAll(".letter-chip.tip-open")) {
     if (open !== chip) open.classList.remove("tip-open");
