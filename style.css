@@ -857,9 +857,8 @@ button.chip:hover {
   }
 }
 
-/* Touch / click / keyboard: shown by the tap-to-toggle handler or focus. */
-.letter-chip.tip-open::after,
-.letter-chip[data-tip]:focus-visible::after {
+/* Touch: shown by the tap-to-toggle handler. */
+.letter-chip.tip-open::after {
   opacity: 1;
   visibility: visible;
   transition-delay: 0s;

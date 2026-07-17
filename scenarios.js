@@ -183,7 +183,6 @@ function kvBody(map, { chips = null } = {}) {
       const meaning = chips[parts.letter];
       if (meaning) {
         chip.dataset.tip = meaning;
-        chip.setAttribute("tabindex", "0");
         chip.setAttribute("aria-label", meaning);
       }
       row.appendChild(chip);
