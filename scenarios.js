@@ -370,7 +370,7 @@ function render(s) {
 
   els.dispatchText.textContent = s.dispatch;
 
-  const scene = makeReveal("Scene assessment (EMCAP)", kvBody(s.scene, { chips: EMCAP_MEANINGS }), "scene");
+  const scene = makeReveal("Scene assessment (EMBCAP)", kvBody(s.scene, { chips: EMCAP_MEANINGS }), "scene");
   const primary = makeReveal("Primary assessment", kvBody(s.primary), "primary");
   const secondaryTitle = document.createElement("p");
   secondaryTitle.className = "phase-title";
