@@ -882,7 +882,10 @@ button.chip:hover {
 }
 
 .six-rights {
-  position: fixed;
+  /* Absolute (page coordinates), not fixed: the card must ride along with
+     its anchor during scroll — a touch scroll-drag should never detach or
+     dismiss it; only a real tap elsewhere closes it. */
+  position: absolute;
   z-index: 30; /* above the navbar */
   background: var(--surface);
   border: 1px solid var(--border-2);

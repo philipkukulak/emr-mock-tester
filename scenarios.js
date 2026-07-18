@@ -159,9 +159,12 @@ const OPQRST_MEANINGS = {
 };
 
 // Any way the course formulary drugs (plus oral glucose) get written in
-// scenario text. Longer forms first so "nitroglycerin" isn't eaten as "nitro".
+// scenario text, including salbutamol by its device ("her inhaler", "puffer")
+// — but not "controller inhaler", which is a preventer the responder never
+// assists with. Longer forms first so "nitroglycerin" isn't eaten as "nitro"
+// and "salbutamol inhaler" becomes one pill.
 const DRUG_PATTERN =
-  /\b(epinephrine|epi[- ]?pen|salbutamol|ventolin|naloxone|narcan|nitroglycerin|nitro|aspirin|asa|glucose)\b/gi;
+  /\b(epinephrine|epi[- ]?pen|salbutamol inhaler|salbutamol|ventolin|(?<!controller )inhaler|puffer|naloxone|narcan|nitroglycerin|nitro|aspirin|asa|glucose)\b/gi;
 
 // Text → fragment with each drug mention marked as a 6-Rights cue: the name
 // becomes an info-family pill, and the shared #six-rights card shows on hover
@@ -492,10 +495,12 @@ function showSixRights(ref) {
   const margin = 8;
   let left = Math.min(target.left, window.innerWidth - card.width - margin);
   left = Math.max(margin, left);
+  // Above the mention when there's viewport room, otherwise below — then
+  // converted to page coordinates so the card scrolls with its anchor.
   let top = target.top - card.height - margin;
   if (top < margin) top = target.bottom + margin;
-  sixRights.style.left = `${left}px`;
-  sixRights.style.top = `${top}px`;
+  sixRights.style.left = `${left + window.scrollX}px`;
+  sixRights.style.top = `${top + window.scrollY}px`;
 }
 
 function hideSixRights() {
@@ -521,12 +526,6 @@ if (sixRights && matchMedia("(hover: hover)").matches) {
     else hideSixRights();
   });
 }
-
-// The card is position: fixed, so it would drift away from its anchor once
-// the page scrolls — just dismiss it.
-window.addEventListener("scroll", () => {
-  if (sixRights && !sixRights.hidden) hideSixRights();
-}, { passive: true });
 
 // Letter-chip tooltips on touch: tapping a chip toggles its tooltip; tapping
 // anywhere else — or the same chip again — dismisses. Hover-capable devices
