@@ -881,6 +881,14 @@ button.chip:hover {
   font-weight: 600;
 }
 
+/* While its 6-Rights card is showing, the pill goes pale — white mixed into
+   the info tones reads as a bumped-up exposure in both themes. */
+.drug-ref-active {
+  background: color-mix(in srgb, var(--info-bg) 55%, #fff);
+  border-color: color-mix(in srgb, var(--info-border) 55%, #fff);
+  color: color-mix(in srgb, var(--info-text) 65%, #fff);
+}
+
 .six-rights {
   /* Absolute (page coordinates), not fixed: the card must ride along with
      its anchor during scroll — a touch scroll-drag should never detach or

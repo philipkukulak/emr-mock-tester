@@ -488,7 +488,9 @@ let sixRightsAnchor = null;
 let sixRightsTimer = 0;
 
 function showSixRights(ref) {
+  if (sixRightsAnchor) sixRightsAnchor.classList.remove("drug-ref-active");
   sixRightsAnchor = ref;
+  ref.classList.add("drug-ref-active");
   sixRights.hidden = false;
   const target = ref.getBoundingClientRect();
   const card = sixRights.getBoundingClientRect();
@@ -506,6 +508,7 @@ function showSixRights(ref) {
 function hideSixRights() {
   clearTimeout(sixRightsTimer);
   sixRights.hidden = true;
+  if (sixRightsAnchor) sixRightsAnchor.classList.remove("drug-ref-active");
   sixRightsAnchor = null;
 }
 
