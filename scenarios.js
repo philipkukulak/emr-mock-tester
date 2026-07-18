@@ -164,9 +164,9 @@ const DRUG_PATTERN =
   /\b(epinephrine|epi[- ]?pen|salbutamol|ventolin|naloxone|narcan|nitroglycerin|nitro|aspirin|asa|glucose)\b/gi;
 
 // Text → fragment with each drug mention marked as a 6-Rights cue: the name
-// gets a dotted underline and a trailing ✱, and the shared #six-rights card
-// shows on hover (desktop) or tap (touch). "asa" only counts fully uppercase —
-// lowercase could be an ordinary word.
+// becomes an info-family pill, and the shared #six-rights card shows on hover
+// (desktop) or tap (touch). "asa" only counts fully uppercase — lowercase
+// could be an ordinary word.
 function drugText(text) {
   const frag = document.createDocumentFragment();
   let last = 0;
@@ -176,10 +176,6 @@ function drugText(text) {
     const ref = document.createElement("span");
     ref.className = "drug-ref";
     ref.textContent = m[0];
-    const star = document.createElement("sup");
-    star.className = "drug-star";
-    star.textContent = "✱";
-    ref.appendChild(star);
     frag.appendChild(ref);
     last = m.index + m[0].length;
   }

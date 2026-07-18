@@ -879,17 +879,6 @@ button.chip:hover {
   padding: 0.02em 0.35em;
   color: var(--info-text);
   font-weight: 600;
-  text-decoration: underline dotted;
-  text-decoration-color: var(--info-text);
-  text-underline-offset: 2px;
-}
-
-.drug-star {
-  color: var(--info-text);
-  font-size: 0.7em;
-  font-weight: 700;
-  padding-left: 0.1em;
-  line-height: 0; /* don't stretch the line the mention sits on */
 }
 
 .six-rights {
