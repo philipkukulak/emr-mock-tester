@@ -873,13 +873,19 @@ button.chip:hover {
 /* Drug mentions carry a 6-Rights reminder (see #six-rights) */
 .drug-ref {
   cursor: help;
+  background: var(--info-bg);
+  border: 1px solid var(--info-border);
+  border-radius: 0.6em;
+  padding: 0.02em 0.35em;
+  color: var(--info-text);
+  font-weight: 600;
   text-decoration: underline dotted;
-  text-decoration-color: var(--info-accent);
+  text-decoration-color: var(--info-text);
   text-underline-offset: 2px;
 }
 
 .drug-star {
-  color: var(--info-accent);
+  color: var(--info-text);
   font-size: 0.7em;
   font-weight: 700;
   padding-left: 0.1em;
