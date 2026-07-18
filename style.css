@@ -870,6 +870,46 @@ button.chip:hover {
   font-size: 0.85rem;
 }
 
+/* Drug mentions carry a 6-Rights reminder (see #six-rights) */
+.drug-ref {
+  cursor: help;
+  text-decoration: underline dotted;
+  text-decoration-color: var(--info-accent);
+  text-underline-offset: 2px;
+}
+
+.drug-star {
+  color: var(--info-accent);
+  font-size: 0.7em;
+  font-weight: 700;
+  padding-left: 0.1em;
+  line-height: 0; /* don't stretch the line the mention sits on */
+}
+
+.six-rights {
+  position: fixed;
+  z-index: 30; /* above the navbar */
+  background: var(--surface);
+  border: 1px solid var(--border-2);
+  border-radius: 10px;
+  box-shadow: var(--shadow-2);
+  padding: 0.65rem 0.9rem;
+  max-width: min(20rem, calc(100vw - 16px));
+}
+
+.six-rights-title {
+  font-weight: 600;
+  font-size: 0.9rem;
+  margin-bottom: 0.35rem;
+}
+
+.six-rights ol {
+  margin: 0;
+  padding-left: 1.4rem;
+  font-size: 0.9rem;
+  line-height: 1.55;
+}
+
 /* Vitals stat tiles */
 .vitals-grid {
   display: grid;

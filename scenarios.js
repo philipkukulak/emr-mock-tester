@@ -158,6 +158,35 @@ const OPQRST_MEANINGS = {
   T: "Time",
 };
 
+// Any way the course formulary drugs (plus oral glucose) get written in
+// scenario text. Longer forms first so "nitroglycerin" isn't eaten as "nitro".
+const DRUG_PATTERN =
+  /\b(epinephrine|epi[- ]?pen|salbutamol|ventolin|naloxone|narcan|nitroglycerin|nitro|aspirin|asa|glucose)\b/gi;
+
+// Text → fragment with each drug mention marked as a 6-Rights cue: the name
+// gets a dotted underline and a trailing ✱, and the shared #six-rights card
+// shows on hover (desktop) or tap (touch). "asa" only counts fully uppercase —
+// lowercase could be an ordinary word.
+function drugText(text) {
+  const frag = document.createDocumentFragment();
+  let last = 0;
+  for (const m of text.matchAll(DRUG_PATTERN)) {
+    if (m[0].toLowerCase() === "asa" && m[0] !== "ASA") continue;
+    frag.append(text.slice(last, m.index));
+    const ref = document.createElement("span");
+    ref.className = "drug-ref";
+    ref.textContent = m[0];
+    const star = document.createElement("sup");
+    star.className = "drug-star";
+    star.textContent = "✱";
+    ref.appendChild(star);
+    frag.appendChild(ref);
+    last = m.index + m[0].length;
+  }
+  frag.append(text.slice(last));
+  return frag;
+}
+
 // True for mnemonic keys like "S" or "O (daughter)" that get a letter chip.
 function chipParts(key) {
   const m = key.match(/^([A-Za-z])(\s*\(.*\))?$/);
@@ -192,7 +221,11 @@ function kvBody(map, { chips = null } = {}) {
         rest.textContent = parts.rest;
         row.appendChild(rest);
       }
-      row.appendChild(document.createTextNode(" " + v));
+      // Single wrapper span: the row is a flex container, so loose text and
+      // drug-ref nodes would each become their own flex item.
+      const value = document.createElement("span");
+      value.append(drugText(v));
+      row.appendChild(value);
       div.appendChild(row);
     } else {
       div.appendChild(kvItem(k, v));
@@ -210,7 +243,7 @@ function kvItem(label, value) {
   labelEl.textContent = label;
   const valueEl = document.createElement("p");
   valueEl.className = "kv-value";
-  valueEl.textContent = value;
+  valueEl.append(drugText(value));
   item.append(labelEl, valueEl);
   return item;
 }
@@ -230,7 +263,7 @@ function vitalsBody(map) {
     label.textContent = k;
     const value = document.createElement("p");
     value.className = "vital-value";
-    value.textContent = v;
+    value.append(drugText(v));
     tile.append(label, value);
     grid.appendChild(tile);
   }
@@ -242,7 +275,7 @@ function textBody(text) {
   const div = document.createElement("div");
   div.className = "section-body";
   const p = document.createElement("p");
-  p.textContent = text;
+  p.append(drugText(text));
   div.appendChild(p);
   return div;
 }
@@ -257,7 +290,7 @@ function listBlock(container, heading, items) {
   ul.className = "debrief-list";
   for (const item of items) {
     const li = document.createElement("li");
-    li.textContent = item;
+    li.append(drugText(item));
     ul.appendChild(li);
   }
   container.appendChild(ul);
@@ -275,7 +308,7 @@ function debriefBody(s) {
   if (s.hook) {
     const hook = document.createElement("p");
     hook.className = "debrief-hook";
-    hook.textContent = s.hook;
+    hook.append(drugText(s.hook));
     div.appendChild(hook);
   }
   if (s.debrief.diagnosis) {
@@ -368,7 +401,7 @@ function render(s) {
   }
   renderDoneBtn();
 
-  els.dispatchText.textContent = s.dispatch;
+  els.dispatchText.replaceChildren(drugText(s.dispatch));
 
   const scene = makeReveal("Scene assessment (EMBCAP)", kvBody(s.scene, { chips: EMCAP_MEANINGS }), "scene");
   const primary = makeReveal("Primary assessment", kvBody(s.primary), "primary");
@@ -445,6 +478,59 @@ els.doneBtn.addEventListener("click", () => {
   renderDoneBtn();
   populateScenarioMenu();
 });
+
+// ---- 6-Rights card on drug mentions ----------------------------------------
+
+// One shared floating card (#six-rights in scenarios.html), anchored to
+// whichever .drug-ref triggered it: hover with a short dwell on desktop,
+// tap to toggle / tap away to dismiss on touch.
+const sixRights = document.getElementById("six-rights");
+let sixRightsAnchor = null;
+let sixRightsTimer = 0;
+
+function showSixRights(ref) {
+  sixRightsAnchor = ref;
+  sixRights.hidden = false;
+  const target = ref.getBoundingClientRect();
+  const card = sixRights.getBoundingClientRect();
+  const margin = 8;
+  let left = Math.min(target.left, window.innerWidth - card.width - margin);
+  left = Math.max(margin, left);
+  let top = target.top - card.height - margin;
+  if (top < margin) top = target.bottom + margin;
+  sixRights.style.left = `${left}px`;
+  sixRights.style.top = `${top}px`;
+}
+
+function hideSixRights() {
+  clearTimeout(sixRightsTimer);
+  sixRights.hidden = true;
+  sixRightsAnchor = null;
+}
+
+if (sixRights && matchMedia("(hover: hover)").matches) {
+  document.addEventListener("mouseover", (e) => {
+    const ref = e.target.closest(".drug-ref");
+    if (!ref) return;
+    clearTimeout(sixRightsTimer);
+    sixRightsTimer = setTimeout(() => showSixRights(ref), 300);
+  });
+  document.addEventListener("mouseout", (e) => {
+    if (e.target.closest(".drug-ref")) hideSixRights();
+  });
+} else if (sixRights) {
+  document.addEventListener("click", (e) => {
+    const ref = e.target.closest(".drug-ref");
+    if (ref && ref !== sixRightsAnchor) showSixRights(ref);
+    else hideSixRights();
+  });
+}
+
+// The card is position: fixed, so it would drift away from its anchor once
+// the page scrolls — just dismiss it.
+window.addEventListener("scroll", () => {
+  if (sixRights && !sixRights.hidden) hideSixRights();
+}, { passive: true });
 
 // Letter-chip tooltips on touch: tapping a chip toggles its tooltip; tapping
 // anywhere else — or the same chip again — dismisses. Hover-capable devices
