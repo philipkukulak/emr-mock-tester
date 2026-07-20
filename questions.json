@@ -2621,7 +2621,8 @@
     ],
     "answer": 0,
     "explanation": "An open fracture involves a broken skin/open wound (more serious due to infection and hemorrhage risk); a closed fracture leaves the skin unbroken and is more common.",
-    "source": "generated"
+    "source": "generated",
+    "cite": "textbook p.196"
   },
   {
     "chapter": 10,
@@ -2636,7 +2637,8 @@
     "answer": 1,
     "explanation": "Do not attempt to reinsert a dislocated joint unless your scope of practice or medical director specifies it — doing so can cause additional damage to nerves and blood vessels.",
     "source": "generated",
-    "difficulty": "hard"
+    "difficulty": "hard",
+    "cite": "textbook p.197"
   },
   {
     "chapter": 10,
@@ -2650,7 +2652,8 @@
     ],
     "answer": 1,
     "explanation": "A splint must extend above and below the injury and immobilize the joints above and below the injury site to be effective.",
-    "source": "generated"
+    "source": "generated",
+    "cite": "textbook pp.199–200"
   },
   {
     "chapter": 10,
@@ -2665,7 +2668,8 @@
     "answer": 1,
     "explanation": "Check circulation and sensation distal to the injury before and after splinting. If a splint impairs them (numbness, cold/blue fingers or toes), loosen it slightly and reassess. Comparing to the uninjured limb helps.",
     "source": "generated",
-    "difficulty": "hard"
+    "difficulty": "hard",
+    "cite": "textbook p.200"
   },
   {
     "chapter": 10,
@@ -2679,7 +2683,8 @@
     ],
     "answer": 1,
     "explanation": "Put a thin layer of cloth/gauze between cold and skin to prevent skin damage, and place cold packs around (not directly over) a fracture. Apply cold for 15–20 minutes each hour for the first 24–48 hours as needed.",
-    "source": "generated"
+    "source": "generated",
+    "cite": "textbook p.203"
   },
   {
     "chapter": 10,
@@ -2694,7 +2699,8 @@
     "answer": 1,
     "explanation": "The femoral artery is the major blood supply to the leg; a femur fracture can damage it and cause rapid, life-threatening internal bleeding, so these patients are always rapid transport. A weak/absent distal pulse is a warning sign.",
     "source": "generated",
-    "difficulty": "hard"
+    "difficulty": "hard",
+    "cite": "textbook p.209"
   },
   {
     "chapter": 10,
@@ -2708,7 +2714,8 @@
     ],
     "answer": 1,
     "explanation": "Divide a long bone into thirds: an injury in the upper or lower third is treated as a joint injury; an injury in the middle third is treated as a mid-shaft injury.",
-    "source": "generated"
+    "source": "generated",
+    "cite": "textbook p.199"
   },
   {
     "chapter": 10,
@@ -2722,7 +2729,8 @@
     ],
     "answer": 1,
     "explanation": "Holding the arm against the chest is itself effective immobilization. Don't reposition it — support it and bind the injured arm to the chest, which needs no special splinting equipment.",
-    "source": "generated"
+    "source": "generated",
+    "cite": "textbook p.204"
   },
   {
     "chapter": 10,
@@ -2737,7 +2745,8 @@
     "answer": 3,
     "explanation": "A femur fracture may be immobilized with a traction splint, rigid splints (lateral and medial), or by securing it to the uninjured leg (anatomical splint).",
     "source": "workbook",
-    "fixedChoices": true
+    "fixedChoices": true,
+    "cite": "textbook pp.209–210"
   },
   {
     "chapter": 10,
@@ -2752,7 +2761,8 @@
     "answer": 0,
     "explanation": "For a STABLE patient, treatment/interventions such as splinting come AFTER the head-to-toe examination — the forearm has good circulation and is not life-threatening, so splinting mid-exam is a correct action at the wrong time. A tourniquet is inappropriate for a closed, well-perfused fracture.",
     "source": "workbook",
-    "difficulty": "hard"
+    "difficulty": "hard",
+    "cite": "textbook p.88"
   },
   {
     "chapter": 10,
@@ -2766,7 +2776,8 @@
     ],
     "answer": 0,
     "explanation": "A splint must immobilize the joints above and below the injury — for the forearm, that means the elbow and wrist.",
-    "source": "workbook"
+    "source": "workbook",
+    "cite": "textbook pp.199–200"
   },
   {
     "chapter": 10,
@@ -2780,7 +2791,8 @@
     ],
     "answer": 2,
     "explanation": "Pale, cool fingers mean the splint is impairing circulation — loosen the bandages/ties slightly and reassess.",
-    "source": "workbook"
+    "source": "workbook",
+    "cite": "textbook p.200"
   },
   {
     "chapter": 10,
@@ -2794,7 +2806,8 @@
     ],
     "answer": 0,
     "explanation": "Immobilizing reduces pain, prevents further tissue damage, reduces bleeding, and prevents a closed fracture from becoming open — it does not aim to reduce blood flow to the limb.",
-    "source": "workbook"
+    "source": "workbook",
+    "cite": "textbook p.203"
   },
   {
     "chapter": 10,
@@ -2809,7 +2822,8 @@
     "answer": 0,
     "explanation": "Splint a fractured joint in the position found; if the knee is bent and can't be straightened, support it in the bent position.",
     "source": "workbook",
-    "difficulty": "hard"
+    "difficulty": "hard",
+    "cite": "textbook p.211"
   },
   {
     "chapter": 10,
@@ -2823,21 +2837,8 @@
     ],
     "answer": 1,
     "explanation": "Control any external bleeding and cover open wounds before splinting.",
-    "source": "workbook"
-  },
-  {
-    "chapter": 10,
-    "chapterTitle": "Musculoskeletal Injuries",
-    "question": "What should you do when applying a rigid splint to a patient's forearm?",
-    "choices": [
-      "Ensure it allows the arm to bend at the elbow",
-      "Ensure it does not extend beyond the wrist",
-      "Ensure it applies direct pressure to the injury",
-      "Ensure it extends from the shoulder to beyond the hand"
-    ],
-    "answer": 3,
-    "explanation": "When using a rigid splint on the forearm, extend it beyond the hand and immobilize the elbow by splinting up to the shoulder.",
-    "source": "workbook"
+    "source": "workbook",
+    "cite": "textbook p.199"
   },
   {
     "chapter": 10,
@@ -2852,7 +2853,8 @@
     "answer": 0,
     "explanation": "In this course RICE is Rest, Immobilize, Cold, Elevate. The commonly-remembered 'Ice' belongs to the separate lay version — cold is already the 'C'. The exam wants Immobilize for 'I'.",
     "source": "gotcha",
-    "difficulty": "hard"
+    "difficulty": "hard",
+    "cite": "textbook p.203"
   },
   {
     "chapter": 10,
@@ -2867,7 +2869,8 @@
     "answer": 0,
     "explanation": "You check distal circulation and sensation before splinting (baseline) and after (to catch a splint that is now too tight). Without the baseline you cannot tell whether a later finding is new — so the 'after only' answer is wrong.",
     "source": "gotcha",
-    "difficulty": "hard"
+    "difficulty": "hard",
+    "cite": "textbook p.200"
   },
   {
     "chapter": 10,
@@ -2876,13 +2879,62 @@
     "choices": [
       "Push the protruding bone back under the skin",
       "Control the bleeding around the wound",
-      "Cover the exposed bone with a moist sterile dressing",
+      "Cover the exposed bone and wound with a sterile dressing",
       "Immobilize the limb to prevent further movement"
     ],
     "answer": 0,
-    "explanation": "Pushing the bone back drives contaminants deep and causes further damage — never do it. Controlling bleeding, covering with a moist sterile dressing, and immobilizing are the correct care.",
+    "explanation": "Pushing a protruding bone back under the skin drives in contaminants and causes further injury — never do it (a core splinting principle is to avoid causing further injury). The correct care is to control the bleeding, cover the open wound with a sterile dressing, and immobilize the limb before moving the patient.",
     "source": "gotcha",
-    "difficulty": "hard"
+    "difficulty": "hard",
+    "cite": "textbook p.199"
+  },
+  {
+    "chapter": 10,
+    "chapterTitle": "Musculoskeletal Injuries",
+    "question": "A collision patient's thigh is deformed, the injured leg looks shorter and is turned outward, and the pulse in that foot is weak. What does this suggest, and what is the priority?",
+    "choices": [
+      "A fractured femur with possible femoral-artery damage — place the patient in the rapid transport category",
+      "A minor thigh bruise — apply a cold pack and reassess in an hour",
+      "A dislocated hip — attempt to reduce it back into place",
+      "A muscle strain — have the patient walk it off"
+    ],
+    "answer": 0,
+    "explanation": "A deformed thigh with the leg shortened and rotated outward is the classic look of a fractured femur. A weak or absent pulse below the injury signals possible femoral-artery damage, which can be rapidly life-threatening, so any femur fracture is a rapid-transport patient. Control bleeding, immobilize, and treat for shock.",
+    "difficulty": "hard",
+    "source": "process",
+    "cite": "textbook p.209"
+  },
+  {
+    "chapter": 10,
+    "chapterTitle": "Musculoskeletal Injuries",
+    "question": "You find a grossly angulated fracture of the lower leg with a weak pulse below it, and advanced medical care is more than 30 minutes away. With the patient's agreement, what may you do?",
+    "choices": [
+      "Make a single attempt to realign the limb into anatomical position with gentle traction, then reassess circulation and sensation",
+      "Repeatedly force the limb straight until the pulse returns",
+      "Attempt realignment even though you feel bone fragments grating",
+      "Realign it the same way you would a dislocated joint"
+    ],
+    "answer": 0,
+    "explanation": "When distal circulation is compromised and advanced care is far off, a single gentle attempt to straighten a fractured (non-joint) limb into anatomical position is permitted with the patient's agreement, reassessing distal circulation and sensation afterward. Do NOT attempt it if you suspect a joint injury, feel firm resistance, or feel/hear bone fragments grating.",
+    "difficulty": "hard",
+    "source": "process",
+    "cite": "textbook p.201"
+  },
+  {
+    "chapter": 10,
+    "chapterTitle": "Musculoskeletal Injuries",
+    "question": "You are applying the RICE approach and reach for a cold pack. For which injury is a cold pack NOT appropriate to apply?",
+    "choices": [
+      "An open fracture with a wound",
+      "A closed ankle sprain",
+      "A closed wrist fracture",
+      "A knee that is bruised and swollen"
+    ],
+    "answer": 0,
+    "explanation": "Cold packs are applied to closed injuries (closed fractures, dislocations, sprains, strains). For an open wound such as an open fracture, do not apply a cold pack directly — care for the wound and control bleeding instead. When cold is used, keep a thin cloth between the pack and skin and place it around, not directly on, a fracture.",
+    "difficulty": "hard",
+    "source": "process",
+    "cite": "textbook p.203"
   },
   {
     "chapter": 11,
