@@ -4671,7 +4671,8 @@
     "answer": 1,
     "explanation": "A responsive child is often more willing to accept you touching the feet first and progressing upward, so a toe-to-head examination can work better. Lower yourself to eye level and keep the child with loved ones when possible.",
     "source": "generated",
-    "difficulty": "hard"
+    "difficulty": "hard",
+    "cite": "textbook p.318"
   },
   {
     "chapter": 17,
@@ -4685,22 +4686,8 @@
     ],
     "answer": 1,
     "explanation": "Croup is usually a viral upper-airway infection with a distinctive seal-like barking cough and is generally not life-threatening. Epiglottitis is a bacterial infection that can swell the epiglottis enough to completely obstruct the airway — a rapid transport emergency.",
-    "source": "generated"
-  },
-  {
-    "chapter": 17,
-    "chapterTitle": "Special Populations",
-    "question": "For a child with suspected croup or epiglottitis, you should:",
-    "choices": [
-      "Place a tongue depressor in the mouth to examine the throat",
-      "Not place anything in the mouth or examine it; keep them in the position that eases breathing",
-      "Have the child lie flat",
-      "Force the child to drink water"
-    ],
-    "answer": 1,
-    "explanation": "Do not put anything in the child's mouth or examine the mouth (it can trigger complete airway obstruction). Let the child stay in the position that makes breathing easiest, and supplemental oxygen may be indicated. Epiglottitis is rapid transport.",
     "source": "generated",
-    "difficulty": "hard"
+    "cite": "textbook p.321"
   },
   {
     "chapter": 17,
@@ -4714,7 +4701,8 @@
     ],
     "answer": 1,
     "explanation": "Signs of dehydration include a dry mouth/tongue, sunken eyes, no tears when crying, and listlessness/irritability; in infants the fontanel (soft spot) may be sunken and there are fewer wet diapers. A dehydrated child with persistent vomiting/diarrhea is rapid transport.",
-    "source": "generated"
+    "source": "generated",
+    "cite": "textbook p.321"
   },
   {
     "chapter": 17,
@@ -4728,7 +4716,8 @@
     ],
     "answer": 1,
     "explanation": "SBS results from violently shaking an infant/child, tearing brain blood vessels. Treat the injuries found, place the child in rapid transport, and treat the situation as suspected child abuse. Physical signs may not be present even with permanent damage.",
-    "source": "generated"
+    "source": "generated",
+    "cite": "textbook p.322"
   },
   {
     "chapter": 17,
@@ -4743,7 +4732,8 @@
     "answer": 1,
     "explanation": "SIDS is the sudden unexplained death of a seemingly healthy sleeping infant; treat it the same as any cardiac arrest, and it is NOT treated as child abuse (the two are unrelated). SBS, by contrast, is treated as suspected child abuse.",
     "source": "generated",
-    "difficulty": "hard"
+    "difficulty": "hard",
+    "cite": "textbook p.322"
   },
   {
     "chapter": 17,
@@ -4758,7 +4748,8 @@
     "answer": 1,
     "explanation": "As the brain shrinks with age, there is more space between it and the skull, allowing more movement and increasing injury risk. Signs may be delayed — you might suspect a head injury as the cause of altered behaviour even days after the event. Establish a baseline by interviewing family.",
     "source": "generated",
-    "difficulty": "hard"
+    "difficulty": "hard",
+    "cite": "textbook p.323"
   },
   {
     "chapter": 17,
@@ -4772,7 +4763,8 @@
     ],
     "answer": 1,
     "explanation": "Alzheimer's is NOT a normal part of aging. It is a progressive, degenerative disease destroying brain cells and cognitive ability — the most common form of dementia (60–80% of cases). It's ultimately fatal with no cure, though medication can reduce symptoms.",
-    "source": "generated"
+    "source": "generated",
+    "cite": "textbook p.323"
   },
   {
     "chapter": 17,
@@ -4786,7 +4778,8 @@
     ],
     "answer": 1,
     "explanation": "Stand beside the patient and have them hold onto your arm, walk at a normal pace, and alert them to hazards like stairs. There's no need to speak loudly or simply — assess a visually impaired patient the same as any other.",
-    "source": "generated"
+    "source": "generated",
+    "cite": "textbook p.325"
   },
   {
     "chapter": 17,
@@ -4800,7 +4793,8 @@
     ],
     "answer": 3,
     "explanation": "The information needed from a bariatric patient is the same as for any other patient: signs/symptoms, allergies, medications, past history, last oral intake, and events. Be aware of equipment needs (e.g., a larger BP cuff).",
-    "source": "workbook"
+    "source": "workbook",
+    "cite": "textbook p.324"
   },
   {
     "chapter": 17,
@@ -4814,7 +4808,8 @@
     ],
     "answer": 3,
     "explanation": "Explain what's happening and what you're doing (especially before touching) to reduce anxiety. There's no need to speak loudly or in simple terms.",
-    "source": "workbook"
+    "source": "workbook",
+    "cite": "textbook p.325"
   },
   {
     "chapter": 17,
@@ -4828,7 +4823,8 @@
     ],
     "answer": 0,
     "explanation": "A service animal in its harness is working — keep it close to the patient for comfort, but avoid interacting with it (no talking or petting), and keep it with the patient during transport if possible.",
-    "source": "workbook"
+    "source": "workbook",
+    "cite": "textbook p.325"
   },
   {
     "chapter": 17,
@@ -4843,7 +4839,8 @@
     "answer": 0,
     "explanation": "Never put anything in the mouth or examine the throat with possible epiglottitis — it can trigger complete airway obstruction. Keeping the child calm, considering oxygen, and transporting are appropriate.",
     "source": "gotcha",
-    "difficulty": "hard"
+    "difficulty": "hard",
+    "cite": "textbook p.321"
   },
   {
     "chapter": 17,
@@ -4858,7 +4855,8 @@
     "answer": 0,
     "explanation": "Children maintain blood pressure through compensation until late, then deteriorate abruptly — so a 'normal' pressure is falsely reassuring. Waiting for hypotension in a child means waiting too long.",
     "source": "gotcha",
-    "difficulty": "hard"
+    "difficulty": "hard",
+    "cite": "textbook p.317"
   },
   {
     "chapter": 18,
@@ -4872,7 +4870,8 @@
     ],
     "answer": 1,
     "explanation": "Discourage bathing, showering, or douching to preserve evidence, since the area is treated as a crime scene. Also cover the patient, offer a same-gender responder, remove clothing only if necessary for care, and don't question them about specifics beyond what care requires.",
-    "source": "generated"
+    "source": "generated",
+    "cite": "textbook p.332"
   },
   {
     "chapter": 18,
@@ -4886,7 +4885,8 @@
     ],
     "answer": 1,
     "explanation": "Your first concern is your own safety — the attacker may still be present or nearby. If you're not law enforcement, don't approach until the scene is determined safe. Treat the area as a crime scene and don't handle items unrelated to care.",
-    "source": "generated"
+    "source": "generated",
+    "cite": "textbook p.332"
   },
   {
     "chapter": 18,
@@ -4900,7 +4900,8 @@
     ],
     "answer": 1,
     "explanation": "It's not your role to diagnose a psychiatric condition (just as you don't diagnose physical illness). Your responsibilities are to ensure safety, care for any injuries/illnesses, reduce risk of harm, provide support, and refer to appropriate care.",
-    "source": "generated"
+    "source": "generated",
+    "cite": "textbook p.333"
   },
   {
     "chapter": 18,
@@ -4914,7 +4915,8 @@
     ],
     "answer": 1,
     "explanation": "Never leave the patient alone unless there is a threat to your safety. Continue talking with the patient while awaiting additional resources, and continually reassess their mental status, as rapid changes can occur.",
-    "source": "generated"
+    "source": "generated",
+    "cite": "textbook p.333"
   },
   {
     "chapter": 18,
@@ -4928,7 +4930,8 @@
     ],
     "answer": 1,
     "explanation": "Calming and reassuring the patient and helping them take slow, deep, controlled breaths may be the only treatment needed for a panic attack. A full medical history helps rule out underlying disease (e.g., the rapid heart rate could indicate a pulmonary embolism).",
-    "source": "generated"
+    "source": "generated",
+    "cite": "textbook p.334"
   },
   {
     "chapter": 18,
@@ -4942,22 +4945,8 @@
     ],
     "answer": 0,
     "explanation": "People with depression are at risk for suicide, so any statements about suicide attempts or suicidal ideation must be taken seriously, documented, and reported when care is transferred. Offer to refer them for counselling if not being transported.",
-    "source": "generated"
-  },
-  {
-    "chapter": 18,
-    "chapterTitle": "Crisis Intervention",
-    "question": "You are approaching a patient having a psychotic episode who could become violent. Which should you NOT do?",
-    "choices": [
-      "Immediately restrain the patient",
-      "Assess the potential for violence before getting close",
-      "Request law enforcement if it is needed",
-      "Keep a safe distance"
-    ],
-    "answer": 0,
-    "explanation": "Physically restraining a potentially violent patient is not the responder's role and is dangerous. Assessing for violence, requesting law enforcement, and keeping a safe distance are the correct steps.",
     "source": "generated",
-    "difficulty": "hard"
+    "cite": "textbook p.334"
   },
   {
     "chapter": 18,
@@ -4972,7 +4961,8 @@
     "answer": 1,
     "explanation": "Be cautious about what you say — avoid making statements about the patient's condition to the patient, family, or bystanders. Provide comfort with positive statements such as \"We are doing everything we can.\"",
     "source": "generated",
-    "difficulty": "hard"
+    "difficulty": "hard",
+    "cite": "textbook p.333"
   },
   {
     "chapter": 18,
@@ -4986,7 +4976,8 @@
     ],
     "answer": 1,
     "explanation": "People who are upset or angry may express themselves in ways that seem rude — remember it's not directed at you and shouldn't be taken personally. Be respectful, use active listening, and keep your nonverbal communication positive.",
-    "source": "generated"
+    "source": "generated",
+    "cite": "textbook p.333"
   },
   {
     "chapter": 18,
@@ -5000,7 +4991,8 @@
     ],
     "answer": 2,
     "explanation": "Cover the patient, protect her from exposure, and clear bystanders. Discourage washing (to preserve evidence), remove clothing only if needed for care, and don't question her about specifics beyond what care requires.",
-    "source": "workbook"
+    "source": "workbook",
+    "cite": "textbook p.332"
   },
   {
     "chapter": 18,
@@ -5015,7 +5007,8 @@
     "answer": 3,
     "explanation": "If the victim is a child, you are legally required to report the crime to your provincial or territorial child protection service.",
     "source": "workbook",
-    "difficulty": "hard"
+    "difficulty": "hard",
+    "cite": "textbook p.332"
   },
   {
     "chapter": 18,
@@ -5030,7 +5023,8 @@
     "answer": 0,
     "explanation": "Breathing into a paper bag is an outdated remedy that can dangerously lower oxygen and is not recommended. Calm reassurance, coached slow breathing, and reducing stimulation are the appropriate measures.",
     "source": "gotcha",
-    "difficulty": "hard"
+    "difficulty": "hard",
+    "cite": "textbook p.334"
   },
   {
     "chapter": 18,
@@ -5045,7 +5039,8 @@
     "answer": 0,
     "explanation": "Physically restraining a potentially violent patient is not the responder's role and is dangerous for everyone. Maintain a safe distance and call for law enforcement. Enlisting bystanders to restrain, or restraining before transport, both put you and the patient at risk.",
     "source": "gotcha",
-    "difficulty": "hard"
+    "difficulty": "hard",
+    "cite": "textbook p.335"
   },
   {
     "chapter": 19,
@@ -5059,7 +5054,8 @@
     ],
     "answer": 0,
     "explanation": "Move a patient when: (1) the scene becomes unsafe, (2) you must gain access to other patients, or (3) you cannot provide proper treatment in the current location (e.g., CPR needs a firm flat surface). Rapid-transport patients also need to be moved quickly.",
-    "source": "generated"
+    "source": "generated",
+    "cite": "textbook p.342"
   },
   {
     "chapter": 19,
@@ -5073,7 +5069,8 @@
     ],
     "answer": 2,
     "explanation": "The clothes drag is appropriate for a suspected head/spinal injury because cradling the head with the gathered clothing and your hands helps maintain basic manual SMR while keeping the head, neck, and back aligned during the move.",
-    "source": "generated"
+    "source": "generated",
+    "cite": "textbook p.343"
   },
   {
     "chapter": 19,
@@ -5087,7 +5084,8 @@
     ],
     "answer": 1,
     "explanation": "The extremity lift is not appropriate for a suspected head/spinal injury or injuries to the pelvis, arms, or legs. It's used to lift an unresponsive patient (smaller than the responders) from the floor to a chair or stretcher.",
-    "source": "generated"
+    "source": "generated",
+    "cite": "textbook p.344"
   },
   {
     "chapter": 19,
@@ -5102,7 +5100,8 @@
     "answer": 1,
     "explanation": "Assume any airbag is live and could deploy at any moment — even one that already deployed could redeploy via a secondary charge. Never place a hard object between a patient and an airbag zone, and avoid positioning yourself/the patient where a deploying airbag could strike.",
     "source": "generated",
-    "difficulty": "hard"
+    "difficulty": "hard",
+    "cite": "textbook p.339"
   },
   {
     "chapter": 19,
@@ -5116,7 +5115,8 @@
     ],
     "answer": 2,
     "explanation": "High-voltage cables in hybrid/electric vehicles are usually orange. Damage to them can cause electrocution. Some models stay live for up to 10 minutes after shutoff — always follow the manufacturer's emergency response guidelines.",
-    "source": "generated"
+    "source": "generated",
+    "cite": "textbook p.340"
   },
   {
     "chapter": 19,
@@ -5130,7 +5130,8 @@
     ],
     "answer": 1,
     "explanation": "Choose a window as far from the occupant(s) as possible to protect them from glass shards and glass dust. Instruct responsive patients to cover their faces first, and wear appropriate PPE (eye protection, respiratory mask, thick gloves).",
-    "source": "generated"
+    "source": "generated",
+    "cite": "textbook p.339"
   },
   {
     "chapter": 19,
@@ -5144,7 +5145,8 @@
     ],
     "answer": 1,
     "explanation": "Carry the patient feet first on a level slope, down stairs, or down inclines (this keeps abdominal organs away from the diaphragm). Go head first when moving uphill or up stairs. Load the patient headfirst into the ambulance.",
-    "source": "generated"
+    "source": "generated",
+    "cite": "textbook p.346"
   },
   {
     "chapter": 19,
@@ -5158,7 +5160,8 @@
     ],
     "answer": 0,
     "explanation": "The scoop stretcher (clamshell) separates into two pieces that go on either side of the patient and reconnect underneath, letting you scoop the patient up without rolling — ideal for suspected spinal injuries.",
-    "source": "generated"
+    "source": "generated",
+    "cite": "textbook p.344"
   },
   {
     "chapter": 19,
@@ -5173,7 +5176,8 @@
     "answer": 3,
     "explanation": "Scene safety comes first: assess the scene for hazards before you stabilize the vehicle or approach the patient.",
     "source": "workbook",
-    "difficulty": "hard"
+    "difficulty": "hard",
+    "cite": "textbook p.338"
   },
   {
     "chapter": 19,
@@ -5188,7 +5192,8 @@
     "answer": 0,
     "explanation": "Check whether any doors are unlocked first — it's a simple, time-saving step that's easy to overlook.",
     "source": "workbook",
-    "difficulty": "hard"
+    "difficulty": "hard",
+    "cite": "textbook p.339"
   },
   {
     "chapter": 19,
@@ -5202,7 +5207,8 @@
     ],
     "answer": 1,
     "explanation": "Choose a window as far from occupants as possible and instruct responsive patients to cover their faces (to protect from glass shards and dust) before breaking it.",
-    "source": "workbook"
+    "source": "workbook",
+    "cite": "textbook p.339"
   },
   {
     "chapter": 20,
@@ -5216,7 +5222,8 @@
     ],
     "answer": 1,
     "explanation": "The vehicle must be removed from service (or the equipment repaired/replaced) before use. Affix a sign to the steering wheel so another responder doesn't unknowingly use an out-of-service vehicle.",
-    "source": "generated"
+    "source": "generated",
+    "cite": "textbook p.350"
   },
   {
     "chapter": 20,
@@ -5231,7 +5238,8 @@
     "answer": 1,
     "explanation": "Most jurisdictions require emergency vehicles to come to a complete stop at controlled intersections and proceed only when safe. Even with lights and sirens, you can't trust that all motorists will yield.",
     "source": "generated",
-    "difficulty": "hard"
+    "difficulty": "hard",
+    "cite": "textbook p.352"
   },
   {
     "chapter": 20,
@@ -5245,7 +5253,8 @@
     ],
     "answer": 1,
     "explanation": "These exceptions are privileges, not rights, and carry legal responsibility. Operating without due regard for others' safety can create liability for you and your agency if damage, injury, or death results.",
-    "source": "generated"
+    "source": "generated",
+    "cite": "textbook p.352"
   },
   {
     "chapter": 20,
@@ -5259,7 +5268,8 @@
     ],
     "answer": 2,
     "explanation": "A helicopter landing zone should be approximately 46 by 46 metres (151 by 151 feet), relatively flat, free of vertical structures and debris, and clear of high grass/crops that hide uneven terrain.",
-    "source": "generated"
+    "source": "generated",
+    "cite": "textbook p.353"
   },
   {
     "chapter": 20,
@@ -5273,7 +5283,8 @@
     ],
     "answer": 2,
     "explanation": "Flares should not be used to illuminate a helicopter landing site. Use portable lights, reflective cones, or emergency vehicle warning lights (pointed toward the centre, not at the aircraft); wet the zone if it's dusty.",
-    "source": "generated"
+    "source": "generated",
+    "cite": "textbook p.353"
   },
   {
     "chapter": 20,
@@ -5288,7 +5299,8 @@
     "answer": 1,
     "explanation": "Never approach an aircraft from the rear — the tail rotor is near the ground, spins very fast, and is virtually invisible. Approach in a crouched position, in the crew's view, wait for the pilot's signal, and stay away from propellers.",
     "source": "generated",
-    "difficulty": "hard"
+    "difficulty": "hard",
+    "cite": "textbook p.353"
   },
   {
     "chapter": 20,
@@ -5303,7 +5315,8 @@
     "answer": 3,
     "explanation": "During transport, warning-device use is based on patient assessment/type of call, local protocols, and provincial/territorial laws.",
     "source": "workbook",
-    "fixedChoices": true
+    "fixedChoices": true,
+    "cite": "textbook p.351"
   },
   {
     "chapter": 20,
@@ -5318,7 +5331,8 @@
     "answer": 0,
     "explanation": "Emergency warning devices are a request for right-of-way, not a guarantee — drivers may not see or hear you. You must drive with due regard for everyone's safety, which is exactly what the other three options fail to do.",
     "source": "gotcha",
-    "difficulty": "hard"
+    "difficulty": "hard",
+    "cite": "textbook p.352"
   },
   {
     "chapter": 20,
@@ -5333,7 +5347,8 @@
     "answer": 0,
     "explanation": "Downhill and downwind puts you and the patient in the path of flowing fuel and its vapours — the wrong place to park. Uphill, upwind, and a safe distance away all keep the hazard flowing away from you.",
     "source": "gotcha",
-    "difficulty": "hard"
+    "difficulty": "hard",
+    "cite": "textbook p.355"
   },
   {
     "chapter": 20,
@@ -5348,7 +5363,8 @@
     "answer": 0,
     "explanation": "On an incline you approach from the downhill side, where there is more clearance between you and the main rotor. The uphill side reduces rotor clearance, and you must never approach from the rear (tail rotor).",
     "source": "gotcha",
-    "difficulty": "hard"
+    "difficulty": "hard",
+    "cite": "textbook p.356"
   },
   {
     "chapter": 21,
@@ -5362,7 +5378,8 @@
     ],
     "answer": 1,
     "explanation": "START assesses respiration (breathing and rate), circulation (radial pulse present/absent), and level of responsiveness (AVPU) to classify patients into minor, delayed, immediate, or dead/non-salvageable.",
-    "source": "generated"
+    "source": "generated",
+    "cite": "textbook p.360"
   },
   {
     "chapter": 21,
@@ -5376,7 +5393,8 @@
     ],
     "answer": 1,
     "explanation": "First, direct all patients who can walk unassisted (the \"walking wounded,\" minor/green category) to a designated area for later evaluation. Then quickly assess the remaining patients into the other categories.",
-    "source": "generated"
+    "source": "generated",
+    "cite": "textbook p.360"
   },
   {
     "chapter": 21,
@@ -5391,7 +5409,8 @@
     "answer": 2,
     "explanation": "A respiration rate over 30 breaths per minute classifies the patient as immediate (red). If the rate is under 30, you proceed to check circulation (radial pulse).",
     "source": "generated",
-    "difficulty": "hard"
+    "difficulty": "hard",
+    "cite": "textbook p.361"
   },
   {
     "chapter": 21,
@@ -5406,7 +5425,8 @@
     "answer": 2,
     "explanation": "With normal respiration and a present radial pulse, the level of responsiveness decides: an alert patient who follows commands is delayed (yellow), while one who is unresponsive or responds only to pain/inappropriately to voice is immediate (red).",
     "source": "generated",
-    "difficulty": "hard"
+    "difficulty": "hard",
+    "cite": "textbook p.361"
   },
   {
     "chapter": 21,
@@ -5420,7 +5440,8 @@
     ],
     "answer": 1,
     "explanation": "Approach from an uphill and/or upwind direction so toxic materials flow/blow away from you, and elevation prevents pockets of heavier-than-air toxic vapours from collecting around you.",
-    "source": "generated"
+    "source": "generated",
+    "cite": "textbook p.364"
   },
   {
     "chapter": 21,
@@ -5434,7 +5455,8 @@
     ],
     "answer": 1,
     "explanation": "Nerve agents (organophosphates), such as sarin and tabun, are the most toxic of all chemical agents — they disrupt the nervous system, causing loss of cardiac and respiratory function, and can kill within minutes.",
-    "source": "generated"
+    "source": "generated",
+    "cite": "textbook p.362"
   },
   {
     "chapter": 21,
@@ -5448,7 +5470,8 @@
     ],
     "answer": 1,
     "explanation": "Directed first aid is care a patient performs on themselves (or on another patient) while being guided by a more qualified person. It's useful when responders can't safely reach or touch a contaminated patient. Many interventions (like applying pressure to bleeding) are simple to describe.",
-    "source": "generated"
+    "source": "generated",
+    "cite": "textbook p.364"
   },
   {
     "chapter": 21,
@@ -5462,7 +5485,8 @@
     ],
     "answer": 1,
     "explanation": "A contaminated patient must be decontaminated before leaving the scene to prevent further harm and avoid contaminating others. Emergency wash-down (removing clothing and washing with soap and water) is a rapid preliminary measure but not a replacement for formal decontamination.",
-    "source": "generated"
+    "source": "generated",
+    "cite": "textbook p.364"
   },
   {
     "chapter": 21,
@@ -5477,7 +5501,8 @@
     "answer": 2,
     "explanation": "Respiration under 30, a present radial pulse, and normal responsiveness — but unable to walk — classify the patient as delayed (yellow).",
     "source": "workbook",
-    "difficulty": "hard"
+    "difficulty": "hard",
+    "cite": "textbook p.361"
   },
   {
     "chapter": 21,
@@ -5491,7 +5516,8 @@
     ],
     "answer": 1,
     "explanation": "START assesses only respiration, circulation (radial pulse), and level of responsiveness — not blood pressure.",
-    "source": "workbook"
+    "source": "workbook",
+    "cite": "textbook p.361"
   },
   {
     "chapter": 21,
@@ -5505,7 +5531,8 @@
     ],
     "answer": 3,
     "explanation": "START checks the radial pulse — only whether it is present or absent, not its quality.",
-    "source": "workbook"
+    "source": "workbook",
+    "cite": "textbook p.361"
   },
   {
     "chapter": 21,
@@ -5520,7 +5547,8 @@
     "answer": 3,
     "explanation": "An absent radial pulse means very low blood pressure — control any external bleeding and colour-code the patient red (immediate).",
     "source": "workbook",
-    "difficulty": "hard"
+    "difficulty": "hard",
+    "cite": "textbook p.361"
   },
   {
     "chapter": 21,
@@ -5534,7 +5562,8 @@
     ],
     "answer": 1,
     "explanation": "Because patients may be contaminated, initial assessment in a CBRNE event should be done by specialized personnel with appropriate PPE (or after decontamination).",
-    "source": "workbook"
+    "source": "workbook",
+    "cite": "textbook p.364"
   },
   {
     "chapter": 21,
@@ -5548,7 +5577,8 @@
     ],
     "answer": 3,
     "explanation": "Directed first aid — guiding a patient to care for themselves or another — is useful when responders can't safely reach or touch a contaminated patient.",
-    "source": "workbook"
+    "source": "workbook",
+    "cite": "textbook p.364"
   },
   {
     "chapter": 21,
@@ -5562,7 +5592,8 @@
     ],
     "answer": 0,
     "explanation": "Inner and outer perimeters should be established quickly by the first responders on scene to reduce the risk of contaminating additional people.",
-    "source": "workbook"
+    "source": "workbook",
+    "cite": "textbook p.364"
   },
   {
     "chapter": 21,
@@ -5577,7 +5608,8 @@
     "answer": 0,
     "explanation": "In START, a patient who does not breathe even after the airway is opened is tagged black/grey (non-salvageable) — mass-casualty triage does not divert resources to CPR on one patient while others can still be saved. This is the hard, counterintuitive rule.",
     "source": "gotcha",
-    "difficulty": "hard"
+    "difficulty": "hard",
+    "cite": "textbook p.361"
   },
   {
     "chapter": 21,
@@ -5592,7 +5624,24 @@
     "answer": 0,
     "explanation": "A patient who only starts breathing after you open/reposition the airway is tagged RED (immediate) — they have a life threat needing urgent care. This is the key contrast with the patient who does NOT breathe even after the airway is opened, who is tagged black/grey.",
     "source": "gotcha",
-    "difficulty": "hard"
+    "difficulty": "hard",
+    "cite": "textbook p.361"
+  },
+  {
+    "chapter": 21,
+    "chapterTitle": "Multiple-Casualty Incidents",
+    "question": "During START triage you find a non-walking patient with no radial pulse and severe, spurting bleeding from the arm. Besides tagging them immediate, what limited care may you provide before moving on?",
+    "choices": [
+      "Control the hemorrhage with direct pressure and a pressure bandage",
+      "Start a full secondary assessment and splint any fractures",
+      "Begin CPR and stay with the patient",
+      "Nothing — you may never provide any care during triage"
+    ],
+    "answer": 0,
+    "explanation": "During START triage the only care you provide is the two life-saving actions that take seconds: opening the airway, and controlling major external hemorrhage with direct pressure and a pressure bandage. You do not pause triage for CPR or a full assessment — keep moving to classify as many patients as possible.",
+    "difficulty": "hard",
+    "source": "process",
+    "cite": "textbook p.361"
   },
   {
     "chapter": 22,
@@ -5870,7 +5919,8 @@
     ],
     "answer": 1,
     "explanation": "The Maritime Occupational Health and Safety Regulations (MOHS) of the Canada Labour Code specify legal requirements for first aid and medical care at sea. It's a living document, updated regularly, available free from the Government of Canada.",
-    "source": "generated"
+    "source": "generated",
+    "cite": "textbook p.383"
   },
   {
     "chapter": 23,
@@ -5884,7 +5934,8 @@
     ],
     "answer": 1,
     "explanation": "The first aid kit, medicine chest, medical equipment, and medical guide must be properly maintained and inspected by a qualified person at least once every 12 months.",
-    "source": "generated"
+    "source": "generated",
+    "cite": "textbook p.384"
   },
   {
     "chapter": 23,
@@ -5898,22 +5949,8 @@
     ],
     "answer": 1,
     "explanation": "Unless there's a qualified person aboard, the ship's captain is ultimately responsible for administering medicine — but the decision is made after consulting the medical advisor. The captain must log all medicine administered.",
-    "source": "generated"
-  },
-  {
-    "chapter": 23,
-    "chapterTitle": "Marine Environment",
-    "question": "On a ship, in which situation should you NOT enter a confined space such as a tank?",
-    "choices": [
-      "Whenever you think a crew member inside needs help",
-      "After the master or a responsible officer confirms it is safe",
-      "When you have proper confined-space entry training",
-      "When you have the correct protective equipment"
-    ],
-    "answer": 0,
-    "explanation": "Rushing in on impulse is how rescuers become victims of invisible, odourless gases or low oxygen. Only enter with permission once the space is confirmed safe, and only if you are trained and properly equipped.",
     "source": "generated",
-    "difficulty": "hard"
+    "cite": "textbook p.385"
   },
   {
     "chapter": 23,
@@ -5927,7 +5964,8 @@
     ],
     "answer": 1,
     "explanation": "The safety watch must raise the alarm immediately and wait for help before entering. Entering a confined space where someone has collapsed without proper precautions could make you a second victim.",
-    "source": "generated"
+    "source": "generated",
+    "cite": "textbook p.386"
   },
   {
     "chapter": 23,
@@ -5941,7 +5979,8 @@
     ],
     "answer": 1,
     "explanation": "Clean the skin only after the patient is warm and comfortable — but clean around the mouth and eyes immediately. Wipe with a soft cloth/paper towels and have them shower with soap and shampoo. Do not directly wipe any areas showing signs of burns. Oil can cause breathing trouble if inhaled or nausea/vomiting if ingested.",
-    "source": "generated"
+    "source": "generated",
+    "cite": "textbook p.387"
   },
   {
     "chapter": 23,
@@ -5956,7 +5995,8 @@
     "answer": 1,
     "explanation": "Give food and water in small amounts at first, seek radio medical advice, and provide a diet of nourishing liquids (sugar-water, milk, or soup) until the survivor can be transferred to care ashore.",
     "source": "generated",
-    "difficulty": "hard"
+    "difficulty": "hard",
+    "cite": "textbook p.389"
   },
   {
     "chapter": 23,
@@ -5971,7 +6011,8 @@
     "answer": 1,
     "explanation": "Never hook the helicopter's hoist cable to any part of the ship. Also wear rubber gloves to handle the winch wire (a helicopter builds up static electricity), clear/mark the deck with a white \"H\", secure loose articles, and obey the flight crew at all times.",
     "source": "generated",
-    "difficulty": "hard"
+    "difficulty": "hard",
+    "cite": "textbook p.396"
   },
   {
     "chapter": 23,
@@ -5985,7 +6026,8 @@
     ],
     "answer": 1,
     "explanation": "Medications that can't be given without a physician's approval should be labelled \"Give only on radio medical advice from a physician.\" A drug guide on board outlines side effects and precautions; nitroglycerin spray, for example, is restricted to use on a doctor's advice.",
-    "source": "generated"
+    "source": "generated",
+    "cite": "textbook p.389"
   },
   {
     "chapter": 23,
@@ -5999,7 +6041,8 @@
     ],
     "answer": 1,
     "explanation": "Before autoclaving, disinfect all instruments and cleanse them of all organic material to reduce the risk to people handling them.",
-    "source": "workbook"
+    "source": "workbook",
+    "cite": "textbook p.385"
   },
   {
     "chapter": 24,
@@ -6013,7 +6056,8 @@
     ],
     "answer": 1,
     "explanation": "WHMIS is the Workplace Hazardous Materials Information System — Canada's national hazard communication standard. Its key elements are cautionary labelling of hazardous materials, Safety Data Sheets (SDSs), and worker education and training programs.",
-    "source": "generated"
+    "source": "generated",
+    "cite": "textbook p.404"
   },
   {
     "chapter": 24,
@@ -6027,7 +6071,8 @@
     ],
     "answer": 1,
     "explanation": "Never attempt a confined-space rescue without proper training. Assume the space is hazardous — many toxic gases are invisible and odourless and low oxygen isn't visually obvious. Test conditions first, wear appropriate PPE, and have a first aid attendant outside with a communication method and rescue plan.",
-    "source": "generated"
+    "source": "generated",
+    "cite": "textbook p.406"
   },
   {
     "chapter": 24,
@@ -6041,7 +6086,8 @@
     ],
     "answer": 1,
     "explanation": "Position yourself upwind and uphill, and stay out of low areas where vapours and liquids collect. Stay well away unless specially trained and equipped, remain alert for wind changes, and keep others out of the danger zone while awaiting a haz-mat team.",
-    "source": "generated"
+    "source": "generated",
+    "cite": "textbook p.408"
   },
   {
     "chapter": 24,
@@ -6055,7 +6101,8 @@
     ],
     "answer": 1,
     "explanation": "Some materials like natural gas are flammable — even turning on a light switch or using a radio can create a spark that triggers an explosion. Call for help using a phone or radio located a safe distance from the scene.",
-    "source": "generated"
+    "source": "generated",
+    "cite": "textbook p.408"
   },
   {
     "chapter": 24,
@@ -6070,7 +6117,8 @@
     "answer": 1,
     "explanation": "A PTO shaft rotates at engine speed to transfer power. Clothing, limbs, or hair can become snagged/tangled in it, often causing amputations that are frequently fatal — especially with missing or damaged PTO shields.",
     "source": "generated",
-    "difficulty": "hard"
+    "difficulty": "hard",
+    "cite": "textbook p.410"
   },
   {
     "chapter": 24,
@@ -6084,7 +6132,8 @@
     ],
     "answer": 1,
     "explanation": "The major silo hazard is the gas formed during fermentation of stored crops, which can kill within minutes if inhaled. Signs include a bleach-like smell, dead birds/insects, yellowish/reddish vapour, and sick livestock. A SCBA is required to rescue someone in silo gas.",
-    "source": "generated"
+    "source": "generated",
+    "cite": "textbook p.411"
   },
   {
     "chapter": 24,
@@ -6099,7 +6148,8 @@
     "answer": 1,
     "explanation": "Never use the combine's reverse feature to extricate a patient. The safest approach is to prevent any machine movement — use pry bars to jam moving parts, lock the hydraulic system, and separate the header from the drive if possible.",
     "source": "generated",
-    "difficulty": "hard"
+    "difficulty": "hard",
+    "cite": "textbook p.410"
   },
   {
     "chapter": 24,
@@ -6114,7 +6164,8 @@
     "answer": 0,
     "explanation": "Manure pits contain deadly gases and a drowning risk, so entering with just gloves and treating it as a fall is wrong. Wear an SCBA and a lifeline, and treat a submerged person as a drowning patient.",
     "source": "generated",
-    "difficulty": "hard"
+    "difficulty": "hard",
+    "cite": "textbook p.412"
   },
   {
     "chapter": 24,
@@ -6128,7 +6179,8 @@
     ],
     "answer": 1,
     "explanation": "There are more injuries each year from farm animals than from tractors or machinery. Poor judgment and lack of understanding of animal behaviour are the main causes. Never enter an area with unsecured livestock, and flush animal feces from any wound.",
-    "source": "generated"
+    "source": "generated",
+    "cite": "textbook p.411"
   },
   {
     "chapter": 24,
@@ -6142,7 +6194,8 @@
     ],
     "answer": 3,
     "explanation": "With hazardous materials, stay well away unless you are specially trained and equipped; position yourself upwind and uphill and keep others out of the danger zone.",
-    "source": "workbook"
+    "source": "workbook",
+    "cite": "textbook p.408"
   },
   {
     "chapter": 24,
@@ -6156,7 +6209,8 @@
     ],
     "answer": 2,
     "explanation": "A Safety Data Sheet (SDS) must be available for every hazardous material and details its properties, hazards, and first aid measures.",
-    "source": "workbook"
+    "source": "workbook",
+    "cite": "textbook p.404"
   },
   {
     "chapter": 24,
@@ -6170,7 +6224,8 @@
     ],
     "answer": 1,
     "explanation": "Dealing with toxic substances requires specialized training and equipment; without it, stay clear and request qualified hazmat personnel.",
-    "source": "workbook"
+    "source": "workbook",
+    "cite": "textbook p.408"
   },
   {
     "chapter": 24,
@@ -6185,6 +6240,7 @@
     "answer": 0,
     "explanation": "A supervisor cannot override the first-aid attendant's treatment decisions for an ill or injured worker. Site authority does not extend to overruling first-aid care, regardless of the supervisor's certification or how minor the injury appears.",
     "source": "gotcha",
-    "difficulty": "hard"
+    "difficulty": "hard",
+    "cite": "textbook p.402"
   }
 ]
