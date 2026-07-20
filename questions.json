@@ -1559,7 +1559,8 @@
     "answer": 0,
     "explanation": "Stable angina is predictable and relieved by rest/medication. Unstable angina is atypical (occurs at rest, lasts longer than 10 minutes, or doesn't respond to medication) and is a warning that an MI may be imminent.",
     "source": "generated",
-    "difficulty": "hard"
+    "difficulty": "hard",
+    "cite": "textbook p.143"
   },
   {
     "chapter": 7,
@@ -1574,21 +1575,23 @@
     "answer": 2,
     "explanation": "Because the signs and symptoms are difficult to distinguish in the field, if you are unsure, treat the patient for an MI.",
     "source": "generated",
-    "difficulty": "hard"
+    "difficulty": "hard",
+    "cite": "textbook p.143"
   },
   {
     "chapter": 7,
     "chapterTitle": "Circulatory Emergencies",
-    "question": "What medication should a patient experiencing chest pain chew, and at what dose?",
+    "question": "A responsive patient with chest pain and no contraindications should chew which medication?",
     "choices": [
+      "Acetylsalicylic acid (ASA / Aspirin), 160 mg",
       "Acetaminophen (Tylenol), 500 mg",
       "Ibuprofen (Advil), 200 mg",
-      "Acetylsalicylic acid (ASA/Aspirin), 160 to 325 mg",
       "Nitroglycerin, 0.4 mg"
     ],
-    "answer": 2,
-    "explanation": "A patient with chest pain should chew 160 to 325 mg of ASA (do not repeat the dose). ASA thins the blood and reduces clot formation. Acetaminophen and ibuprofen do NOT have this effect and must not be substituted.",
-    "source": "generated"
+    "answer": 0,
+    "explanation": "A patient with chest pain should chew ASA as a single dose (not repeated) — it reduces clot formation and can limit heart-muscle damage. Acetaminophen and ibuprofen do NOT have this antiplatelet effect and must not be substituted. Note: this course teaches a 160 mg dose; the textbook lists a 160-325 mg range 'depending on what is available.'",
+    "source": "generated",
+    "cite": "textbook p.145"
   },
   {
     "chapter": 7,
@@ -1602,7 +1605,8 @@
     ],
     "answer": 2,
     "explanation": "Defibrillation is indicated for pulseless VT and VF. Asystole (no electrical activity) and PEA (activity without a pulse) are NOT shockable.",
-    "source": "generated"
+    "source": "generated",
+    "cite": "textbook p.148"
   },
   {
     "chapter": 7,
@@ -1617,7 +1621,8 @@
     "answer": 1,
     "explanation": "Adult CPR is 30 compressions to 2 ventilations for both one- and two-responder scenarios. (For a child or infant, two-responder CPR uses 15:2, and a neonate uses 3:1.)",
     "source": "generated",
-    "difficulty": "hard"
+    "difficulty": "hard",
+    "cite": "textbook p.152"
   },
   {
     "chapter": 7,
@@ -1631,7 +1636,8 @@
     ],
     "answer": 2,
     "explanation": "Compressions should be given at 100 to 120 per minute — about 30 compressions in 15 to 18 seconds.",
-    "source": "generated"
+    "source": "generated",
+    "cite": "textbook p.149"
   },
   {
     "chapter": 7,
@@ -1646,7 +1652,8 @@
     "answer": 1,
     "explanation": "For adults, compress at least 5 cm (about 2 in.) and avoid going deeper than 6 cm (2.4 in.). For children and infants, compress at least one-third of the chest's depth.",
     "source": "generated",
-    "difficulty": "hard"
+    "difficulty": "hard",
+    "cite": "textbook p.151"
   },
   {
     "chapter": 7,
@@ -1660,7 +1667,8 @@
     ],
     "answer": 2,
     "explanation": "Switch roles after approximately 2 minutes (5 cycles for most patients) of continuous CPR to maintain high-quality compressions, minimizing off-chest time during the switch.",
-    "source": "generated"
+    "source": "generated",
+    "cite": "textbook p.153"
   },
   {
     "chapter": 7,
@@ -1674,7 +1682,8 @@
     ],
     "answer": 1,
     "explanation": "Vehicle motion can interfere with the defibrillator's analysis, potentially advising a shock when none is needed (or vice versa). In most cases, stop the vehicle during analysis.",
-    "source": "generated"
+    "source": "generated",
+    "cite": "textbook p.155"
   },
   {
     "chapter": 7,
@@ -1688,7 +1697,8 @@
     ],
     "answer": 1,
     "explanation": "After ROSC, monitor the pulse closely, keep the pads attached, provide high-flow oxygen (the patient is likely hypoxic), watch the airway, and be prepared to resume CPR. Advanced care is still needed as soon as possible.",
-    "source": "generated"
+    "source": "generated",
+    "cite": "textbook p.157"
   },
   {
     "chapter": 7,
@@ -1702,7 +1712,8 @@
     ],
     "answer": 1,
     "explanation": "A TIA (\"mini-stroke\" or \"warning stroke\") has stroke-like signs from a temporary reduction of blood flow that resolves within minutes to hours. It signals a significantly increased risk of a future CVA and still requires immediate care — don't delay transport.",
-    "source": "generated"
+    "source": "generated",
+    "cite": "textbook p.157"
   },
   {
     "chapter": 7,
@@ -1717,7 +1728,8 @@
     "answer": 0,
     "explanation": "Nitroglycerin may be repeated every 3 to 5 minutes until the pain is relieved or 3 doses have been given, reassessing blood pressure before each dose.",
     "source": "workbook",
-    "difficulty": "hard"
+    "difficulty": "hard",
+    "cite": "textbook p.146"
   },
   {
     "chapter": 7,
@@ -1731,7 +1743,8 @@
     ],
     "answer": 3,
     "explanation": "If the chest is too small to keep at least 2.5 cm (1 in.) between pads, place one pad on the front of the chest (anterior) and one on the back (posterior).",
-    "source": "workbook"
+    "source": "workbook",
+    "cite": "textbook p.154"
   },
   {
     "chapter": 7,
@@ -1746,7 +1759,8 @@
     "answer": 3,
     "explanation": "In children and infants, cardiac arrest is usually the result of a respiratory problem (breathing stops first), not a primary cardiac cause.",
     "source": "workbook",
-    "difficulty": "hard"
+    "difficulty": "hard",
+    "cite": "textbook p.148"
   },
   {
     "chapter": 7,
@@ -1761,7 +1775,8 @@
     "answer": 0,
     "explanation": "The ventilator (Responder B) can check the effectiveness of compressions by feeling for the carotid (or brachial in infants) pulse and give feedback to the compressor.",
     "source": "workbook",
-    "fixedChoices": true
+    "fixedChoices": true,
+    "cite": "textbook p.152"
   },
   {
     "chapter": 7,
@@ -1776,7 +1791,8 @@
     "answer": 0,
     "explanation": "ASA is contraindicated in patients with asthma or bleeding conditions (e.g., ulcers). Acetaminophen is not a substitute for ASA in a cardiac event (it is not an antiplatelet), and doubling the dose in a bleeding-risk patient is dangerous.",
     "source": "gotcha",
-    "difficulty": "hard"
+    "difficulty": "hard",
+    "cite": "textbook p.145"
   },
   {
     "chapter": 7,
@@ -1791,7 +1807,8 @@
     "answer": 0,
     "explanation": "Nitroglycerin is a vasodilator and can drop blood pressure dangerously; a systolic pressure under 90 mmHg is a contraindication. A fast heart rate, prior ASA, and age are not contraindications — they are there to bait an over-cautious guess.",
     "source": "gotcha",
-    "difficulty": "hard"
+    "difficulty": "hard",
+    "cite": "textbook p.146"
   },
   {
     "chapter": 7,
@@ -1806,7 +1823,104 @@
     "answer": 0,
     "explanation": "AEDs are used on children in cardiac arrest — withholding it is the wrong call. Applying it (with pediatric pads/settings if available), continuing good compressions, and following the prompts are correct.",
     "source": "gotcha",
-    "difficulty": "hard"
+    "difficulty": "hard",
+    "cite": "textbook pp.154, 156"
+  },
+  {
+    "chapter": 7,
+    "chapterTitle": "Circulatory Emergencies",
+    "question": "Before assisting a chest-pain patient with his prescribed nitroglycerin spray, he tells you he took sildenafil (Viagra) about 6 hours ago. What should you do?",
+    "choices": [
+      "Withhold the nitroglycerin — a recent erectile-dysfunction drug is a contraindication that can cause a fatal drop in blood pressure",
+      "Give the nitroglycerin as normal, since 6 hours is long enough",
+      "Give a double dose of nitroglycerin to overcome the interaction",
+      "Give the nitroglycerin only if his heart rate is below 100"
+    ],
+    "answer": 0,
+    "explanation": "Before nitroglycerin, ask about erectile-dysfunction medication. Sildenafil (Viagra) or vardenafil (Levitra) within the previous 24 hours, or tadalafil (Cialis) within 48 hours, is a contraindication — the combination can cause a fatal lowering of blood pressure. Withhold the nitro; you may still assist with ASA if it is not contraindicated, and arrange transport.",
+    "difficulty": "hard",
+    "source": "process",
+    "cite": "textbook p.146"
+  },
+  {
+    "chapter": 7,
+    "chapterTitle": "Circulatory Emergencies",
+    "question": "You are about to apply defibrillator pads and notice a medication patch on the patient's chest where a pad needs to go. What should you do?",
+    "choices": [
+      "Remove the patch and wipe the area clean before applying the pad",
+      "Apply the pad directly over the patch to save time",
+      "Place the pad a few centimetres away and leave the patch on",
+      "Cancel defibrillation until the patch wears off"
+    ],
+    "answer": 0,
+    "explanation": "A transdermal medication patch (e.g., nitroglycerin or nicotine) can block the transfer of energy to the heart and cause small skin burns. Wearing gloves (the medication absorbs through skin), remove the patch and wipe the area clean before attaching the electrode pad.",
+    "difficulty": "hard",
+    "source": "process",
+    "cite": "textbook p.156"
+  },
+  {
+    "chapter": 7,
+    "chapterTitle": "Circulatory Emergencies",
+    "question": "The AED announces that a shock is advised and begins to charge. What should be happening while it charges?",
+    "choices": [
+      "Chest compressions continue until the moment the shock is delivered, then resume immediately after",
+      "All care stops and everyone steps back until the shock is over",
+      "Ventilations are given continuously with no compressions",
+      "The pads are removed and repositioned before the shock"
+    ],
+    "answer": 0,
+    "explanation": "Compressions should continue while the AED charges to minimize off-chest time (the peri-shock pause). Ensure no one is touching the patient at the instant of the shock, then resume compressions immediately after it is delivered.",
+    "difficulty": "hard",
+    "source": "process",
+    "cite": "textbook p.155"
+  },
+  {
+    "chapter": 7,
+    "chapterTitle": "Circulatory Emergencies",
+    "question": "A patient in cardiac arrest is lying in a puddle of water. Before using the AED, what must you do?",
+    "choices": [
+      "Move the patient out of the water and quickly dry the chest before attaching the pads",
+      "Attach the pads immediately, since water improves conduction",
+      "Wait for the water to evaporate before defibrillating",
+      "Defibrillate at a lower energy setting to compensate"
+    ],
+    "answer": 0,
+    "explanation": "A shock delivered while the patient is in water could be conducted to responders or bystanders. Remove the patient from the water and quickly dry the chest, then attach the pads normally.",
+    "difficulty": "hard",
+    "source": "process",
+    "cite": "textbook p.156"
+  },
+  {
+    "chapter": 7,
+    "chapterTitle": "Circulatory Emergencies",
+    "question": "An older woman with diabetes reports fatigue, nausea, and vague chest discomfort that worsens with activity, but denies any severe chest pain. Why should you still treat her as a possible heart attack?",
+    "choices": [
+      "Myocardial infarctions can present with subtle 'soft signs' — especially in women, older adults, and people with diabetes — so severe chest pain is not always present",
+      "Nausea and fatigue are only ever caused by heart attacks",
+      "Without severe chest pain, a heart attack can be ruled out",
+      "Her age makes a heart attack essentially impossible"
+    ],
+    "answer": 0,
+    "explanation": "Not every MI causes obvious crushing chest pain. Some patients — more often women, older adults, and people with diabetes — have 'soft signs' such as fatigue, nausea, and mild, unfocused chest discomfort. Because any MI can progress to cardiac arrest, act on these signs rather than waiting for classic pain.",
+    "difficulty": "hard",
+    "source": "process",
+    "cite": "textbook p.144"
+  },
+  {
+    "chapter": 7,
+    "chapterTitle": "Circulatory Emergencies",
+    "question": "You and a partner are performing CPR on a 5-year-old child. What compression-to-ventilation ratio should you use?",
+    "choices": [
+      "15 compressions to 2 ventilations",
+      "30 compressions to 2 ventilations",
+      "5 compressions to 1 ventilation",
+      "3 compressions to 1 ventilation"
+    ],
+    "answer": 0,
+    "explanation": "For two-responder CPR on a child or infant, the ratio is 15:2. (One-responder CPR on a child or infant uses 30:2, the same as an adult; a neonate uses 3:1 whether alone or with a partner.)",
+    "difficulty": "hard",
+    "source": "process",
+    "cite": "textbook p.152"
   },
   {
     "chapter": 8,
