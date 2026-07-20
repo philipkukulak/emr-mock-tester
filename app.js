@@ -229,6 +229,18 @@ function buildQuiz(reshuffle) {
   render();
 }
 
+// Fill an explanation container with the explanation text and, when the
+// question carries a source citation, a small reference line beneath it.
+function fillExplanation(container, q) {
+  container.append(q.explanation);
+  if (q.cite) {
+    const cite = document.createElement("span");
+    cite.className = "explanation-cite";
+    cite.textContent = q.cite;
+    container.appendChild(cite);
+  }
+}
+
 function render() {
   if (questions.length === 0) {
     els.progress.textContent = "";
@@ -301,7 +313,8 @@ function render() {
 
   const showExplanation = answered && q.explanation;
   els.explanation.hidden = !showExplanation;
-  els.explanation.textContent = showExplanation ? q.explanation : "";
+  els.explanation.replaceChildren();
+  if (showExplanation) fillExplanation(els.explanation, q);
 
   const isLast = current === questions.length - 1;
   els.prevBtn.disabled = current === 0;
@@ -377,7 +390,7 @@ function showResults() {
       if (q.explanation) {
         const exp = document.createElement("p");
         exp.className = "review-explanation";
-        exp.textContent = q.explanation;
+        fillExplanation(exp, q);
         item.appendChild(exp);
       }
 

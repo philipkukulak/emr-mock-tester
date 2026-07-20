@@ -385,6 +385,20 @@ header {
   line-height: 1.5;
 }
 
+.explanation-cite {
+  display: block;
+  margin-top: 0.5rem;
+  font-size: 0.8rem;
+  font-weight: 600;
+  letter-spacing: 0.02em;
+  color: var(--muted);
+}
+
+.review-explanation .explanation-cite {
+  margin-top: 0.3rem;
+  font-size: 0.75rem;
+}
+
 .error {
   padding: 1rem;
   background: var(--bad-bg-2);
