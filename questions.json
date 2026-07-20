@@ -812,7 +812,8 @@
     "answer": 1,
     "explanation": "Pinch the nail bed or inside of the arm — avoid anywhere above the collarbone, since that could make the patient move the head and worsen a possible spinal injury.",
     "source": "generated",
-    "difficulty": "hard"
+    "difficulty": "hard",
+    "cite": "textbook p.83"
   },
   {
     "chapter": 5,
@@ -826,7 +827,8 @@
     ],
     "answer": 1,
     "explanation": "The jaw thrust opens the airway without repositioning the neck. Only if it fails should you use the head-tilt/chin-lift, keeping the neck in line with the body.",
-    "source": "generated"
+    "source": "generated",
+    "cite": "textbook p.84"
   },
   {
     "chapter": 5,
@@ -840,7 +842,8 @@
     ],
     "answer": 2,
     "explanation": "Check the carotid pulse in the neck for an unresponsive adult or child. A responsive adult/child uses the radial pulse, and an infant uses the brachial pulse.",
-    "source": "generated"
+    "source": "generated",
+    "cite": "textbook p.85"
   },
   {
     "chapter": 5,
@@ -854,21 +857,8 @@
     ],
     "answer": 2,
     "explanation": "An infant's pulse is checked at the brachial artery on the underside of the arm, halfway between the elbow and shoulder.",
-    "source": "generated"
-  },
-  {
-    "chapter": 5,
-    "chapterTitle": "Assessment",
-    "question": "During assessment, breathing and pulse are each checked for a maximum of how long before acting?",
-    "choices": [
-      "5 seconds",
-      "10 seconds",
-      "20 seconds",
-      "30 seconds"
-    ],
-    "answer": 1,
-    "explanation": "Assess breathing for a maximum of 10 seconds, and if no pulse is detected after a maximum of 10 seconds, initiate the applicable CPR/AED protocol.",
-    "source": "generated"
+    "source": "generated",
+    "cite": "textbook p.85"
   },
   {
     "chapter": 5,
@@ -882,7 +872,8 @@
     ],
     "answer": 3,
     "explanation": "Normal SpO2 is about 95 to 100%. 91–94% is mild hypoxia, 86–90% moderate, and 85% or lower is severe hypoxia. Below 80% is considered insufficient to support life.",
-    "source": "generated"
+    "source": "generated",
+    "cite": "textbook p.87"
   },
   {
     "chapter": 5,
@@ -897,21 +888,23 @@
     "answer": 0,
     "explanation": "Treat the patient, not the number. A distressed patient needs oxygen even when SpO2 looks normal, so withholding it is the one thing you must not do. Giving oxygen, monitoring, and preparing to assist ventilations are all appropriate.",
     "source": "generated",
-    "difficulty": "hard"
+    "difficulty": "hard",
+    "cite": "textbook p.87"
   },
   {
     "chapter": 5,
     "chapterTitle": "Assessment",
-    "question": "When checking capillary refill, colour should return to the nail bed within how many seconds in a healthy person?",
+    "question": "You squeeze a patient's fingernail bed and release it; the pink colour takes about 4 seconds to return. What does this indicate?",
     "choices": [
-      "2 seconds",
-      "4 seconds",
-      "6 seconds",
-      "10 seconds"
+      "Impaired circulation to the fingertip — colour should return within about 2 seconds",
+      "Normal capillary refill for a healthy adult",
+      "That you did not press on the nail bed hard enough",
+      "That the patient's heart has stopped beating"
     ],
     "answer": 0,
-    "explanation": "After squeezing and releasing the nail bed, colour should return within 2 seconds. A slower refill indicates impaired circulation to the fingertip.",
-    "source": "generated"
+    "explanation": "In a healthy person, colour returns to the nail bed within about 2 seconds. A slower refill, as here, indicates reduced blood flow through the capillaries — impaired circulation to the extremity, which can be an early sign of shock.",
+    "source": "generated",
+    "cite": "textbook p.96"
   },
   {
     "chapter": 5,
@@ -925,7 +918,8 @@
     ],
     "answer": 1,
     "explanation": "The first number is the systolic pressure (arteries when the heart contracts); the second is the diastolic pressure (ventricles relaxed and refilling).",
-    "source": "generated"
+    "source": "generated",
+    "cite": "textbook p.97"
   },
   {
     "chapter": 5,
@@ -940,21 +934,8 @@
     "answer": 2,
     "explanation": "A GCS of 15 is perfect; 14 may indicate minor damage; a score of 13 or lower indicates neurological damage and requires rapid transport. The scale sums eye (E), verbal (V), and motor (M) responses.",
     "source": "generated",
-    "difficulty": "hard"
-  },
-  {
-    "chapter": 5,
-    "chapterTitle": "Assessment",
-    "question": "If you check capillary refill and the nail bed does not return to its normal colour after you release, what does this mean?",
-    "choices": [
-      "The patient has insufficient circulation",
-      "You pressed on the fingernail too hard",
-      "You did not press on the fingernail hard enough",
-      "The patient's heart is not beating"
-    ],
-    "answer": 0,
-    "explanation": "Colour should return within 2 seconds; a slower refill indicates impaired circulation to the extremity.",
-    "source": "workbook"
+    "difficulty": "hard",
+    "cite": "textbook p.93"
   },
   {
     "chapter": 5,
@@ -969,7 +950,8 @@
     "answer": 1,
     "explanation": "One-sided numbness/weakness and slurred speech are signs of a stroke (CVA), which is always rapid transport.",
     "source": "workbook",
-    "difficulty": "hard"
+    "difficulty": "hard",
+    "cite": "textbook p.89"
   },
   {
     "chapter": 5,
@@ -983,7 +965,8 @@
     ],
     "answer": 3,
     "explanation": "The primary assessment finds immediate life threats; the secondary assessment gathers detailed information and finds conditions that are not immediately life-threatening (but could become so).",
-    "source": "workbook"
+    "source": "workbook",
+    "cite": "textbook pp.82, 91"
   },
   {
     "chapter": 5,
@@ -997,7 +980,8 @@
     ],
     "answer": 1,
     "explanation": "This is the SAMPLE history: Signs/symptoms, Allergies, Medications, Past history, Last oral intake, and Events leading up to the incident.",
-    "source": "workbook"
+    "source": "workbook",
+    "cite": "textbook p.91"
   },
   {
     "chapter": 5,
@@ -1012,7 +996,8 @@
     "answer": 0,
     "explanation": "Life-threatening bleeding is a primary-assessment problem — it is treated the moment it is found, not deferred. The deformed forearm is not immediately life-threatening and waits. Splinting first, or deferring the bleed, could let the patient exsanguinate.",
     "source": "gotcha",
-    "difficulty": "hard"
+    "difficulty": "hard",
+    "cite": "textbook p.88"
   },
   {
     "chapter": 5,
@@ -1027,6 +1012,119 @@
     "answer": 0,
     "explanation": "A response only to a painful stimulus (moan/grimace, no purposeful or verbal response) is 'P' on AVPU. 'V' requires a response to voice, 'A' means fully alert, and 'U' means no response even to pain.",
     "source": "gotcha",
+    "difficulty": "hard",
+    "cite": "textbook p.83"
+  },
+  {
+    "chapter": 5,
+    "chapterTitle": "Assessment",
+    "question": "You are assessing an unresponsive adult. With your cheek over the mouth and your eyes on the chest, you note only occasional irregular, gasping breaths several seconds apart with a snoring sound. What is your next action?",
+    "choices": [
+      "Treat the patient as not breathing and begin the CPR/AED protocol",
+      "Record the respiratory rate and move on to a routine secondary assessment",
+      "Place the patient in the recovery position and simply monitor the breathing",
+      "Withhold any ventilations because the patient is breathing on his own"
+    ],
+    "answer": 0,
+    "explanation": "These are agonal respirations — an inadequate, sporadic gasping pattern associated with cardiac arrest. Agonal breaths do not deliver oxygen to the body, so the patient is considered NOT breathing and requires immediate intervention (CPR/AED).",
+    "source": "process",
+    "cite": "textbook p.85",
+    "difficulty": "hard"
+  },
+  {
+    "chapter": 5,
+    "chapterTitle": "Assessment",
+    "question": "An unresponsive adult is not breathing normally. You check the carotid pulse for up to 10 seconds and cannot feel one. What do you do next?",
+    "choices": [
+      "Begin the applicable CPR/AED protocol",
+      "Recheck the carotid pulse for another 30 seconds to be certain",
+      "Check the radial pulse to confirm before acting",
+      "Begin a rapid body survey to find the cause first"
+    ],
+    "answer": 0,
+    "explanation": "If no pulse is detected after a maximum of 10 seconds in an unresponsive, non-breathing patient, initiate the CPR/AED protocol (Chapter 7). Do not delay compressions to re-check other pulse sites.",
+    "source": "process",
+    "cite": "textbook p.86",
+    "difficulty": "hard"
+  },
+  {
+    "chapter": 5,
+    "chapterTitle": "Assessment",
+    "question": "A patient who is pale, cold, and clammy from suspected shock has a pulse oximeter placed on a fingertip; the reading is erratic and low. How should you interpret this SpO2 value?",
+    "choices": [
+      "It may be unreliable, because poor perfusion to the extremity interferes with the reading",
+      "It is accurate and confirms the patient does not need oxygen",
+      "It proves the patient is not actually in shock",
+      "It should replace your hands-on assessment of the patient"
+    ],
+    "answer": 0,
+    "explanation": "Hypoperfusion/shock, hypotension, and decreased circulation to cold extremities are listed limitations of pulse oximetry — there may be too little blood flow at the fingertip for an accurate reading. Treat the patient, not the number.",
+    "source": "process",
+    "cite": "textbook p.87",
+    "difficulty": "hard"
+  },
+  {
+    "chapter": 5,
+    "chapterTitle": "Assessment",
+    "question": "You suspect carbon monoxide poisoning in a patient found in a garage with a running generator. The pulse oximeter reads 98%. What is the appropriate action regarding oxygen?",
+    "choices": [
+      "Administer high-concentration oxygen regardless of the saturation reading",
+      "Withhold oxygen because 98% is a normal saturation",
+      "Give low-flow oxygen only if the reading later drops below 94%",
+      "Remove the oximeter and wait for the reading to fall before acting"
+    ],
+    "answer": 0,
+    "explanation": "Carbon monoxide binds hemoglobin far more readily than oxygen, so a pulse oximeter reads falsely high in CO poisoning. Continue high-concentration oxygen for all patients with suspected CO poisoning regardless of the saturation readings.",
+    "source": "process",
+    "cite": "textbook pp.87–88",
+    "difficulty": "hard"
+  },
+  {
+    "chapter": 5,
+    "chapterTitle": "Assessment",
+    "question": "You are alone and must briefly leave a patient who has a decreased level of responsiveness but is breathing and has a pulse. What should you do before stepping away?",
+    "choices": [
+      "Place the patient in the recovery position to help keep the airway open",
+      "Leave the patient supine so you can quickly resume the ABCs",
+      "Sit the patient upright against a wall",
+      "Place the patient in the Trendelenburg position"
+    ],
+    "answer": 0,
+    "explanation": "If you must leave a patient with a decreased level of responsiveness for any reason, place them in the recovery position (on one side, top leg bent, face angled slightly toward the ground) to maintain an open airway, then reassess the ABCs.",
+    "source": "process",
+    "cite": "textbook p.83",
+    "difficulty": "hard"
+  },
+  {
+    "chapter": 5,
+    "chapterTitle": "Assessment",
+    "question": "Partway through your assessment you identify a life-threatening condition. What does this tell you about your transport decision?",
+    "choices": [
+      "The patient belongs in the rapid transport category and should be prepared for immediate transport",
+      "You must finish the entire secondary assessment before deciding on transport",
+      "Transport can wait until all on-scene interventions are completed",
+      "The patient is stable and can be transported at a routine priority"
+    ],
+    "answer": 0,
+    "explanation": "A patient with any life-threatening condition falls into the rapid transport category (RTC). The transport decision can be made at any point — even before the primary assessment is finished — though necessary interventions and the assessment should still be completed.",
+    "source": "process",
+    "cite": "textbook pp.88–89",
+    "difficulty": "hard"
+  },
+  {
+    "chapter": 5,
+    "chapterTitle": "Assessment",
+    "question": "While assessing a patient who struck his head, you shine a light in each eye and find the left pupil is dilated and does not react to light. What does this finding suggest?",
+    "choices": [
+      "A possible serious head injury, supporting rapid transport",
+      "A normal variant that requires no further concern",
+      "Only that the patient is in a brightly lit environment",
+      "A minor eye irritation with no clinical significance"
+    ],
+    "answer": 0,
+    "explanation": "Pupils should be equal, round, and reactive to light. A pupil that is unequal, fully dilated, fully constricted, or unresponsive to light may indicate a serious head injury or illness — a neurological red flag that supports rapid transport.",
+    "source": "process",
+    "cite": "textbook p.96",
     "difficulty": "hard"
   },
   {
