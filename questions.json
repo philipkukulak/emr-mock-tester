@@ -3822,7 +3822,8 @@
     ],
     "answer": 1,
     "explanation": "Avoid giving anything by mouth unless advised by the Poison Control Centre or indicated by your scope of practice for a known poison. Contact Poison Control and follow their directions.",
-    "source": "generated"
+    "source": "generated",
+    "cite": "textbook p.262"
   },
   {
     "chapter": 14,
@@ -3837,7 +3838,8 @@
     "answer": 1,
     "explanation": "CO is an odourless, colourless, tasteless gas that replaces oxygen on red blood cells, causing hypoxia. Its vague symptoms are often mistaken for food poisoning or gastroenteritis — watch for flu-like symptoms in multiple people in one dwelling.",
     "source": "generated",
-    "difficulty": "hard"
+    "difficulty": "hard",
+    "cite": "textbook p.263"
   },
   {
     "chapter": 14,
@@ -3851,7 +3853,8 @@
     ],
     "answer": 1,
     "explanation": "These plants contain urushiol oil. When burned, the oil is carried in the smoke, and inhalation can cause inflammation of the throat and irritation of the lungs.",
-    "source": "generated"
+    "source": "generated",
+    "cite": "textbook p.264"
   },
   {
     "chapter": 14,
@@ -3865,7 +3868,8 @@
     ],
     "answer": 2,
     "explanation": "Scrape the stinger away with a plastic card. Do not use forceps/tweezers — squeezing the still-attached venom sac would inject more toxin. Then wash the site, cover it, and apply a wrapped cold pack.",
-    "source": "generated"
+    "source": "generated",
+    "cite": "textbook p.265"
   },
   {
     "chapter": 14,
@@ -3879,7 +3883,8 @@
     ],
     "answer": 1,
     "explanation": "Soak the affected area in vinegar to deactivate the toxin (rubbing alcohol or baking soda may also work). Do NOT rub the wound or use fresh water or ammonia, which increase pain. Deactivate before removing any tentacles.",
-    "source": "generated"
+    "source": "generated",
+    "cite": "textbook p.267"
   },
   {
     "chapter": 14,
@@ -3894,7 +3899,8 @@
     "answer": 0,
     "explanation": "Heat helps deactivate the venom, so icing the sting is wrong. Soaking in hot water for about 30 minutes (or until pain eases) and watching for an allergic reaction are the correct care.",
     "source": "generated",
-    "difficulty": "hard"
+    "difficulty": "hard",
+    "cite": "textbook p.267"
   },
   {
     "chapter": 14,
@@ -3908,7 +3914,8 @@
     ],
     "answer": 2,
     "explanation": "Do NOT apply ice (causes harm), cut the wound (injures the patient without removing meaningful venom), or apply a tourniquet (can cost the limb). Keep the site still and at/below heart level, wash, cover, and rapidly transport.",
-    "source": "generated"
+    "source": "generated",
+    "cite": "textbook p.267"
   },
   {
     "chapter": 14,
@@ -3922,21 +3929,8 @@
     ],
     "answer": 0,
     "explanation": "A tick must remain attached more than 24 hours to transmit Lyme disease. Remove it by grasping with fine-tipped forceps as close to the skin as possible and pulling slowly and steadily. A bull's-eye rash is a common early sign.",
-    "source": "generated"
-  },
-  {
-    "chapter": 14,
-    "chapterTitle": "Poisoning",
-    "question": "Naloxone is used to treat opioid overdose. Why is it considered safe to administer even if you're unsure an overdose occurred?",
-    "choices": [
-      "Because its effects wear off almost instantly",
-      "Because it has no effect on a person who is not suffering from an opioid overdose",
-      "Because it counteracts every kind of drug overdose",
-      "Because it works only when the patient is also given oxygen"
-    ],
-    "answer": 1,
-    "explanation": "Naloxone counteracts opioid overdose by displacing the opioid at brain receptors, preventing respiratory arrest. It has no effect on someone who isn't experiencing an opioid overdose, so it's safe to use even when an overdose can't be confirmed.",
-    "source": "generated"
+    "source": "generated",
+    "cite": "textbook pp.268–269"
   },
   {
     "chapter": 14,
@@ -3951,7 +3945,8 @@
     "answer": 1,
     "explanation": "Cyanosis (bluish tint) around the mouth with respiratory distress and altered responsiveness points to an inhaled poison, which impairs breathing.",
     "source": "workbook",
-    "difficulty": "hard"
+    "difficulty": "hard",
+    "cite": "textbook p.262"
   },
   {
     "chapter": 14,
@@ -3966,7 +3961,8 @@
     "answer": 0,
     "explanation": "Inducing vomiting does nothing for an inhaled poison and risks aspiration. Getting the patient to fresh air (if safe), supporting breathing with oxygen, and rapid transport are the correct actions.",
     "source": "workbook",
-    "difficulty": "hard"
+    "difficulty": "hard",
+    "cite": "textbook pp.262–263"
   },
   {
     "chapter": 14,
@@ -3980,7 +3976,8 @@
     ],
     "answer": 1,
     "explanation": "If a patient becomes violent or threatening, withdraw from the area — your safety comes first.",
-    "source": "workbook"
+    "source": "workbook",
+    "cite": "textbook p.274"
   },
   {
     "chapter": 14,
@@ -3994,7 +3991,8 @@
     ],
     "answer": 2,
     "explanation": "For a crowd management agent, remove contaminated clothing, wash the skin with soap and water, and rinse burning eyes with water for 10 to 15 minutes.",
-    "source": "workbook"
+    "source": "workbook",
+    "cite": "textbook p.274"
   },
   {
     "chapter": 14,
@@ -4008,7 +4006,8 @@
     ],
     "answer": 3,
     "explanation": "A bull's-eye rash centred on a bite is a common early sign of Lyme disease from an infected (black-legged) tick.",
-    "source": "workbook"
+    "source": "workbook",
+    "cite": "textbook p.269"
   },
   {
     "chapter": 14,
@@ -4023,7 +4022,8 @@
     "answer": 0,
     "explanation": "Naloxone essentially has no effect on someone who has not taken opioids, so it is safe to give when an opioid overdose is suspected. Waiting for certainty wastes time in a true overdose. The elaborate 'only if...' answers are the trap.",
     "source": "gotcha",
-    "difficulty": "hard"
+    "difficulty": "hard",
+    "cite": "textbook p.272"
   },
   {
     "chapter": 14,
@@ -4038,7 +4038,8 @@
     "answer": 0,
     "explanation": "Multiple people in the same building with flu-like symptoms that improve outdoors is a hallmark of carbon monoxide — an odourless, colourless gas whose symptoms mimic flu/food poisoning. Get everyone into fresh air and summon help.",
     "source": "gotcha",
-    "difficulty": "hard"
+    "difficulty": "hard",
+    "cite": "textbook p.263"
   },
   {
     "chapter": 14,
@@ -4053,7 +4054,72 @@
     "answer": 0,
     "explanation": "The immediate killer in an opioid overdose is respiratory depression, so 'wait and see' is the wrong choice. Supporting ventilation, giving naloxone per protocol, and rapid transport are all correct.",
     "source": "gotcha",
-    "difficulty": "hard"
+    "difficulty": "hard",
+    "cite": "textbook p.272"
+  },
+  {
+    "chapter": 14,
+    "chapterTitle": "Poisoning",
+    "question": "The Poison Control Centre advises you to induce vomiting in a patient who swallowed a poison. Which condition must be met before you do so?",
+    "choices": [
+      "The patient is fully responsive and cooperative, has not seized or vomited, and is not unstable",
+      "The patient is drowsy but still breathing",
+      "The patient swallowed the poison more than an hour ago",
+      "The patient has already vomited once on their own"
+    ],
+    "answer": 0,
+    "explanation": "Only induce vomiting when directed by Poison Control, and only if the patient is fully responsive and understands instructions, is cooperative, has not had a seizure or vomited spontaneously, and is not unstable in pulse, respiration, or responsiveness. Otherwise the aspiration risk is too high.",
+    "difficulty": "hard",
+    "source": "process",
+    "cite": "textbook p.262"
+  },
+  {
+    "chapter": 14,
+    "chapterTitle": "Poisoning",
+    "question": "A patient has spilled a pesticide (an absorbed poison) on their forearm. Once you are protected, what is the first step of care?",
+    "choices": [
+      "Wash the affected area with cool water immediately and pat it dry",
+      "Cover the area with a dry dressing without washing",
+      "Apply a warm compress to open the pores",
+      "Have the patient drink water to dilute it"
+    ],
+    "answer": 0,
+    "explanation": "For an absorbed poison on the skin, wash the affected area with cool water immediately and pat dry to limit further absorption, then keep the area clean and dry. Wear appropriate PPE first, and if the chemical has caused a burn, follow chemical-burn care.",
+    "difficulty": "hard",
+    "source": "process",
+    "cite": "textbook p.263"
+  },
+  {
+    "chapter": 14,
+    "chapterTitle": "Poisoning",
+    "question": "A swimmer stung by a jellyfish begins to develop shortness of breath. What does this change require?",
+    "choices": [
+      "Rapid transport — dyspnea after a marine sting is a red flag for a life-threatening reaction",
+      "No change — jellyfish stings are always minor",
+      "Only a second vinegar soak",
+      "Ice packed directly on the sting"
+    ],
+    "answer": 0,
+    "explanation": "A patient stung by marine life should be placed in the rapid transport category if they have a history of allergic reactions to marine stings, were stung on the face or neck, or develop severe problems such as dyspnea. Shortness of breath signals a possible life-threatening reaction.",
+    "difficulty": "hard",
+    "source": "process",
+    "cite": "textbook p.266"
+  },
+  {
+    "chapter": 14,
+    "chapterTitle": "Poisoning",
+    "question": "You suspect carbon monoxide poisoning is affecting a family inside their home. What is the priority?",
+    "choices": [
+      "Get everyone — including yourself — out of the building into fresh air, then summon help",
+      "Stay inside to keep assessing the patients where they collapsed",
+      "Open a single window and continue care indoors",
+      "Give oral glucose to counteract the gas"
+    ],
+    "answer": 0,
+    "explanation": "Carbon monoxide is an odourless, colourless gas that will affect you too. Do not remain in the contaminated space: get everyone (and yourself) out to fresh air, then summon help. CO symptoms often improve once the patient is removed from exposure, but any suspected CO patient still needs rapid transport.",
+    "difficulty": "hard",
+    "source": "process",
+    "cite": "textbook p.263"
   },
   {
     "chapter": 15,
