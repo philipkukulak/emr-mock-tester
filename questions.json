@@ -1139,21 +1139,8 @@
     ],
     "answer": 1,
     "explanation": "With a partial obstruction and good air entry, encourage forceful coughing — it usually clears the object without intervention. Coughing is most effective seated and leaning slightly forward.",
-    "source": "generated"
-  },
-  {
-    "chapter": 6,
-    "chapterTitle": "Airway Management and Respiratory Emergencies",
-    "question": "When treating a responsive choking adult with a complete obstruction, how many of one technique do you perform before switching to another?",
-    "choices": [
-      "Up to 3, then switch",
-      "Up to 5, then switch",
-      "Up to 10, then switch",
-      "Only 1, then switch"
-    ],
-    "answer": 1,
-    "explanation": "Alternate between at least two methods (back blows, abdominal thrusts, chest thrusts), performing each up to 5 times and checking after each, until the object clears or the patient becomes unresponsive.",
-    "source": "generated"
+    "source": "generated",
+    "cite": "textbook p.108"
   },
   {
     "chapter": 6,
@@ -1167,7 +1154,8 @@
     ],
     "answer": 1,
     "explanation": "Chest thrusts are recommended for pregnant women (and can help when you can't reach around the abdomen). Abdominal thrusts are not suitable for pregnant patients.",
-    "source": "generated"
+    "source": "generated",
+    "cite": "textbook p.109"
   },
   {
     "chapter": 6,
@@ -1181,7 +1169,8 @@
     ],
     "answer": 2,
     "explanation": "The responsive-patient methods don't work on an unresponsive patient. Perform sets of 30 chest compressions (as in CPR), then look in the mouth and remove any visible object before attempting ventilation.",
-    "source": "generated"
+    "source": "generated",
+    "cite": "textbook pp.110–111"
   },
   {
     "chapter": 6,
@@ -1196,7 +1185,8 @@
     "answer": 1,
     "explanation": "Because infants' soft palates are very susceptible to injury, do not use a finger sweep. Instead, if you can see an object, pick it out carefully with your little finger and thumb.",
     "source": "generated",
-    "difficulty": "hard"
+    "difficulty": "hard",
+    "cite": "textbook p.112"
   },
   {
     "chapter": 6,
@@ -1210,7 +1200,8 @@
     ],
     "answer": 1,
     "explanation": "Press the auto-injector firmly against the quadriceps in the centre of the outer thigh until it clicks, hold ~10 seconds, then rub the site ~30 seconds. Any anaphylaxis patient needs immediate transport even after epinephrine.",
-    "source": "generated"
+    "source": "generated",
+    "cite": "textbook p.114"
   },
   {
     "chapter": 6,
@@ -1224,7 +1215,8 @@
     ],
     "answer": 1,
     "explanation": "Epinephrine constricts blood vessels (reducing swelling), increases heart rate (reducing risk of cardiovascular collapse), and prevents further histamine release. It does not correct the underlying condition, so transport is still required.",
-    "source": "generated"
+    "source": "generated",
+    "cite": "textbook p.114"
   },
   {
     "chapter": 6,
@@ -1238,7 +1230,8 @@
     ],
     "answer": 1,
     "explanation": "Assisted ventilation is indicated for respiratory arrest, or when the rate is lower than 10 or higher than 30 breaths per minute.",
-    "source": "generated"
+    "source": "generated",
+    "cite": "textbook p.119"
   },
   {
     "chapter": 6,
@@ -1252,7 +1245,8 @@
     ],
     "answer": 1,
     "explanation": "Provide 1 ventilation every 5 to 6 seconds for an adult, and every 3 to 5 seconds for a child or infant, using just enough volume to make the chest begin to rise.",
-    "source": "generated"
+    "source": "generated",
+    "cite": "textbook p.120"
   },
   {
     "chapter": 6,
@@ -1267,7 +1261,8 @@
     "answer": 0,
     "explanation": "Gastric distension can cause vomiting; an unresponsive patient may then aspirate the contents, impairing breathing and risking airway obstruction. Avoid it with proper head tilt, gentle volume, and a steady rhythm.",
     "source": "generated",
-    "difficulty": "hard"
+    "difficulty": "hard",
+    "cite": "textbook p.120"
   },
   {
     "chapter": 6,
@@ -1281,7 +1276,8 @@
     ],
     "answer": 1,
     "explanation": "Ventilate directly through the stoma, placing the mask over it with a good neck seal (an infant/child mask can help). If air leaks and the chest won't rise, seal the nose and mouth, as only part of the larynx may have been removed.",
-    "source": "generated"
+    "source": "generated",
+    "cite": "textbook pp.120–121"
   },
   {
     "chapter": 6,
@@ -1295,7 +1291,8 @@
     ],
     "answer": 3,
     "explanation": "For a responsive choking adult with a complete obstruction, alternate between at least two methods (back blows, abdominal thrusts, chest thrusts), performing each up to five times.",
-    "source": "workbook"
+    "source": "workbook",
+    "cite": "textbook p.109"
   },
   {
     "chapter": 6,
@@ -1310,7 +1307,8 @@
     "answer": 0,
     "explanation": "With a pulse present she needs ventilations, not compressions — starting compressions on a perfused patient is the classic precedence error. A blind finger sweep and history-taking both come later, if at all.",
     "source": "workbook",
-    "difficulty": "hard"
+    "difficulty": "hard",
+    "cite": "textbook p.111"
   },
   {
     "chapter": 6,
@@ -1324,7 +1322,8 @@
     ],
     "answer": 1,
     "explanation": "If a ventilation goes in and the chest rises, give a second ventilation, then continue care based on the patient's condition.",
-    "source": "workbook"
+    "source": "workbook",
+    "cite": "textbook pp.110–111"
   },
   {
     "chapter": 6,
@@ -1338,7 +1337,8 @@
     ],
     "answer": 3,
     "explanation": "With absent breathing and absent pulse (cardiac arrest), begin CPR starting with 30 chest compressions after confirming the airway is clear.",
-    "source": "workbook"
+    "source": "workbook",
+    "cite": "textbook p.111"
   },
   {
     "chapter": 6,
@@ -1353,7 +1353,8 @@
     "answer": 1,
     "explanation": "Vomiting during ventilation (from gastric distension) usually results from an inadequate head-tilt or ventilations given with too much force or volume, forcing air into the stomach.",
     "source": "workbook",
-    "difficulty": "hard"
+    "difficulty": "hard",
+    "cite": "textbook p.120"
   },
   {
     "chapter": 6,
@@ -1367,7 +1368,8 @@
     ],
     "answer": 2,
     "explanation": "Dentures help support the mouth and cheeks for a better mask seal — leave them in unless they become so loose that they obstruct the airway or impede ventilation.",
-    "source": "workbook"
+    "source": "workbook",
+    "cite": "textbook p.121"
   },
   {
     "chapter": 6,
@@ -1382,7 +1384,8 @@
     "answer": 0,
     "explanation": "A failed ventilation is most often a positioning problem, so the next step is to reposition the airway and try again before anything else. Jumping to compressions, a blind finger sweep, or forcing air in are all wrong or premature.",
     "source": "workbook",
-    "difficulty": "hard"
+    "difficulty": "hard",
+    "cite": "textbook p.110"
   },
   {
     "chapter": 6,
@@ -1396,7 +1399,8 @@
     ],
     "answer": 2,
     "explanation": "Position the infant along your forearm/thigh with the head lower than the chest so gravity assists in dislodging the object during back blows.",
-    "source": "workbook"
+    "source": "workbook",
+    "cite": "textbook pp.111–112"
   },
   {
     "chapter": 6,
@@ -1411,7 +1415,8 @@
     "answer": 0,
     "explanation": "Never withhold oxygen from a patient in acute respiratory distress. A true hypoxic drive is rarely encountered in the field, and even when it is, the textbook direction is to give HIGH-FLOW oxygen to an acutely short-of-breath COPD patient. The hypoxic-drive answers are the seductive trap.",
     "source": "gotcha",
-    "difficulty": "hard"
+    "difficulty": "hard",
+    "cite": "textbook pp.115–116"
   },
   {
     "chapter": 6,
@@ -1426,7 +1431,8 @@
     "answer": 0,
     "explanation": "Epinephrine is the priority in anaphylaxis — it is the only listed action that reverses the airway swelling and vascular collapse. Oxygen and positioning are supportive adjuncts, and antihistamines are far too slow for a closing airway.",
     "source": "gotcha",
-    "difficulty": "hard"
+    "difficulty": "hard",
+    "cite": "textbook pp.113–114"
   },
   {
     "chapter": 6,
@@ -1441,7 +1447,8 @@
     "answer": 0,
     "explanation": "For a child or infant, ventilate every 3 to 5 seconds. The 5-to-6-second answer is correct for an ADULT — applying the adult rate to a child is the near-miss trap.",
     "source": "gotcha",
-    "difficulty": "hard"
+    "difficulty": "hard",
+    "cite": "textbook p.120"
   },
   {
     "chapter": 6,
@@ -1456,7 +1463,88 @@
     "answer": 0,
     "explanation": "Epinephrine buys time but does not cure anaphylaxis, so every patient still needs immediate transport even after improvement. A second dose is considered only if there is NO improvement after about 5 minutes — not routinely after a good response.",
     "source": "gotcha",
-    "difficulty": "hard"
+    "difficulty": "hard",
+    "cite": "textbook p.114"
+  },
+  {
+    "chapter": 6,
+    "chapterTitle": "Airway Management and Respiratory Emergencies",
+    "question": "After back blows and abdominal thrusts, a responsive choking adult coughs the object out and is now breathing and speaking normally. What should you do next?",
+    "choices": [
+      "Reassess the ABCs and still arrange for a physician to examine her, since the thrusts can cause injury",
+      "Release her from care now that the obstruction has cleared",
+      "Give a few more abdominal thrusts to be sure nothing remains",
+      "Have her eat or drink something to soothe the throat"
+    ],
+    "answer": 0,
+    "explanation": "Once the obstruction clears, reassess the ABCs. Because back blows and abdominal/chest thrusts can themselves cause internal injury, any patient who received these interventions should be referred to a physician for examination as soon as possible.",
+    "difficulty": "hard",
+    "source": "process",
+    "cite": "textbook p.113"
+  },
+  {
+    "chapter": 6,
+    "chapterTitle": "Airway Management and Respiratory Emergencies",
+    "question": "A patient who was eating suddenly cannot speak, breathe, or cough and is clutching at his throat. What does this indicate, and what should you do?",
+    "choices": [
+      "A complete airway obstruction — begin foreign-body airway obstruction interventions immediately",
+      "A partial airway obstruction — encourage him to keep coughing",
+      "Hyperventilation — coach him to slow his breathing",
+      "An asthma attack — help him use a metered-dose inhaler"
+    ],
+    "answer": 0,
+    "explanation": "Inability to speak, breathe, or cough effectively — often with the hands clutching the throat — signals a COMPLETE airway obstruction. The patient will quickly lose responsiveness and asphyxiate without intervention, so begin FBAO interventions right away.",
+    "difficulty": "hard",
+    "source": "process",
+    "cite": "textbook p.108"
+  },
+  {
+    "chapter": 6,
+    "chapterTitle": "Airway Management and Respiratory Emergencies",
+    "question": "A frightened young man who was just in a minor argument is breathing rapidly and shallowly, insists he cannot get enough air, and says his fingers and toes feel numb and tingly. He has no injuries. Which condition best fits?",
+    "choices": [
+      "Hyperventilation",
+      "Chronic obstructive pulmonary disease",
+      "Anaphylaxis",
+      "Pulmonary embolism"
+    ],
+    "answer": 0,
+    "explanation": "Shallow, rapid breathing with a feeling of not getting enough air, often with dizziness and numb or tingling fingers and toes, is the characteristic picture of hyperventilation — frequently triggered by fear or anxiety. Still consider serious causes such as head trauma or hemorrhage before assuming anxiety.",
+    "difficulty": "hard",
+    "source": "process",
+    "cite": "textbook p.119"
+  },
+  {
+    "chapter": 6,
+    "chapterTitle": "Airway Management and Respiratory Emergencies",
+    "question": "You are giving rescue breaths to a patient with a stoma. Air leaks and the chest only rises slightly. What does this suggest, and what should you do?",
+    "choices": [
+      "Only part of the larynx was removed — seal the nose and mouth so air does not escape",
+      "The stoma is blocked — perform abdominal thrusts",
+      "Your rate is too slow — ventilate twice as fast",
+      "The patient no longer needs ventilations — stop and monitor"
+    ],
+    "answer": 0,
+    "explanation": "If the chest does not rise when you ventilate through a stoma, the patient may have had only part of the larynx removed, so some air still travels through the larynx and leaks out the nose and mouth. Seal the nose and mouth with your hand to keep air from escaping.",
+    "difficulty": "hard",
+    "source": "process",
+    "cite": "textbook p.121"
+  },
+  {
+    "chapter": 6,
+    "chapterTitle": "Airway Management and Respiratory Emergencies",
+    "question": "A responsive patient having an asthma attack has her own prescribed metered-dose inhaler (puffer). Before you assist her in using it, what must you do first?",
+    "choices": [
+      "Check the Six Rights of Medication",
+      "Lay her flat and elevate her legs",
+      "Give her high-flow oxygen for 10 minutes first",
+      "Wait until she becomes unresponsive"
+    ],
+    "answer": 0,
+    "explanation": "Before assisting a patient with a metered-dose inhaler, first check the Six Rights of Medication (right person, medication, dose, route, time, documentation). Then help her shake the inhaler, exhale, seal her lips around the mouthpiece, and press the canister as she breathes in slowly.",
+    "difficulty": "hard",
+    "source": "process",
+    "cite": "textbook pp.116–117"
   },
   {
     "chapter": 7,
