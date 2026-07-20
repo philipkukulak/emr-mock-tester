@@ -3548,21 +3548,6 @@
   {
     "chapter": 13,
     "chapterTitle": "Acute and Chronic Illnesses",
-    "question": "For a responsive patient having a diabetic emergency, why doesn't it matter whether they have hyperglycemia or hypoglycemia?",
-    "choices": [
-      "Because both conditions are harmless",
-      "Because the treatment is the same either way",
-      "Because you should give insulin in both cases",
-      "Because both always resolve on their own"
-    ],
-    "answer": 1,
-    "explanation": "You don't need to differentiate them — the treatment (oral glucose) is the same, and giving glucose to a hyperglycemic patient won't cause additional harm. Never give a patient insulin.",
-    "source": "generated",
-    "difficulty": "hard"
-  },
-  {
-    "chapter": 13,
-    "chapterTitle": "Acute and Chronic Illnesses",
     "question": "A responsive diabetic patient who can swallow safely should be given:",
     "choices": [
       "An injection of insulin",
@@ -3572,21 +3557,8 @@
     ],
     "answer": 1,
     "explanation": "If the patient can follow directions and swallow safely, have them chew 2 to 5 glucose tablets or use another oral glucose product. Never give insulin. If symptoms persist 5–10 minutes, give a second dose and go to rapid transport.",
-    "source": "generated"
-  },
-  {
-    "chapter": 13,
-    "chapterTitle": "Acute and Chronic Illnesses",
-    "question": "During an active seizure, should you place something in the patient's mouth to protect their tongue?",
-    "choices": [
-      "Yes, always insert a soft object",
-      "No — never put anything in the mouth",
-      "Only if they are bleeding heavily",
-      "Only for children"
-    ],
-    "answer": 1,
-    "explanation": "Never place anything in a seizing patient's mouth. Serious tongue-biting is rare, and an object can become an airway obstruction. The two priorities are preventing injury and managing the airway.",
-    "source": "generated"
+    "source": "generated",
+    "cite": "textbook p.250"
   },
   {
     "chapter": 13,
@@ -3600,7 +3572,8 @@
     ],
     "answer": 1,
     "explanation": "Status epilepticus is a seizure lasting longer than 5 minutes, or a series of repeated seizures over 5 minutes without a return to normal responsiveness between them. It's a serious, potentially fatal emergency requiring rapid transport.",
-    "source": "generated"
+    "source": "generated",
+    "cite": "textbook p.252"
   },
   {
     "chapter": 13,
@@ -3614,7 +3587,8 @@
     ],
     "answer": 1,
     "explanation": "Febrile seizures are brought on by a rapid increase in body temperature and are most common in children under 5, often with a rectal temperature over 39°C (102°F), typically from ear, throat, or digestive infections.",
-    "source": "generated"
+    "source": "generated",
+    "cite": "textbook p.252"
   },
   {
     "chapter": 13,
@@ -3628,7 +3602,8 @@
     ],
     "answer": 1,
     "explanation": "Appendicitis pain usually begins near the umbilical area, then becomes intense and localized in the lower right quadrant, worsening with movement, deep breaths, coughing, or touch. Definitive care is surgical removal.",
-    "source": "generated"
+    "source": "generated",
+    "cite": "textbook p.254"
   },
   {
     "chapter": 13,
@@ -3643,7 +3618,8 @@
     "answer": 2,
     "explanation": "Localized constant pain, slow pain onset, rebound tenderness, abdominal rigidity, or signs of internal bleeding/shock indicate something more serious than gastroenteritis — the patient needs rapid transport.",
     "source": "generated",
-    "difficulty": "hard"
+    "difficulty": "hard",
+    "cite": "textbook p.254"
   },
   {
     "chapter": 13,
@@ -3657,7 +3633,8 @@
     ],
     "answer": 1,
     "explanation": "GI bleeding may cause vomiting of blood, bloody bowel movements, or black tarry stools, along with fatigue, weakness, pale skin, and shortness of breath. Serious GI bleeding drops blood pressure and raises pulse — rapid transport.",
-    "source": "generated"
+    "source": "generated",
+    "cite": "textbook p.255"
   },
   {
     "chapter": 13,
@@ -3671,7 +3648,8 @@
     ],
     "answer": 0,
     "explanation": "Stay with the patient, offering comfort and reassurance, until he is fully responsive.",
-    "source": "workbook"
+    "source": "workbook",
+    "cite": "textbook p.253"
   },
   {
     "chapter": 13,
@@ -3686,7 +3664,8 @@
     "answer": 1,
     "explanation": "Treat a diabetic emergency in a responsive patient who can swallow with oral glucose (a sugary substance). Never give insulin.",
     "source": "workbook",
-    "difficulty": "hard"
+    "difficulty": "hard",
+    "cite": "textbook p.250"
   },
   {
     "chapter": 13,
@@ -3701,7 +3680,8 @@
     "answer": 2,
     "explanation": "If signs and symptoms persist 5–10 minutes after the first glucose dose, place the patient in the rapid transport category and give a second dose.",
     "source": "workbook",
-    "difficulty": "hard"
+    "difficulty": "hard",
+    "cite": "textbook p.250"
   },
   {
     "chapter": 13,
@@ -3715,7 +3695,8 @@
     ],
     "answer": 1,
     "explanation": "A patient with chronic migraines should consult a physician for assessment; preventive medications may be prescribed, especially if attacks increase in frequency or intensity.",
-    "source": "workbook"
+    "source": "workbook",
+    "cite": "textbook p.253"
   },
   {
     "chapter": 13,
@@ -3730,7 +3711,8 @@
     "answer": 0,
     "explanation": "Never place anything in the mouth of a seizing patient — it can break teeth, be aspirated, or block the airway. Protecting the head, clearing hazards, and timing the seizure are all correct.",
     "source": "gotcha",
-    "difficulty": "hard"
+    "difficulty": "hard",
+    "cite": "textbook p.253"
   },
   {
     "chapter": 13,
@@ -3745,7 +3727,8 @@
     "answer": 0,
     "explanation": "When you can't distinguish hypo- from hyperglycemia in a responsive, swallowing patient, give sugar: it rapidly rescues the far more dangerous low, and does little harm if they are high. Giving insulin blindly could be fatal.",
     "source": "gotcha",
-    "difficulty": "hard"
+    "difficulty": "hard",
+    "cite": "textbook p.250"
   },
   {
     "chapter": 13,
@@ -3760,7 +3743,72 @@
     "answer": 0,
     "explanation": "Gradually improving responsiveness with normal ABCs after a seizure is the postictal phase — expected recovery. It is not a new seizure or status epilepticus (a seizure that won't stop), and there's nothing here pointing to a stroke.",
     "source": "gotcha",
-    "difficulty": "hard"
+    "difficulty": "hard",
+    "cite": "textbook pp.251, 253"
+  },
+  {
+    "chapter": 13,
+    "chapterTitle": "Acute and Chronic Illnesses",
+    "question": "You find a known diabetic who is now unresponsive. Should you place glucose tablets or gel in their mouth to raise their blood sugar?",
+    "choices": [
+      "No — never give anything by mouth to a patient who cannot swallow safely; manage the airway and transport rapidly",
+      "Yes — place several glucose tablets under the tongue",
+      "Yes — pour a sugary drink into their mouth",
+      "Yes — give insulin instead"
+    ],
+    "answer": 0,
+    "explanation": "Oral glucose is only for a responsive patient who can follow directions and swallow safely. An unresponsive patient cannot protect their airway, so anything given by mouth risks aspiration. Manage the airway, place them on their side, and transport rapidly. Never give insulin.",
+    "difficulty": "hard",
+    "source": "process",
+    "cite": "textbook p.250"
+  },
+  {
+    "chapter": 13,
+    "chapterTitle": "Acute and Chronic Illnesses",
+    "question": "A patient has been seizing continuously for more than 5 minutes without regaining responsiveness. What is this, and what should you do?",
+    "choices": [
+      "Status epilepticus — a life-threatening emergency; place the patient in the rapid transport category",
+      "A normal seizure — wait for it to end on its own",
+      "The postictal phase — simply reassure the patient",
+      "A febrile seizure — cool the patient and wait"
+    ],
+    "answer": 0,
+    "explanation": "A seizure lasting longer than 5 minutes (or repeated seizures over 5 minutes without recovery between them) is status epilepticus — a serious, potentially fatal emergency. Place the patient in the rapid transport category; when the seizure passes, position them on their side and suction the airway.",
+    "difficulty": "hard",
+    "source": "process",
+    "cite": "textbook p.252"
+  },
+  {
+    "chapter": 13,
+    "chapterTitle": "Acute and Chronic Illnesses",
+    "question": "A patient with epilepsy tells you they suddenly sense a strange smell and an odd feeling — 'an aura.' What does this most likely mean, and what should you do?",
+    "choices": [
+      "It may warn of an oncoming seizure — help them sit or lie down safely and clear hazards before it occurs",
+      "It means the seizure is over and they have fully recovered",
+      "It is a sign of a stroke — begin CPR",
+      "It is unrelated to seizures and can be ignored"
+    ],
+    "answer": 0,
+    "explanation": "An aura is an unusual sensation or feeling that can precede a generalized seizure. If the patient recognizes it, they may have time to sit or lie down and warn bystanders. Help them to a safe position and move hazards away before the seizure begins.",
+    "difficulty": "hard",
+    "source": "process",
+    "cite": "textbook p.251"
+  },
+  {
+    "chapter": 13,
+    "chapterTitle": "Acute and Chronic Illnesses",
+    "question": "A patient with a known, medically-controlled seizure disorder has a brief seizure and recovers fully. Which of these, if it were true instead, would place the patient in the rapid transport category?",
+    "choices": [
+      "The seizure occurred in water",
+      "The patient recovered within two minutes",
+      "The patient has a documented history of the same seizures",
+      "The seizure lasted only 30 seconds"
+    ],
+    "answer": 0,
+    "explanation": "A patient with a known, controlled seizure disorder who recovers fully may not need rapid transport. But certain factors do require it — including a first seizure, a seizure that occurs in water, status epilepticus, a seizure caused by trauma, pregnancy, diabetes, being a child or infant, or failure to regain responsiveness.",
+    "difficulty": "hard",
+    "source": "process",
+    "cite": "textbook p.253"
   },
   {
     "chapter": 14,
