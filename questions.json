@@ -1934,7 +1934,8 @@
     ],
     "answer": 2,
     "explanation": "Hemorrhagic shock is the most common type of true hypovolemic shock, occurring when the vascular system rapidly loses a large quantity of blood.",
-    "source": "generated"
+    "source": "generated",
+    "cite": "textbook p.165"
   },
   {
     "chapter": 8,
@@ -1948,7 +1949,8 @@
     ],
     "answer": 1,
     "explanation": "Neurogenic shock is a form of relative hypovolemic (distributive) shock caused by the nervous system losing control of blood vessel constriction — usually due to brain or spinal injury — so the vessels dilate.",
-    "source": "generated"
+    "source": "generated",
+    "cite": "textbook p.165"
   },
   {
     "chapter": 8,
@@ -1963,7 +1965,8 @@
     "answer": 0,
     "explanation": "In compensated shock, the body constricts blood vessels and speeds up the heart and breathing to maintain perfusion to vital organs. Blood pressure tends to change little at this stage, though pulse and respiration changes may be detectable.",
     "source": "generated",
-    "difficulty": "hard"
+    "difficulty": "hard",
+    "cite": "textbook pp.165–166"
   },
   {
     "chapter": 8,
@@ -1978,7 +1981,8 @@
     "answer": 1,
     "explanation": "In irreversible shock, the vascular system can no longer maintain internal pressure, blood pools away from vital organs, and the damage to the brain, heart, and tissues is so extensive that the patient will not survive.",
     "source": "generated",
-    "difficulty": "hard"
+    "difficulty": "hard",
+    "cite": "textbook p.166"
   },
   {
     "chapter": 8,
@@ -1992,21 +1996,8 @@
     ],
     "answer": 1,
     "explanation": "A supine position increases blood flow to vital organs; elevating the feet 20–30 cm (shock/Trendelenburg position) can further help — but not if there is trauma stressing the cardiovascular system or if systolic BP is over 100 mmHg.",
-    "source": "generated"
-  },
-  {
-    "chapter": 8,
-    "chapterTitle": "Shock",
-    "question": "Why should you avoid giving a patient in shock anything to eat or drink, even if thirsty?",
-    "choices": [
-      "Fluids would spike the blood pressure and dislodge forming clots",
-      "The condition may require surgery, so an empty stomach is safer",
-      "Eating raises the body's oxygen demand and worsens shock",
-      "Water dilutes the remaining blood and lowers its oxygen content"
-    ],
-    "answer": 1,
-    "explanation": "Withhold food and drink because the patient's condition may be severe enough to require surgery, in which case an empty stomach is safer.",
-    "source": "generated"
+    "source": "generated",
+    "cite": "textbook p.166"
   },
   {
     "chapter": 8,
@@ -2020,7 +2011,8 @@
     ],
     "answer": 1,
     "explanation": "Since hypoxia underlies shock, high-flow supplemental oxygen is indicated, and any patient with signs of shock should be rapidly transported to an advanced care facility regardless of the cause.",
-    "source": "generated"
+    "source": "generated",
+    "cite": "textbook p.167"
   },
   {
     "chapter": 8,
@@ -2033,9 +2025,10 @@
       "Nothing is wrong; these are normal vital signs for her age"
     ],
     "answer": 0,
-    "explanation": "A rapid, weak pulse with low blood pressure after trauma suggests internal blood loss, with the heart beating faster to compensate — early (compensated) shock.",
+    "explanation": "A rapid, weak pulse with a low blood pressure after trauma points to hypovolemic shock from internal blood loss, with the heart beating faster to compensate. Because the blood pressure has already fallen, this is decompensated (late) shock — a life-threatening stage that calls for high-flow oxygen and rapid transport.",
     "source": "workbook",
-    "difficulty": "hard"
+    "difficulty": "hard",
+    "cite": "textbook pp.165–166"
   },
   {
     "chapter": 8,
@@ -2050,7 +2043,8 @@
     "answer": 2,
     "explanation": "On the AVPU scale, if a patient does not respond to verbal stimuli, apply a painful stimulus (e.g., pinch the nail bed) and observe for a response.",
     "source": "workbook",
-    "difficulty": "hard"
+    "difficulty": "hard",
+    "cite": "textbook p.83"
   },
   {
     "chapter": 8,
@@ -2064,7 +2058,8 @@
     ],
     "answer": 3,
     "explanation": "A patient in cardiac arrest needs immediate CPR and defibrillation.",
-    "source": "workbook"
+    "source": "workbook",
+    "cite": "textbook p.167"
   },
   {
     "chapter": 8,
@@ -2079,7 +2074,8 @@
     "answer": 2,
     "explanation": "In compensated shock, blood vessels constrict to shunt blood to the vital organs, reducing flow to the skin and extremities, which become pale and cool.",
     "source": "workbook",
-    "difficulty": "hard"
+    "difficulty": "hard",
+    "cite": "textbook pp.165–166"
   },
   {
     "chapter": 8,
@@ -2094,7 +2090,8 @@
     "answer": 3,
     "explanation": "Neurogenic (spinal injury), hemorrhagic (amputation), and hypovolemic (dehydration) causes can all lead to shock.",
     "source": "workbook",
-    "fixedChoices": true
+    "fixedChoices": true,
+    "cite": "textbook p.165"
   },
   {
     "chapter": 8,
@@ -2108,7 +2105,8 @@
     ],
     "answer": 2,
     "explanation": "General shock care includes high-flow oxygen, maintaining body temperature, positioning, rest, and reassurance. Assisted ventilation is only used if breathing is inadequate, not as routine shock care.",
-    "source": "workbook"
+    "source": "workbook",
+    "cite": "textbook pp.166–167"
   },
   {
     "chapter": 8,
@@ -2123,7 +2121,8 @@
     "answer": 0,
     "explanation": "In compensated (early) shock the body maintains blood pressure by constricting vessels and speeding the heart — so a normal BP with pale, cool skin and tachycardia is a warning sign, not reassurance. A falling BP marks decompensated (late) shock, which is far more dangerous.",
     "source": "gotcha",
-    "difficulty": "hard"
+    "difficulty": "hard",
+    "cite": "textbook pp.165–166"
   },
   {
     "chapter": 8,
@@ -2138,7 +2137,56 @@
     "answer": 0,
     "explanation": "A shock patient is given nothing by mouth — they may need surgery and could vomit and aspirate — so offering water is inappropriate despite the thirst. Oxygen, warmth/positioning, and reassurance are all correct.",
     "source": "gotcha",
-    "difficulty": "hard"
+    "difficulty": "hard",
+    "cite": "textbook p.166"
+  },
+  {
+    "chapter": 8,
+    "chapterTitle": "Shock",
+    "question": "A patient in shock has a significant chest injury, and their systolic blood pressure is 110 mmHg. Should you raise the patient's feet into the shock position?",
+    "choices": [
+      "No — feet elevation is not indicated when there is trauma stressing the cardiovascular system or a systolic BP over 100 mmHg; keep the patient supine",
+      "Yes — always elevate the feet of any shock patient",
+      "Yes — but only if you also sit the patient upright",
+      "No — instead place the patient face-down (prone)"
+    ],
+    "answer": 0,
+    "explanation": "Elevating the feet 20-30 cm can help in shock, but it is NOT indicated if the patient has trauma that stresses the cardiovascular system or a systolic blood pressure over 100 mmHg. Here, keep the patient supine, provide high-flow oxygen, maintain body temperature, and transport rapidly.",
+    "difficulty": "hard",
+    "source": "process",
+    "cite": "textbook p.166"
+  },
+  {
+    "chapter": 8,
+    "chapterTitle": "Shock",
+    "question": "A shock patient who was anxious with a normal blood pressure becomes confused, with a weak, rapid pulse and a blood pressure that has now dropped. What does this change indicate?",
+    "choices": [
+      "Progression from compensated to decompensated shock — a life-threatening deterioration",
+      "The patient is recovering, since the pulse is still present",
+      "A return to normal perfusion",
+      "That the shock has become psychogenic in origin"
+    ],
+    "answer": 0,
+    "explanation": "Falling blood pressure, a weak rapid pulse, and confusion mean the body's compensatory mechanisms are failing — the patient has moved from compensated to decompensated shock. Tissues are becoming hypoxic; expedite transport and continue high-flow oxygen.",
+    "difficulty": "hard",
+    "source": "process",
+    "cite": "textbook pp.165–166"
+  },
+  {
+    "chapter": 8,
+    "chapterTitle": "Shock",
+    "question": "A patient with a spinal injury from a diving accident develops a dropping blood pressure with no external or internal bleeding. Which type of shock should you suspect?",
+    "choices": [
+      "Neurogenic shock",
+      "Hemorrhagic shock",
+      "Cardiogenic shock",
+      "Obstructive shock"
+    ],
+    "answer": 0,
+    "explanation": "Neurogenic shock is a distributive (relative hypovolemic) shock in which a brain or spinal injury causes the nervous system to lose control of blood-vessel constriction, so the vessels dilate and blood pressure falls even though no blood has been lost.",
+    "difficulty": "hard",
+    "source": "process",
+    "cite": "textbook p.165"
   },
   {
     "chapter": 9,
