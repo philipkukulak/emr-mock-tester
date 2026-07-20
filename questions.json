@@ -11,22 +11,8 @@
     ],
     "answer": 1,
     "explanation": "PAC defines four training levels: EMR, PCP, ACP, and CCP. The Critical Care Paramedic is currently the highest level of paramedic certification available.",
-    "source": "generated"
-  },
-  {
-    "chapter": 1,
-    "chapterTitle": "The Professional Responder",
-    "question": "What is your FIRST primary responsibility as a professional responder arriving at an emergency scene?",
-    "choices": [
-      "Gain access to the patient",
-      "Determine any threats to the patient's life",
-      "Ensure your own safety",
-      "Request more advanced medical care"
-    ],
-    "answer": 2,
-    "explanation": "Of the seven primary responsibilities, the first is to ensure your own safety — you must not make the situation worse by getting hurt yourself.",
     "source": "generated",
-    "difficulty": "hard"
+    "cite": "textbook p.10"
   },
   {
     "chapter": 1,
@@ -40,7 +26,8 @@
     ],
     "answer": 1,
     "explanation": "Indirect or offline medical control uses standing orders/protocols so responders can provide certain care without consulting the physician. Direct (online) control involves speaking with the physician in real time.",
-    "source": "generated"
+    "source": "generated",
+    "cite": "textbook p.12"
   },
   {
     "chapter": 1,
@@ -54,22 +41,8 @@
     ],
     "answer": 1,
     "explanation": "The four steps are: identify yourself, state your level of training, explain what you think may be wrong, and explain what you plan to do.",
-    "source": "generated"
-  },
-  {
-    "chapter": 1,
-    "chapterTitle": "The Professional Responder",
-    "question": "Which of the following is NOT one of the four components required for a negligence lawsuit to succeed?",
-    "choices": [
-      "The responder had a duty of care",
-      "That duty was breached",
-      "The responder failed to obtain a signed refusal form",
-      "Damage resulted from something the responder did or failed to do"
-    ],
-    "answer": 2,
-    "explanation": "The four components are: a duty of care existed, the duty was breached, damage was caused, and the damage resulted from the responder's act or omission.",
     "source": "generated",
-    "difficulty": "hard"
+    "cite": "textbook p.19"
   },
   {
     "chapter": 1,
@@ -83,7 +56,8 @@
     ],
     "answer": 0,
     "explanation": "The four conditions are acting in good faith, not being negligent, acting with reasonable care and skill, and acting within the scope of your training. Note these laws usually do not apply when you have a duty to respond.",
-    "source": "generated"
+    "source": "generated",
+    "cite": "textbook p.20"
   },
   {
     "chapter": 1,
@@ -97,7 +71,8 @@
     ],
     "answer": 1,
     "explanation": "Ceasing patient care before transfer (or a formal refusal of further care) constitutes abandonment of a patient in need.",
-    "source": "generated"
+    "source": "generated",
+    "cite": "textbook p.21"
   },
   {
     "chapter": 1,
@@ -111,7 +86,8 @@
     ],
     "answer": 2,
     "explanation": "Do not interrogate or accuse — provide care, reassure and listen calmly, document everything in detail, and report. In all provinces and most territories, reporting suspected child abuse is a legal requirement.",
-    "source": "generated"
+    "source": "generated",
+    "cite": "textbook p.18"
   },
   {
     "chapter": 1,
@@ -126,7 +102,8 @@
     "answer": 1,
     "explanation": "They can be seen as acute and chronic versions of a similar condition: CIS appears soon after the event and is often short-lived; PTSD usually appears within 3 months (sometimes years) and lasts longer.",
     "source": "generated",
-    "difficulty": "hard"
+    "difficulty": "hard",
+    "cite": "textbook p.16"
   },
   {
     "chapter": 1,
@@ -140,7 +117,8 @@
     ],
     "answer": 1,
     "explanation": "Emergency frequencies can be monitored by the public with scanners, so never transmit personal or confidential information, including a patient's name.",
-    "source": "generated"
+    "source": "generated",
+    "cite": "textbook p.24"
   },
   {
     "chapter": 1,
@@ -154,7 +132,8 @@
     ],
     "answer": 1,
     "explanation": "Repeat the physician's orders back to verify them and make sure you understand; ask for clarification if needed.",
-    "source": "workbook"
+    "source": "workbook",
+    "cite": "textbook p.12"
   },
   {
     "chapter": 1,
@@ -169,7 +148,8 @@
     "answer": 2,
     "explanation": "Your first responsibility at any scene is ensuring your own safety and that of bystanders — if you become injured, you become a second patient.",
     "source": "workbook",
-    "difficulty": "hard"
+    "difficulty": "hard",
+    "cite": "textbook p.13"
   },
   {
     "chapter": 1,
@@ -184,7 +164,8 @@
     "answer": 0,
     "explanation": "Abandonment is ending care without consent AND without handing off to someone of EQUAL or greater training. An equal-level transfer is fine. The trap answers overstate the rule (\"must personally stay\", \"must be higher training\").",
     "source": "gotcha",
-    "difficulty": "hard"
+    "difficulty": "hard",
+    "cite": "textbook p.21"
   },
   {
     "chapter": 1,
@@ -199,7 +180,8 @@
     "answer": 0,
     "explanation": "Consent is implied for a patient who is unresponsive, or whose responsiveness/judgment is impaired such that they cannot make an informed refusal. A refusal is only valid from a responsive, competent patient — so the seductive last option is wrong.",
     "source": "gotcha",
-    "difficulty": "hard"
+    "difficulty": "hard",
+    "cite": "textbook p.19"
   },
   {
     "chapter": 1,
@@ -214,7 +196,8 @@
     "answer": 0,
     "explanation": "Negligence requires duty, breach of that duty, and resulting damages (causation). Payment is irrelevant — volunteers can be negligent too. The distractors are the three genuine components.",
     "source": "gotcha",
-    "difficulty": "hard"
+    "difficulty": "hard",
+    "cite": "textbook p.20"
   },
   {
     "chapter": 2,
@@ -228,7 +211,8 @@
     ],
     "answer": 1,
     "explanation": "The four guidelines are: take time to size up the scene, wear appropriate PPE, perform only skills you are trained in, and request any additional personnel you need.",
-    "source": "generated"
+    "source": "generated",
+    "cite": "textbook p.30"
   },
   {
     "chapter": 2,
@@ -243,7 +227,8 @@
     "answer": 0,
     "explanation": "Scene safety comes before patient care — the attacker may still be present. Controlling bleeding is normally right, but here it is a correct action at the wrong time: it must wait until police make the scene safe.",
     "source": "generated",
-    "difficulty": "hard"
+    "difficulty": "hard",
+    "cite": "textbook p.29"
   },
   {
     "chapter": 2,
@@ -257,21 +242,8 @@
     ],
     "answer": 1,
     "explanation": "Use a single entry/exit path, touch only what you must, avoid cutting through wound holes in clothing, and discourage sexual assault patients from washing or changing clothes.",
-    "source": "generated"
-  },
-  {
-    "chapter": 2,
-    "chapterTitle": "Responding to the Call",
-    "question": "How far away should you and bystanders stay from downed power lines?",
-    "choices": [
-      "At least 3 metres (10 feet)",
-      "At least 8 metres (25 feet)",
-      "At least 15 metres (50 feet)",
-      "At least 30 metres (100 feet)"
-    ],
-    "answer": 2,
-    "explanation": "Electricity can travel through the ground, so stay at least 15 metres (50 feet) from downed lines, assume they are live, and notify the fire department immediately.",
-    "source": "generated"
+    "source": "generated",
+    "cite": "textbook p.31"
   },
   {
     "chapter": 2,
@@ -286,7 +258,8 @@
     "answer": 0,
     "explanation": "Touching or removing occupants from an energized vehicle can be fatal. Telling them to stay still inside, keeping everyone back, and waiting for the power to be confirmed off are the correct actions.",
     "source": "generated",
-    "difficulty": "hard"
+    "difficulty": "hard",
+    "cite": "textbook p.33"
   },
   {
     "chapter": 2,
@@ -300,7 +273,8 @@
     ],
     "answer": 2,
     "explanation": "Reassure and calm the person, listen, and keep them talking until help arrives. You cannot physically restrain a suicidal person without medical or legal authorization, and you should never dare them to act or trivialize their feelings.",
-    "source": "generated"
+    "source": "generated",
+    "cite": "textbook p.31"
   },
   {
     "chapter": 2,
@@ -315,7 +289,8 @@
     "answer": 1,
     "explanation": "The textbook warns never to use gasoline-powered equipment (chainsaws, generators, pumps) in confined spaces — exhaust gases accumulate and create a lethal, oxygen-deficient atmosphere.",
     "source": "generated",
-    "difficulty": "hard"
+    "difficulty": "hard",
+    "cite": "textbook p.32"
   },
   {
     "chapter": 2,
@@ -329,7 +304,8 @@
     ],
     "answer": 2,
     "explanation": "The seven primary responsibilities focus on safety, access, threats to life, requesting help, providing care, and assisting advanced personnel. Contacting family is not one of them.",
-    "source": "workbook"
+    "source": "workbook",
+    "cite": "textbook p.30"
   },
   {
     "chapter": 2,
@@ -344,7 +320,8 @@
     "answer": 3,
     "explanation": "Clues include placards/transport tanks, vapour clouds, spilled liquids or solids, unusual odours, and leaking containers — all of the above.",
     "source": "workbook",
-    "fixedChoices": true
+    "fixedChoices": true,
+    "cite": "textbook p.32"
   },
   {
     "chapter": 2,
@@ -358,7 +335,8 @@
     ],
     "answer": 1,
     "explanation": "If a hazardous-material placard is present, stay clear and ensure appropriately trained personnel (e.g., a hazmat team or fire department) have been notified.",
-    "source": "workbook"
+    "source": "workbook",
+    "cite": "textbook p.32"
   },
   {
     "chapter": 2,
@@ -373,7 +351,8 @@
     "answer": 0,
     "explanation": "Patient care — even bleeding control — waits until the vehicle is stabilized and the scene is safe. Assessing or treating in an unstable car risks injury to you and the patients.",
     "source": "workbook",
-    "difficulty": "hard"
+    "difficulty": "hard",
+    "cite": "textbook p.34"
   },
   {
     "chapter": 2,
@@ -388,7 +367,8 @@
     "answer": 0,
     "explanation": "A downed line can energize the vehicle and the ground around it. Stay back at least 15 m and let trained crews de-energize it. Every action that involves approaching or touching anything in contact with the wire can be fatal — even a \"dry pole\" is not safe for a responder.",
     "source": "gotcha",
-    "difficulty": "hard"
+    "difficulty": "hard",
+    "cite": "textbook p.33"
   },
   {
     "chapter": 2,
@@ -403,7 +383,8 @@
     "answer": 0,
     "explanation": "While fuel, glass, and wires are all real hazards, traffic is the most common danger to responders at a collision. The other options are plausible but are not the leading cause of responder injury at these scenes.",
     "source": "gotcha",
-    "difficulty": "hard"
+    "difficulty": "hard",
+    "cite": "textbook p.33"
   },
   {
     "chapter": 2,
@@ -418,7 +399,8 @@
     "answer": 0,
     "explanation": "The safe order is reach or throw, not go: talk to the person and throw a buoyant object. Entering the water (wading or swimming) risks making you a second victim, and doing nothing abandons a person you could help from shore.",
     "source": "gotcha",
-    "difficulty": "hard"
+    "difficulty": "hard",
+    "cite": "textbook p.288"
   },
   {
     "chapter": 3,
@@ -433,7 +415,8 @@
     "answer": 1,
     "explanation": "Antibiotics kill or weaken bacteria, but they do not kill or weaken viruses. The body's immune system is the main defence against viruses.",
     "source": "generated",
-    "difficulty": "hard"
+    "difficulty": "hard",
+    "cite": "textbook p.43"
   },
   {
     "chapter": 3,
@@ -447,7 +430,8 @@
     ],
     "answer": 0,
     "explanation": "For infection: a pathogen must be present, in sufficient quantity, a susceptible person, and a route of entry. If any one is missing, infection cannot occur.",
-    "source": "generated"
+    "source": "generated",
+    "cite": "textbook p.39"
   },
   {
     "chapter": 3,
@@ -461,7 +445,8 @@
     ],
     "answer": 2,
     "explanation": "There is no vaccine for hepatitis C, its symptoms may be absent so people are often unaware they're infected, and it is the leading cause of liver transplants.",
-    "source": "generated"
+    "source": "generated",
+    "cite": "textbook p.42"
   },
   {
     "chapter": 3,
@@ -475,21 +460,8 @@
     ],
     "answer": 1,
     "explanation": "Donning order: wash hands, gown, mask, protective eyewear, then disposable gloves.",
-    "source": "generated"
-  },
-  {
-    "chapter": 3,
-    "chapterTitle": "Infection Prevention and Control",
-    "question": "When DOFFING (removing) PPE, which item is removed FIRST?",
-    "choices": [
-      "Mask",
-      "Protective eyewear",
-      "Disposable gloves",
-      "Gown"
-    ],
-    "answer": 2,
-    "explanation": "Doffing order begins with removing the disposable gloves first, then the gown, then washing hands, then eyewear, then mask, and washing hands again.",
-    "source": "generated"
+    "source": "generated",
+    "cite": "textbook p.48"
   },
   {
     "chapter": 3,
@@ -503,7 +475,8 @@
     ],
     "answer": 0,
     "explanation": "Engineering controls physically isolate/remove hazards (puncture-resistant sharps containers, needle-recapping devices). Work practice controls reduce exposure by specifying how a task is done — based on behaviour rather than devices.",
-    "source": "generated"
+    "source": "generated",
+    "cite": "textbook p.48"
   },
   {
     "chapter": 3,
@@ -518,7 +491,8 @@
     "answer": 1,
     "explanation": "The first step in dealing with a spill is containment (after donning appropriate PPE). Disinfectant is then applied and allowed to stand for at least 20 minutes.",
     "source": "generated",
-    "difficulty": "hard"
+    "difficulty": "hard",
+    "cite": "textbook p.49"
   },
   {
     "chapter": 3,
@@ -533,7 +507,8 @@
     "answer": 1,
     "explanation": "Wash any area of contact as quickly as possible, record the circumstances, and report the exposure immediately so you can receive medical evaluation, counselling, and post-exposure care.",
     "source": "generated",
-    "difficulty": "hard"
+    "difficulty": "hard",
+    "cite": "textbook p.50"
   },
   {
     "chapter": 3,
@@ -547,7 +522,8 @@
     ],
     "answer": 2,
     "explanation": "Meningitis and tuberculosis can both be spread by airborne droplets (as well as by direct and indirect contact).",
-    "source": "workbook"
+    "source": "workbook",
+    "cite": "textbook pp.42–43"
   },
   {
     "chapter": 3,
@@ -563,7 +539,8 @@
     "explanation": "Full PPE is indicated both for hemorrhage control with spurting blood and for caring for a patient with a transmissible respiratory illness.",
     "source": "workbook",
     "fixedChoices": true,
-    "difficulty": "hard"
+    "difficulty": "hard",
+    "cite": "textbook p.47"
   },
   {
     "chapter": 3,
@@ -577,22 +554,24 @@
     ],
     "answer": 2,
     "explanation": "Meningitis can enter through food and water, and hepatitis A is spread primarily through food or water contaminated by feces.",
-    "source": "workbook"
+    "source": "workbook",
+    "cite": "textbook p.41"
   },
   {
     "chapter": 3,
     "chapterTitle": "Infection Prevention and Control",
     "question": "You have finished caring for a bleeding patient and are wearing gown, gloves, mask, and eyewear. In what order should you remove (doff) this PPE?",
     "choices": [
-      "Gloves first, then eyewear, then gown, then mask last",
+      "Gloves first, then gown, then eyewear, then mask last",
       "Mask first, then gloves, then eyewear, then gown",
       "Gown first, then gloves, then mask, then eyewear",
       "Whatever order is fastest — the sequence does not matter"
     ],
     "answer": 0,
-    "explanation": "The most contaminated item (gloves) comes off first, and the mask — which protected your airway — comes off last, away from the patient. Removing the mask early or claiming order doesn't matter risks self-contamination.",
+    "explanation": "When doffing PPE, remove the most contaminated items first: gloves, then gown (washing your hands), then protective eyewear, then the mask, washing your hands again at the end. Remove gloves by turning them inside out, and never touch the soiled outer surfaces with bare hands.",
     "source": "gotcha",
-    "difficulty": "hard"
+    "difficulty": "hard",
+    "cite": "textbook p.48"
   },
   {
     "chapter": 3,
@@ -607,7 +586,8 @@
     "answer": 0,
     "explanation": "Universal/standard precautions mean treating ALL blood and body fluids as infectious. A patient's appearance or self-report cannot rule out a bloodborne infection, so every other option is unsafe.",
     "source": "gotcha",
-    "difficulty": "hard"
+    "difficulty": "hard",
+    "cite": "textbook p.47"
   },
   {
     "chapter": 3,
@@ -622,7 +602,8 @@
     "answer": 0,
     "explanation": "Recapping causes most needle-stick injuries — never do it. Dropping the uncapped needle into a sharps container, not bending/breaking it, and disposing immediately are the safe practices.",
     "source": "gotcha",
-    "difficulty": "hard"
+    "difficulty": "hard",
+    "cite": "textbook p.48"
   },
   {
     "chapter": 4,
@@ -636,7 +617,8 @@
     ],
     "answer": 1,
     "explanation": "In medical terms, right and left always refer to the patient's right and left, not the responder's.",
-    "source": "generated"
+    "source": "generated",
+    "cite": "textbook p.54"
   },
   {
     "chapter": 4,
@@ -650,7 +632,8 @@
     ],
     "answer": 1,
     "explanation": "The epiglottis is a flap of tissue that covers the trachea during swallowing, keeping food and liquid out of the lungs. It divides the upper and lower airway.",
-    "source": "generated"
+    "source": "generated",
+    "cite": "textbook p.57"
   },
   {
     "chapter": 4,
@@ -664,7 +647,8 @@
     ],
     "answer": 2,
     "explanation": "Oxygen and carbon dioxide are exchanged through the thin walls of millions of tiny air sacs called alveoli, and through the surrounding capillaries.",
-    "source": "generated"
+    "source": "generated",
+    "cite": "textbook p.57"
   },
   {
     "chapter": 4,
@@ -678,22 +662,8 @@
     ],
     "answer": 1,
     "explanation": "The involuntary breathing process is controlled by the medulla oblongata at the base of the brain.",
-    "source": "generated"
-  },
-  {
-    "chapter": 4,
-    "chapterTitle": "Anatomy and Physiology",
-    "question": "Agonal respirations are best described as:",
-    "choices": [
-      "Slow but otherwise normal and effective breathing",
-      "Sporadic, irregular gasping breaths that are NOT sufficient to oxygenate the body",
-      "The rapid, deep breathing pattern seen with anxiety or hyperventilation",
-      "The deep sighing (Kussmaul) breaths seen in diabetic emergencies"
-    ],
-    "answer": 1,
-    "explanation": "Agonal respirations are an inadequate, irregular gasping pattern associated with cardiac arrest. They are not sufficient to deliver oxygen — the person is not truly breathing and needs immediate intervention.",
     "source": "generated",
-    "difficulty": "hard"
+    "cite": "textbook p.57"
   },
   {
     "chapter": 4,
@@ -707,7 +677,8 @@
     ],
     "answer": 1,
     "explanation": "The normal point of origin is the sinoatrial (SA) node in the upper right atrium. The impulse then travels to the AV node and on to the ventricles, normally 60 to 100 times per minute.",
-    "source": "generated"
+    "source": "generated",
+    "cite": "textbook p.60"
   },
   {
     "chapter": 4,
@@ -722,7 +693,8 @@
     "answer": 1,
     "explanation": "An indirect force is a blunt force striking one part of the body but causing injury to another — like a fall on an outstretched hand injuring the arm, shoulder, or collarbone.",
     "source": "generated",
-    "difficulty": "hard"
+    "difficulty": "hard",
+    "cite": "textbook p.75"
   },
   {
     "chapter": 4,
@@ -737,7 +709,8 @@
     "answer": 3,
     "explanation": "Arteries carry blood away from the heart: systemic arteries to the body tissues, and the pulmonary artery from the heart to the lungs.",
     "source": "workbook",
-    "fixedChoices": true
+    "fixedChoices": true,
+    "cite": "textbook p.60"
   },
   {
     "chapter": 4,
@@ -752,7 +725,8 @@
     "answer": 2,
     "explanation": "Nerves in the skin (integumentary system) sense pain, touch, and temperature and the nervous system transmits that information to the brain.",
     "source": "workbook",
-    "difficulty": "hard"
+    "difficulty": "hard",
+    "cite": "textbook p.72"
   },
   {
     "chapter": 4,
@@ -767,7 +741,8 @@
     "answer": 0,
     "explanation": "Agonal (gasping) respirations are sporadic and do not oxygenate the body. They are a sign of cardiac arrest, not adequate breathing — so you must not be reassured by them. Mistaking them for real breathing is a classic, deadly error.",
     "source": "gotcha",
-    "difficulty": "hard"
+    "difficulty": "hard",
+    "cite": "textbook p.59"
   },
   {
     "chapter": 4,
@@ -782,7 +757,8 @@
     "answer": 0,
     "explanation": "The pulmonary circulation is the exception to the usual rule: pulmonary arteries carry deoxygenated blood to the lungs, and pulmonary veins return oxygenated blood to the heart. Applying the general \"arteries = oxygen-rich\" rule here is the trap.",
     "source": "gotcha",
-    "difficulty": "hard"
+    "difficulty": "hard",
+    "cite": "textbook p.60"
   },
   {
     "chapter": 4,
@@ -797,7 +773,8 @@
     "answer": 0,
     "explanation": "The liver occupies the upper-RIGHT quadrant and bleeds heavily when injured. The spleen is the analogous heavy-bleeding organ but sits in the upper-LEFT quadrant — swapping the two is the classic anatomical near-miss.",
     "source": "gotcha",
-    "difficulty": "hard"
+    "difficulty": "hard",
+    "cite": "textbook p.55"
   },
   {
     "chapter": 5,
