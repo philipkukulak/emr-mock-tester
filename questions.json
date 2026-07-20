@@ -5620,20 +5620,6 @@
   {
     "chapter": 22,
     "chapterTitle": "Pharmacology",
-    "question": "What is the difference between ASSISTING with medication and ADMINISTERING medication?",
-    "choices": [
-      "Assisting means injecting the drug; administering means reading the label",
-      "Assisting means helping at the patient's direction; administering means deciding to give the drug and putting it into the body",
-      "There is no legal difference",
-      "Only assisting requires special training"
-    ],
-    "answer": 1,
-    "explanation": "Assisting means following a patient's specific direction to help (opening a pill bottle, reading a label). Administering means deciding to give a medication and actually introducing it into the body — a controlled act requiring special training or physician authorization.",
-    "source": "generated"
-  },
-  {
-    "chapter": 22,
-    "chapterTitle": "Pharmacology",
     "question": "Which of the following is an example of ADMINISTERING (not just assisting with) medication?",
     "choices": [
       "Unscrewing the lid of a pill bottle for the patient",
@@ -5644,7 +5630,8 @@
     "answer": 2,
     "explanation": "Administering includes injecting a medication, placing medication in a patient's mouth, placing a transdermal patch on the skin, or spraying medication into the nose. Opening a bottle, reading a label, or unwrapping a patch are assisting.",
     "source": "generated",
-    "difficulty": "hard"
+    "difficulty": "hard",
+    "cite": "textbook p.370"
   },
   {
     "chapter": 22,
@@ -5658,7 +5645,8 @@
     ],
     "answer": 1,
     "explanation": "Sublingual medications are placed under the tongue and rapidly absorbed into the blood. They should not be swallowed or inhaled, and the patient shouldn't take anything else by mouth until the drug is fully absorbed (e.g., nitroglycerin).",
-    "source": "generated"
+    "source": "generated",
+    "cite": "textbook p.372"
   },
   {
     "chapter": 22,
@@ -5672,7 +5660,8 @@
     ],
     "answer": 1,
     "explanation": "The generic (non-proprietary) name is an abbreviated form of the chemical name and is usually cheaper. The trade/brand name is copyrighted by the developing company and capitalized (e.g., acetylsalicylic acid is generic; Aspirin is the trade name).",
-    "source": "generated"
+    "source": "generated",
+    "cite": "textbook p.372"
   },
   {
     "chapter": 22,
@@ -5686,7 +5675,8 @@
     ],
     "answer": 1,
     "explanation": "Always use a new needle and syringe when drawing from a multi-dose vial (to avoid contamination), clean the rubber diaphragm with alcohol first, and don't remove the tear-off seal until the drug is required.",
-    "source": "generated"
+    "source": "generated",
+    "cite": "textbook p.378"
   },
   {
     "chapter": 22,
@@ -5700,7 +5690,8 @@
     ],
     "answer": 2,
     "explanation": "Place the needle and syringe directly into a proper sharps disposal bin as soon as used. Never recap (replace the needle guard) or try to break the needle — both create needle-stick risks.",
-    "source": "generated"
+    "source": "generated",
+    "cite": "textbook p.378"
   },
   {
     "chapter": 22,
@@ -5714,7 +5705,8 @@
     ],
     "answer": 1,
     "explanation": "A subcutaneous injection goes into the fat below the skin: pinch a fold of skin and insert the needle at a 30- to 45-degree angle to about 2 cm deep. Draw back the plunger; if no blood appears, inject. (Intramuscular is 90°; intradermal is 5–7°.)",
-    "source": "generated"
+    "source": "generated",
+    "cite": "textbook p.379"
   },
   {
     "chapter": 22,
@@ -5729,7 +5721,8 @@
     "answer": 1,
     "explanation": "Drawing back checks whether the needle has entered a blood vessel. If blood appears in the syringe, repeat the procedure at a new site with new sterile equipment; if no blood appears, inject the medication.",
     "source": "generated",
-    "difficulty": "hard"
+    "difficulty": "hard",
+    "cite": "textbook pp.379–380"
   },
   {
     "chapter": 22,
@@ -5744,7 +5737,8 @@
     "answer": 1,
     "explanation": "An interstitial IV means fluid is flowing into the surrounding tissues (the vein was perforated), identified by swelling around the site and cool skin. Discontinue the IV; apply a cold pack for small swelling or warm compresses for large swelling.",
     "source": "generated",
-    "difficulty": "hard"
+    "difficulty": "hard",
+    "cite": "textbook p.376"
   },
   {
     "chapter": 22,
@@ -5758,7 +5752,8 @@
     ],
     "answer": 3,
     "explanation": "Before assisting with or administering any medication, ensure the Six Rights of Medication have been met (right person, medication, dosage, time, route, documentation).",
-    "source": "workbook"
+    "source": "workbook",
+    "cite": "textbook p.371"
   },
   {
     "chapter": 22,
@@ -5772,7 +5767,8 @@
     ],
     "answer": 0,
     "explanation": "Also check the medication's colour, clarity (no particles), concentration, and expiration date.",
-    "source": "workbook"
+    "source": "workbook",
+    "cite": "textbook p.371"
   },
   {
     "chapter": 22,
@@ -5786,7 +5782,8 @@
     ],
     "answer": 3,
     "explanation": "Document the patient's initial presentation and any changes in condition after the medication, in addition to the time, dose, route, and effect.",
-    "source": "workbook"
+    "source": "workbook",
+    "cite": "textbook p.371"
   },
   {
     "chapter": 22,
@@ -5801,7 +5798,8 @@
     "answer": 0,
     "explanation": "ED drugs are a contraindication to nitroglycerin: combined, they can drop blood pressure to a fatal level. This overrides the chest pain. Half-dosing or giving ASA first does not make the dangerous interaction safe.",
     "source": "gotcha",
-    "difficulty": "hard"
+    "difficulty": "hard",
+    "cite": "textbook p.370"
   },
   {
     "chapter": 22,
@@ -5816,7 +5814,72 @@
     "answer": 0,
     "explanation": "Assisting means helping a patient take their OWN medication at their direction (opening a bottle, steadying a hand). Administering means you decide to give the drug and introduce it into the body. Merely handling the bottle is still assisting.",
     "source": "gotcha",
-    "difficulty": "hard"
+    "difficulty": "hard",
+    "cite": "textbook p.370"
+  },
+  {
+    "chapter": 22,
+    "chapterTitle": "Pharmacology",
+    "question": "You are administering naloxone using an intranasal spray device. How should you position the patient and deliver the medication?",
+    "choices": [
+      "Tilt the head back slightly, insert the tip into a nostril until your fingers reach the nose, and press firmly to deliver the whole dose",
+      "Have the patient sit forward and sniff the spray in slowly",
+      "Place the device under the tongue and wait for absorption",
+      "Inject the medication into the thigh muscle instead"
+    ],
+    "answer": 0,
+    "explanation": "For intranasal administration, gently tilt the patient's head back, insert the tip of the device into one nostril until your fingers contact the bottom of the nose, and press firmly on the plunger to deliver the entire dose, then remove it. The nasal mucosa absorbs the medication rapidly into the bloodstream.",
+    "difficulty": "hard",
+    "source": "process",
+    "cite": "textbook p.378"
+  },
+  {
+    "chapter": 22,
+    "chapterTitle": "Pharmacology",
+    "question": "Epinephrine acts on adrenergic receptors. Stimulating which receptor type causes the bronchodilation that helps a patient in respiratory distress?",
+    "choices": [
+      "Beta-2 receptors",
+      "Alpha-1 receptors",
+      "Beta-1 receptors",
+      "Cholinergic receptors"
+    ],
+    "answer": 0,
+    "explanation": "Beta-2 receptor stimulation causes bronchodilation. Alpha-1 stimulation causes peripheral vasoconstriction, and beta-1 stimulation increases heart rate and the force of cardiac contraction — which together explain why epinephrine helps in anaphylaxis, while its beta-2 effect (shared with salbutamol) opens the airways.",
+    "difficulty": "hard",
+    "source": "process",
+    "cite": "textbook p.373"
+  },
+  {
+    "chapter": 22,
+    "chapterTitle": "Pharmacology",
+    "question": "While maintaining a patient's IV during transport, you realize air has entered the line and the patient shows signs of an air embolism. How should you position them?",
+    "choices": [
+      "Turn them onto the LEFT side with the body angled about 30 degrees head-down",
+      "Sit them fully upright",
+      "Turn them onto the RIGHT side, head up",
+      "Lay them flat and elevate both legs"
+    ],
+    "answer": 0,
+    "explanation": "For a suspected air embolism, turn the patient onto their left side and angle the body about 30 degrees head-down. This tends to trap air on the right side of the heart, keeping it out of the pulmonary circulation until it can be absorbed. Check the IV system for leaks, give oxygen, and transport immediately.",
+    "difficulty": "hard",
+    "source": "process",
+    "cite": "textbook p.377"
+  },
+  {
+    "chapter": 22,
+    "chapterTitle": "Pharmacology",
+    "question": "A patient receiving IV fluids develops signs of circulatory (fluid) overload. What should you do first?",
+    "choices": [
+      "Immediately slow the IV rate to keep the vein open (TKVO)",
+      "Increase the IV rate to flush the system",
+      "Remove the IV catheter entirely at once",
+      "Lay the patient flat and elevate the legs"
+    ],
+    "answer": 0,
+    "explanation": "Circulatory overload occurs when the patient cannot manage the extra fluid, risking pulmonary edema. Immediately slow the IV to a 'to keep vein open' (TKVO) rate, place the patient in a semi-sitting position, give oxygen if indicated, and monitor — treat as you would congestive heart failure.",
+    "difficulty": "hard",
+    "source": "process",
+    "cite": "textbook p.376"
   },
   {
     "chapter": 23,
