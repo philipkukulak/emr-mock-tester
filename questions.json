@@ -2199,8 +2199,9 @@
       "Closed bruises with intact skin"
     ],
     "answer": 1,
-    "explanation": "Clostridium tetani multiplies in low-oxygen environments, so deep wounds and puncture wounds are at greatest risk. Tetanus is sometimes called \"lockjaw\" and booster shots are recommended every 5 to 10 years.",
-    "source": "generated"
+    "explanation": "Deep and puncture wounds carry the greatest tetanus risk because the bacteria that cause tetanus prefer the low-oxygen environment found deeper in the body. Because penetrating objects also carry other infection-causing micro-organisms, both major and minor puncture wounds should be cleaned thoroughly.",
+    "source": "generated",
+    "cite": "textbook p.180"
   },
   {
     "chapter": 9,
@@ -2215,7 +2216,8 @@
     "answer": 1,
     "explanation": "Arterial blood is bright red (oxygen-rich) and spurts under pressure from the heart, making it harder to control. Venous blood is dark red/maroon and flows at a steady rate under lower pressure.",
     "source": "generated",
-    "difficulty": "hard"
+    "difficulty": "hard",
+    "cite": "textbook p.175"
   },
   {
     "chapter": 9,
@@ -2229,7 +2231,8 @@
     ],
     "answer": 1,
     "explanation": "Do not remove blood-soaked dressings (it disrupts clotting) — leave them in place and add more dressings and another bandage on top.",
-    "source": "generated"
+    "source": "generated",
+    "cite": "textbook p.176"
   },
   {
     "chapter": 9,
@@ -2244,7 +2247,8 @@
     "answer": 1,
     "explanation": "Apply the tourniquet 5 to 10 cm (2 to 4 in.) above the injury (and just above any joint in that range), tighten until bleeding stops, document the time, and place the patient in the rapid transport category.",
     "source": "generated",
-    "difficulty": "hard"
+    "difficulty": "hard",
+    "cite": "textbook pp.174–175"
   },
   {
     "chapter": 9,
@@ -2258,7 +2262,8 @@
     ],
     "answer": 2,
     "explanation": "Have the patient sit and lean slightly forward while pinching the nostrils. A cold compress on the bridge of the nose helps. Tilting back would let blood drain down the throat.",
-    "source": "generated"
+    "source": "generated",
+    "cite": "textbook p.176"
   },
   {
     "chapter": 9,
@@ -2273,7 +2278,8 @@
     "answer": 2,
     "explanation": "The anterior trunk is 18% and one entire arm is 9% (4.5% front + 4.5% back), totaling 27%. (The Rule of Palms is an alternative: the patient's palm is about 1% of body surface.)",
     "source": "generated",
-    "difficulty": "hard"
+    "difficulty": "hard",
+    "cite": "textbook p.186"
   },
   {
     "chapter": 9,
@@ -2287,7 +2293,8 @@
     ],
     "answer": 2,
     "explanation": "Cool thermal burns with cool/cold potable water (immersion preferred) for at least ~10 minutes. Never use ice (causes critical heat loss/tissue damage), and never apply ointments or oils, which seal in heat and cause infection. Cover with dry, non-stick sterile dressings.",
-    "source": "generated"
+    "source": "generated",
+    "cite": "textbook p.188"
   },
   {
     "chapter": 9,
@@ -2301,7 +2308,8 @@
     ],
     "answer": 2,
     "explanation": "Flush chemical burns continuously with large amounts of cool running water for at least 20 minutes (brush off dry powder/granules first). For a chemical burn to the eye, flush at least 20 minutes from the nose outward to avoid contaminating the other eye.",
-    "source": "generated"
+    "source": "generated",
+    "cite": "textbook p.190"
   },
   {
     "chapter": 9,
@@ -2316,7 +2324,8 @@
     "answer": 0,
     "explanation": "Freezing the part or putting it in direct contact with ice destroys the tissue. Rinse it, wrap it, bag it, and keep that bag cool on ice (not the part itself) to preserve it for possible reattachment.",
     "source": "generated",
-    "difficulty": "hard"
+    "difficulty": "hard",
+    "cite": "textbook p.191"
   },
   {
     "chapter": 9,
@@ -2331,21 +2340,8 @@
     "answer": 2,
     "explanation": "A bruised, swollen, tender abdomen with drowsiness, thirst, and nausea are signs of internal bleeding, which can progress to shock.",
     "source": "workbook",
-    "difficulty": "hard"
-  },
-  {
-    "chapter": 9,
-    "chapterTitle": "Hemorrhage and Soft Tissue Trauma",
-    "question": "A patient has just had a hand amputated and is bleeding heavily. Which condition is he likely to develop shortly?",
-    "choices": [
-      "Shock",
-      "Compartment syndrome",
-      "Deep vein thrombosis",
-      "A wound infection"
-    ],
-    "answer": 0,
-    "explanation": "Significant blood loss from a major injury like an amputation puts the patient at risk of hemorrhagic (hypovolemic) shock.",
-    "source": "workbook"
+    "difficulty": "hard",
+    "cite": "textbook p.177"
   },
   {
     "chapter": 9,
@@ -2359,7 +2355,8 @@
     ],
     "answer": 1,
     "explanation": "Head and neck = 9%; the back of each arm = 4.5% each. 9 + 4.5 + 4.5 = 18%.",
-    "source": "workbook"
+    "source": "workbook",
+    "cite": "textbook p.186"
   },
   {
     "chapter": 9,
@@ -2373,7 +2370,8 @@
     ],
     "answer": 0,
     "explanation": "Cover a burn loosely with dry, non-stick sterile dressings, leaving blisters intact. Don't apply ointments or oils.",
-    "source": "workbook"
+    "source": "workbook",
+    "cite": "textbook p.187"
   },
   {
     "chapter": 9,
@@ -2388,7 +2386,8 @@
     "answer": 3,
     "explanation": "External bleeding is a life-threatening hemorrhage when blood spurts from a wound or cannot be easily controlled.",
     "source": "workbook",
-    "fixedChoices": true
+    "fixedChoices": true,
+    "cite": "textbook p.175"
   },
   {
     "chapter": 9,
@@ -2402,7 +2401,8 @@
     ],
     "answer": 2,
     "explanation": "An internal-bleeding patient may need surgery, so give nothing by mouth. Care includes oxygen, shock management, and rapid transport.",
-    "source": "workbook"
+    "source": "workbook",
+    "cite": "textbook p.177"
   },
   {
     "chapter": 9,
@@ -2416,7 +2416,8 @@
     ],
     "answer": 1,
     "explanation": "A tourniquet is used to control a hemorrhage on a limb when other interventions are impossible or have failed.",
-    "source": "workbook"
+    "source": "workbook",
+    "cite": "textbook p.174"
   },
   {
     "chapter": 9,
@@ -2431,7 +2432,8 @@
     "answer": 3,
     "explanation": "Electrocution (including lightning) can cause burns with entry and exit wounds, and — because of the powerful forces — spinal injuries and other fractures.",
     "source": "workbook",
-    "fixedChoices": true
+    "fixedChoices": true,
+    "cite": "textbook p.190"
   },
   {
     "chapter": 9,
@@ -2446,7 +2448,8 @@
     "answer": 0,
     "explanation": "If the chemical is a dry powder or granules, brush it off the skin first, then flush the area continuously with cool running water for at least 20 minutes.",
     "source": "workbook",
-    "difficulty": "hard"
+    "difficulty": "hard",
+    "cite": "textbook p.190"
   },
   {
     "chapter": 9,
@@ -2461,7 +2464,8 @@
     "answer": 3,
     "explanation": "A full-thickness burn of any size is critical, and any partial- or full-thickness burn on an older adult is critical — both need advanced care.",
     "source": "workbook",
-    "fixedChoices": true
+    "fixedChoices": true,
+    "cite": "textbook p.186"
   },
   {
     "chapter": 9,
@@ -2475,7 +2479,8 @@
     ],
     "answer": 1,
     "explanation": "Blast injuries come from the pressure wave and heat, from shrapnel/debris, and from the body being thrown. Poisonous fumes are not a defined blast mechanism.",
-    "source": "workbook"
+    "source": "workbook",
+    "cite": "textbook p.192"
   },
   {
     "chapter": 9,
@@ -2489,7 +2494,8 @@
     ],
     "answer": 0,
     "explanation": "If a nosebleed can't be controlled within 10 to 15 minutes (or repeatedly recurs), transport the patient to a medical facility.",
-    "source": "workbook"
+    "source": "workbook",
+    "cite": "textbook pp.176–177"
   },
   {
     "chapter": 9,
@@ -2504,7 +2510,8 @@
     "answer": 0,
     "explanation": "Impaled objects are stabilized in place because removing them can worsen bleeding and damage. The narrow exception is when the object obstructs the airway or breathing (or CPR) — so the absolute \"never remove\" answer is also wrong.",
     "source": "gotcha",
-    "difficulty": "hard"
+    "difficulty": "hard",
+    "cite": "textbook p.181"
   },
   {
     "chapter": 9,
@@ -2519,7 +2526,8 @@
     "answer": 0,
     "explanation": "Care for the patient before the part: control life-threatening bleeding and manage shock first. The amputated part is preserved (wrapped, kept cool, never directly on ice) only after the patient is stabilized.",
     "source": "gotcha",
-    "difficulty": "hard"
+    "difficulty": "hard",
+    "cite": "textbook p.191"
   },
   {
     "chapter": 9,
@@ -2534,7 +2542,72 @@
     "answer": 0,
     "explanation": "Critical-burn criteria include the patient's age: those under 5 and over 60 burn more severely due to thinner skin. Depth alone doesn't decide criticality, and the other options state false absolutes.",
     "source": "gotcha",
-    "difficulty": "hard"
+    "difficulty": "hard",
+    "cite": "textbook p.184"
+  },
+  {
+    "chapter": 9,
+    "chapterTitle": "Hemorrhage and Soft Tissue Trauma",
+    "question": "You are cooling a large partial-thickness burn (more than 10% of the body) with water when the patient starts to shiver. What should you do?",
+    "choices": [
+      "Stop cooling the burn immediately and monitor for hypothermia",
+      "Add colder water to cool the burn faster",
+      "Immerse the entire burned area at once to finish quickly",
+      "Apply ice packs to speed the cooling"
+    ],
+    "answer": 0,
+    "explanation": "Cooling a large burn can cause critical body-heat loss. Cool only a small area at a time, and if the patient begins to shiver, stop cooling immediately and monitor for hypothermia and shock — children are especially susceptible. Never use ice.",
+    "difficulty": "hard",
+    "source": "process",
+    "cite": "textbook p.188"
+  },
+  {
+    "chapter": 9,
+    "chapterTitle": "Hemorrhage and Soft Tissue Trauma",
+    "question": "A patient has a caustic chemical splashed into the left eye. How should you flush it?",
+    "choices": [
+      "Flush the affected eye for at least 20 minutes, directing water from the nose outward",
+      "Flush both eyes together for about 1 minute",
+      "Flush the eye from the outside toward the nose",
+      "Cover the eye with a dry dressing without flushing"
+    ],
+    "answer": 0,
+    "explanation": "Flush a chemical burn to the eye for at least 20 minutes. Direct the water from the nose outward and angle the head so the chemical is not washed into the unaffected eye or onto other skin.",
+    "difficulty": "hard",
+    "source": "process",
+    "cite": "textbook p.190"
+  },
+  {
+    "chapter": 9,
+    "chapterTitle": "Hemorrhage and Soft Tissue Trauma",
+    "question": "You approach a worker who contacted a live electrical source and is lying near it. What is your first concern, and what else should you look for?",
+    "choices": [
+      "Ensure the current is turned off before approaching, and look for both an entry and an exit wound",
+      "Approach immediately and treat only the visible burn",
+      "Pull the worker away from the source with your bare hands",
+      "Assume there is a single burn site and skip the secondary assessment"
+    ],
+    "answer": 0,
+    "explanation": "The body conducts electricity, so ensure the current is turned off before approaching. Electrical injuries often have both an entry and an exit wound — look for two burn sites during the secondary assessment — and because of the powerful forces, also suspect spinal injuries and cardiac or respiratory arrest.",
+    "difficulty": "hard",
+    "source": "process",
+    "cite": "textbook p.190"
+  },
+  {
+    "chapter": 9,
+    "chapterTitle": "Hemorrhage and Soft Tissue Trauma",
+    "question": "You are controlling a patient's nosebleed when the patient suddenly loses responsiveness. What should you do?",
+    "choices": [
+      "Place the patient in the recovery position to allow blood to drain from the nose",
+      "Lay the patient flat on the back and keep pinching the nose",
+      "Tilt the patient's head back to slow the bleeding",
+      "Have the patient sit fully upright with the head back"
+    ],
+    "answer": 0,
+    "explanation": "If a patient with a nosebleed loses responsiveness, place them in the recovery position so blood can drain from the nose rather than pooling in the airway, reducing the risk of aspiration.",
+    "difficulty": "hard",
+    "source": "process",
+    "cite": "textbook p.177"
   },
   {
     "chapter": 10,
