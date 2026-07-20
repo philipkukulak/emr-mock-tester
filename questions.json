@@ -4397,7 +4397,8 @@
     ],
     "answer": 2,
     "explanation": "Contractions less than 3 minutes apart signal that childbirth is near. Time from the beginning of one contraction to the beginning of the next.",
-    "source": "generated"
+    "source": "generated",
+    "cite": "textbook p.303"
   },
   {
     "chapter": 16,
@@ -4411,21 +4412,8 @@
     ],
     "answer": 1,
     "explanation": "Apply gentle, light counter-pressure to the crowning head so it emerges slowly, preventing tearing of the perineum and injury to the baby. Direct the mother to stop pushing and pant/breathe for a controlled delivery.",
-    "source": "generated"
-  },
-  {
-    "chapter": 16,
-    "chapterTitle": "Pregnancy, Labour, and Delivery",
-    "question": "As the baby's head emerges, you should check for what life-threatening condition?",
-    "choices": [
-      "The umbilical cord looped around the baby's neck (nuchal cord)",
-      "A breech (feet-first) presentation",
-      "An excess of amniotic fluid",
-      "The onset of postpartum bleeding"
-    ],
-    "answer": 0,
-    "explanation": "Check whether the umbilical cord is looped around the baby's neck (a nuchal cord). If so, gently slip it over the baby's head (or over the shoulders as they emerge).",
-    "source": "generated"
+    "source": "generated",
+    "cite": "textbook p.305"
   },
   {
     "chapter": 16,
@@ -4439,22 +4427,8 @@
     ],
     "answer": 1,
     "explanation": "Stimulate by flicking your fingers on the soles of the neonate's feet and drying it vigorously for 30 seconds. Crying helps clear the airway and promotes respiration. Then assess respiration for 10 seconds.",
-    "source": "generated"
-  },
-  {
-    "chapter": 16,
-    "chapterTitle": "Pregnancy, Labour, and Delivery",
-    "question": "After delivery, how does encouraging the mother to breastfeed help?",
-    "choices": [
-      "It replaces fluids and nutrients the mother lost during birth",
-      "It stimulates the uterus to contract, which helps slow bleeding",
-      "It quickly restores the mother's blood pressure to normal",
-      "It has no real medical effect at this stage"
-    ],
-    "answer": 1,
-    "explanation": "Breastfeeding stimulates the uterus to contract, which helps slow bleeding, and provides benefits for both infant and mother. Gentle massage of the lower abdomen also stimulates uterine contraction.",
     "source": "generated",
-    "difficulty": "hard"
+    "cite": "textbook p.306"
   },
   {
     "chapter": 16,
@@ -4468,7 +4442,8 @@
     ],
     "answer": 0,
     "explanation": "Postpartum bleeding is excessive bleeding after birth (more than 500 mL). Do not attempt vaginal packing. Care for perineal tears as open wounds, encourage breastfeeding, position for shock, and go to rapid transport.",
-    "source": "generated"
+    "source": "generated",
+    "cite": "textbook p.309"
   },
   {
     "chapter": 16,
@@ -4482,21 +4457,8 @@
     ],
     "answer": 1,
     "explanation": "An ectopic pregnancy implants outside the uterus (often a fallopian tube). As it grows it can rupture, causing severe hemorrhage — the leading cause of maternal death in the first trimester. Any possibly-pregnant woman with severe abdominal pain is rapid transport and should not eat or drink.",
-    "source": "generated"
-  },
-  {
-    "chapter": 16,
-    "chapterTitle": "Pregnancy, Labour, and Delivery",
-    "question": "How should you position a woman in her third trimester of pregnancy for transport?",
-    "choices": [
-      "Flat on her back (supine)",
-      "On her left side",
-      "Sitting fully upright",
-      "On her right side"
-    ],
-    "answer": 1,
-    "explanation": "Position a woman in the third trimester on her left side. (Lying flat on the back can compress major blood vessels, reducing blood return to the heart.)",
-    "source": "generated"
+    "source": "generated",
+    "cite": "textbook pp.310–311"
   },
   {
     "chapter": 16,
@@ -4511,7 +4473,8 @@
     "answer": 1,
     "explanation": "Never pull on the baby's body. If the head hasn't delivered after ~3 minutes, insert your index and middle fingers next to the baby's mouth and nose and spread them into a \"V\" to create an air passage, maintaining it until the head delivers. Give the mother oxygen and rapidly transport.",
     "source": "generated",
-    "difficulty": "hard"
+    "difficulty": "hard",
+    "cite": "textbook p.312"
   },
   {
     "chapter": 16,
@@ -4525,7 +4488,8 @@
     ],
     "answer": 0,
     "explanation": "A sudden gush or trickle of clear fluid from the vagina is the amniotic sac rupturing (\"water breaking\").",
-    "source": "workbook"
+    "source": "workbook",
+    "cite": "textbook p.302"
   },
   {
     "chapter": 16,
@@ -4540,7 +4504,8 @@
     "answer": 1,
     "explanation": "Contractions less than 3 minutes apart mean birth is imminent — prepare for delivery on scene and help the woman into a comfortable position. Never pack the vagina.",
     "source": "workbook",
-    "difficulty": "hard"
+    "difficulty": "hard",
+    "cite": "textbook pp.303–304"
   },
   {
     "chapter": 16,
@@ -4555,7 +4520,8 @@
     "answer": 0,
     "explanation": "A newborn who is crying, breathing, and has a heart rate over 100 needs only routine care — CPR is not indicated (that is for a heart rate under 60). Drying, warming, and monitoring are correct.",
     "source": "workbook",
-    "difficulty": "hard"
+    "difficulty": "hard",
+    "cite": "textbook pp.306–307"
   },
   {
     "chapter": 16,
@@ -4570,7 +4536,8 @@
     "answer": 3,
     "explanation": "Slow, deep breathing aids muscle relaxation, distracts from contraction pain, and ensures adequate oxygen for both mother and baby.",
     "source": "workbook",
-    "fixedChoices": true
+    "fixedChoices": true,
+    "cite": "textbook p.304"
   },
   {
     "chapter": 16,
@@ -4584,7 +4551,8 @@
     ],
     "answer": 0,
     "explanation": "For a nuchal cord, gently slip it over the baby's head; if that's not possible, slip it over the shoulders as they emerge.",
-    "source": "workbook"
+    "source": "workbook",
+    "cite": "textbook p.305"
   },
   {
     "chapter": 16,
@@ -4598,7 +4566,8 @@
     ],
     "answer": 2,
     "explanation": "Clear the airway: if the neonate isn't crying or has signs of distress, suction the mouth and nose with a bulb syringe (neonates breathe mainly through the nose).",
-    "source": "workbook"
+    "source": "workbook",
+    "cite": "textbook p.306"
   },
   {
     "chapter": 16,
@@ -4613,7 +4582,8 @@
     "answer": 0,
     "explanation": "Never push the cord back — handling it can worsen compression and cut off the baby's oxygen. Knee-chest positioning to relieve pressure, oxygen for the mother, and immediate transport are the correct care.",
     "source": "gotcha",
-    "difficulty": "hard"
+    "difficulty": "hard",
+    "cite": "textbook pp.311–312"
   },
   {
     "chapter": 16,
@@ -4628,7 +4598,8 @@
     "answer": 0,
     "explanation": "In late pregnancy, lying flat lets the heavy uterus compress the inferior vena cava, dropping blood return and pressure (supine hypotensive syndrome). Tilting to the LEFT side relieves it — right-side tilt does not, which is the near-miss trap.",
     "source": "gotcha",
-    "difficulty": "hard"
+    "difficulty": "hard",
+    "cite": "textbook pp.309–310"
   },
   {
     "chapter": 16,
@@ -4643,7 +4614,72 @@
     "answer": 0,
     "explanation": "Postpartum bleeding is controlled by stimulating uterine contraction — uterine (abdominal) massage and breastfeeding — never by packing the vagina, applying a tourniquet, or internal compression, all of which are unsafe.",
     "source": "gotcha",
-    "difficulty": "hard"
+    "difficulty": "hard",
+    "cite": "textbook p.309"
+  },
+  {
+    "chapter": 16,
+    "chapterTitle": "Pregnancy, Labour, and Delivery",
+    "question": "The APGAR score is used to assess a neonate at 1 and 5 minutes after birth. Which five things does it evaluate?",
+    "choices": [
+      "Appearance (colour), Pulse, Grimace (reflex), Activity (tone), and Respiration",
+      "Airway, Breathing, Circulation, Disability, and Exposure",
+      "Alertness, Pain, Gaze, Speech, and Reflexes",
+      "Age, Position, Gestation, Amniotic fluid, and Rate"
+    ],
+    "answer": 0,
+    "explanation": "APGAR evaluates five signs, each scored 0-2 for a total of 0-10: Appearance (skin colour), Pulse (heart rate), Grimace (reflex irritability), Activity (muscle tone), and Respiration. It is assessed at 1 minute and again at 5 minutes; 7-10 is normal.",
+    "difficulty": "hard",
+    "source": "process",
+    "cite": "textbook pp.307–308"
+  },
+  {
+    "chapter": 16,
+    "chapterTitle": "Pregnancy, Labour, and Delivery",
+    "question": "You assess a newborn who has ineffective breathing and a heart rate of 80 bpm (between 60 and 100). What should you do?",
+    "choices": [
+      "Ventilate for 30 seconds, then reassess the heart rate",
+      "Begin chest compressions immediately",
+      "Provide only routine care — dry and warm the baby",
+      "Do nothing until the heart rate falls below 60"
+    ],
+    "answer": 0,
+    "explanation": "On the neonatal resuscitation algorithm, a heart rate between 60 and 100 bpm with ineffective breathing calls for assisted ventilations for 30 seconds (room air, then supplemental oxygen), followed by another pulse check. Chest compressions (3:1) are added only if the heart rate is below 60 bpm; a heart rate over 100 with good breathing needs only routine care.",
+    "difficulty": "hard",
+    "source": "process",
+    "cite": "textbook pp.306–307"
+  },
+  {
+    "chapter": 16,
+    "chapterTitle": "Pregnancy, Labour, and Delivery",
+    "question": "After the baby is delivered and breathing, what should you do with the umbilical cord?",
+    "choices": [
+      "Leave it in place — do not pull or cut it; clamp or tie it while waiting for the placenta",
+      "Cut it immediately and discard the placental end",
+      "Pull gently on it to speed delivery of the placenta",
+      "Tie it tightly and detach the baby from the placenta right away"
+    ],
+    "answer": 0,
+    "explanation": "Leave the cord in place; do not pull on or cut it. Clamp or tie it (using two ties, about 10 and 15 cm from the neonate) while waiting for the placenta to deliver. Unless your local protocol or medical director directs otherwise, do not separate the neonate from the placenta — transport them together.",
+    "difficulty": "hard",
+    "source": "process",
+    "cite": "textbook pp.306, 308"
+  },
+  {
+    "chapter": 16,
+    "chapterTitle": "Pregnancy, Labour, and Delivery",
+    "question": "A woman in her third trimester has sudden vaginal bleeding. What should you do?",
+    "choices": [
+      "Place her in the rapid transport category, position her on her left side, treat for shock, and give nothing by mouth",
+      "Reassure her that third-trimester bleeding is always normal and monitor at home",
+      "Pack the vagina with sterile gauze to stop the bleeding",
+      "Have her sit fully upright and give her water to drink"
+    ],
+    "answer": 0,
+    "explanation": "Third-trimester bleeding (from causes such as abruptio placentae or placenta previa) is a serious complication. Place the patient in the rapid transport category, position her on her left side, take steps to minimize shock, and give nothing by mouth in case surgery is needed. Never pack the vagina.",
+    "difficulty": "hard",
+    "source": "process",
+    "cite": "textbook p.311"
   },
   {
     "chapter": 17,
