@@ -3275,7 +3275,8 @@
     ],
     "answer": 1,
     "explanation": "Raccoon eyes (bruising around the eyes) and Battle's sign (bruising behind the ears), along with clear or pinkish fluid from the nose/ears, are signs of a skull fracture. Spinal precautions are indicated.",
-    "source": "generated"
+    "source": "generated",
+    "cite": "textbook p.228"
   },
   {
     "chapter": 12,
@@ -3289,7 +3290,8 @@
     ],
     "answer": 1,
     "explanation": "Cover the ear lightly with a sterile dressing and do not apply direct pressure (which could increase intracranial pressure). Allow the fluid to drain.",
-    "source": "generated"
+    "source": "generated",
+    "cite": "textbook p.230"
   },
   {
     "chapter": 12,
@@ -3303,7 +3305,8 @@
     ],
     "answer": 1,
     "explanation": "A patient does not have to have lost consciousness to have a concussion. Signs and symptoms may not be immediately obvious, and concussions are evolving injuries that can change over days or weeks.",
-    "source": "generated"
+    "source": "generated",
+    "cite": "textbook p.231"
   },
   {
     "chapter": 12,
@@ -3318,36 +3321,8 @@
     "answer": 0,
     "explanation": "Allowing return to play after a significant head blow is dangerous (risk of second-impact injury). Removing them immediately, monitoring, and arranging medical evaluation are the correct steps.",
     "source": "generated",
-    "difficulty": "hard"
-  },
-  {
-    "chapter": 12,
-    "chapterTitle": "Head and Spinal Injuries",
-    "question": "The three signs of Cushing's triad, which indicate increased intracranial pressure, are:",
-    "choices": [
-      "Rapid pulse, low blood pressure, and rapid breathing",
-      "Irregular respiration, increased blood pressure, and bradycardia",
-      "Fever, rash, and vomiting",
-      "Dilated pupils, seizures, and pale skin"
-    ],
-    "answer": 1,
-    "explanation": "Cushing's triad is a change in respiration (irregular, often deep), increased blood pressure (especially a widening gap between systolic and diastolic), and bradycardia (slow pulse). It signals a serious head injury.",
-    "source": "generated"
-  },
-  {
-    "chapter": 12,
-    "chapterTitle": "Head and Spinal Injuries",
-    "question": "Which type of cerebral hematoma involves ARTERIAL bleeding and classically presents with a brief loss of responsiveness, then a lucid period, then rapid decline?",
-    "choices": [
-      "Subdural hematoma",
-      "Epidural hematoma",
-      "Intracerebral hematoma",
-      "Subarachnoid hematoma"
-    ],
-    "answer": 1,
-    "explanation": "An epidural hematoma is arterial bleeding between the skull and dura mater (often from a low-velocity blow). It classically presents with a brief loss of responsiveness, a lucid interval, then rapid decline.",
-    "source": "generated",
-    "difficulty": "hard"
+    "difficulty": "hard",
+    "cite": "textbook pp.231–232"
   },
   {
     "chapter": 12,
@@ -3362,7 +3337,8 @@
     "answer": 0,
     "explanation": "Unlike a minor injury (which you treat after the exam), a suspected head/spinal injury must be addressed BEFORE continuing the secondary assessment. Carrying on, waiting for neck pain, or deferring spinal care all risk cord injury from movement.",
     "source": "generated",
-    "difficulty": "hard"
+    "difficulty": "hard",
+    "cite": "textbook pp.228, 233"
   },
   {
     "chapter": 12,
@@ -3376,7 +3352,8 @@
     ],
     "answer": 1,
     "explanation": "High-risk factors are age 65+, paresthesia (tingling/burning) in the extremities, or a dangerous MOI (e.g., fall >1 m or 5 stairs, axial load, high-speed/rollover/ejection MVC, motorized recreational or bicycle-vehicle collision).",
-    "source": "generated"
+    "source": "generated",
+    "cite": "textbook pp.234–235"
   },
   {
     "chapter": 12,
@@ -3390,7 +3367,8 @@
     ],
     "answer": 1,
     "explanation": "Neutral alignment means the chin is in line with the neck and the spine is straight. Gently rotate/tilt the head until the chin aligns with the body's midline — but stop if you meet resistance or the patient reports neck pain.",
-    "source": "generated"
+    "source": "generated",
+    "cite": "textbook p.235"
   },
   {
     "chapter": 12,
@@ -3405,7 +3383,8 @@
     "answer": 1,
     "explanation": "If you feel resistance, or the patient reports pain/pressure/muscle spasms, stop and support the head in the position found (unless that position compromises the airway). Do not force alignment.",
     "source": "generated",
-    "difficulty": "hard"
+    "difficulty": "hard",
+    "cite": "textbook p.236"
   },
   {
     "chapter": 12,
@@ -3420,7 +3399,8 @@
     "answer": 3,
     "explanation": "Do not force in-line stabilization if the head is severely angulated, you feel resistance, or the patient reports pain, pressure, or muscle spasms — support the head in the position found.",
     "source": "workbook",
-    "fixedChoices": true
+    "fixedChoices": true,
+    "cite": "textbook p.236"
   },
   {
     "chapter": 12,
@@ -3434,7 +3414,8 @@
     ],
     "answer": 1,
     "explanation": "Place cold packs around the injured orbit to reduce swelling without putting pressure on the fracture site; the patient needs rapid transport, usually supine.",
-    "source": "workbook"
+    "source": "workbook",
+    "cite": "textbook p.230"
   },
   {
     "chapter": 12,
@@ -3449,7 +3430,8 @@
     "answer": 3,
     "explanation": "Brain injury can alter pupils and level of responsiveness, pulse and blood pressure (Cushing's triad includes rising BP and slowing pulse), and respiration.",
     "source": "workbook",
-    "fixedChoices": true
+    "fixedChoices": true,
+    "cite": "textbook pp.230–231"
   },
   {
     "chapter": 12,
@@ -3464,7 +3446,8 @@
     "answer": 0,
     "explanation": "Slow pulse, rising (widening) blood pressure, and irregular respirations are Cushing's triad, indicating dangerously increasing intracranial pressure. It signals deterioration, not improvement, and is the opposite of the rapid-pulse/low-pressure picture of shock.",
     "source": "gotcha",
-    "difficulty": "hard"
+    "difficulty": "hard",
+    "cite": "textbook pp.230–231"
   },
   {
     "chapter": 12,
@@ -3479,7 +3462,8 @@
     "answer": 0,
     "explanation": "A high-risk mechanism (like a rollover) can justify spinal precautions even in an ambulatory, minimally symptomatic patient. Walking or moving limbs does not exclude a spinal injury — the seductive 'they're walking, so they're fine' reasoning is the trap.",
     "source": "gotcha",
-    "difficulty": "hard"
+    "difficulty": "hard",
+    "cite": "textbook p.234"
   },
   {
     "chapter": 12,
@@ -3494,7 +3478,72 @@
     "answer": 0,
     "explanation": "The brief loss of consciousness → lucid interval → rapid decline pattern is classic for an epidural (arterial) hematoma. A concussion or scalp cut wouldn't cause this decline, and a subdural bleed characteristically develops more slowly.",
     "source": "gotcha",
-    "difficulty": "hard"
+    "difficulty": "hard",
+    "cite": "textbook p.232"
+  },
+  {
+    "chapter": 12,
+    "chapterTitle": "Head and Spinal Injuries",
+    "question": "A patient who hit their head in a fall a few days ago now has a worsening headache, personality changes, and difficulty speaking. Which slowly-developing bleed does this most suggest?",
+    "choices": [
+      "A subdural hematoma",
+      "An epidural hematoma",
+      "A concussion",
+      "A simple scalp laceration"
+    ],
+    "answer": 0,
+    "explanation": "A subdural hematoma is a venous bleed in the subdural space; because the bleeding is slower, signs and symptoms — headaches, personality changes, difficulty speaking, motor deficits — may not appear until up to days after the blow. An epidural (arterial) bleed declines much faster.",
+    "difficulty": "hard",
+    "source": "process",
+    "cite": "textbook p.232"
+  },
+  {
+    "chapter": 12,
+    "chapterTitle": "Head and Spinal Injuries",
+    "question": "Using the Canadian C-Spine Rule, a patient in a simple rear-end collision is sitting up, has no midline neck tenderness, and can actively rotate their head 45 degrees to the left and right. What does the rule indicate?",
+    "choices": [
+      "Spinal motion restriction is not indicated",
+      "Immediate full spinal immobilization on a backboard",
+      "The patient must be log-rolled before any movement",
+      "A cervical collar must be applied regardless"
+    ],
+    "answer": 0,
+    "explanation": "Under the Canadian C-Spine Rule, with no high-risk factors, a low-risk factor present (simple rear-end MVC, sitting), and the ability to actively rotate the head 45 degrees each way, spinal motion restriction is not indicated. The rule helps avoid unnecessary immobilization.",
+    "difficulty": "hard",
+    "source": "process",
+    "cite": "textbook p.234"
+  },
+  {
+    "chapter": 12,
+    "chapterTitle": "Head and Spinal Injuries",
+    "question": "An object is impaled in a patient's skull. How should you care for it?",
+    "choices": [
+      "Leave it in place, stabilize it with bulky dressings, and dress around the wound — avoiding direct pressure on the head",
+      "Remove it and apply firm direct pressure to the wound",
+      "Push it in further to stop the bleeding",
+      "Wrap the head tightly with a pressure bandage over the object"
+    ],
+    "answer": 0,
+    "explanation": "Leave an object impaled in the skull in place and stabilize it with bulky dressings. Dress the area around the wound and allow blood to drain, and avoid putting direct pressure on the head when a skull fracture is suspected — pressure could increase intracranial pressure or drive fragments inward.",
+    "difficulty": "hard",
+    "source": "process",
+    "cite": "textbook p.230"
+  },
+  {
+    "chapter": 12,
+    "chapterTitle": "Head and Spinal Injuries",
+    "question": "A patient with a suspected spinal injury needs an immediate life-saving intervention — you must open and manage their airway. How should you prioritize?",
+    "choices": [
+      "Protecting life comes first — manage the airway, moving the spine as little as possible",
+      "Do nothing to the airway until the spine is fully immobilized",
+      "Refuse the intervention because it risks the spine",
+      "Immobilize the spine first, even if the patient stops breathing"
+    ],
+    "answer": 0,
+    "explanation": "A suspected spinal injury should have the spine protected, but if protecting the spine interferes with a life-saving intervention, protecting the patient's life is the highest priority. Manage the airway while minimizing spinal movement.",
+    "difficulty": "hard",
+    "source": "process",
+    "cite": "textbook p.228"
   },
   {
     "chapter": 13,
