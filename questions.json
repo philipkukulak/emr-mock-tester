@@ -2948,7 +2948,8 @@
     ],
     "answer": 1,
     "explanation": "Position the patient to ease breathing (Semi-Fowler's is often comfortable), support/immobilize the area with a soft bulky object like a pillow, and provide respiratory support if needed. Do not wrap the chest tightly, as that impairs breathing.",
-    "source": "generated"
+    "source": "generated",
+    "cite": "textbook p.217"
   },
   {
     "chapter": 11,
@@ -2963,7 +2964,8 @@
     "answer": 1,
     "explanation": "A simple pneumothorax is a one-time air escape; a tension pneumothorax has continual air flow into the pleural space with rising pressure that collapses the lung and pressures the heart and great vessels (signs: tachycardia, hypotension, tracheal deviation, JVD).",
     "source": "generated",
-    "difficulty": "hard"
+    "difficulty": "hard",
+    "cite": "textbook pp.218–219"
   },
   {
     "chapter": 11,
@@ -2978,7 +2980,8 @@
     "answer": 1,
     "explanation": "If the wound becomes occluded (no air can enter or exit), the risk of a tension pneumothorax rises. Use a non-occlusive dressing and replace it immediately if it becomes blood-saturated (which would occlude it).",
     "source": "generated",
-    "difficulty": "hard"
+    "difficulty": "hard",
+    "cite": "textbook p.220"
   },
   {
     "chapter": 11,
@@ -2992,7 +2995,8 @@
     ],
     "answer": 1,
     "explanation": "The liver (upper right quadrant) and spleen (upper left quadrant) are rich in blood; both can bleed severely and be life-threatening when injured by blunt trauma or a fractured rib.",
-    "source": "generated"
+    "source": "generated",
+    "cite": "textbook p.220"
   },
   {
     "chapter": 11,
@@ -3006,7 +3010,8 @@
     ],
     "answer": 1,
     "explanation": "Place the patient supine with knees slightly bent (pillows/blankets under the knees) to relax the abdominal muscles. If bending the legs causes pain, leave them straight.",
-    "source": "generated"
+    "source": "generated",
+    "cite": "textbook p.221"
   },
   {
     "chapter": 11,
@@ -3020,7 +3025,8 @@
     ],
     "answer": 1,
     "explanation": "Do not touch or push the organs back in. Remove clothing around the wound, cover the organs loosely with moist sterile dressings (saline/warm water), optionally cover with plastic wrap, and keep the area warm. Rapid transport.",
-    "source": "generated"
+    "source": "generated",
+    "cite": "textbook p.222"
   },
   {
     "chapter": 11,
@@ -3035,7 +3041,8 @@
     "answer": 1,
     "explanation": "Use trauma dressings with only gentle pressure — firm pressure on the abdomen can worsen internal injuries. If gentle pressure doesn't control the bleeding, go to rapid transport immediately.",
     "source": "generated",
-    "difficulty": "hard"
+    "difficulty": "hard",
+    "cite": "textbook p.221"
   },
   {
     "chapter": 11,
@@ -3049,7 +3056,8 @@
     ],
     "answer": 1,
     "explanation": "An AAA is a weakened, bulging section of the abdominal aorta. It may be asymptomatic at first; as it grows the walls thin and rupture risk rises. Do not press on the abdomen if suspected — it's rapid transport.",
-    "source": "generated"
+    "source": "generated",
+    "cite": "textbook p.222"
   },
   {
     "chapter": 11,
@@ -3064,7 +3072,8 @@
     "answer": 1,
     "explanation": "Fractured pelvic bones can puncture or lacerate internal organs and major blood vessels, causing severe internal hemorrhage, and can damage nerves (affecting bowel, bladder, and sexual function). Minimize pelvic movement.",
     "source": "generated",
-    "difficulty": "hard"
+    "difficulty": "hard",
+    "cite": "textbook p.223"
   },
   {
     "chapter": 11,
@@ -3078,7 +3087,8 @@
     ],
     "answer": 2,
     "explanation": "Pelvic binding should be applied early and not removed until the patient reaches the hospital. Apply it gently, use a scoop/clamshell stretcher (not a log roll), and reassess distal circulation and sensation.",
-    "source": "generated"
+    "source": "generated",
+    "cite": "textbook p.225"
   },
   {
     "chapter": 11,
@@ -3092,36 +3102,8 @@
     ],
     "answer": 1,
     "explanation": "A penetrating chest injury that lets air pass in and out with a sucking sound is a sucking chest wound.",
-    "source": "workbook"
-  },
-  {
-    "chapter": 11,
-    "chapterTitle": "Chest, Abdominal, and Pelvic Injuries",
-    "question": "You expose the chest and find a single hole in the left side with minor bleeding. Until you can dress it, cover the hole with your gloved hand and then apply:",
-    "choices": [
-      "Sterile gauze",
-      "An adhesive bandage",
-      "A non-occlusive dressing",
-      "A triangular bandage"
-    ],
-    "answer": 2,
-    "explanation": "Use a non-occlusive dressing so the wound doesn't become sealed (occlusion raises the risk of a tension pneumothorax); replace it immediately if it becomes blood-saturated.",
-    "source": "workbook"
-  },
-  {
-    "chapter": 11,
-    "chapterTitle": "Chest, Abdominal, and Pelvic Injuries",
-    "question": "A patient has an abdominal evisceration with organs protruding. You should:",
-    "choices": [
-      "Cover the protruding organs with a moist sterile dressing",
-      "Cover the patient with a dry dressing or towel to maintain warmth",
-      "Remove clothing from around the wound",
-      "All of the above"
-    ],
-    "answer": 3,
-    "explanation": "Remove clothing around the wound, cover the organs loosely with moist sterile dressings, and keep the area warm — do not touch or replace the organs.",
     "source": "workbook",
-    "fixedChoices": true
+    "cite": "textbook p.219"
   },
   {
     "chapter": 11,
@@ -3136,7 +3118,8 @@
     "answer": 2,
     "explanation": "The area below the navel is the lower abdomen, where the small intestine lies. The liver, gallbladder, and pancreas are upper-abdominal organs.",
     "source": "workbook",
-    "difficulty": "hard"
+    "difficulty": "hard",
+    "cite": "textbook pp.220–221"
   },
   {
     "chapter": 11,
@@ -3150,7 +3133,8 @@
     ],
     "answer": 0,
     "explanation": "Loss of movement or sensation in the legs can indicate an injury to the lower spine or the nerves passing through the pelvis.",
-    "source": "workbook"
+    "source": "workbook",
+    "cite": "textbook p.223"
   },
   {
     "chapter": 11,
@@ -3164,21 +3148,8 @@
     ],
     "answer": 0,
     "explanation": "Stabilize the flail segment with bulky dressings (at least 1.3 cm thick) that extend beyond the segment, secured with tape, without impairing breathing.",
-    "source": "workbook"
-  },
-  {
-    "chapter": 11,
-    "chapterTitle": "Chest, Abdominal, and Pelvic Injuries",
-    "question": "If the abdomen is struck by a blunt object and the spleen is damaged, this may result in:",
-    "choices": [
-      "A localized infection over the next few days",
-      "Inflammation of the stomach lining",
-      "Severe blood loss",
-      "Difficulty breathing from a collapsed lung"
-    ],
-    "answer": 2,
-    "explanation": "The spleen stores blood, so a rupture can quickly cause severe, life-threatening blood loss.",
-    "source": "workbook"
+    "source": "workbook",
+    "cite": "textbook p.217"
   },
   {
     "chapter": 11,
@@ -3193,7 +3164,8 @@
     "answer": 0,
     "explanation": "A fully sealed (occlusive) chest wound can trap air and cause a tension pneumothorax, so an airtight seal is the wrong move. A non-occlusive dressing, oxygen, and monitoring/transport are correct.",
     "source": "gotcha",
-    "difficulty": "hard"
+    "difficulty": "hard",
+    "cite": "textbook p.220"
   },
   {
     "chapter": 11,
@@ -3208,7 +3180,8 @@
     "answer": 0,
     "explanation": "Progressive respiratory distress with distended neck veins and tracheal shift points to a tension pneumothorax — rising pressure collapsing the lung and compressing the heart. The other conditions don't produce that full picture.",
     "source": "gotcha",
-    "difficulty": "hard"
+    "difficulty": "hard",
+    "cite": "textbook p.219"
   },
   {
     "chapter": 11,
@@ -3223,7 +3196,72 @@
     "answer": 0,
     "explanation": "Airway/breathing threats come first: manage the sucking chest wound (non-occlusive) and shock, then transport. A full secondary survey waits, an airtight seal risks tension pneumothorax, and hunting for an exit wound delays life-saving care.",
     "source": "gotcha",
-    "difficulty": "hard"
+    "difficulty": "hard",
+    "cite": "textbook p.220"
+  },
+  {
+    "chapter": 11,
+    "chapterTitle": "Chest, Abdominal, and Pelvic Injuries",
+    "question": "You have covered a sucking chest wound with a non-occlusive dressing. A few minutes later the dressing has become soaked with blood. Why is this a problem, and what should you do?",
+    "choices": [
+      "A blood-saturated dressing becomes occlusive and raises the risk of a tension pneumothorax — replace it immediately",
+      "It means the bleeding has stopped — leave the dressing undisturbed",
+      "Nothing — a saturated dressing seals the wound, which is the goal",
+      "Add several more layers on top without removing the soaked one"
+    ],
+    "answer": 0,
+    "explanation": "The concern with a chest wound is occlusion. A non-occlusive dressing that becomes saturated with blood turns occlusive, trapping air and increasing the risk of a tension pneumothorax. Monitor the dressing closely and replace a saturated one immediately.",
+    "difficulty": "hard",
+    "source": "process",
+    "cite": "textbook p.220"
+  },
+  {
+    "chapter": 11,
+    "chapterTitle": "Chest, Abdominal, and Pelvic Injuries",
+    "question": "For which type of pelvic injury is a pelvic binding NOT recommended?",
+    "choices": [
+      "A fracture caused by a low-energy or lateral impact",
+      "An unstable fracture from a high-energy frontal impact",
+      "An unstable pelvis with signs of internal hemorrhage",
+      "A pelvic ring disruption causing shock"
+    ],
+    "answer": 0,
+    "explanation": "Pelvic bindings help unstable pelvic fractures by providing even circumferential compression that stabilizes the ring and encourages clot formation. However, they are not recommended for fractures caused by low-energy or lateral impacts.",
+    "difficulty": "hard",
+    "source": "process",
+    "cite": "textbook p.224"
+  },
+  {
+    "chapter": 11,
+    "chapterTitle": "Chest, Abdominal, and Pelvic Injuries",
+    "question": "During your chest assessment you notice a section of the chest wall moving inward as the patient inhales and outward as they exhale — opposite to the rest of the chest. What is this, and how should you treat it?",
+    "choices": [
+      "A flail segment showing paradoxical movement — stabilize it with bulky dressings without impairing breathing",
+      "Normal breathing that needs no treatment",
+      "A simple pneumothorax — seal the chest airtight",
+      "Subcutaneous emphysema — apply firm pressure to the area"
+    ],
+    "answer": 0,
+    "explanation": "A loose section of chest wall that moves opposite to the rest of the chest (in on inhalation, out on exhalation) is a flail segment showing paradoxical movement, caused by multiple rib fractures. Stabilize it with bulky dressings (at least 1.3 cm thick) that extend beyond the segment on all sides, secured without impairing the patient's breathing.",
+    "difficulty": "hard",
+    "source": "process",
+    "cite": "textbook p.217"
+  },
+  {
+    "chapter": 11,
+    "chapterTitle": "Chest, Abdominal, and Pelvic Injuries",
+    "question": "A patient with blunt chest trauma has worsening shortness of breath and signs of shock, with decreased breath sounds on one side, but no air is escaping any wound — blood is collecting in the pleural space. What is this, and what is the priority?",
+    "choices": [
+      "A hemothorax — support breathing, treat for shock, and transport rapidly, as surgery is often required",
+      "A tension pneumothorax caused only by trapped air",
+      "A simple rib fracture requiring only a cold pack",
+      "Hyperventilation from anxiety — coach the breathing"
+    ],
+    "answer": 0,
+    "explanation": "Bleeding into the pleural space is a hemothorax; as the chest fills with blood the lung is compressed and shock develops. Provide high-concentration oxygen and assist ventilations as needed, treat for shock, and transport rapidly — a hemothorax often requires emergency surgery.",
+    "difficulty": "hard",
+    "source": "process",
+    "cite": "textbook p.218"
   },
   {
     "chapter": 12,
