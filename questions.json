@@ -4124,20 +4124,6 @@
   {
     "chapter": 15,
     "chapterTitle": "Environmental Illnesses",
-    "question": "A key sign that distinguishes heat stroke from heat exhaustion is that in heat stroke the skin is typically:",
-    "choices": [
-      "Cool and moist",
-      "Hot and dry",
-      "Pale and clammy",
-      "Bluish and wet"
-    ],
-    "answer": 1,
-    "explanation": "In heat stroke, sweating stops because fluid levels are low, so the skin becomes hot and dry and core temperature rises (usually above 40°C/104°F). Heat exhaustion skin is typically moist/warm. Heat stroke is a serious emergency.",
-    "source": "generated"
-  },
-  {
-    "chapter": 15,
-    "chapterTitle": "Environmental Illnesses",
     "question": "When pouring water on a heat-stressed patient to cool them, why should you pour it onto a layer of cloth rather than directly on bare skin?",
     "choices": [
       "To keep the water in contact with the skin longer so it evaporates and cools",
@@ -4147,7 +4133,8 @@
     ],
     "answer": 0,
     "explanation": "Pour water onto clothing/a towel over the skin so it stays in contact and evaporates, cooling the patient. Fanning afterward encourages evaporation and convective cooling.",
-    "source": "generated"
+    "source": "generated",
+    "cite": "textbook p.281"
   },
   {
     "chapter": 15,
@@ -4162,7 +4149,8 @@
     "answer": 2,
     "explanation": "Severe hypothermia causes bradycardia and bradypnea, so check for signs of pulse and respiration for a full 60 seconds. If neither is detected, start CPR.",
     "source": "generated",
-    "difficulty": "hard"
+    "difficulty": "hard",
+    "cite": "textbook p.284"
   },
   {
     "chapter": 15,
@@ -4176,7 +4164,8 @@
     ],
     "answer": 1,
     "explanation": "Warm the area by submerging it in warm water (38–40°C/100.4–104°F) — but only thaw it if you're certain it won't refreeze. Never rub the area or apply snow/ice. Don't break blisters after thawing; protect them with dry sterile dressings.",
-    "source": "generated"
+    "source": "generated",
+    "cite": "textbook p.286"
   },
   {
     "chapter": 15,
@@ -4190,7 +4179,8 @@
     ],
     "answer": 1,
     "explanation": "The order is Talk (instruct the patient to self-rescue), Throw (a rope or buoyant object), then Reach (with a rigid object). Never enter the water to swim to a drowning patient without special water-rescue training.",
-    "source": "generated"
+    "source": "generated",
+    "cite": "textbook p.288"
   },
   {
     "chapter": 15,
@@ -4204,7 +4194,8 @@
     ],
     "answer": 1,
     "explanation": "Adopt the HELP position: press your arms against your armpits, squeeze your thighs together, and draw your knees toward your chest. In a group, use the Huddle position instead, sandwiching children/non-PFD people inside.",
-    "source": "generated"
+    "source": "generated",
+    "cite": "textbook pp.290–291"
   },
   {
     "chapter": 15,
@@ -4218,7 +4209,8 @@
     ],
     "answer": 2,
     "explanation": "High-altitude illness may occur at elevations as low as 2,500 metres (8,202 feet), where lower atmospheric pressure means less available oxygen (hypoxemia). The most common cause of high-altitude death is HAPE (pulmonary edema).",
-    "source": "generated"
+    "source": "generated",
+    "cite": "textbook p.292"
   },
   {
     "chapter": 15,
@@ -4232,7 +4224,8 @@
     ],
     "answer": 1,
     "explanation": "Under pressure, excess nitrogen dissolves into the blood and tissues. If ascent is too rapid, the nitrogen comes out of solution as bubbles in the tissues — decompression sickness (\"the bends\"). Treatment: high-concentration oxygen, supine position, and rapid transport to a facility that treats diving injuries.",
-    "source": "generated"
+    "source": "generated",
+    "cite": "textbook p.294"
   },
   {
     "chapter": 15,
@@ -4246,37 +4239,8 @@
     ],
     "answer": 2,
     "explanation": "AGE happens when trapped, expanding lung air can't escape during ascent and ruptures lung tissue, sending air bubbles into the arteries. The best prevention is to avoid ascending with a closed glottis — keep exhaling. Assume AGE if a diver is unresponsive on surfacing or within 10 minutes after.",
-    "source": "generated"
-  },
-  {
-    "chapter": 15,
-    "chapterTitle": "Environmental Illnesses",
-    "question": "A worker in the heat goes back to work, then an hour later feels his heart racing, feels ill, has skin that feels 'on fire,' and has stopped sweating. He is most likely suffering from:",
-    "choices": [
-      "Heat cramps",
-      "Heat exhaustion",
-      "Heat stroke",
-      "Food poisoning"
-    ],
-    "answer": 2,
-    "explanation": "Hot, dry skin (sweating has stopped) with altered behaviour and a racing heart indicates heat stroke — a serious medical emergency.",
-    "source": "workbook",
-    "difficulty": "hard"
-  },
-  {
-    "chapter": 15,
-    "chapterTitle": "Environmental Illnesses",
-    "question": "A patient's fingers appear white and small clear blisters are forming (frostbite). What should you do?",
-    "choices": [
-      "Immerse the hands in cool (not cold) water until sensation returns",
-      "Rub the hands together briskly to warm them",
-      "Immerse the hands in warm water until the skin turns red and is warm",
-      "Keep the hands frozen until she can be examined by a physician"
-    ],
-    "answer": 2,
-    "explanation": "Warm frostbite by immersing the area in warm water (38–40°C) until the skin turns red and feels warm — but only if it won't refreeze.",
-    "source": "workbook",
-    "difficulty": "hard"
+    "source": "generated",
+    "cite": "textbook p.294"
   },
   {
     "chapter": 15,
@@ -4291,7 +4255,8 @@
     "answer": 1,
     "explanation": "Severe hypothermia causes bradycardia (slow pulse) and bradypnea (slow breathing), which is why you check for pulse and breathing for a full 60 seconds.",
     "source": "workbook",
-    "difficulty": "hard"
+    "difficulty": "hard",
+    "cite": "textbook p.284"
   },
   {
     "chapter": 15,
@@ -4305,7 +4270,8 @@
     ],
     "answer": 1,
     "explanation": "These signs mean the patient's condition is deteriorating — they should be in the rapid transport category, positioned to protect the airway, and cooled aggressively.",
-    "source": "workbook"
+    "source": "workbook",
+    "cite": "textbook p.282"
   },
   {
     "chapter": 15,
@@ -4320,7 +4286,8 @@
     "answer": 0,
     "explanation": "Hot, dry skin (sweating has stopped) with altered mental status marks heat STROKE, a true emergency. Heat exhaustion typically has cool, moist skin. Mistaking hot-dry skin for a milder heat illness is the deadly sibling trap.",
     "source": "gotcha",
-    "difficulty": "hard"
+    "difficulty": "hard",
+    "cite": "textbook pp.281–282"
   },
   {
     "chapter": 15,
@@ -4335,7 +4302,8 @@
     "answer": 0,
     "explanation": "Do not rewarm if the part may refreeze — a thaw-refreeze cycle causes worse damage than staying frozen. Protecting the toes, preventing refreezing, and getting to care are correct.",
     "source": "gotcha",
-    "difficulty": "hard"
+    "difficulty": "hard",
+    "cite": "textbook p.286"
   },
   {
     "chapter": 15,
@@ -4350,7 +4318,72 @@
     "answer": 0,
     "explanation": "Cold-water drowning victims can sometimes be resuscitated after prolonged submersion because the cold slows cellular death ('nobody is dead until they are warm and dead'). So you begin resuscitation rather than assuming it's hopeless.",
     "source": "gotcha",
-    "difficulty": "hard"
+    "difficulty": "hard",
+    "cite": "textbook pp.290–291"
+  },
+  {
+    "chapter": 15,
+    "chapterTitle": "Environmental Illnesses",
+    "question": "You are treating a patient with heat stroke while waiting for transport. What is the preferred way to cool them?",
+    "choices": [
+      "Immerse as much of the body as possible in cool water",
+      "Wrap them tightly in a warm blanket",
+      "Give them a large amount of cold water to drink",
+      "Wait for the ambulance before doing anything"
+    ],
+    "answer": 0,
+    "explanation": "Heat stroke needs aggressive cooling. In order of preference: immerse as much of the body as possible in cool water, or immerse the forearms; otherwise pour cool water onto a cloth over the torso and fan the patient. Keep them lying down, protect the airway, and place them in the rapid transport category.",
+    "difficulty": "hard",
+    "source": "process",
+    "cite": "textbook pp.282–283"
+  },
+  {
+    "chapter": 15,
+    "chapterTitle": "Environmental Illnesses",
+    "question": "A hypothermic patient has very wet clothing, and shelter or transport is more than 30 minutes away. What should you do about the clothing before applying a hypothermia wrap?",
+    "choices": [
+      "Protect them from the environment, remove the wet clothing, blot them dry, then wrap",
+      "Leave the wet clothing on and wrap over it immediately",
+      "Cut away all clothing regardless of conditions and leave them uncovered",
+      "Rub the skin vigorously to dry and warm it"
+    ],
+    "answer": 0,
+    "explanation": "If clothing is very wet AND shelter/transport is more than 30 minutes away, protect the patient from wind and wet, remove the wet clothing, dry the skin by blotting (not rubbing), then apply the hypothermia wrap. If the clothing is only dry or damp, or shelter/transport is less than 30 minutes away, wrap immediately without removing clothing.",
+    "difficulty": "hard",
+    "source": "process",
+    "cite": "textbook pp.284, 287"
+  },
+  {
+    "chapter": 15,
+    "chapterTitle": "Environmental Illnesses",
+    "question": "You have reached a drowning patient who may have a head or spinal injury. What must you do before removing them from the water?",
+    "choices": [
+      "Support the head and neck in line with the body and float them onto a firm support such as a backboard",
+      "Lift them out quickly by the arms",
+      "Have them stand up and walk out of the water",
+      "Roll them face-down to drain the water first"
+    ],
+    "answer": 0,
+    "explanation": "If a drowning patient may have a head or spinal injury, keep the head and neck aligned with the body and float them onto a firm support (e.g., a backboard) as one unit before removing them from the water, to avoid aggravating a spinal injury.",
+    "difficulty": "hard",
+    "source": "process",
+    "cite": "textbook p.289"
+  },
+  {
+    "chapter": 15,
+    "chapterTitle": "Environmental Illnesses",
+    "question": "A scuba diver becomes unresponsive within a few minutes of surfacing from a rapid ascent. What should you suspect and do?",
+    "choices": [
+      "Suspect an arterial gas embolism — give high-concentration oxygen, keep them supine, and transport rapidly",
+      "Assume simple exhaustion and let them rest",
+      "Sit them upright and give a sugary drink",
+      "Have them descend again to relieve the pressure"
+    ],
+    "answer": 0,
+    "explanation": "A diver who is unresponsive on surfacing, or within about 10 minutes of surfacing, should be assumed to have an arterial gas embolism (AGE) from a rapid ascent with a closed glottis. Provide high-concentration oxygen, keep them supine, and transport rapidly to a facility that treats diving injuries.",
+    "difficulty": "hard",
+    "source": "process",
+    "cite": "textbook p.294"
   },
   {
     "chapter": 16,
